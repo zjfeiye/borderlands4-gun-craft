@@ -39,16 +39,16 @@
 ## 解读
 
 1. 读取5个bit，值固定为`00100`，表示物品数据起始标志
-2. 读取2个bit，读取到`00`，表示这个一个数据片段的开始
+2. 读取2个bit，理应读取到`00`，表示这是一个数据片段的开始（实际上结束也是`00`）
 3. 读取3个bit，有两个取值（可能更多）：
    - `100` 表示后续bit按照`varint5`编码（示例#1#2#4）
    - `110` 表示后续bit按照`varbit5`编码（示例#3）
-4. 按照`varint5`/`varbit5`规范读取一组数据，该数据代表厂家和物品类型，在示例#1中，这个值是`22`
-5. 读取2个bit，读取到`01`，表示后续bit是同一个片段内的其他数据，是一个片段内数据的分割符
+4. 按照`varint5`/`varbit5`规范读取一组数据，第一个读取到的数据代表厂家和物品类型，在示例#1中，这个值是`22`
+5. 读取2个bit，理应读取到`01`，表示后续bit是同一个片段内的其他数据，`01`是一个片段内数据的分割符
 6. 重复步骤3~5，直到第5步读取到`00`，表示一个片段读取结束，在示例#1中，此时读取到的数据为`22, 0, 1, 50`，其中50为物品等级
 7. 尝试读取2个bit
-   - 如果是`00`，意味着读取到了连续2个`00`，此时表示后续数据是配件数据，需要改变读取策略（步骤8）
-   - 如果不是`00`，则改为读取3个bit，并重复3-5步骤，直到再次读取到`00`，在示例#1中，此时读取到的数据为`22, 0, 1, 50| 2，3262||`
+   - 如果是`00`，意味着读取到了连续2个`00`，此时表示后续数据是配件数据，需要改变读取策略（见步骤8）
+   - 如果不是`00`，则再读取1个bit，合并为共3个bit后，重复3-5步骤，直到再次读取到`00`，在示例#1中，此时读取到的数据为`22, 0, 1, 50| 2，3262||`
 8. 当读取到了连续2个`00`时，表示后续数据是配件数据
    1. 读取3个bit，固定应为`101`，表示配件数据开始，据目前了解，配件数据总是遵循`varint5`编码规范
    2. 按照`varint5`规范读取一组数据，在示例#1中，第一次遇到的这个值是`67`
@@ -112,27 +112,27 @@ Example #4, Class Mod
 ```
 ## Interpretation
 
-1. **Read 5 bits** with the fixed value `00100`, indicating the start of item data.
-2. **Read 2 bits**. If `00` is read, it marks the beginning of a data segment.
-3. **Read 3 bits**. There are (at least) two possible values:
-   - `100` indicates that subsequent bits are encoded using the **`varint5`** format (Examples #1, #2, #4).
-   - `110` indicates that subsequent bits are encoded using the **`varbit5`** format (Example #3).
-4. **Read a set of data** following the `varint5`/`varbit5` specification. This data represents the manufacturer and item type. In Example #1, this value is `22`.
-5. **Read 2 bits**. If `01` is read, it indicates that the following bits contain other data within the *same segment*, acting as an **intra-segment data separator**.
-6. **Repeat steps 3–5** until `00` is read in Step 5, which signifies the **end of the current segment**. In Example #1, the data read up to this point is `22, 0, 1, 50`, where `50` is the item level.
-7. **Attempt to read 2 bits:**
-   - If `00` is read (meaning **two consecutive `00`s** have been encountered), it indicates that the subsequent data contains **component/parts data**, and the reading strategy must change (proceed to Step 8).
-   - If not `00`, then **read 3 bits** and repeat Steps 3–5 until `00` is read again. In Example #1, the data read here becomes `22, 0, 1, 50| 2, 3262||`.
-8. **When two consecutive `00`s are read**, signifying component data follows:
-    1. **Read 3 bits**, which should be the fixed value `101`, marking the **start of component data**. Based on current understanding, component data always follows the **`varint5`** encoding specification.
-    2. Read a set of data following the `varint5` specification. In Example #1, the first value encountered here is `67`.
-    3. Next, **read 1 bit**:
-       - If `1` is read, it indicates the subsequent bits represent **object data**, encoded with `varint5`. Then, read 3 more bits, which should be `000`, marking the **end of this object data**.
-       - If `0` is read, then continue to **read 2 bits**:
-         - If `10` is read, making the last 3 bits `010`, it signifies the **end of this data**.
-         - If `01` is read, then continue to **read 2 more bits**, which should be `01`, making the final 5 bits read `00101`. This indicates the subsequent bits represent **array data** containing multiple values. Each value consists of a **3-bit prefix** followed by `varint5`/`varbit5` encoded data (similar to the method in Steps 3–5). Reading `000` marks the **end of this array data**.
-    4. **Repeat steps 8.1–8.3** until all data has been read.
-9. **Reading is complete.**
+1.  Read 5 bits with the fixed value `00100`, indicating the start of item data.
+2.  Read 2 bits. The expected value is `00`, indicating the start of a data segment (note: `00` also marks the end of a segment).
+3.  Read 3 bits. There are (at least) two possible values:
+    *   `100` indicates that subsequent bits are encoded using the **`varint5`** format (Examples #1, #2, #4).
+    *   `110` indicates that subsequent bits are encoded using the **`varbit5`** format (Example #3).
+4.  Read a set of data following the `varint5`/`varbit5` specification. The first value obtained represents the manufacturer and item type. In Example #1, this value is `22`.
+5.  Read 2 bits. The expected value is `01`, indicating that the subsequent bits contain other data within the *same segment*. The `01` acts as an **intra-segment data separator**.
+6.  Repeat steps 3–5 until `00` is read in Step 5, which signifies the **end of the current segment**. In Example #1, the data read up to this point is `22, 0, 1, 50`, where `50` is the item level.
+7.  Attempt to read 2 bits:
+    *   If `00` is read (meaning **two consecutive `00`s** have been encountered), it indicates that the subsequent data contains **component/parts data**, and the reading strategy must change (proceed to Step 8).
+    *   If not `00`, then read **1 more bit**, combining it with the initial 2 bits to form a new 3-bit prefix. Then, repeat Steps 3–5 using this new 3-bit prefix until `00` is read again. In Example #1, the data read here becomes `22, 0, 1, 50| 2, 3262||`.
+8.  When two consecutive `00`s are read, signifying component data follows:
+    1.  Read 3 bits, which should be the fixed value `101`, marking the **start of component data**. Based on current understanding, component data always follows the **`varint5`** encoding specification.
+    2.  Read a set of data following the `varint5` specification. In Example #1, the first value encountered here is `67`.
+    3.  Next, read 1 bit:
+        *   If `1` is read, it indicates the subsequent bits represent **object data**, encoded with `varint5`. Then, read 3 more bits, which should be `000`, marking the **end of this object data**.
+        *   If `0` is read, then continue to read 2 bits:
+            *   If `10` is read, making the last 3 bits `010`, it signifies the **end of this data**.
+            *   If `01` is read, then continue to read 2 more bits, which should be `01`, making the final 5 bits read `00101`. This indicates the subsequent bits represent **array data** containing multiple values. Each value consists of a **3-bit prefix** followed by `varint5`/`varbit5` encoded data (similar to the method in Steps 3–5). Reading `000` marks the **end of this array data**.
+    4.  Repeat steps 8.1–8.3 until all data has been read.
+9.  Reading is complete.
 
 ## Summary
 
