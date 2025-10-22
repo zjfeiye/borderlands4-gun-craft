@@ -2,6 +2,6 @@
 - 灵感来自于 https://github.com/Nicnl/borderlands4-serials
 - 感谢他们的伟大工作！
 
-- This project is just for researching item encoding - purely for fun and personal interest. 
+- This project is just for researching item serials - purely for fun and personal interest. 
 - It was inspired by https://github.com/Nicnl/borderlands4-serials
 - Big thanks to them for the awesome work!
