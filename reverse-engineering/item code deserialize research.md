@@ -22,55 +22,53 @@
 示例#3，强化
 @Ugr%1Tm/)}}!qhvUNWCv7Xi/fEAI%M^D+d4
 303, 0, 1, 50| 2,  885|| {8} {247:76} {9} {1} {247:[23 181 7]}|
-00100 00 110 10010 111101001 01 100 00000 01 100 10000 01 100 0100111000 00 100 01000 01 100 101011110111000 00 00 101 00010 010 101 1110111110 1 0011100100 000 101 10010 010 101 10000 010 101 1110111110 0 0101 100 1110110000 100 1010111010 100 11100 000 00 000000
-             ↑↑↑↑↑ ↑↑↑↑↑↑↑↑↑        ↑↑↑↑↑        ↑↑↑↑↑        ↑↑↑↑↑↑↑↑↑↑        ↑↑↑↑↑        ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑       |←  ↑↑↑↑↑  →| |←  ↑↑↑↑↑↑↑↑↑↑   ↑↑↑↑↑↑↑↑↑↑  →| |←  ↑↑↑↑↑  →| |←  ↑↑↑↑↑  →| |←  ↑↑↑↑↑↑↑↑↑↑            ↑↑↑↑↑↑↑↑↑↑     ↑↑↑↑↑↑↑↑↑↑     ↑↑↑↑↑  →|
-             9len  303       ,      0     ,      1     ,      50         |      2            885             |  |      8             247        : 76                 9             1             247          :        23             181            7
+00100 00 110 10010 111101001 01 100 00000 01 100 10000 01 100 0100111000 00 100 01000 01 100 101011110111000 00 00 101 00010 010 101 1110111110 1 0011100100 000 101 10010 010 101 10000 010 101 1110111110 0 0101 100 1110110000 100 1010111010 100 11100 00 00 0000000
+             ↑↑↑↑↑ ↑↑↑↑↑↑↑↑↑        ↑↑↑↑↑        ↑↑↑↑↑        ↑↑↑↑↑↑↑↑↑↑        ↑↑↑↑↑        ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑       |←  ↑↑↑↑↑  →| |←  ↑↑↑↑↑↑↑↑↑↑   ↑↑↑↑↑↑↑↑↑↑  →| |←  ↑↑↑↑↑  →| |←  ↑↑↑↑↑  →| |←  ↑↑↑↑↑↑↑↑↑↑            ↑↑↑↑↑↑↑↑↑↑     ↑↑↑↑↑↑↑↑↑↑     ↑↑↑↑↑ →|
+             9len  303       ,      0     ,      1     ,      50         |      2            885             |  |      8             247        : 76                 9             1             247          :        23             181            7        |
 ```
 
 ```
 示例#4，职业模组
 @Ug!pHG2}TZ*Od!Hk{GfKIO!YFT-3FEGpl%;j?$j-VsvQj+$sw}<
 254, 0, 1, 50| 9, 1| 2, 3973|| {54} {12} {302} {365} {428} {491} {236} {299} {234:[48 25 83]}|
-00100 00 100 0111111110 01 100 00000 01 100 10000 01 100 0100111000 00 100 10010 01 100 10000 00 100 01000 01 100 101010001111110 00 00 101 0110111000 010 101 00110 010 101 011110100110000 010 101 101110110110000 010 101 001110101110000 010 101 110110111110000 010 101 0011101110 010 101 110110100110000 010 101 0101101110 0 0101 100 0000111000 100 1001110000 100 1100110100 000 00 0
-             ↑↑↑↑↑↑↑↑↑↑        ↑↑↑↑↑        ↑↑↑↑↑        ↑↑↑↑↑↑↑↑↑↑        ↑↑↑↑↑        ↑↑↑↑↑        ↑↑↑↑↑        ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑       |←  ↑↑↑↑↑↑↑↑↑↑  →| |←  ↑↑↑↑↑  →| |←  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑  →| |←  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑  →| |←  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑  →| |←  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑  →| |←  ↑↑↑↑↑↑↑↑↑↑  →| |←  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑  →| |←  ↑↑↑↑↑↑↑↑↑↑            ↑↑↑↑↑↑↑↑↑↑     ↑↑↑↑↑↑↑↑↑↑     ↑↑↑↑↑↑↑↑↑↑  →|
-             254        ,      0     ,      1     ,      50         |      9     ,      1     |      2     ,      3972            |  |      54                 12            302                     365                     428                     491                     236                299                     234          :        48             25             83                
+00100 00 100 0111111110 01 100 00000 01 100 10000 01 100 0100111000 00 100 10010 01 100 10000 00 100 01000 01 100 101010001111110 00 00 101 0110111000 010 101 00110 010 101 011110100110000 010 101 101110110110000 010 101 001110101110000 010 101 110110111110000 010 101 0011101110 010 101 110110100110000 010 101 0101101110 0 0101 100 0000111000 100 1001110000 100 1100110100 00 00 00
+             ↑↑↑↑↑↑↑↑↑↑        ↑↑↑↑↑        ↑↑↑↑↑        ↑↑↑↑↑↑↑↑↑↑        ↑↑↑↑↑        ↑↑↑↑↑        ↑↑↑↑↑        ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑       |←  ↑↑↑↑↑↑↑↑↑↑  →| |←  ↑↑↑↑↑  →| |←  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑  →| |←  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑  →| |←  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑  →| |←  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑  →| |←  ↑↑↑↑↑↑↑↑↑↑  →| |←  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑  →| |←  ↑↑↑↑↑↑↑↑↑↑            ↑↑↑↑↑↑↑↑↑↑     ↑↑↑↑↑↑↑↑↑↑     ↑↑↑↑↑↑↑↑↑↑ →|
+             254        ,      0     ,      1     ,      50         |      9     ,      1     |      2     ,      3972            |  |      54                 12            302                     365                     428                     491                     236                299                     234          :        48             25             83            |               
 ```
 
 ## 解读
 
-1. 读取5个bit，值固定为`00100`，表示物品数据起始标志
+1. 首先读取5个bit，值固定为`00100`，表示物品数据起始标志
 2. 读取2个bit，理应读取到`00`，表示这是一个数据片段的开始（实际上结束也是`00`）
 3. 读取3个bit，有两个取值（可能更多）：
-   - `100` 表示后续bit按照`varint5`编码（示例#1#2#4）
-   - `110` 表示后续bit按照`varbit5`编码（示例#3）
+   1. `100` 这是一个标记，表示后续bit按照`varint5`编码（示例#1#2#4）
+   2. `110` 这是一个标记，表示后续bit按照`varbit5`编码（示例#3）
+   3. `101` 这是一个标记，表示这是一个配件数据，后续bit也是按照`varint5`编码
+   4. 如果没有读到任何有效值（后续全为`0`），则表示读取结束
 4. 按照`varint5`/`varbit5`规范读取一组数据，第一个读取到的数据代表厂家和物品类型，在示例#1中，这个值是`22`
-5. 读取2个bit，理应读取到`01`，表示后续bit是同一个片段内的其他数据，`01`是一个片段内数据的分割符
-6. 重复步骤3~5，直到第5步读取到`00`，表示一个片段读取结束，在示例#1中，此时读取到的数据为`22, 0, 1, 50`，其中50为物品等级
-7. 尝试读取2个bit
-   - 如果是`00`，意味着读取到了连续2个`00`，此时表示后续数据是配件数据，需要改变读取策略（见步骤8）
-   - 如果不是`00`，则再读取1个bit，合并为共3个bit后，重复3-5步骤，直到再次读取到`00`，在示例#1中，此时读取到的数据为`22, 0, 1, 50| 2，3262||`
-8. 当读取到了连续2个`00`时，表示后续数据是配件数据
-   1. 读取3个bit，固定应为`101`，表示配件数据开始，据目前了解，配件数据总是遵循`varint5`编码规范
-   2. 按照`varint5`规范读取一组数据，在示例#1中，第一次遇到的这个值是`67`
-   3. 接着读取1个bit，如果：
-      1. 读取到`1`，则表示后续bit是个对象数据，后续bit遵循`varint5`规范编码。接着读取3个bit，理应为`000`，表示该数据结束
+5. 接下来有两种情况：
+   1. 如果之前读取到的标记是`100`或`110`，则接着读取2个bit，如果：
+      1. 读取到`01`，这是一个数据分割符，表示后面还有同类数据，继续从步骤3开始循环
+      2. 读取到`00`，表示该片段已结束，继续从步骤2开始循环
+   2. 如果之前读取到的标记是`101`，则接着读1个bit，如果：
+      1. 读取到`1`，则表示后续bit是个对象数据，遵循`varint5`规范编码读取1个数据，然后再读取3个bit，理应是`000`，表示该数据结束
       2. 读取到`0`，则应继续读取2个bit，如果：
-         - 读取到`10`，此时，读取到的3个bit为`010`时，表示该数据结束
-         - 读取到`01`，则应继续读取2个bit，理应为`01`，此时读取到的共5个bit为`00101`，表示后续bit是数组数据，包含多个数值，每个数值包含3个bit的前缀和`varint5`/`varbit5`数据（和步骤3~5的读取方法类似），当读取到`000`时，表示该数据结束
-  1. 重复步骤8.1~8.3，直到读取完全部数据
-9. 读取完毕
+         1. 读取到`10`，此时，读取到的3个bit为`010`，表示该数据结束
+         2. 读取到`01`，则应继续读取2个bit，有可能有两个值：
+            1. 读取到`01`，这是一个标记，表示数组数据开始，继续读取数据从步骤3开始循环
+            2. 读取到`00`，这是一个标记，表示数据数据结束
+6.  重复循环步骤2~5，直到读取完全部数据
 
 ## 总结
 
-- `00100`：是物品数据标志
-- `00`：是数据片段分割符
-- `0000`：连续2个`00`，是物品头数据和配件数据的分割符
+- `00100`：是物品数据标志，物品数据固定以此开始，标志之后总是跟着数据片段也就是以`00`开始`00`结束的数据片段
+- `00`：是数据片段分割符，两个`00`之间是一个数据片段
 - `100`、`110`：是数据编码方式，`100`=`varint5`，`110`=`varbit5`
 - `01`：是片段内数据分割符
+- `101`：是一个配件数据的开始，后面是一段`varint5`数据
 - `101` xxxxx `010`：表示一个配件，该配件用单个值表示
 - `101` xxxxx 1 xxxxx `000`：表示一个配件，该配件用对象值表示
-- `101` xxxxx 0 0101 100 xxxxx `000`：表示一个配件，该配件用数组值表示
-
+- `101` xxxxx 0 01 `01` 100 xxxxx `00`：表示一个配件，该配件用数组值表示（在初始版本中我并未检查数组出现在中间的情况，所以未发现`00`是数组数据的结尾）
 
 
 # How to Convert Item Binary Data into Human-Readable Strings
@@ -110,37 +108,37 @@ Example #4, Class Mod
              ↑↑↑↑↑↑↑↑↑↑        ↑↑↑↑↑        ↑↑↑↑↑        ↑↑↑↑↑↑↑↑↑↑        ↑↑↑↑↑        ↑↑↑↑↑        ↑↑↑↑↑        ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑       |←  ↑↑↑↑↑↑↑↑↑↑  →| |←  ↑↑↑↑↑  →| |←  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑  →| |←  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑  →| |←  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑  →| |←  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑  →| |←  ↑↑↑↑↑↑↑↑↑↑  →| |←  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑  →| |←  ↑↑↑↑↑↑↑↑↑↑            ↑↑↑↑↑↑↑↑↑↑     ↑↑↑↑↑↑↑↑↑↑     ↑↑↑↑↑↑↑↑↑↑  →|
              254        ,      0     ,      1     ,      50         |      9     ,      1     |      2     ,      3972            |  |      54                 12            302                     365                     428                     491                     236                299                     234          :        48             25             83                
 ```
-## Interpretation
 
-1.  Read 5 bits with the fixed value `00100`, indicating the start of item data.
-2.  Read 2 bits. The expected value is `00`, indicating the start of a data segment (note: `00` also marks the end of a segment).
-3.  Read 3 bits. There are (at least) two possible values:
-    *   `100` indicates that subsequent bits are encoded using the **`varint5`** format (Examples #1, #2, #4).
-    *   `110` indicates that subsequent bits are encoded using the **`varbit5`** format (Example #3).
-4.  Read a set of data following the `varint5`/`varbit5` specification. The first value obtained represents the manufacturer and item type. In Example #1, this value is `22`.
-5.  Read 2 bits. The expected value is `01`, indicating that the subsequent bits contain other data within the *same segment*. The `01` acts as an **intra-segment data separator**.
-6.  Repeat steps 3–5 until `00` is read in Step 5, which signifies the **end of the current segment**. In Example #1, the data read up to this point is `22, 0, 1, 50`, where `50` is the item level.
-7.  Attempt to read 2 bits:
-    *   If `00` is read (meaning **two consecutive `00`s** have been encountered), it indicates that the subsequent data contains **component/parts data**, and the reading strategy must change (proceed to Step 8).
-    *   If not `00`, then read **1 more bit**, combining it with the initial 2 bits to form a new 3-bit prefix. Then, repeat Steps 3–5 using this new 3-bit prefix until `00` is read again. In Example #1, the data read here becomes `22, 0, 1, 50| 2, 3262||`.
-8.  When two consecutive `00`s are read, signifying component data follows:
-    1.  Read 3 bits, which should be the fixed value `101`, marking the **start of component data**. Based on current understanding, component data always follows the **`varint5`** encoding specification.
-    2.  Read a set of data following the `varint5` specification. In Example #1, the first value encountered here is `67`.
-    3.  Next, read 1 bit:
-        *   If `1` is read, it indicates the subsequent bits represent **object data**, encoded with `varint5`. Then, read 3 more bits, which should be `000`, marking the **end of this object data**.
-        *   If `0` is read, then continue to read 2 bits:
-            *   If `10` is read, making the last 3 bits `010`, it signifies the **end of this data**.
-            *   If `01` is read, then continue to read 2 more bits, which should be `01`, making the final 5 bits read `00101`. This indicates the subsequent bits represent **array data** containing multiple values. Each value consists of a **3-bit prefix** followed by `varint5`/`varbit5` encoded data (similar to the method in Steps 3–5). Reading `000` marks the **end of this array data**.
-    4.  Repeat steps 8.1–8.3 until all data has been read.
-9.  Reading is complete.
+## How It Works
 
-## Summary
+1. **First, read 5 bits** - this should always be `00100`, which is the item data start marker
+2. **Read 2 bits** - you should get `00`, marking the start of a data segment (turns out it marks the end too)
+3. **Read 3 bits** - there are a few possibilities here:
+   - `100` = this means the following bits use `varint5` encoding (examples #1, #2, #4)
+   - `110` = this means the following bits use `varbit5` encoding (example #3)  
+   - `101` = this marks attachment data, also using `varint5` encoding
+   - If you don't get any valid value (all remaining bits are `0`), you're done reading
+4. **Read data** using `varint5`/`varbit5` rules - the first value you get is the manufacturer and item type (like `22` in example #1)
+5. **Now there are two paths**:
+   - If you got `100` or `110` earlier, read 2 more bits:
+     - `01` = data separator, means there's more data coming - go back to step 3
+     - `00` = segment ended - go back to step 2
+   - If you got `101` earlier, read 1 more bit:
+     - `1` = object data coming up - read one `varint5` value, then 3 bits (should be `000`) to mark the end
+     - `0` = read 2 more bits:
+       - `10` = together with the previous bit makes `010`, meaning single value attachment
+       - `01` = read 2 more bits:
+         - `01` = marks array data starting - go read data from step 3
+         - `00` = marks data ending
+6. **Repeat steps 2-5** until you've read all the data
 
-- `00100`: Item data marker
-- `00`: Data segment separator
-- `0000`: Consecutive double `00` - separator between item header data and parts data
-- `100`, `110`: Data encoding methods (`100` = varint5, `110` = varbit5)
-- `01`: Intra-segment data separator
-- `101` xxxxx `010`: Part represented by single value
-- `101` xxxxx 1 xxxxx `000`: Part represented by object value
-- `101` xxxxx 0 0101 100 xxxxx `000`: Part represented by array value
+## The Gist
+
+- `00100` = item data flag, always starts with this, followed by data segments between `00` markers
+- `00` = data segment separator (between two `00`s is one segment)
+- `100`, `110` = data encoding types (`100` = `varint5`, `110` = `varbit5`)
+- `01` = separator within a segment
+- `101` = attachment data starting, followed by `varint5` data
+- `101` xxxxx `010` = single value attachment
+- `101` xxxxx 1 xxxxx `000` = object value attachment
+- `101` xxxxx 0 01 `01` 100 xxxxx `00` = array value attachment (in the initial version I didn't check for arrays in the middle, so I missed that `00` marks the end of array data)
