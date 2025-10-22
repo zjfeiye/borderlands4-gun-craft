@@ -67,7 +67,7 @@ public class ItemSerialEncoder
                             .Where(s => !string.IsNullOrWhiteSpace(s))
                             .Select(uint.Parse)
                             .ToArray();
-                        fragment.Add(new ArrayAttachment { Type = type, Values = values });
+                        fragment.Add(new ArrayPart { Type = type, Values = values });
                     }
                     else if (attachmentContent.Contains(':'))
                     {
@@ -75,13 +75,13 @@ public class ItemSerialEncoder
                         string[] parts = attachmentContent.Split(':');
                         uint type = uint.Parse(parts[0]);
                         uint value = uint.Parse(parts[1]);
-                        fragment.Add(new ObjectAttachment { Type = type, Value = value });
+                        fragment.Add(new ObjectPart { Type = type, Value = value });
                     }
                     else
                     {
                         // 单个值配件 {type}
                         uint type = uint.Parse(attachmentContent);
-                        fragment.Add(new SingleAttachment { Type = type });
+                        fragment.Add(new SinglePart { Type = type });
                     }
                 }
                 else
@@ -137,14 +137,14 @@ public class ItemSerialEncoder
                         writer.WriteBits(0x01u, 2);
                     }
                 }
-                else if (item is SingleAttachment single)
+                else if (item is SinglePart single)
                 {
                     // 单个值配件
                     writer.WriteBits(0x05, 3); // 101 - 配件标记
                     writer.WriteVarint16(single.Type);
                     writer.WriteBits(0x02, 3); // 010 - 单个值格式
                 }
-                else if (item is ObjectAttachment obj)
+                else if (item is ObjectPart obj)
                 {
                     // 对象值配件
                     writer.WriteBits(0x05, 3); // 101 - 配件标记
@@ -153,7 +153,7 @@ public class ItemSerialEncoder
                     writer.WriteVarint16(obj.Value);
                     writer.WriteBits(0x00, 3); // 000 - 对象结束标记
                 }
-                else if (item is ArrayAttachment array)
+                else if (item is ArrayPart array)
                 {
                     // 数组配件
                     writer.WriteBits(0x05, 3); // 101 - 配件标记
@@ -186,18 +186,18 @@ public class ItemSerialEncoder
 }
 
 // 配件数据类型
-public class SingleAttachment
+public class SinglePart
 {
     public uint Type { get; set; }
 }
 
-public class ObjectAttachment
+public class ObjectPart
 {
     public uint Type { get; set; }
     public uint Value { get; set; }
 }
 
-public class ArrayAttachment
+public class ArrayPart
 {
     public uint Type { get; set; }
     public uint[] Values { get; set; }

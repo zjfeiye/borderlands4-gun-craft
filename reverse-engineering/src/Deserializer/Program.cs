@@ -201,11 +201,11 @@ class Program
                 {
                     if (item is uint num)
                         Console.WriteLine($"    数值: {num}");
-                    else if (item is SingleAttachment single)
+                    else if (item is SinglePart single)
                         Console.WriteLine($"    单值配件: {single.Type}");
-                    else if (item is ObjectAttachment obj)
+                    else if (item is ObjectPart obj)
                         Console.WriteLine($"    对象配件: {obj.Type}:{obj.Value}");
-                    else if (item is ArrayAttachment array)
+                    else if (item is ArrayPart array)
                         Console.WriteLine($"    数组配件: {array.Type}:[{string.Join(" ", array.Values)}]");
                 }
             }
