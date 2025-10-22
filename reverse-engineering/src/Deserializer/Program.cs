@@ -1,12 +1,14 @@
-﻿namespace Deserializer;
+﻿using ZiGMa.Bl4.ItemSerialCodec;
+
+namespace Deserializer;
 
 class Program
 {
     static void Main(string[] args)
     {
-        //TestBase85Decoder();
+        TestBase85Decoder();
 
-        //TestItemSerialDecoder();
+        TestItemSerialDecoder();
 
         TestItemSerialEncoder();
 

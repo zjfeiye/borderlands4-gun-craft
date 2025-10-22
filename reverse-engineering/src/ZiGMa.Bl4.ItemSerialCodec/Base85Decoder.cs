@@ -1,4 +1,4 @@
-﻿namespace Deserializer;
+﻿namespace ZiGMa.Bl4.ItemSerialCodec;
 
 public class Base85Decoder
 {

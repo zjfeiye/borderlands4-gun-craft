@@ -1,6 +1,4 @@
-﻿namespace Deserializer;
-using System;
-using System.Collections.Generic;
+﻿namespace ZiGMa.Bl4.ItemSerialCodec;
 
 public class ItemSerialDecoder
 {

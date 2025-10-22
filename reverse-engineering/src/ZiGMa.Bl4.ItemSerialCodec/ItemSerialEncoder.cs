@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.Design;
-
-namespace Deserializer;
+﻿namespace ZiGMa.Bl4.ItemSerialCodec;
 
 public class ItemSerialEncoder
 {
