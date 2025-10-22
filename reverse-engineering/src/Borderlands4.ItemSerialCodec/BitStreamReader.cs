@@ -1,4 +1,4 @@
-﻿namespace ZiGMa.Bl4.ItemSerialCodec; 
+﻿namespace Borderlands4.ItemSerialCodec; 
 
 public class BitStreamReader
 {
@@ -31,10 +31,10 @@ public class BitStreamReader
         for (int i = 0; i < numBits; i++)
         {
             int byteIndex = _bitPosition / 8;
-            int bitIndex = 7 - (_bitPosition % 8); // 高位在前
+            int bitIndex = 7 - _bitPosition % 8; // 高位在前
 
-            uint bit = (uint)((_data[byteIndex] >> bitIndex) & 1);
-            result = (result << 1) | bit;
+            uint bit = (uint)(_data[byteIndex] >> bitIndex & 1);
+            result = result << 1 | bit;
             _bitPosition++;
         }
 
@@ -65,9 +65,9 @@ public class BitStreamReader
         for (int i = _bitPosition; i < Length; i++)
         {
             int byteIndex = i / 8;
-            int bitIndex = 7 - (i % 8);
+            int bitIndex = 7 - i % 8;
 
-            if (((_data[byteIndex] >> bitIndex) & 1) != 0)
+            if ((_data[byteIndex] >> bitIndex & 1) != 0)
                 return false;
         }
 
@@ -119,7 +119,7 @@ public class BitStreamReader
             if (bitString[i] == '1')
             {
                 int byteIndex = i / 8;
-                int bitIndex = 7 - (i % 8); // 高位在前
+                int bitIndex = 7 - i % 8; // 高位在前
                 bytes[byteIndex] |= (byte)(1 << bitIndex);
             }
         }

@@ -1,4 +1,4 @@
-﻿namespace ZiGMa.Bl4.ItemSerialCodec;
+﻿namespace Borderlands4.ItemSerialCodec;
 
 public class Base85Decoder
 {
@@ -22,8 +22,8 @@ public class Base85Decoder
         byte mirrored = 0;
         for (int i = 0; i < 8; i++)
         {
-            if ((b & (1 << i)) != 0)
-                mirrored |= (byte)(1 << (7 - i));
+            if ((b & 1 << i) != 0)
+                mirrored |= (byte)(1 << 7 - i);
         }
         return mirrored;
     }

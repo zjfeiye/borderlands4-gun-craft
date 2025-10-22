@@ -5,7 +5,7 @@ VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deserializer", "Deserializer\Deserializer.csproj", "{BE549D40-47D6-46EC-B53E-A1B661083E9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZiGMa.Bl4.ItemSerialCodec", "ZiGMa.Bl4.ItemSerialCodec\ZiGMa.Bl4.ItemSerialCodec.csproj", "{4EB5888E-D967-4F52-B763-0920A78F3833}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Borderlands4.ItemSerialCodec", "Borderlands4.ItemSerialCodec\Borderlands4.ItemSerialCodec.csproj", "{870F9999-0E62-8F0A-BC37-24B3F9621AA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{BE549D40-47D6-46EC-B53E-A1B661083E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE549D40-47D6-46EC-B53E-A1B661083E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE549D40-47D6-46EC-B53E-A1B661083E9E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4EB5888E-D967-4F52-B763-0920A78F3833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4EB5888E-D967-4F52-B763-0920A78F3833}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4EB5888E-D967-4F52-B763-0920A78F3833}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4EB5888E-D967-4F52-B763-0920A78F3833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{870F9999-0E62-8F0A-BC37-24B3F9621AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{870F9999-0E62-8F0A-BC37-24B3F9621AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{870F9999-0E62-8F0A-BC37-24B3F9621AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{870F9999-0E62-8F0A-BC37-24B3F9621AA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

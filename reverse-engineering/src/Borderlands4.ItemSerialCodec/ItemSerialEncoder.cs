@@ -1,4 +1,4 @@
-﻿namespace ZiGMa.Bl4.ItemSerialCodec;
+﻿namespace Borderlands4.ItemSerialCodec;
 
 public class ItemSerialEncoder
 {

@@ -1,4 +1,4 @@
-﻿using ZiGMa.Bl4.ItemSerialCodec;
+﻿using Borderlands4.ItemSerialCodec;
 
 namespace Deserializer;
 

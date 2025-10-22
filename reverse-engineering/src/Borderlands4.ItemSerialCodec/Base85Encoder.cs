@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace ZiGMa.Bl4.ItemSerialCodec;
+namespace Borderlands4.ItemSerialCodec;
 
 public class Base85Encoder
 {
@@ -18,7 +18,7 @@ public class Base85Encoder
             return string.Empty;
 
         // 确保数据长度是4的倍数
-        int padding = (4 - (data.Length % 4)) % 4;
+        int padding = (4 - data.Length % 4) % 4;
         byte[] paddedData = new byte[data.Length + padding];
         Array.Copy(data, paddedData, data.Length);
 
@@ -30,7 +30,7 @@ public class Base85Encoder
             uint value = 0;
             for (int j = 0; j < 4; j++)
             {
-                value = (value << 8) | paddedData[i + j];
+                value = value << 8 | paddedData[i + j];
             }
 
             // 转换为Base85
@@ -63,8 +63,8 @@ public class Base85Encoder
         byte mirrored = 0;
         for (int i = 0; i < 8; i++)
         {
-            if ((b & (1 << i)) != 0)
-                mirrored |= (byte)(1 << (7 - i));
+            if ((b & 1 << i) != 0)
+                mirrored |= (byte)(1 << 7 - i);
         }
         return mirrored;
     }

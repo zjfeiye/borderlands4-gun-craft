@@ -1,4 +1,4 @@
-﻿namespace ZiGMa.Bl4.ItemSerialCodec;
+﻿namespace Borderlands4.ItemSerialCodec;
 
 public class ItemSerialDecoder
 {
@@ -63,7 +63,7 @@ public class ItemSerialDecoder
                 //    return true;
                 //}
                 // 如果不是最后一个片段，应该有片段分隔符00
-                if ((fragmentParsed && reader.RemainingBits >= 2 && !reader.IsRemainingAllZeros()))
+                if (fragmentParsed && reader.RemainingBits >= 2 && !reader.IsRemainingAllZeros())
                 {
                     uint separator = reader.PeekBits(2);
                     if (separator == 0x00) // 00 = 0
@@ -232,7 +232,7 @@ public class ItemSerialDecoder
         {
             // 读取更多比特来确定格式
             uint nextBits = reader.ReadBits(2);
-            uint combinedBits = (formatBit << 2) | nextBits;
+            uint combinedBits = formatBit << 2 | nextBits;
 
             if (combinedBits == 0x02) // 010 = 2
             {
@@ -379,7 +379,7 @@ public class ItemSerialDecoder
         uint result = 0;
         for (int i = 0; i < bitCount; i++)
         {
-            result = (result << 1) | (value & 1);
+            result = result << 1 | value & 1;
             value >>= 1;
         }
         return result;
@@ -409,6 +409,6 @@ public class ItemSerialDecoder
             formattedParts.Add(string.Join(", ", fragmentParts));
         }
 
-        return (string.Join("| ", formattedParts).Trim()).Replace("| |", "||").Replace("},", "}").TrimEnd('|') + "|";
+        return string.Join("| ", formattedParts).Trim().Replace("| |", "||").Replace("},", "}").TrimEnd('|') + "|";
     }
 }

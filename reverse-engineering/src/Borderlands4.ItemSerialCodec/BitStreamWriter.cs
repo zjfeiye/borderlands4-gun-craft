@@ -1,4 +1,4 @@
-﻿namespace ZiGMa.Bl4.ItemSerialCodec;
+﻿namespace Borderlands4.ItemSerialCodec;
 
 public class BitStreamWriter
 {
@@ -20,8 +20,8 @@ public class BitStreamWriter
 
         for (int i = numBits - 1; i >= 0; i--)
         {
-            uint bit = (value >> i) & 1;
-            _currentByte = (_currentByte << 1) | (int)bit;
+            uint bit = value >> i & 1;
+            _currentByte = _currentByte << 1 | (int)bit;
             _bitPosition++;
 
             if (_bitPosition == 8)
@@ -83,7 +83,7 @@ public class BitStreamWriter
         // 如果当前字节有未写入的比特，填充0并添加
         if (_bitPosition > 0)
         {
-            _currentByte <<= (8 - _bitPosition); // 左对齐
+            _currentByte <<= 8 - _bitPosition; // 左对齐
             _data.Add((byte)_currentByte);
         }
 
@@ -95,7 +95,7 @@ public class BitStreamWriter
         uint result = 0;
         for (int i = 0; i < bitCount; i++)
         {
-            result = (result << 1) | (value & 1);
+            result = result << 1 | value & 1;
             value >>= 1;
         }
         return result;

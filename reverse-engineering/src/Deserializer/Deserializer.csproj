@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ZiGMa.Bl4.ItemSerialCodec\ZiGMa.Bl4.ItemSerialCodec.csproj" />
+    <ProjectReference Include="..\Borderlands4.ItemSerialCodec\Borderlands4.ItemSerialCodec.csproj" />
   </ItemGroup>
 
 </Project>
