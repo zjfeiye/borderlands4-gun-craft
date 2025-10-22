@@ -59,8 +59,13 @@ public class ItemSerialDecoder
                 _results.Add([.. _currentFragment]);
                 _currentFragment.Clear();
 
+                //else if (nextBits == 0x07) // 111 = 7，后续是皮肤或DLC数据，忽略
+                //{
+                //    if (debug) Console.WriteLine($"检测到意外标记：{Convert.ToString(nextBits, 2).PadLeft(3, '0')}，结束当前片段");
+                //    return true;
+                //}
                 // 如果不是最后一个片段，应该有片段分隔符00
-                if (fragmentParsed && reader.RemainingBits >= 2 && !reader.IsRemainingAllZeros())
+                if ((fragmentParsed && reader.RemainingBits >= 2 && !reader.IsRemainingAllZeros()))
                 {
                     uint separator = reader.PeekBits(2);
                     if (separator == 0x00) // 00 = 0
@@ -179,6 +184,12 @@ public class ItemSerialDecoder
                     }
                 }
                 continue;
+            }
+            else if (nextBits == 0x07) // 111 = 7，后续是皮肤或DLC数据，忽略
+            {
+                reader.SkipBits(reader.RemainingBits);
+                if (debug) Console.WriteLine($"检测到意外标记：{Convert.ToString(nextBits, 2).PadLeft(3, '0')}，结束读取");
+                return true;
             }
             else if (nextBits == 0x00 && hasData) // 00 = 0
             {
@@ -400,6 +411,6 @@ public class ItemSerialDecoder
             formattedParts.Add(string.Join(", ", fragmentParts));
         }
 
-        return (string.Join("| ", formattedParts).Trim() + "|").Replace("| |", "||").Replace("},", "}");
+        return (string.Join("| ", formattedParts).Trim()).Replace("| |", "||").Replace("},", "}").TrimEnd('|') + "|";
     }
 }
