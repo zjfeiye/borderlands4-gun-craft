@@ -4,7 +4,13 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <Title>Borderlands 4 Item Serial Codec</Title>
     <Description>Borderlands 4 Item Serial Codec.</Description>
+    <Authors>ZiGMa GaN</Authors>
+    <Company>ZiGMa GaN</Company>
   </PropertyGroup>
 
 </Project>

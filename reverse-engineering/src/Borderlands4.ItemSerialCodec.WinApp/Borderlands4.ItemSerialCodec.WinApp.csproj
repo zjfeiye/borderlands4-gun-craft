@@ -10,6 +10,14 @@
     <ApplicationIcon>app.ico</ApplicationIcon>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <Title>Borderlands 4 Item Serial Codec</Title>
+    <Description>Borderlands 4 Item Serial Codec.</Description>
+    <Authors>ZiGMa GaN</Authors>
+    <Company>ZiGMa GaN</Company>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
   <ItemGroup>
     <Content Include="app.ico" />
   </ItemGroup>
