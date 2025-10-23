@@ -1,4 +1,4 @@
-# 无主之地4 - 拼好枪！ - **Borderlands 4: Gun 'n' Done!**
+# 无主之地4：拼好枪！ - **Borderlands 4: Gun 'n' Done!**
 
 ## 物品序列号编解码器 - Item Serial Codec
 
