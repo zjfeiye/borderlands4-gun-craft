@@ -40,12 +40,14 @@
             label1 = new Label();
             label2 = new Label();
             StatusTip = new Label();
+            ItemSerialCutButton = new Button();
+            ItemPartsCutButton = new Button();
             SuspendLayout();
             // 
             // ItemSerialLabel
             // 
             ItemSerialLabel.AutoSize = true;
-            ItemSerialLabel.Location = new Point(12, 21);
+            ItemSerialLabel.Location = new Point(12, 16);
             ItemSerialLabel.Name = "ItemSerialLabel";
             ItemSerialLabel.Size = new Size(161, 17);
             ItemSerialLabel.TabIndex = 3;
@@ -53,7 +55,7 @@
             // 
             // ItemSerial
             // 
-            ItemSerial.Location = new Point(12, 41);
+            ItemSerial.Location = new Point(12, 36);
             ItemSerial.Multiline = true;
             ItemSerial.Name = "ItemSerial";
             ItemSerial.ScrollBars = ScrollBars.Vertical;
@@ -64,7 +66,7 @@
             // ItemPartsLabel
             // 
             ItemPartsLabel.AutoSize = true;
-            ItemPartsLabel.Location = new Point(12, 287);
+            ItemPartsLabel.Location = new Point(12, 280);
             ItemPartsLabel.Name = "ItemPartsLabel";
             ItemPartsLabel.Size = new Size(158, 17);
             ItemPartsLabel.TabIndex = 4;
@@ -72,7 +74,7 @@
             // 
             // ItemParts
             // 
-            ItemParts.Location = new Point(12, 307);
+            ItemParts.Location = new Point(12, 300);
             ItemParts.Multiline = true;
             ItemParts.Name = "ItemParts";
             ItemParts.ScrollBars = ScrollBars.Vertical;
@@ -83,7 +85,7 @@
             // ItemSerialCopyButton
             // 
             ItemSerialCopyButton.Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            ItemSerialCopyButton.Location = new Point(698, 15);
+            ItemSerialCopyButton.Location = new Point(602, 13);
             ItemSerialCopyButton.Name = "ItemSerialCopyButton";
             ItemSerialCopyButton.Size = new Size(90, 23);
             ItemSerialCopyButton.TabIndex = 6;
@@ -94,7 +96,7 @@
             // ItemSerialPasteButton
             // 
             ItemSerialPasteButton.Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            ItemSerialPasteButton.Location = new Point(602, 15);
+            ItemSerialPasteButton.Location = new Point(506, 13);
             ItemSerialPasteButton.Name = "ItemSerialPasteButton";
             ItemSerialPasteButton.Size = new Size(90, 23);
             ItemSerialPasteButton.TabIndex = 6;
@@ -105,7 +107,7 @@
             // ItemPartsCopyButton
             // 
             ItemPartsCopyButton.Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            ItemPartsCopyButton.Location = new Point(698, 284);
+            ItemPartsCopyButton.Location = new Point(602, 277);
             ItemPartsCopyButton.Name = "ItemPartsCopyButton";
             ItemPartsCopyButton.Size = new Size(90, 23);
             ItemPartsCopyButton.TabIndex = 6;
@@ -116,7 +118,7 @@
             // ItemPartsPasteButton
             // 
             ItemPartsPasteButton.Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            ItemPartsPasteButton.Location = new Point(602, 284);
+            ItemPartsPasteButton.Location = new Point(506, 277);
             ItemPartsPasteButton.Name = "ItemPartsPasteButton";
             ItemPartsPasteButton.Size = new Size(90, 23);
             ItemPartsPasteButton.TabIndex = 6;
@@ -128,7 +130,7 @@
             // 
             label1.AutoSize = true;
             label1.ForeColor = Color.Gray;
-            label1.Location = new Point(179, 21);
+            label1.Location = new Point(179, 16);
             label1.Name = "label1";
             label1.Size = new Size(107, 17);
             label1.TabIndex = 3;
@@ -138,7 +140,7 @@
             // 
             label2.AutoSize = true;
             label2.ForeColor = Color.Gray;
-            label2.Location = new Point(176, 287);
+            label2.Location = new Point(176, 280);
             label2.Name = "label2";
             label2.Size = new Size(129, 17);
             label2.TabIndex = 3;
@@ -148,22 +150,46 @@
             // 
             StatusTip.AutoSize = true;
             StatusTip.ForeColor = Color.Red;
-            StatusTip.Location = new Point(12, 540);
+            StatusTip.Location = new Point(12, 533);
             StatusTip.Name = "StatusTip";
             StatusTip.Size = new Size(61, 17);
             StatusTip.TabIndex = 7;
             StatusTip.Text = "StatusTip";
             StatusTip.Click += StatusTip_Click;
             // 
+            // ItemSerialCutButton
+            // 
+            ItemSerialCutButton.Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            ItemSerialCutButton.Location = new Point(698, 13);
+            ItemSerialCutButton.Name = "ItemSerialCutButton";
+            ItemSerialCutButton.Size = new Size(90, 23);
+            ItemSerialCutButton.TabIndex = 6;
+            ItemSerialCutButton.Text = "剪切 CUT";
+            ItemSerialCutButton.UseVisualStyleBackColor = true;
+            ItemSerialCutButton.Click += ItemSerialCutButton_Click;
+            // 
+            // ItemPartsCutButton
+            // 
+            ItemPartsCutButton.Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            ItemPartsCutButton.Location = new Point(698, 277);
+            ItemPartsCutButton.Name = "ItemPartsCutButton";
+            ItemPartsCutButton.Size = new Size(90, 23);
+            ItemPartsCutButton.TabIndex = 6;
+            ItemPartsCutButton.Text = "剪切 CUT";
+            ItemPartsCutButton.UseVisualStyleBackColor = true;
+            ItemPartsCutButton.Click += ItemPartsCutButton_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 568);
+            ClientSize = new Size(800, 561);
             Controls.Add(StatusTip);
             Controls.Add(ItemPartsPasteButton);
             Controls.Add(ItemSerialPasteButton);
+            Controls.Add(ItemPartsCutButton);
             Controls.Add(ItemPartsCopyButton);
+            Controls.Add(ItemSerialCutButton);
             Controls.Add(ItemSerialCopyButton);
             Controls.Add(ItemParts);
             Controls.Add(ItemPartsLabel);
@@ -193,5 +219,7 @@
         private Label label1;
         private Label label2;
         private Label StatusTip;
+        private Button ItemSerialCutButton;
+        private Button ItemPartsCutButton;
     }
 }

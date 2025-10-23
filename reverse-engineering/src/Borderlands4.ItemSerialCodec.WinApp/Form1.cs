@@ -37,6 +37,15 @@ namespace Borderlands4.ItemSerialCodec.WinApp
             }
         }
 
+        private void ItemSerialCutButton_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(ItemSerial.Text))
+            {
+                Clipboard.SetText(ItemSerial.Text);
+                ItemSerial.Text = string.Empty;
+            }
+        }
+
         private void ItemPartsPasteButton_Click(object sender, EventArgs e)
         {
             ItemParts.Text = Clipboard.GetText();
@@ -47,6 +56,15 @@ namespace Borderlands4.ItemSerialCodec.WinApp
             if (!string.IsNullOrEmpty(ItemParts.Text))
             {
                 Clipboard.SetText(ItemParts.Text);
+            }
+        }
+
+        private void ItemPartsCutButton_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(ItemParts.Text))
+            {
+                Clipboard.SetText(ItemParts.Text);
+                ItemParts.Text = string.Empty;
             }
         }
 
