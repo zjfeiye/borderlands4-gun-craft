@@ -1,8 +1,12 @@
-# 无主之地4 - 拼好枪！
+# 无主之地4 - 拼好枪！ - **Borderlands 4: Gun 'n' Done!**
 
-> **Borderlands 4: Gun 'n' Done!**
+## 物品序列号编解码器 - Item Serial Codec
 
-## 一、拼好枪
+- 它是一个桌面离线版本，并支持批量转换 - It is a desktop offline version and supports batch conversion
+- 它仅为研究物品编码而生，并不打算支持更多的存档编辑功能 - This tool is designed specifically for researching item encoding, with no plans to support additional save editing features
+- 它的灵感来自于[borderlands4-serials](https://github.com/Nicnl/borderlands4-serials) - It was inspired by [borderlands4-serials](https://github.com/Nicnl/borderlands4-serials)
+
+## 拼好枪 - Gun 'n' Done!
 
 ### 1、代达罗斯
 
