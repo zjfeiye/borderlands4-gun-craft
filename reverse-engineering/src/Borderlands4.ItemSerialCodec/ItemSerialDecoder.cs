@@ -11,6 +11,12 @@ public class ItemSerialDecoder
         _currentFragment = new List<object>();
     }
 
+    public List<List<object>> DecodeBitstream(byte[] bitstream, bool debug = false)
+    {
+        var reader = new BitStreamReader(bitstream);
+        return DecodeBitstream(reader, debug);
+    }
+
     public List<List<object>> DecodeBitstream(string bitstream, bool debug = false)
     {
         var reader = new BitStreamReader(bitstream);
@@ -57,11 +63,6 @@ public class ItemSerialDecoder
                 _results.Add([.. _currentFragment]);
                 _currentFragment.Clear();
 
-                //else if (nextBits == 0x07) // 111 = 7，后续是皮肤或DLC数据，忽略
-                //{
-                //    if (debug) Console.WriteLine($"检测到意外标记：{Convert.ToString(nextBits, 2).PadLeft(3, '0')}，结束当前片段");
-                //    return true;
-                //}
                 // 如果不是最后一个片段，应该有片段分隔符00
                 if (fragmentParsed && reader.RemainingBits >= 2 && !reader.IsRemainingAllZeros())
                 {
@@ -183,10 +184,11 @@ public class ItemSerialDecoder
                 }
                 continue;
             }
-            else if (nextBits == 0x07) // 111 = 7，后续是皮肤或DLC数据，忽略
+            else if (nextBits == 0x07) // 111 = 7
             {
+                // 后续是皮肤或DLC数据，不做处理，忽略后续数据
                 reader.SkipBits(reader.RemainingBits);
-                if (debug) Console.WriteLine($"检测到意外标记：{Convert.ToString(nextBits, 2).PadLeft(3, '0')}，结束读取");
+                if (debug) Console.WriteLine($"检测到意外标记：{Convert.ToString(nextBits, 2).PadLeft(3, '0')}，片段解析结束");
                 return true;
             }
             else if (nextBits == 0x00 && hasData) // 00 = 0
@@ -198,6 +200,7 @@ public class ItemSerialDecoder
             else
             {
                 // 没有有效标记，可能结束
+                reader.SkipBits(reader.RemainingBits);
                 if (debug) Console.WriteLine($"无有效标记: {Convert.ToString(nextBits, 2).PadLeft(3, '0')}，片段解析结束");
                 return true;
             }

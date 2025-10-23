@@ -1,6 +1,6 @@
 ﻿namespace Borderlands4.ItemSerialCodec;
 
-public class Base85Decoder
+public partial class Base85Decoder
 {
     private readonly string _alphabet = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!#$%&()*+-;<=>?@^_`{/}~";
     private readonly Dictionary<char, int> _charToValue;
@@ -76,12 +76,12 @@ public class Base85Decoder
         return result.ToArray();
     }
 
-    public string BytesToBitStream(byte[] data)
+    public string BytesToBitStreamString(byte[] data)
     {
         return string.Concat(data.Select(b => Convert.ToString(b, 2).PadLeft(8, '0')));
     }
 
-    public string DecodeToBitstream(string serial)
+    public byte[] DecodeToBitStream(string serial)
     {
         // 步骤1: 去除前导@U
         string stripped = StripLeadingU(serial);
@@ -92,12 +92,16 @@ public class Base85Decoder
         // 步骤3: 镜像字节
         byte[] mirrored = MirrorBytes(bytesData);
 
-        // 步骤4: 生成比特流并返回
-        return BytesToBitStream(mirrored);
+        return mirrored;
+    }
+
+    public string DecodeToBitStreamString(string serial)
+    {
+        return BytesToBitStreamString(DecodeToBitStream(serial));
     }
 
     // 可选：带调试信息的版本
-    public string DecodeToBitstreamWithDebug(string serial)
+    public string DecodeToBitStreamWithDebug(string serial)
     {
         // 步骤1: 去除前导@U
         string stripped = StripLeadingU(serial);
@@ -114,7 +118,7 @@ public class Base85Decoder
         Console.WriteLine($"3. 镜像字节: {mirroredHex}");
 
         // 步骤4: 生成比特流
-        string bitstream = BytesToBitStream(mirrored);
+        string bitstream = BytesToBitStreamString(mirrored);
         Console.WriteLine($"4. 比特流: {bitstream}");
 
         return bitstream;
