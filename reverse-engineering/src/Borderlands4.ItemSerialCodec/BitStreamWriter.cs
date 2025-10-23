@@ -2,13 +2,15 @@
 
 public class BitStreamWriter
 {
-    private List<byte> _data;
+    private readonly List<byte> _data;
     private int _currentByte;
     private int _bitPosition;
 
+    private BitStreamWriter? _tempWriter = null;
+
     public BitStreamWriter()
     {
-        _data = new List<byte>();
+        _data = [];
         _currentByte = 0;
         _bitPosition = 0;
     }
@@ -33,7 +35,29 @@ public class BitStreamWriter
         }
     }
 
-    public void WriteVarint16(uint value)
+    public void WriteNumber(uint value)
+    {
+        if(_tempWriter is null)
+        {
+            _tempWriter = new BitStreamWriter();
+        }
+
+        var intLen = _tempWriter.WriteVarint16(value);
+        var bitLen = _tempWriter.WriteVarbit32(value);
+
+        if(intLen > bitLen)
+        {
+            WriteBits(0x06, 3); // 110 - varbit32 标记
+            _ = WriteVarbit32(value);
+        }
+        else
+        {
+            WriteBits(0x04, 3); // 100 - varint16 标记
+            _ = WriteVarint16(value);
+        }
+    }
+
+    public int WriteVarint16(uint value)
     {
         if (value > 0xFFFF)
             throw new ArgumentException("varint16 can only encode values up to 65535");
@@ -57,15 +81,17 @@ public class BitStreamWriter
         {
             WriteBits(ReverseBits(chunk, 5), 5);
         }
+
+        return chunks.Count * 5;
     }
 
-    public void WriteVarbit32(uint value)
+    public int WriteVarbit32(uint value)
     {
         if (value == 0)
         {
             // 长度为0
             WriteBits(ReverseBits(0, 5), 5);
-            return;
+            return 5;
         }
 
         // 计算需要的比特数
@@ -76,6 +102,8 @@ public class BitStreamWriter
 
         // 写入payload（反转）
         WriteBits(ReverseBits(value, bitCount), bitCount);
+
+        return 5 + bitCount;
     }
 
     public byte[] ToByteArray()

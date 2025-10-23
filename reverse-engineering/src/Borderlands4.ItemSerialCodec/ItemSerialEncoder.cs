@@ -36,7 +36,7 @@ public class ItemSerialEncoder
         var fragments = new List<List<object>>();
 
         // 分割片段
-        string[] fragmentStrings = formattedData.Trim().Replace("}", "},").Split('|')
+        string[] fragmentStrings = formattedData.Trim().Trim('|').Replace("}", "},").Split('|')
             //.Where(s => !string.IsNullOrWhiteSpace(s))
             .ToArray();
 
@@ -117,17 +117,7 @@ public class ItemSerialEncoder
                 if (item is uint number)
                 {
                     // 普通数值 - 通常使用 varint16 编码（最大值为0xFFFF）
-                    // 注意：第一个数值特殊（它的最大值仅有0xFF），其他值是否存在类似情况未知！！！
-                    if (i == 0 && j == 0 && number> 0xFF)
-                    {
-                        writer.WriteBits(0x06, 3); // 110 - varbit32 标记
-                        writer.WriteVarbit32(number);
-                    }
-                    else
-                    {
-                        writer.WriteBits(0x04, 3); // 100 - varint16 标记
-                        writer.WriteVarint16(number);
-                    }
+                    writer.WriteNumber(number);
 
                     // 片段内分隔符
                     if (!isLastInFragment)
@@ -162,16 +152,7 @@ public class ItemSerialEncoder
                     // 编码数组元素
                     for (int k = 0; k < array.Values.Length; k++)
                     {
-                        if(array.Values[k] > 0xFF)
-                        {
-                            writer.WriteBits(0x06, 3); // 110 - varbit32 标记
-                            writer.WriteVarbit32(array.Values[k]);
-                        }
-                        else
-                        {
-                            writer.WriteBits(0x04, 3); // 100 - varint16 标记
-                            writer.WriteVarint16(array.Values[k]);
-                        }
+                        writer.WriteNumber(array.Values[k]);
                     }
 
                     writer.WriteBits(0x00, 2); // 00 - 数组结束标记
