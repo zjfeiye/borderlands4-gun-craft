@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deserializer", "Deserialize
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Borderlands4.ItemSerialCodec", "Borderlands4.ItemSerialCodec\Borderlands4.ItemSerialCodec.csproj", "{870F9999-0E62-8F0A-BC37-24B3F9621AA7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Borderlands4.ItemSerialCodec.WinApp", "Borderlands4.ItemSerialCodec.WinApp\Borderlands4.ItemSerialCodec.WinApp.csproj", "{36B4A478-4F12-40DB-A4E9-591C684DFA10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{870F9999-0E62-8F0A-BC37-24B3F9621AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{870F9999-0E62-8F0A-BC37-24B3F9621AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{870F9999-0E62-8F0A-BC37-24B3F9621AA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36B4A478-4F12-40DB-A4E9-591C684DFA10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B4A478-4F12-40DB-A4E9-591C684DFA10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B4A478-4F12-40DB-A4E9-591C684DFA10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B4A478-4F12-40DB-A4E9-591C684DFA10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

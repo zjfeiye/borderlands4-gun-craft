@@ -65,7 +65,7 @@ class Program
             try
             {
                 // 步骤1: 解码原始序列号获取格式化数据
-                string bitstream = base85Decoder.DecodeToBitstream(testCase.Serial);
+                string bitstream = base85Decoder.DecodeToBitStreamString(testCase.Serial);
                 var decodedResults = decoder.DecodeBitstream(bitstream);
                 string decodedString = decoder.FormatResults(decodedResults);
 
@@ -76,7 +76,7 @@ class Program
                 Console.WriteLine($"编码结果: {encodedSerial}");
 
                 // 步骤3: 再次解码编码后的序列号验证一致性
-                string encodedBitstream = base85Decoder.DecodeToBitstream(encodedSerial);
+                string encodedBitstream = base85Decoder.DecodeToBitStreamString(encodedSerial);
                 var redecodedResults = decoder.DecodeBitstream(encodedBitstream);
                 string redecodedString = decoder.FormatResults(redecodedResults);
 
@@ -148,7 +148,7 @@ class Program
 
         // 验证解码
         Base85Decoder decoder = new Base85Decoder();
-        string bitstream = decoder.DecodeToBitstream("@U" + encoded);
+        string bitstream = decoder.DecodeToBitStreamString("@U" + encoded);
         Console.WriteLine($"解码验证: {bitstream.Length} 位比特流");
 
         Console.WriteLine();
@@ -273,7 +273,7 @@ class Program
             try
             {
                 // Base85解码为bitstream
-                string bitstream = base85Decoder.DecodeToBitstream(testCase.Serial);
+                string bitstream = base85Decoder.DecodeToBitStreamString(testCase.Serial);
 
                 // 物品代码解码
                 List<List<object>> results = itemDecoder.DecodeBitstream(bitstream, debug: true);
@@ -384,7 +384,7 @@ class Program
                 Console.WriteLine($"  去除前导: {(stripped == testCase.ExpectedStripped ? "√" : "×")} {stripped}");
 
                 // 测试完整解码流程
-                string bitstream = decoder.DecodeToBitstream(testCase.Serial);
+                string bitstream = decoder.DecodeToBitStreamString(testCase.Serial);
 
                 if (!string.IsNullOrEmpty(testCase.ExpectedBitstream))
                 {
@@ -421,7 +421,7 @@ class Program
         // 测试1: 空字符串
         try
         {
-            string result = decoder.DecodeToBitstream("");
+            string result = decoder.DecodeToBitStreamString("");
             Console.WriteLine($"空字符串测试: {(string.IsNullOrEmpty(result) ? "√ 通过" : "× 失败")}");
         }
         catch
@@ -432,7 +432,7 @@ class Program
         // 测试2: 只有@U
         try
         {
-            string result = decoder.DecodeToBitstream("@U");
+            string result = decoder.DecodeToBitStreamString("@U");
             Console.WriteLine($"只有@U测试: {(string.IsNullOrEmpty(result) ? "√ 通过" : "× 失败")}");
         }
         catch
@@ -443,7 +443,7 @@ class Program
         // 测试3: 无效字符（应该会抛出异常）
         try
         {
-            string result = decoder.DecodeToBitstream("@Uinvalid*chars");
+            string result = decoder.DecodeToBitStreamString("@Uinvalid*chars");
             Console.WriteLine($"无效字符测试: × 应该抛出异常但通过了");
         }
         catch (Exception ex)
@@ -453,7 +453,7 @@ class Program
 
         // 测试4: 带调试输出的版本
         Console.WriteLine("调试输出测试:");
-        string debugResult = decoder.DecodeToBitstreamWithDebug("@UgydOV%h><");
+        string debugResult = decoder.DecodeToBitStreamWithDebug("@UgydOV%h><");
         Console.WriteLine($"  调试版本输出: √ 完成 (比特流长度: {debugResult.Length})\n");
     }
 }
