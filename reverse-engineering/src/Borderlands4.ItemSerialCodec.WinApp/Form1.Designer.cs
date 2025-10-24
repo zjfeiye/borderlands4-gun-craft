@@ -42,6 +42,7 @@
             StatusTip = new Label();
             ItemSerialCutButton = new Button();
             ItemPartsCutButton = new Button();
+            GenerateYamlButton = new Button();
             SuspendLayout();
             // 
             // ItemSerialLabel
@@ -179,11 +180,22 @@
             ItemPartsCutButton.UseVisualStyleBackColor = true;
             ItemPartsCutButton.Click += ItemPartsCutButton_Click;
             // 
+            // GenerateYamlButton
+            // 
+            GenerateYamlButton.Location = new Point(397, 13);
+            GenerateYamlButton.Name = "GenerateYamlButton";
+            GenerateYamlButton.Size = new Size(100, 23);
+            GenerateYamlButton.TabIndex = 8;
+            GenerateYamlButton.Text = "YAML Snippet";
+            GenerateYamlButton.UseVisualStyleBackColor = true;
+            GenerateYamlButton.Click += GenerateYamlButton_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 561);
+            Controls.Add(GenerateYamlButton);
             Controls.Add(StatusTip);
             Controls.Add(ItemPartsPasteButton);
             Controls.Add(ItemSerialPasteButton);
@@ -221,5 +233,6 @@
         private Label StatusTip;
         private Button ItemSerialCutButton;
         private Button ItemPartsCutButton;
+        private Button GenerateYamlButton;
     }
 }

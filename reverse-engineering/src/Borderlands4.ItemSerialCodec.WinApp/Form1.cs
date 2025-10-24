@@ -1,3 +1,5 @@
+using System.ComponentModel.Design.Serialization;
+using System.Text;
 using System.Text.RegularExpressions;
 
 namespace Borderlands4.ItemSerialCodec.WinApp
@@ -8,8 +10,8 @@ namespace Borderlands4.ItemSerialCodec.WinApp
         private readonly ItemSerialDecoder _itemDecoder = new();
         private readonly ItemSerialEncoder _itemEncoder = new();
 
-        [GeneratedRegex(@"^[0-9A-Za-z!#\$%&\(\)\*\+\-;<=>\?@\^_`\{\}/~]+$", RegexOptions.Compiled)]
-        private static partial Regex Base85Regex { get; }
+        [GeneratedRegex(@"(@U[0-9A-Za-z!#\$%&\(\)\*\+\-;<=>\?@\^_`\{\}/~]+)", RegexOptions.Compiled)]
+        private static partial Regex SerialRegex { get; }
 
         private bool _encoding = false;
         private bool _decoding = false;
@@ -70,6 +72,7 @@ namespace Borderlands4.ItemSerialCodec.WinApp
 
         private void ItemSerial_TextChanged(object sender, EventArgs e)
         {
+            var input = ItemSerial.Text.Trim();
             if (_encoding)
             {
                 return;
@@ -80,32 +83,16 @@ namespace Borderlands4.ItemSerialCodec.WinApp
 
             try
             {
-                if (!string.IsNullOrEmpty(ItemSerial.Text.Trim()))
+                if (!string.IsNullOrEmpty(input))
                 {
-                    var serialCodes = ItemSerial.Text.Trim().Split('\r', '\n')
-                    .Select(o => o.Trim())
-                    .Where(o => !string.IsNullOrWhiteSpace(o));
+                    var serials = ExtractSerials(input);
 
-                    if (serialCodes.Any())
+                    if (serials.Length != 0)
                     {
                         ItemParts.Text = string.Empty;
 
-                        foreach (var serial in serialCodes)
+                        foreach (var serial in serials)
                         {
-                            if (!serial.StartsWith("@U"))
-                            {
-                                ItemParts.Text = string.Empty;
-                                ShowTip("序列号必须以 @U 开头！Serial must start with '@U'");
-                                return;
-                            }
-
-                            if (!Base85Regex.IsMatch(serial))
-                            {
-                                ItemParts.Text = string.Empty;
-                                ShowTip("无效的 Base85 格式！Invalid Base85 string");
-                                return;
-                            }
-
                             try
                             {
                                 // Base85解码为bitstream
@@ -137,7 +124,7 @@ namespace Borderlands4.ItemSerialCodec.WinApp
                     else
                     {
                         ItemParts.Text = string.Empty;
-                        ClearTip();
+                        ShowTip($"序列号无效 Invalid serial！");
                     }
                 }
                 else
@@ -218,6 +205,32 @@ namespace Borderlands4.ItemSerialCodec.WinApp
             }
         }
 
+        #region Encode & Decode
+
+        private static string[] ExtractSerials(string inputData)
+        {
+            var serials = new List<string>();
+
+            if (string.IsNullOrWhiteSpace(inputData))
+                return [.. serials];
+
+            var matches = SerialRegex.Matches(inputData);
+
+            foreach (Match match in matches)
+            {
+                if (match.Success && match.Groups.Count > 1)
+                {
+                    serials.Add(match.Groups[1].Value);
+                }
+            }
+
+            return [.. serials];
+        }
+
+        #endregion
+
+        #region Status Tip
+
         private void ShowTip(string message, string? tooltip = null)
         {
             StatusTip.Text = message;
@@ -242,6 +255,42 @@ namespace Borderlands4.ItemSerialCodec.WinApp
                 {
                     MessageBox.Show(StatusTip.Text);
                 }
+            }
+        }
+
+        #endregion
+
+        private readonly SlotSequenceInputDialog _slotSequenceDialog = new();
+        private readonly string _yamlSlotTemplate = @"
+        slot_{0}: 
+          serial: '{1}'
+          state_flags: {2}";
+
+        private void GenerateYamlButton_Click(object sender, EventArgs e)
+        {
+            var input = ItemSerial.Text.Trim();
+            var serials = ExtractSerials(input);
+
+            if (serials.Length > 0)
+            {
+                if (_slotSequenceDialog.ShowDialog() == DialogResult.OK)
+                {
+                    var seq = _slotSequenceDialog.SequenceNumber;
+                    var sb = new StringBuilder();
+                    sb.AppendLine();
+
+                    foreach (var serial in serials)
+                    {
+                        sb.AppendLine(string.Format(_yamlSlotTemplate, seq++, serial, 1).Trim('\r', '\n'));
+                    }
+
+                    var result = sb.ToString().TrimEnd('\r', '\n');
+                    Clipboard.SetText(result);
+                }
+            }
+            else
+            {
+                MessageBox.Show("未找到有效的物品序列号 - No valid item serials found.");
             }
         }
     }
