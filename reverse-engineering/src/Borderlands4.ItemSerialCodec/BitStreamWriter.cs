@@ -1,12 +1,12 @@
-﻿namespace Borderlands4.ItemSerialCodec;
+﻿using System.Runtime.CompilerServices;
+
+namespace Borderlands4.ItemSerialCodec;
 
 public class BitStreamWriter
 {
     private readonly List<byte> _data;
     private int _currentByte;
     private int _bitPosition;
-
-    private BitStreamWriter? _tempWriter = null;
 
     public BitStreamWriter()
     {
@@ -15,14 +15,18 @@ public class BitStreamWriter
         _bitPosition = 0;
     }
 
+    public int Position => _bitPosition;
+
     public void WriteBits(uint value, int numBits)
     {
         if (numBits < 0 || numBits > 32)
-            throw new ArgumentException("numBits must be between 0 and 32");
-
-        for (int i = numBits - 1; i >= 0; i--)
         {
-            uint bit = value >> i & 1;
+            throw new ArgumentException("numBits must be between 0 and 32.");
+        }
+
+        for (var i = numBits - 1; i >= 0; i--)
+        {
+            var bit = value >> i & 1;
             _currentByte = _currentByte << 1 | (int)bit;
             _bitPosition++;
 
@@ -35,63 +39,58 @@ public class BitStreamWriter
         }
     }
 
-    public void WriteNumber(uint value)
+    public void WriteCompactNumber(uint value)
     {
-        if(_tempWriter is null)
-        {
-            _tempWriter = new BitStreamWriter();
-        }
+        var varint16Len = CalculateVarint16Bits(value);
+        var varbit32Len = CalculateVarbit32Bits(value);
 
-        var intLen = _tempWriter.WriteVarint16(value);
-        var bitLen = _tempWriter.WriteVarbit32(value);
-
-        if(intLen > bitLen)
+        if (varint16Len > varbit32Len)
         {
             WriteBits(0x06, 3); // 110 - varbit32 标记
-            _ = WriteVarbit32(value);
+            WriteVarbit32(value);
         }
         else
         {
             WriteBits(0x04, 3); // 100 - varint16 标记
-            _ = WriteVarint16(value);
+            WriteVarint16(value);
         }
     }
 
-    public int WriteVarint16(uint value)
+    public void WriteVarint16(uint value)
     {
         if (value > 0xFFFF)
+        {
             throw new ArgumentException("varint16 can only encode values up to 65535");
+        }
 
         var chunks = new List<uint>();
 
         do
         {
-            uint chunkValue = value & 0x0F; // 取低4位
+            var chunkValue = value & 0x0F; // 取低4位
             value >>= 4;
 
-            bool hasMore = value > 0;
-            uint chunk = chunkValue | (hasMore ? 0x10u : 0x00u); // 设置延续标记
+            var hasMore = value > 0;
+            var chunk = chunkValue | (hasMore ? 0x10u : 0x00u); // 设置延续标记
 
             chunks.Add(chunk);
         }
         while (value > 0 && chunks.Count < 4); // 最多4个块
 
         // 写入块（注意：需要反转比特顺序）
-        foreach (uint chunk in chunks)
+        foreach (var chunk in chunks)
         {
             WriteBits(ReverseBits(chunk, 5), 5);
         }
-
-        return chunks.Count * 5;
     }
 
-    public int WriteVarbit32(uint value)
+    public void WriteVarbit32(uint value)
     {
         if (value == 0)
         {
             // 长度为0
             WriteBits(ReverseBits(0, 5), 5);
-            return 5;
+            return;
         }
 
         // 计算需要的比特数
@@ -102,8 +101,6 @@ public class BitStreamWriter
 
         // 写入payload（反转）
         WriteBits(ReverseBits(value, bitCount), bitCount);
-
-        return 5 + bitCount;
     }
 
     public byte[] ToByteArray()
@@ -115,13 +112,48 @@ public class BitStreamWriter
             _data.Add((byte)_currentByte);
         }
 
-        return _data.ToArray();
+        return [.. _data];
     }
 
-    private uint ReverseBits(uint value, int bitCount)
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    private static int CalculateVarint16Bits(uint value)
     {
-        uint result = 0;
-        for (int i = 0; i < bitCount; i++)
+        // Varint16：每5比特一个块，其中最高位表示是否继续，所以每个块有4个数据比特。
+        // 对于16位整数，最多需要4个块（因为4*4=16比特）
+        if (value == 0)
+        {
+            return 5; // 一个块（5比特）
+        }
+        var bitsNeeded = 0;
+        while (value > 0)
+        {
+            bitsNeeded += 5;
+            value >>= 4;
+        }
+
+        return bitsNeeded;
+    }
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    private static int CalculateVarbit32Bits(uint value)
+    {
+        // Varbit32：5比特的长度前缀 + 实际数据比特数
+        if (value == 0)
+        {
+            return 5; // 长度前缀为0，然后没有数据比特？但我们的ReadVarbit32中，长度为0则返回0，所以这里应该是5比特（只是长度前缀）
+        }
+
+        // 计算表示该值所需的比特数
+        var dataBits = 32 - LeadingZeroCount(value);
+
+        return 5 + dataBits;
+    }
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    private static uint ReverseBits(uint value, int bitCount)
+    {
+        var result = 0u;
+        for (var i = 0; i < bitCount; i++)
         {
             result = result << 1 | value & 1;
             value >>= 1;
@@ -129,16 +161,21 @@ public class BitStreamWriter
         return result;
     }
 
-    private int LeadingZeroCount(uint value)
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    private static int LeadingZeroCount(uint value)
     {
-        if (value == 0) return 32;
+        if (value == 0)
+        {
+            return 32;
+        }
 
-        int count = 0;
+        var count = 0;
         while ((value & 0x80000000) == 0)
         {
             count++;
             value <<= 1;
         }
+
         return count;
     }
 }

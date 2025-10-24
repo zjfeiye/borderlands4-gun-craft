@@ -1,183 +1,159 @@
-﻿namespace Borderlands4.ItemSerialCodec;
+﻿using Borderlands4.ItemSerialCodec.Parts;
+
+namespace Borderlands4.ItemSerialCodec;
 
 public class ItemSerialEncoder
 {
-    private readonly Base85Encoder _base85Encoder;
+    private readonly Base85 _base85 = new();
 
-    public ItemSerialEncoder()
-    {
-        _base85Encoder = new Base85Encoder();
-    }
-
-    public string EncodeToSerial(string formattedData)
+    public string EncodeToSerial(string partsStr)
     {
         // 解析格式化数据
-        var fragments = ParseFormattedData(formattedData);
+        var segments = ParsePartsString(partsStr);
+
+        var writer = new BitStreamWriter();
 
         // 生成比特流
-        var writer = new BitStreamWriter();
-        GenerateBitstream(writer, fragments);
+        BuildBitStream(writer, segments);
 
         // 获取字节数组
-        byte[] data = writer.ToByteArray();
+        var data = writer.ToByteArray();
 
-        // 镜像字节
-        byte[] mirroredData = _base85Encoder.MirrorBytes(data);
+        // 编码
+        var serial = _base85.EncodeToSerial(data);
 
-        // Base85 编码
-        string base85String = _base85Encoder.Encode(mirroredData);
-
-        // 添加前导 @U
-        return "@U" + base85String;
+        return serial;
     }
 
-    public List<List<object>> ParseFormattedData(string formattedData)
+    public List<List<object>> ParsePartsString(string partsStr)
     {
-        var fragments = new List<List<object>>();
+        var segments = new List<List<object>>();
 
         // 分割片段
-        string[] fragmentStrings = formattedData.Trim().Trim('|').Replace("}", "},").Split('|')
-            //.Where(s => !string.IsNullOrWhiteSpace(s))
-            .ToArray();
+        var segmentStrings = partsStr.Trim().Trim('|', ' ').Split('|').ToArray();
 
-        foreach (string fragmentString in fragmentStrings)
+        foreach (string segmentString in segmentStrings)
         {
-            var fragment = new List<object>();
-            string[] items = fragmentString.Trim().TrimEnd(',').Split(',')
-                .Select(s => s.Trim())
-                .Where(s => !string.IsNullOrWhiteSpace(s))
+            var seggment = new List<object>();
+            var items = segmentString.Trim().Replace("}", "},").TrimEnd(',').Split(',', StringSplitOptions.RemoveEmptyEntries)
+                .Select(s => s.Trim()).Where(s => !string.IsNullOrWhiteSpace(s))
                 .ToArray();
 
-            foreach (string item in items)
+            foreach (var item in items)
             {
                 if (item.StartsWith('{') && item.EndsWith('}'))
                 {
                     // 配件数据
-                    string attachmentContent = item.Substring(1, item.Length - 2);
+                    var partContent = item[1..^1];
 
-                    if (attachmentContent.Contains(":["))
+                    if (partContent.Contains(":["))
                     {
-                        // 数组配件 {type:[values]}
-                        int colonIndex = attachmentContent.IndexOf(":[");
-                        uint type = uint.Parse(attachmentContent[..colonIndex]);
-                        string arrayContent = attachmentContent.Substring(colonIndex + 2, attachmentContent.Length - colonIndex - 3);
-                        uint[] values = arrayContent.Split(' ')
+                        // 数组格式 {type:[values]}
+                        var colonIndex = partContent.IndexOf(":[");
+                        var type = uint.Parse(partContent[..colonIndex]);
+                        var arrayContent = partContent.Substring(colonIndex + 2, partContent.Length - colonIndex - 3);
+                        var values = arrayContent.Split(' ', StringSplitOptions.RemoveEmptyEntries)
                             .Where(s => !string.IsNullOrWhiteSpace(s))
                             .Select(uint.Parse)
                             .ToArray();
-                        fragment.Add(new ArrayPart { Type = type, Values = values });
+                        seggment.Add(new ArrayValue { Type = type, Values = values });
                     }
-                    else if (attachmentContent.Contains(':'))
+                    else if (partContent.Contains(':'))
                     {
-                        // 对象配件 {type:value}
-                        string[] parts = attachmentContent.Split(':');
-                        uint type = uint.Parse(parts[0]);
-                        uint value = uint.Parse(parts[1]);
-                        fragment.Add(new ObjectPart { Type = type, Value = value });
+                        // 复合 {type:value}
+                        var parts = partContent.Split(':', StringSplitOptions.RemoveEmptyEntries);
+                        var type = uint.Parse(parts[0]);
+                        var value = uint.Parse(parts[1]);
+                        seggment.Add(new ComplexValue { Type = type, Value = value });
                     }
                     else
                     {
-                        // 单个值配件 {type}
-                        uint type = uint.Parse(attachmentContent);
-                        fragment.Add(new SinglePart { Type = type });
+                        // 简单格式 {type}
+                        var type = uint.Parse(partContent);
+                        seggment.Add(new SimpleValue { Type = type });
                     }
                 }
                 else
                 {
                     // 普通数值
-                    fragment.Add(uint.Parse(item));
+                    seggment.Add(uint.Parse(item));
                 }
             }
 
-            fragments.Add(fragment);
+            segments.Add(seggment);
         }
 
-        return fragments;
+        return segments;
     }
 
-    private void GenerateBitstream(BitStreamWriter writer, List<List<object>> fragments)
+    private void BuildBitStream(BitStreamWriter writer, List<List<object>> segments)
     {
         // 起始标志
-        writer.WriteBits(0x04, 5); // 00100
+        writer.WriteBits(CONSTS.ITEM_DATA_HEADER_MARKER, 5); // 00100
 
         // 起始标志后的分隔符
-        writer.WriteBits(0x00, 2); // 00
+        writer.WriteBits(CONSTS.TOKEN_SEGMENT_START_MARKER, 2); // 00
 
         // 编码每个片段
-        for (int i = 0; i < fragments.Count; i++)
+        for (var i = 0; i < segments.Count; i++)
         {
-            var fragment = fragments[i];
+            var segment = segments[i];
 
             // 编码片段内的数据
-            for (int j = 0; j < fragment.Count; j++)
+            for (var j = 0; j < segment.Count; j++)
             {
-                var item = fragment[j];
-                bool isLastInFragment = j == fragment.Count - 1;
+                var item = segment[j];
+                var isLastInSegment = j == segment.Count - 1;
 
                 if (item is uint number)
                 {
                     // 普通数值 - 通常使用 varint16 编码（最大值为0xFFFF）
-                    writer.WriteNumber(number);
+                    writer.WriteCompactNumber(number); //采用自动检测最终比特长度，使用更短的方式写入
 
                     // 片段内分隔符
-                    if (!isLastInFragment)
+                    if (!isLastInSegment)
                     {
-                        writer.WriteBits(0x01u, 2);
+                        writer.WriteBits(CONSTS.TOKEN_INTRA_SEGMENT_SEPARATOR, 2);
                     }
                 }
-                else if (item is SinglePart single)
+                else if (item is SimpleValue single)
                 {
-                    // 单个值配件
-                    writer.WriteBits(0x05, 3); // 101 - 配件标记
+                    // 简单格式
+                    writer.WriteBits(CONSTS.TOKEN_PART_START_MARKER, 3); // 101 - 配件标记
                     writer.WriteVarint16(single.Type);
-                    writer.WriteBits(0x02, 3); // 010 - 单个值格式
+                    writer.WriteBits(CONSTS.TOKEN_PART_END_MARKER, 3); // 010 - 单个值格式
                 }
-                else if (item is ObjectPart obj)
+                else if (item is ComplexValue complex)
                 {
-                    // 对象值配件
-                    writer.WriteBits(0x05, 3); // 101 - 配件标记
-                    writer.WriteVarint16(obj.Type);
-                    writer.WriteBits(0x01, 1); // 1 - 对象格式标记
-                    writer.WriteVarint16(obj.Value);
-                    writer.WriteBits(0x00, 3); // 000 - 对象结束标记
+                    // 复合格式
+                    writer.WriteBits(CONSTS.TOKEN_PART_START_MARKER, 3); // 101 - 配件标记
+                    writer.WriteVarint16(complex.Type);
+                    writer.WriteBits(CONSTS.TOKEN_PART_COMPLEX_FORMAT_FLAG, 1); // 1 - 对象格式标记
+                    writer.WriteVarint16(complex.Value);
+                    writer.WriteBits(CONSTS.TOKEN_PART_COMPLEX_VALUE_END_MARKER, 3); // 000 - 对象结束标记
                 }
-                else if (item is ArrayPart array)
+                else if (item is ArrayValue array)
                 {
-                    // 数组配件
-                    writer.WriteBits(0x05, 3); // 101 - 配件标记
+                    // 数组格式
+                    writer.WriteBits(CONSTS.TOKEN_PART_START_MARKER, 3); // 101 - 配件标记
                     writer.WriteVarint16(array.Type);
-                    writer.WriteBits(0x01, 3); // 001 - 数组开始标记
-                    writer.WriteBits(0x01, 2); // 01 - 数组开始
+                    writer.WriteBits(CONSTS.TOKEN_PART_ARRAY_VALUE_FLAG, 3); // 001 - 数组类型标记
+                    writer.WriteBits(CONSTS.TOKEN_PART_ARRAY_VALUE_START_MARKER, 2); // 01 - 数组开始
 
                     // 编码数组元素
-                    for (int k = 0; k < array.Values.Length; k++)
+                    for (var k = 0; k < array.Values.Length; k++)
                     {
-                        writer.WriteNumber(array.Values[k]);
+                        writer.WriteCompactNumber(array.Values[k]);
                     }
 
-                    writer.WriteBits(0x00, 2); // 00 - 数组结束标记
+                    writer.WriteBits(CONSTS.TOKEN_PART_ARRAY_VALUE_END_MARKER, 2); // 00 - 数组结束标记
                 }
             }
 
-            writer.WriteBits(0x00, 2); // 00 - 片段结束标记
+            writer.WriteBits(CONSTS.TOKEN_SEGMENT_END_MARKER, 2); // 00 - 片段结束标记
         }
     }
 }
 
-// 配件数据类型
-public class SinglePart
-{
-    public uint Type { get; set; }
-}
 
-public class ObjectPart
-{
-    public uint Type { get; set; }
-    public uint Value { get; set; }
-}
 
-public class ArrayPart
-{
-    public uint Type { get; set; }
-    public uint[] Values { get; set; }
-}

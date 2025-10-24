@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeserializerDemo", "Deserializer\DeserializerDemo.csproj", "{BE549D40-47D6-46EC-B53E-A1B661083E9E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Borderlands4.ItemSerialCodec", "Borderlands4.ItemSerialCodec\Borderlands4.ItemSerialCodec.csproj", "{870F9999-0E62-8F0A-BC37-24B3F9621AA7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Borderlands4.ItemSerialCodec.WinApp", "Borderlands4.ItemSerialCodec.WinApp\Borderlands4.ItemSerialCodec.WinApp.csproj", "{36B4A478-4F12-40DB-A4E9-591C684DFA10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeserializerTests", "DeserializerTests\DeserializerTests.csproj", "{CAA51412-EB5A-44E1-BB2C-2A864250EA59}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemSerialCodec.MSTests", "ItemSerialCodec.MSTests\ItemSerialCodec.MSTests.csproj", "{4350EB77-E753-4156-8253-329319AEA6BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemSerialCodec.ConsoleTests", "ItemSerialCodec.ConsoleTests\ItemSerialCodec.ConsoleTests.csproj", "{3F979C14-9DB9-4DD1-BD20-5EA6D19B116B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BE549D40-47D6-46EC-B53E-A1B661083E9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BE549D40-47D6-46EC-B53E-A1B661083E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BE549D40-47D6-46EC-B53E-A1B661083E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BE549D40-47D6-46EC-B53E-A1B661083E9E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{870F9999-0E62-8F0A-BC37-24B3F9621AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{870F9999-0E62-8F0A-BC37-24B3F9621AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{870F9999-0E62-8F0A-BC37-24B3F9621AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -29,10 +25,14 @@ Global
 		{36B4A478-4F12-40DB-A4E9-591C684DFA10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36B4A478-4F12-40DB-A4E9-591C684DFA10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36B4A478-4F12-40DB-A4E9-591C684DFA10}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CAA51412-EB5A-44E1-BB2C-2A864250EA59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CAA51412-EB5A-44E1-BB2C-2A864250EA59}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CAA51412-EB5A-44E1-BB2C-2A864250EA59}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CAA51412-EB5A-44E1-BB2C-2A864250EA59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4350EB77-E753-4156-8253-329319AEA6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4350EB77-E753-4156-8253-329319AEA6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4350EB77-E753-4156-8253-329319AEA6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4350EB77-E753-4156-8253-329319AEA6BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F979C14-9DB9-4DD1-BD20-5EA6D19B116B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F979C14-9DB9-4DD1-BD20-5EA6D19B116B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F979C14-9DB9-4DD1-BD20-5EA6D19B116B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F979C14-9DB9-4DD1-BD20-5EA6D19B116B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

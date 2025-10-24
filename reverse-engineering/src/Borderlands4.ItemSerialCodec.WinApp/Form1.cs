@@ -98,12 +98,12 @@ namespace Borderlands4.ItemSerialCodec.WinApp
                                 // Base85解码为bitstream
                                 var bitstream = _base85Decoder.DecodeToBitStream(serial);
                                 // 物品代码解码
-                                var results = _itemDecoder.DecodeBitstream(bitstream, debug: false);
+                                var results = _itemDecoder.Decode(bitstream, debug: false);
 
                                 if (results.SelectMany(o => o).Any())
                                 {
                                     // 格式化输出
-                                    ItemParts.Text += _itemDecoder.FormatResults(results) + Environment.NewLine;
+                                    ItemParts.Text += ItemSerialDecoder.FormatResults(results) + Environment.NewLine;
                                     ClearTip();
                                 }
                                 else
