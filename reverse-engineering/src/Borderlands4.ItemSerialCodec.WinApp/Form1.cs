@@ -6,7 +6,6 @@ namespace Borderlands4.ItemSerialCodec.WinApp
 {
     public partial class Form1 : Form
     {
-        private readonly Base85Decoder _base85Decoder = new();
         private readonly ItemSerialDecoder _itemDecoder = new();
         private readonly ItemSerialEncoder _itemEncoder = new();
 
@@ -95,15 +94,13 @@ namespace Borderlands4.ItemSerialCodec.WinApp
                         {
                             try
                             {
-                                // Base85解码为bitstream
-                                var bitstream = _base85Decoder.DecodeToBitStream(serial);
                                 // 物品代码解码
-                                var results = _itemDecoder.Decode(bitstream, debug: false);
+                                var results = _itemDecoder.DecodeAsString(serial, debug: false);
 
-                                if (results.SelectMany(o => o).Any())
+                                if (!string.IsNullOrWhiteSpace(results))
                                 {
                                     // 格式化输出
-                                    ItemParts.Text += ItemSerialDecoder.FormatResults(results) + Environment.NewLine;
+                                    ItemParts.Text += results + Environment.NewLine;
                                     ClearTip();
                                 }
                                 else
