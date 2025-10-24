@@ -1,4 +1,5 @@
-﻿using Borderlands4.ItemSerialCodec.Parts;
+﻿using Borderlands4.ItemSerialCodec.Extensions;
+using Borderlands4.ItemSerialCodec.Parts;
 
 namespace Borderlands4.ItemSerialCodec;
 
@@ -57,7 +58,7 @@ public class ItemSerialDecoder
                 }
 
                 // 解析当前片段
-                bool seggmentParsed = ParseSegment(reader, debug);
+                var seggmentParsed = ParseSegment(reader, debug);
 
                 // 将当前片段添加到结果中
                 _results.Add([.. _currentSegment]);
@@ -73,6 +74,11 @@ public class ItemSerialDecoder
                         _results.Add([]);
                         if (debug) Console.WriteLine("片段分隔符: 00");
                     }
+                }
+                else if(!seggmentParsed && reader.RemainingBits < 3)
+                {
+                    reader.SkipBits(reader.RemainingBits);
+                    if (debug) Console.WriteLine("未能读取剩余数据，解析结束");
                 }
             }
 
@@ -120,14 +126,14 @@ public class ItemSerialDecoder
                     else if (separator == CONSTS.TOKEN_SEGMENT_END_MARKER) // 00 = 0
                     {
                         if (debug) Console.WriteLine("片段结束标记: 00");
-                        return true;
+                        return hasData;
                     }
                     else
                     {
                         throw new InvalidOperationException($"unknown separator: {Convert.ToString(separator, 2).PadLeft(2, '0')}.");
                     }
                 }
-                return true;
+                continue;
             }
             else if (nextBits == CONSTS.TOKEN_PART_START_MARKER) // 101 = 5
             {
@@ -152,7 +158,7 @@ public class ItemSerialDecoder
                     else if (separator == 0x00) // 00 = 0
                     {
                         if (debug) Console.WriteLine("配件后片段结束");
-                        return true;
+                        return hasData;
                     }
                 }
                 continue;
@@ -162,20 +168,20 @@ public class ItemSerialDecoder
                 // 后续是皮肤或DLC数据，不做处理，忽略后续数据
                 reader.SkipBits(reader.RemainingBits);
                 if (debug) Console.WriteLine($"检测到意外标记：{Convert.ToString(nextBits, 2).PadLeft(3, '0')}，片段解析结束");
-                return true;
+                return hasData;
             }
-            else if (nextBits == 0x00 && hasData) // 00 = 0
+            else if (nextBits == 0x00) // 00 = 0
             {
                 // 片段分隔符，结束当前片段
                 if (debug) Console.WriteLine("检测到片段分隔符，结束当前片段");
-                return true;
+                return hasData;
             }
             else
             {
                 // 没有有效标记，可能结束
                 reader.SkipBits(reader.RemainingBits);
                 if (debug) Console.WriteLine($"无有效标记: {Convert.ToString(nextBits, 2).PadLeft(3, '0')}，片段解析结束");
-                return true;
+                return hasData;
             }
         }
 

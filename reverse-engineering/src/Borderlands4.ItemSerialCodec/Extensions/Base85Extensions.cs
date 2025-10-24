@@ -1,10 +1,8 @@
-﻿namespace Borderlands4.ItemSerialCodec;
+﻿namespace Borderlands4.ItemSerialCodec.Extensions;
 
 public static class Base85Extensions
 {
     private const string SERIAL_PREFIX = "@U";
-
-    #region private methods
 
     public static string StripLeadingU(this string serial)
     {
@@ -14,8 +12,6 @@ public static class Base85Extensions
         }
         return serial;
     }
-
-    #endregion
 
     public static byte[] DecodeSerial(this Base85 decoder, string serial, bool debug = false)
     {

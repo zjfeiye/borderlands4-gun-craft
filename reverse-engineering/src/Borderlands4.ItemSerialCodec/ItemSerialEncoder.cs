@@ -1,4 +1,5 @@
-﻿using Borderlands4.ItemSerialCodec.Parts;
+﻿using Borderlands4.ItemSerialCodec.Extensions;
+using Borderlands4.ItemSerialCodec.Parts;
 
 namespace Borderlands4.ItemSerialCodec;
 

@@ -1,4 +1,4 @@
-﻿namespace Borderlands4.ItemSerialCodec;
+﻿namespace Borderlands4.ItemSerialCodec.Extensions;
 
 public static class CommonExtensions
 {

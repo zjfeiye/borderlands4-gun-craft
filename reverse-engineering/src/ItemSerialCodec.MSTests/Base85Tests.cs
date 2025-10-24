@@ -1,4 +1,5 @@
 ﻿using Borderlands4.ItemSerialCodec;
+using Borderlands4.ItemSerialCodec.Extensions;
 
 namespace ItemSerialCodec.MSTests;
 
