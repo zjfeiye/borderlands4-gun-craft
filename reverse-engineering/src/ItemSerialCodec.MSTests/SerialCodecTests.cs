@@ -71,7 +71,7 @@ public sealed class SerialCodecTests
 
         foreach (var serial in samples)
         {
-            var partStr = decoder.DecodeAsString(serial, debug: false);
+            var partStr = decoder.DecodeAsPartsString(serial, debug: false);
             var reEncodedSerial = encoder.EncodeToSerial(partStr);
 
             Assert.AreEqual(serial, reEncodedSerial, true);

@@ -12,7 +12,7 @@ public class ItemSerialEncoder
         // 解析格式化数据
         var segments = ParsePartsString(partsStr);
 
-        var writer = new BitStreamWriter();
+        using var writer = new BitStreamWriter();
 
         // 生成比特流
         BuildBitStream(writer, segments);
@@ -26,7 +26,7 @@ public class ItemSerialEncoder
         return serial;
     }
 
-    public List<List<object>> ParsePartsString(string partsStr)
+    public static List<List<object>> ParsePartsString(string partsStr)
     {
         var segments = new List<List<object>>();
 
@@ -87,7 +87,7 @@ public class ItemSerialEncoder
         return segments;
     }
 
-    private void BuildBitStream(BitStreamWriter writer, List<List<object>> segments)
+    private static void BuildBitStream(BitStreamWriter writer, List<List<object>> segments)
     {
         // 起始标志
         writer.WriteBits(CONSTS.ITEM_DATA_HEADER_MARKER, 5); // 00100

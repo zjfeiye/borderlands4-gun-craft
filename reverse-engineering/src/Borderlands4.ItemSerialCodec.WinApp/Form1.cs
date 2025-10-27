@@ -104,7 +104,7 @@ namespace Borderlands4.ItemSerialCodec.WinApp
                             try
                             {
                                 // 物品代码解码
-                                var results = _itemDecoder.DecodeAsString(serial, debug: false);
+                                var results = _itemDecoder.DecodeAsPartsString(serial, debug: false);
 
                                 if (!string.IsNullOrWhiteSpace(results))
                                 {

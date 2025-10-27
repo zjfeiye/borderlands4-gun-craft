@@ -60,7 +60,7 @@ class Program
             try
             {
                 // 步骤1: 解码原始序列号获取格式化数据
-                var decodedString = decoder.DecodeAsString(testCase.Serial);
+                var decodedString = decoder.DecodeAsPartsString(testCase.Serial);
 
                 Console.WriteLine($"解码结果: {decodedString}");
 
@@ -69,7 +69,7 @@ class Program
                 Console.WriteLine($"编码结果: {encodedSerial}");
 
                 // 步骤3: 再次解码编码后的序列号验证一致性
-                var redecodedString = decoder.DecodeAsString(encodedSerial);
+                var redecodedString = decoder.DecodeAsPartsString(encodedSerial);
 
                 Console.WriteLine($"再次解码: {redecodedString}");
 
@@ -157,7 +157,7 @@ class Program
             try
             {
                 // 物品代码解码
-                string formattedResult = itemDecoder.DecodeAsString(testCase.Serial, debug: true);
+                string formattedResult = itemDecoder.DecodeAsPartsString(testCase.Serial, debug: true);
 
                 Console.WriteLine($"\n解码结果:");
                 Console.WriteLine($"  实际: {formattedResult}");

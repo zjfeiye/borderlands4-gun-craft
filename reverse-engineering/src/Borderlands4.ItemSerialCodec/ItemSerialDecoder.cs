@@ -19,11 +19,7 @@ public class ItemSerialDecoder
     public List<List<object>> Decode(byte[] bitStream, bool debug = false)
     {
         var reader = new BitStreamReader(bitStream);
-        return Decode(reader, debug);
-    }
 
-    public List<List<object>> Decode(BitStreamReader reader, bool debug = false)
-    {
         _results.Clear();
         _currentSegment = [];
 
@@ -45,7 +41,7 @@ public class ItemSerialDecoder
                 throw new InvalidOperationException($"error: expected 00 after start marker, but got {Convert.ToString(initialSeparator, 2).PadLeft(2, '0')}.");
             }
 
-            if (debug) Console.WriteLine($"起始标志后分隔符: {Convert.ToString(initialSeparator, 2).PadLeft(2, '0')}");
+            if (debug) Console.WriteLine($"起始标志后分隔符（片段开始标记）: {Convert.ToString(initialSeparator, 2).PadLeft(2, '0')}");
 
             // 开始解析片段
             while (reader.RemainingBits > 0)
@@ -64,21 +60,21 @@ public class ItemSerialDecoder
                 _results.Add([.. _currentSegment]);
                 _currentSegment.Clear();
 
-                // 如果不是最后一个片段，应该有片段分隔符00
+                // 如果不是最后一个片段，应该有新的片段开始标识符00
                 if (seggmentParsed && reader.RemainingBits >= 2 && !reader.IsRemainingAllZeros())
                 {
                     uint separator = reader.PeekBits(2);
-                    if (separator == 0x00) // 00 = 0
+                    if (separator == CONSTS.TOKEN_SEGMENT_START_MARKER) // 00 = 0
                     {
                         reader.SkipBits(2);
                         _results.Add([]);
-                        if (debug) Console.WriteLine("片段分隔符: 00");
+                        if (debug) Console.WriteLine("片段开始标记: 00");
                     }
                 }
-                else if(!seggmentParsed && reader.RemainingBits < 3)
+                else if (!seggmentParsed && reader.RemainingBits < 3)
                 {
                     reader.SkipBits(reader.RemainingBits);
-                    if (debug) Console.WriteLine("未能读取剩余数据，解析结束");
+                    if (debug) Console.WriteLine("无法读取剩余数据，终止解析");
                 }
             }
 
@@ -143,45 +139,33 @@ public class ItemSerialDecoder
 
                 if (debug) Console.WriteLine($"检测到配件数据标记: {nextBits}");
 
-                ParseParts(reader, debug);
+                ParsePartData(reader, debug);
                 hasData = true;
 
                 // 配件数据后可能有分隔符
                 if (reader.RemainingBits >= 2)
                 {
                     uint separator = reader.PeekBits(2);
-                    if (separator == 0x01) // 01 = 1
+                    if (separator == CONSTS.TOKEN_SEGMENT_END_MARKER) // 00 = 0
                     {
-                        reader.SkipBits(2);
-                        if (debug) Console.WriteLine("配件后分隔符: 01，继续读取");
-                        continue;
-                    }
-                    else if (separator == 0x00) // 00 = 0
-                    {
-                        if (debug) Console.WriteLine("配件后片段结束");
+                        if (debug) Console.WriteLine("片段结束标记: 00");
                         return hasData;
                     }
                 }
                 continue;
             }
-            else if (nextBits == 0x07) // 111 = 7
+            else if (nextBits == CONSTS.TOKEN_UNSUPPORTED) // 111 = 7
             {
                 // 后续是皮肤或DLC数据，不做处理，忽略后续数据
                 reader.SkipBits(reader.RemainingBits);
-                if (debug) Console.WriteLine($"检测到意外标记：{Convert.ToString(nextBits, 2).PadLeft(3, '0')}，片段解析结束");
-                return hasData;
-            }
-            else if (nextBits == 0x00) // 00 = 0
-            {
-                // 片段分隔符，结束当前片段
-                if (debug) Console.WriteLine("检测到片段分隔符，结束当前片段");
+                if (debug) Console.WriteLine($"检测到意外标记：{Convert.ToString(nextBits, 2).PadLeft(3, '0')}，终止片段解析");
                 return hasData;
             }
             else
             {
                 // 没有有效标记，可能结束
                 reader.SkipBits(reader.RemainingBits);
-                if (debug) Console.WriteLine($"无有效标记: {Convert.ToString(nextBits, 2).PadLeft(3, '0')}，片段解析结束");
+                if (debug) Console.WriteLine($"无有效标记: {Convert.ToString(nextBits, 2).PadLeft(3, '0')}，终止片段解析");
                 return hasData;
             }
         }
@@ -189,7 +173,7 @@ public class ItemSerialDecoder
         return hasData;
     }
 
-    private void ParseParts(BitStreamReader reader, bool debug = false)
+    private void ParsePartData(BitStreamReader reader, bool debug = false)
     {
         // 读取配件类型值
         var partType = reader.ReadVarint16();
@@ -220,7 +204,7 @@ public class ItemSerialDecoder
 
             if (debug) Console.WriteLine($"复合值: {{{partType}:{objValue}}}");
         }
-        else
+        else // 0
         {
             // 读取更多比特来确定格式
             var nextBits = reader.ReadBits(2);
@@ -304,17 +288,17 @@ public class ItemSerialDecoder
                 }
                 else
                 {
-                    throw new InvalidOperationException($"unknown array start marker:{Convert.ToString(arrayStart, 2).PadLeft(2, '0')}");
+                    throw new InvalidOperationException($"unknown array start marker: {Convert.ToString(arrayStart, 2).PadLeft(2, '0')}");
                 }
             }
             else
             {
-                throw new InvalidOperationException($"unknown part format:{Convert.ToString(combinedBits, 2).PadLeft(3, '0')}");
+                throw new InvalidOperationException($"unknown part format: {Convert.ToString(combinedBits, 2).PadLeft(3, '0')}");
             }
         }
     }
 
-    public string DecodeAsString(string serial, bool debug = false)
+    public string DecodeAsPartsString(string serial, bool debug = false)
     {
         var results = Decode(serial, debug);
 
@@ -345,6 +329,8 @@ public class ItemSerialDecoder
             formattedParts.Add(string.Join(", ", segmentParts));
         }
 
-        return string.Join("| ", formattedParts).Trim().Replace("| |", "||").Replace("},", "}").TrimEnd('|') + "|";
+        var result = string.Join("| ", formattedParts).Trim().Replace("| |", "||").Replace("},", "}").TrimEnd('|');
+
+        return string.IsNullOrEmpty(result) ? string.Empty : $"{result}|";
     }
 }

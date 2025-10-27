@@ -2,16 +2,10 @@
 
 namespace Borderlands4.ItemSerialCodec; 
 
-public class BitStreamReader
+public class BitStreamReader(byte[] data)
 {
-    private int _bitPosition;
-    private readonly byte[] _data;
-
-    public BitStreamReader(byte[] data)
-    {
-        _data = data;
-        _bitPosition = 0;
-    }
+    private readonly byte[] _data = data;
+    private int _bitPosition = 0;
 
     public int Position => _bitPosition;
     public int Length => _data.Length * 8;

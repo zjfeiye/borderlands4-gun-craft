@@ -18,6 +18,11 @@ public class CONSTS
     public const uint TOKEN_VARBIT32 = 0x06u; // 110 = 6
 
     /// <summary>
+    /// 不受支持的标识符（DLC物品和皮肤数据）。
+    /// </summary>
+    public const uint TOKEN_UNSUPPORTED = 0x07u; // 111 = 7
+
+    /// <summary>
     /// 片段内数据分割符（片段是指两个'00'之间的数据）。
     /// </summary>
     public const uint TOKEN_INTRA_SEGMENT_SEPARATOR = 0x01u; // 01 = 1

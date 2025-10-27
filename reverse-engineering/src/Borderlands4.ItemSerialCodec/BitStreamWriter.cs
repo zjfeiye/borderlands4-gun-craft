@@ -2,18 +2,13 @@
 
 namespace Borderlands4.ItemSerialCodec;
 
-public class BitStreamWriter
+public class BitStreamWriter : IDisposable
 {
-    private readonly List<byte> _data;
-    private int _currentByte;
-    private int _bitPosition;
+    private readonly MemoryStream _stream = new();
+    private int _currentByte = 0;
+    private int _bitPosition = 0;
 
-    public BitStreamWriter()
-    {
-        _data = [];
-        _currentByte = 0;
-        _bitPosition = 0;
-    }
+    private bool disposedValue;
 
     public int Position => _bitPosition;
 
@@ -32,7 +27,7 @@ public class BitStreamWriter
 
             if (_bitPosition == 8)
             {
-                _data.Add((byte)_currentByte);
+                _stream.WriteByte((byte)_currentByte);
                 _currentByte = 0;
                 _bitPosition = 0;
             }
@@ -46,12 +41,12 @@ public class BitStreamWriter
 
         if (varint16Len > varbit32Len)
         {
-            WriteBits(0x06, 3); // 110 - varbit32 标记
+            WriteBits(CONSTS.TOKEN_VARBIT32, 3); // 110 - varbit32 标记
             WriteVarbit32(value);
         }
         else
         {
-            WriteBits(0x04, 3); // 100 - varint16 标记
+            WriteBits(CONSTS.TOKEN_VARINT16, 3); // 100 - varint16 标记
             WriteVarint16(value);
         }
     }
@@ -109,10 +104,10 @@ public class BitStreamWriter
         if (_bitPosition > 0)
         {
             _currentByte <<= 8 - _bitPosition; // 左对齐
-            _data.Add((byte)_currentByte);
+            _stream.WriteByte((byte)_currentByte);
         }
 
-        return [.. _data];
+        return _stream.ToArray();
     }
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -177,5 +172,26 @@ public class BitStreamWriter
         }
 
         return count;
+    }
+
+    protected virtual void Dispose(bool disposing)
+    {
+        if (!disposedValue)
+        {
+            if (disposing)
+            {
+                _stream.Close();
+                _stream.Dispose();
+            }
+
+            disposedValue = true;
+        }
+    }
+
+    public void Dispose()
+    {
+        // 不要更改此代码。请将清理代码放入“Dispose(bool disposing)”方法中
+        Dispose(disposing: true);
+        GC.SuppressFinalize(this);
     }
 }
