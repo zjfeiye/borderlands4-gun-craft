@@ -84,10 +84,11 @@ public class ItemSerialDecoder
 
             return _results;
         }
-        catch (Exception e)
+        catch (Exception ex)
         {
-            if (debug) Console.WriteLine($"解码过程中出错: {e}");
+            if (debug) Console.WriteLine($"解码过程中出错: {ex}");
             return _results;
+            //throw new InvalidOperationException("序列号无效 Invalid serial！", ex);
         }
     }
 

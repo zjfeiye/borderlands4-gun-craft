@@ -12,6 +12,9 @@ namespace Borderlands4.ItemSerialCodec.WinApp
         [GeneratedRegex(@"(@U[0-9A-Za-z!#\$%&\(\)\*\+\-;<=>\?@\^_`\{\}/~]+)", RegexOptions.Compiled)]
         private static partial Regex SerialRegex { get; }
 
+        [GeneratedRegex(@"((\d+\s*(,\s*\d+)*\s*\|\s*){2,}\s*\|\s*(\{\s*\d+\s*(?:\s*:\s*(?:\d+|\[\s*\d+(?:\s+\d+)*\s*\]))?\s*\}\s*)+\s*(\|\s*)?)", RegexOptions.Compiled)]
+        private static partial Regex PartsCodeRegex { get; }
+
         private bool _encoding = false;
         private bool _decoding = false;
 
@@ -25,6 +28,8 @@ namespace Borderlands4.ItemSerialCodec.WinApp
             ClearTip();
         }
 
+        #region Copy & Paste & Cut
+
         private void ItemSerialPasteButton_Click(object sender, EventArgs e)
         {
             ItemSerial.Text = Clipboard.GetText();
@@ -34,7 +39,7 @@ namespace Borderlands4.ItemSerialCodec.WinApp
         {
             if (!string.IsNullOrEmpty(ItemSerial.Text))
             {
-                Clipboard.SetText(ItemSerial.Text);
+                Clipboard.SetText(ItemSerial.Text.Trim('\r', '\n'));
             }
         }
 
@@ -42,7 +47,7 @@ namespace Borderlands4.ItemSerialCodec.WinApp
         {
             if (!string.IsNullOrEmpty(ItemSerial.Text))
             {
-                Clipboard.SetText(ItemSerial.Text);
+                Clipboard.SetText(ItemSerial.Text.Trim('\r', '\n'));
                 ItemSerial.Text = string.Empty;
             }
         }
@@ -56,7 +61,7 @@ namespace Borderlands4.ItemSerialCodec.WinApp
         {
             if (!string.IsNullOrEmpty(ItemParts.Text))
             {
-                Clipboard.SetText(ItemParts.Text);
+                Clipboard.SetText(ItemParts.Text.Trim('\r', '\n'));
             }
         }
 
@@ -64,10 +69,14 @@ namespace Borderlands4.ItemSerialCodec.WinApp
         {
             if (!string.IsNullOrEmpty(ItemParts.Text))
             {
-                Clipboard.SetText(ItemParts.Text);
+                Clipboard.SetText(ItemParts.Text.Trim('\r', '\n'));
                 ItemParts.Text = string.Empty;
             }
         }
+
+        #endregion
+
+        #region Encode & Decode
 
         private void ItemSerial_TextChanged(object sender, EventArgs e)
         {
@@ -105,23 +114,21 @@ namespace Borderlands4.ItemSerialCodec.WinApp
                                 }
                                 else
                                 {
-                                    ItemParts.Text = string.Empty;
-                                    ShowTip($"序列号无效 Invalid serial！");
-                                    return;
+                                    ItemParts.Text += $"!!! INVALID SERIAL: {serial} !!!" + Environment.NewLine;
+                                    ShowTip($"物品序列号无效 Invalid serial！");
                                 }
                             }
                             catch (Exception ex)
                             {
-                                ItemParts.Text = string.Empty;
+                                ItemParts.Text += $"!!! INVALID SERIAL: {serial} !!!" + Environment.NewLine;
                                 ShowTip(ex.Message, ex.ToString());
-                                return;
                             }
                         }
                     }
                     else
                     {
                         ItemParts.Text = string.Empty;
-                        ShowTip($"序列号无效 Invalid serial！");
+                        ShowTip($"物品序列号无效 Invalid serial！");
                     }
                 }
                 else
@@ -139,6 +146,7 @@ namespace Borderlands4.ItemSerialCodec.WinApp
 
         private void ItemParts_TextChanged(object sender, EventArgs e)
         {
+            var input = ItemParts.Text.Trim();
             if (_decoding)
             {
                 return;
@@ -149,44 +157,41 @@ namespace Borderlands4.ItemSerialCodec.WinApp
 
             try
             {
-                if (!string.IsNullOrEmpty(ItemParts.Text.Trim()))
+                if (!string.IsNullOrEmpty(input))
                 {
-                    var partsCodes = ItemParts.Text.Trim().Split('\r', '\n')
-                    .Select(o => o.Trim())
-                    .Where(o => !string.IsNullOrWhiteSpace(o));
+                    var partsCodes = ExtractPartsString(input);
 
-                    if (partsCodes.Any())
+                    if (partsCodes.Length != 0)
                     {
                         ItemSerial.Text = string.Empty;
 
-                        foreach (var parts in partsCodes)
+                        foreach (var partsCode in partsCodes)
                         {
-                            if (!ItemPartsValidator.ValidateItemParts(parts))
+                            if (!ItemPartsValidator.ValidateItemParts(partsCode))
                             {
-                                ItemSerial.Text = string.Empty;
-                                ShowTip("无效的配件码格式！Invalid parts string");
+                                ItemSerial.Text += $"!!! INVALID PARTS STRING: {partsCode} !!!" + Environment.NewLine;
+                                ShowTip("物品配件码无效！Invalid parts string！");
                                 return;
                             }
 
                             try
                             {
-                                var encodedSerial = _itemEncoder.EncodeToSerial(parts);
+                                var encodedSerial = _itemEncoder.EncodeToSerial(partsCode);
 
                                 ItemSerial.Text += encodedSerial + Environment.NewLine;
                                 ClearTip();
                             }
                             catch (Exception ex)
                             {
-                                ItemSerial.Text = string.Empty;
+                                ItemSerial.Text += $"!!! INVALID PARTS STRING: {partsCode} !!!" + Environment.NewLine;
                                 ShowTip(ex.Message, ex.ToString());
-                                return;
                             }
                         }
                     }
                     else
                     {
                         ItemSerial.Text = string.Empty;
-                        ClearTip();
+                        ShowTip("物品配件码无效！Invalid parts string！");
                     }
                 }
                 else
@@ -202,14 +207,12 @@ namespace Borderlands4.ItemSerialCodec.WinApp
             }
         }
 
-        #region Encode & Decode
-
         private static string[] ExtractSerials(string inputData)
         {
             var serials = new List<string>();
 
             if (string.IsNullOrWhiteSpace(inputData))
-                return [.. serials];
+                return [];
 
             var matches = SerialRegex.Matches(inputData);
 
@@ -222,6 +225,38 @@ namespace Borderlands4.ItemSerialCodec.WinApp
             }
 
             return [.. serials];
+        }
+
+        private static string[] ExtractPartsString(string inputData)
+        {
+            var partsStrings = new List<string>();
+
+            if (string.IsNullOrWhiteSpace(inputData))
+                return [];
+
+            //foreach (var line in inputData.Split(['\r', '\n'], StringSplitOptions.RemoveEmptyEntries))
+            //{
+            //    var matches = PartsCodeRegex.Matches(line);
+            //    if (matches.Count > 0)
+            //    {
+            //        var match = matches[0];
+            //        if (match.Success && match.Groups.Count > 1)
+            //        {
+            //            partsStrings.Add(match.Groups[1].Value);
+            //        }
+            //    }
+            //}
+            var matches = PartsCodeRegex.Matches(inputData);
+
+            foreach (Match match in matches)
+            {
+                if (match.Success && match.Groups.Count > 1)
+                {
+                    partsStrings.Add(match.Groups[1].Value);
+                }
+            }
+
+            return [.. partsStrings];
         }
 
         #endregion
@@ -257,6 +292,8 @@ namespace Borderlands4.ItemSerialCodec.WinApp
 
         #endregion
 
+        #region YAML
+
         private readonly SlotSequenceInputDialog _slotSequenceDialog = new();
         private readonly string _yamlSlotTemplate = @"
         slot_{0}: 
@@ -290,5 +327,7 @@ namespace Borderlands4.ItemSerialCodec.WinApp
                 MessageBox.Show("未找到有效的物品序列号 - No valid item serials found.");
             }
         }
+
+        #endregion
     }
 }
