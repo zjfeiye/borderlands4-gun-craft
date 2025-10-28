@@ -20,7 +20,7 @@ public class CONSTS
     /// <summary>
     /// 不受支持的标识符（DLC物品和皮肤数据）。
     /// </summary>
-    public const uint TOKEN_UNSUPPORTED = 0x07u; // 111 = 7
+    public const uint TOKEN_STRING = 0x07u; // 111 = 7
 
     /// <summary>
     /// 片段内数据分割符（片段是指两个'00'之间的数据）。
@@ -38,9 +38,14 @@ public class CONSTS
     public const uint TOKEN_SEGMENT_END_MARKER = 0x00u; // 00 = 0
 
     /// <summary>
+    /// 片段分割符。
+    /// </summary>
+    public const uint TOKEN_SEGMENT_SEPARATOR = 0x00u; // 00 = 0
+
+    /// <summary>
     /// 配件数据头标志，它的数据总是以 Varint16 编码。
     /// </summary>
-    public const uint TOKEN_PART_START_MARKER = 0x05u; // 101 = 5
+    public const uint TOKEN_PART = 0x05u; // 101 = 5
 
     /// <summary>
     /// 配件数据结尾标志。

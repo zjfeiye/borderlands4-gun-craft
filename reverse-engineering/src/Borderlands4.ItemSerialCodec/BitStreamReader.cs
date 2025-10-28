@@ -1,6 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 
-namespace Borderlands4.ItemSerialCodec; 
+namespace Borderlands4.ItemSerialCodec;
 
 public class BitStreamReader(byte[] data)
 {
@@ -51,6 +51,17 @@ public class BitStreamReader(byte[] data)
         _bitPosition += numBits;
     }
 
+
+    public void RewindBits(int numBits)
+    {
+        if (_bitPosition - numBits < 0)
+        {
+            throw new ArgumentException($"cannot rewind {numBits} bits at position {_bitPosition}.");
+        }
+
+        _bitPosition -= numBits;
+    }
+
     public bool IsRemainingAllZeros()
     {
         if (RemainingBits <= 0)
@@ -80,7 +91,7 @@ public class BitStreamReader(byte[] data)
 
         while (true)
         {
-            var chunk = ReadBits(5);            
+            var chunk = ReadBits(5);
             var reversedChunk = ReverseBits(chunk, 5); // 由于比特流已反转，我们需要反转这5个比特
             var continueFlag = (reversedChunk & 0x10) != 0; // 最高位是延续标记
             var data = reversedChunk & 0x0F; // 低4位是数据
@@ -116,6 +127,28 @@ public class BitStreamReader(byte[] data)
         var payload = ReverseBits(payloadBits, (int)length);
 
         return payload;
+    }
+
+    public string ReadString()
+    {
+        // 读取长度前缀（基于 varint16 编码）
+        var length = ReadVarint16();
+
+        if (length == 0)
+        {
+            return string.Empty;
+        }
+
+        var str = new char[length];
+        for (var i = 0; i < length; i++)
+        {
+            // 每7个字节为1个字符
+            var charBits = ReadBits(7);
+            // 反转payload
+            str[i] = (char)ReverseBits(charBits, 7);
+        }
+
+        return new string(str);
     }
 
     /// <summary>

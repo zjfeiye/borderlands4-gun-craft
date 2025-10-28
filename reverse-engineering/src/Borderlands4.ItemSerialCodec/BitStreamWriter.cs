@@ -89,13 +89,31 @@ public class BitStreamWriter : IDisposable
         }
 
         // 计算需要的比特数
-        int bitCount = 32 - LeadingZeroCount(value);
+        var bitCount = 32 - LeadingZeroCount(value);
 
         // 写入长度前缀（反转）
         WriteBits(ReverseBits((uint)bitCount, 5), 5);
 
         // 写入payload（反转）
         WriteBits(ReverseBits(value, bitCount), bitCount);
+    }
+
+    public void WriteString(string value)
+    {
+        if (value == string.Empty)
+        {
+            WriteVarint16(0);
+            return;
+        }
+
+        var chars = value.ToCharArray();
+
+        WriteVarint16((uint)chars.Length);
+
+        for (var i = 0; i < chars.Length; i++)
+        {
+            WriteBits(ReverseBits(chars[i], 7), 7);
+        }
     }
 
     public byte[] ToByteArray()

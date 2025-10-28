@@ -1,31 +1,36 @@
 ﻿using Borderlands4.ItemSerialCodec.Extensions;
-using Borderlands4.ItemSerialCodec.Parts;
+using Borderlands4.ItemSerialCodec.Tokens;
+using System.Text;
 
 namespace Borderlands4.ItemSerialCodec;
 
 public class ItemSerialDecoder
 {
-    private readonly List<List<object>> _results = [];
-    private List<object> _currentSegment = [];
-
     private readonly Base85 _base85 = new();
+    private readonly List<Token> _tokens = [];
 
-    public List<List<object>> Decode(string serial, bool debug = false)
+    public string DecodeAsPartsString(string serial, bool debug = false)
+    {
+        var results = Decode(serial, debug);
+
+        return FormatResults(results);
+    }
+
+    public Token[] Decode(string serial, bool debug = false)
     {
         var bitStream = _base85.DecodeSerial(serial, debug);
         return Decode(bitStream, debug);
     }
 
-    public List<List<object>> Decode(byte[] bitStream, bool debug = false)
+    public Token[] Decode(byte[] bitStream, bool debug = false)
     {
-        var reader = new BitStreamReader(bitStream);
+        _tokens.Clear();
 
-        _results.Clear();
-        _currentSegment = [];
+        var reader = new BitStreamReader(bitStream);
 
         try
         {
-            // 步骤1: 读取起始标志 (5 bits)
+            // 读取起始标志 (5 bits)
             var startMarker = reader.ReadBits(5);
             if (startMarker != CONSTS.ITEM_DATA_HEADER_MARKER) // 00100 = 4
             {
@@ -34,16 +39,18 @@ public class ItemSerialDecoder
 
             if (debug) Console.WriteLine($"读取起始标志: {Convert.ToString(startMarker, 2).PadLeft(5, '0')}");
 
-            // 读取起始标志后的 00
-            var initialSeparator = reader.ReadBits(2);
-            if (initialSeparator != CONSTS.TOKEN_SEGMENT_START_MARKER)
+            // 读取起始标志后 00
+            var token = ReadNextToken(reader);
+            if (token != 0b00)
             {
-                throw new InvalidOperationException($"error: expected 00 after start marker, but got {Convert.ToString(initialSeparator, 2).PadLeft(2, '0')}.");
+                throw new InvalidOperationException($"error: expected segment separator 00, but got {Convert.ToString(token, 2).PadLeft(2, '0')}.");
             }
 
-            if (debug) Console.WriteLine($"起始标志后分隔符（片段开始标记）: {Convert.ToString(initialSeparator, 2).PadLeft(2, '0')}");
+            _tokens.Add(new SegmentSeparatorToken());
 
-            // 开始解析片段
+            if (debug) Console.WriteLine($"片段分割符: {Convert.ToString(token, 2).PadLeft(2, '0')}");
+
+            // 解析数据片段
             while (reader.RemainingBits > 0)
             {
                 // 检查剩余比特是否都是0
@@ -53,127 +60,132 @@ public class ItemSerialDecoder
                     break;
                 }
 
-                // 解析当前片段
-                var seggmentParsed = ParseSegment(reader, debug);
-
-                // 将当前片段添加到结果中
-                _results.Add([.. _currentSegment]);
-                _currentSegment.Clear();
-
-                // 如果不是最后一个片段，应该有新的片段开始标识符00
-                if (seggmentParsed && reader.RemainingBits >= 2 && !reader.IsRemainingAllZeros())
-                {
-                    uint separator = reader.PeekBits(2);
-                    if (separator == CONSTS.TOKEN_SEGMENT_START_MARKER) // 00 = 0
-                    {
-                        reader.SkipBits(2);
-                        _results.Add([]);
-                        if (debug) Console.WriteLine("片段开始标记: 00");
-                    }
-                }
-                else if (!seggmentParsed && reader.RemainingBits < 3)
-                {
-                    reader.SkipBits(reader.RemainingBits);
-                    if (debug) Console.WriteLine("无法读取剩余数据，终止解析");
-                }
+                ReadNextSegment(reader, debug);
             }
 
-            return _results;
+            return _tokens.ToArray();
         }
         catch (Exception ex)
         {
             if (debug) Console.WriteLine($"解码过程中出错: {ex}");
-            return _results;
-            //throw new InvalidOperationException("序列号无效 Invalid serial！", ex);
+
+            throw new InvalidOperationException("decoding error.", ex);
         }
     }
 
-    private bool ParseSegment(BitStreamReader reader, bool debug = false)
+    private void ReadNextSegment(BitStreamReader reader, bool debug = false)
     {
-        var hasData = false;
-
-        while (reader.RemainingBits >= 3)
+        while (reader.RemainingBits > 0)
         {
-            // 窥视接下来的3个比特
-            var nextBits = reader.PeekBits(3);
+            var token = ReadNextToken(reader);
 
-            if (nextBits == CONSTS.TOKEN_VARINT16 || nextBits == CONSTS.TOKEN_VARBIT32) // 100 = 4, 110 = 6
+            switch (token)
             {
-                // varint16
-                reader.SkipBits(3);
-
-                if (debug) Console.WriteLine($"检测到 {(nextBits == CONSTS.TOKEN_VARINT16 ? "Varint16" : "Varbit32")} 编码标记: {nextBits}");
-
-                var value = nextBits == CONSTS.TOKEN_VARINT16 ? reader.ReadVarint16() : reader.ReadVarbit32();
-                _currentSegment.Add(value);
-
-                if (debug) Console.WriteLine($"读取 {(nextBits == CONSTS.TOKEN_VARINT16 ? "Varint16" : "Varbit32")} 值: {value}");
-
-                hasData = true;
-
-                // 读取分隔符
-                if (reader.RemainingBits >= 2)
-                {
-                    var separator = reader.ReadBits(2);
-                    if (separator == CONSTS.TOKEN_INTRA_SEGMENT_SEPARATOR) // 01 = 1
+                default:
+                    throw new InvalidOperationException($"error: invalid token.");
+                case CONSTS.TOKEN_SEGMENT_SEPARATOR:
+                    // 片段分割符 00，结束本片段
                     {
+                        _tokens.Add(new SegmentSeparatorToken());
+
+                        if (debug) Console.WriteLine("片段分隔符: 00");
+
+                        return;
+                    }
+                case CONSTS.TOKEN_INTRA_SEGMENT_SEPARATOR:
+                    // 片段内分割符 01，读取下一个 token
+                    {
+                        _tokens.Add(new ValueSeparatorToken());
+
                         if (debug) Console.WriteLine("片段内分隔符: 01，继续读取");
+
                         continue;
                     }
-                    else if (separator == CONSTS.TOKEN_SEGMENT_END_MARKER) // 00 = 0
+                case CONSTS.TOKEN_VARINT16:
+                    // Varint16 标记 100，读取数据
                     {
-                        if (debug) Console.WriteLine("片段结束标记: 00");
-                        return hasData;
+                        if (debug) Console.WriteLine($"检测到 Varint16 编码标记: {token}");
+
+                        var value = reader.ReadVarint16();
+                        //results.Add(value);
+                        _tokens.Add(new NumberToken(value));
+
+                        if (debug) Console.WriteLine($"读取 Varint16 值: {value}");
+                        break;
                     }
-                    else
+                case CONSTS.TOKEN_VARBIT32:
+                    // Varbit32 标记 110，读取数据
                     {
-                        throw new InvalidOperationException($"unknown separator: {Convert.ToString(separator, 2).PadLeft(2, '0')}.");
+                        if (debug) Console.WriteLine($"检测到 Varbit32 编码标记: {token}");
+
+                        var value = reader.ReadVarbit32();
+                        //results.Add(value);
+                        _tokens.Add(new NumberToken(value));
+
+                        if (debug) Console.WriteLine($"读取 Varbit32 值: {value}");
+                        break;
                     }
-                }
-                continue;
-            }
-            else if (nextBits == CONSTS.TOKEN_PART_START_MARKER) // 101 = 5
-            {
-                // 配件数据
-                reader.SkipBits(3);
-
-                if (debug) Console.WriteLine($"检测到配件数据标记: {nextBits}");
-
-                ParsePartData(reader, debug);
-                hasData = true;
-
-                // 配件数据后可能有分隔符
-                if (reader.RemainingBits >= 2)
-                {
-                    uint separator = reader.PeekBits(2);
-                    if (separator == CONSTS.TOKEN_SEGMENT_END_MARKER) // 00 = 0
+                case CONSTS.TOKEN_STRING:
+                    // String 标记 111，读取数据
                     {
-                        if (debug) Console.WriteLine("片段结束标记: 00");
-                        return hasData;
+                        if (debug) Console.WriteLine($"检测到 String 编码标记: {token}");
+
+                        var value = reader.ReadString();
+                        //results.Add(value);
+                        _tokens.Add(new StringToken(value));
+
+                        if (debug) Console.WriteLine($"读取 String 值: {value}");
+                        break;
                     }
-                }
-                continue;
-            }
-            else if (nextBits == CONSTS.TOKEN_UNSUPPORTED) // 111 = 7
-            {
-                // 后续是皮肤或DLC数据，不做处理，忽略后续数据
-                reader.SkipBits(reader.RemainingBits);
-                if (debug) Console.WriteLine($"检测到意外标记：{Convert.ToString(nextBits, 2).PadLeft(3, '0')}，终止片段解析");
-                return hasData;
-            }
-            else
-            {
-                // 没有有效标记，可能结束
-                reader.SkipBits(reader.RemainingBits);
-                if (debug) Console.WriteLine($"无有效标记: {Convert.ToString(nextBits, 2).PadLeft(3, '0')}，终止片段解析");
-                return hasData;
+                case CONSTS.TOKEN_PART:
+                    // Part 标记 101，读取数据
+                    {
+                        ReadNextPart(reader, debug);
+                        break;
+                    }
             }
         }
 
-        return hasData;
+        return;
     }
 
-    private void ParsePartData(BitStreamReader reader, bool debug = false)
+    private static uint ReadNextToken(BitStreamReader reader)
+    {
+        if (reader.RemainingBits < 2)
+        {
+            throw new InvalidOperationException($"error: not enough bits to read data token.");
+        }
+
+        var token = reader.ReadBits(2);
+
+        if (token == CONSTS.TOKEN_SEGMENT_SEPARATOR || token == CONSTS.TOKEN_INTRA_SEGMENT_SEPARATOR)
+        {
+            return token;
+        }
+
+        //既不是 00 也不是 01，需要再多读取 1 个比特
+        if (reader.RemainingBits > 0)
+        {
+            var nextBits = reader.ReadBits(1);
+            token = token << 1 | nextBits;
+
+            if (token == CONSTS.TOKEN_VARINT16
+                || token == CONSTS.TOKEN_VARBIT32
+                || token == CONSTS.TOKEN_PART
+                || token == CONSTS.TOKEN_STRING)
+            {
+                return token;
+            }
+
+            throw new InvalidOperationException($"error: failed to read valid data token, got {Convert.ToString(token, 2).PadLeft(3, '0')} at position {reader.Position - 3}.");
+        }
+        else
+        {
+            throw new InvalidOperationException($"error: not enough bits to read data token.");
+        }
+    }
+
+    private void ReadNextPart(BitStreamReader reader, bool debug = false)
     {
         // 读取配件类型值
         var partType = reader.ReadVarint16();
@@ -181,28 +193,23 @@ public class ItemSerialDecoder
         if (debug) Console.WriteLine($"配件类型: {partType}");
 
         // 读取下一个比特决定配件格式
-        uint formatBit = reader.ReadBits(1);
-
+        var formatBit = reader.ReadBits(1);
         if (formatBit == CONSTS.TOKEN_PART_COMPLEX_FORMAT_FLAG) // 1
         {
-            // 对象值配件
+            // 复合值配件
             if (debug) Console.WriteLine("配件格式: 复合值");
 
             var objValue = reader.ReadVarint16(); //这个值总是以 Varint16 编码
+
+            _tokens.Add(new CompositeValueToken(partType, objValue));
+
+            if (debug) Console.WriteLine($"复合值: {{{partType}:{objValue}}}");
 
             var endMarker = reader.ReadBits(3);
             if (endMarker != CONSTS.TOKEN_PART_COMPLEX_VALUE_END_MARKER) // 000 = 0
             {
                 throw new InvalidOperationException($"error: expected data end marker 000, but got {Convert.ToString(endMarker, 2).PadLeft(3, '0')}.");
             }
-
-            _currentSegment.Add(new ComplexValue
-            {
-                Type = partType,
-                Value = objValue
-            });
-
-            if (debug) Console.WriteLine($"复合值: {{{partType}:{objValue}}}");
         }
         else // 0
         {
@@ -212,25 +219,22 @@ public class ItemSerialDecoder
 
             if (combinedBits == CONSTS.TOKEN_PART_END_MARKER) // 010 = 2
             {
-                // 单个值配件
+                // 简单值配件
                 if (debug) Console.WriteLine("配件格式: 简单值");
 
-                _currentSegment.Add(new SimpleValue
-                {
-                    Type = partType
-                });
+                _tokens.Add(new SimpleValueToken(partType));
 
                 if (debug) Console.WriteLine($"简单值: {{{partType}}}");
             }
             else if (combinedBits == CONSTS.TOKEN_PART_ARRAY_VALUE_FLAG) // 001 = 1
             {
                 // 可能是数组开始
-                uint arrayStart = reader.ReadBits(2);
+                var arrayStart = reader.ReadBits(2);
                 if (arrayStart == CONSTS.TOKEN_PART_ARRAY_VALUE_START_MARKER) // 01 = 1
                 {
                     if (debug) Console.WriteLine("配件格式: 数组值");
 
-                    var arrayValues = new List<uint>();
+                    var arrayValues = new List<object>();
 
                     // 解析数组元素
                     while (true)
@@ -262,11 +266,33 @@ public class ItemSerialDecoder
                             }
                             continue;
                         }
+                        else if (nextMarker == CONSTS.TOKEN_STRING) // 111 = 7
+                        {
+                            reader.SkipBits(3);
+
+                            var value = reader.ReadString();
+                            arrayValues.Add(value);
+
+                            if (debug) Console.WriteLine($"数组元素(String): {value}");
+
+                            // 检查结束符
+                            if (reader.RemainingBits >= 2)
+                            {
+                                var sep = reader.PeekBits(2);
+                                if (sep == CONSTS.TOKEN_PART_ARRAY_VALUE_END_MARKER) // 00 = 0
+                                {
+                                    break;
+                                }
+                            }
+                            continue;
+                        }
                         else
                         {
                             break;
                         }
                     }
+
+                    _tokens.Add(new ArrayValueToken(partType, [.. arrayValues]));
 
                     // 数组结束
                     if (reader.RemainingBits >= 2)
@@ -277,12 +303,10 @@ public class ItemSerialDecoder
                             throw new InvalidOperationException($"error: expected array format end marker 00, but got {Convert.ToString(endMarker, 2).PadLeft(2, '0')}.");
                         }
                     }
-
-                    _currentSegment.Add(new ArrayValue
+                    else
                     {
-                        Type = partType,
-                        Values = [.. arrayValues]
-                    });
+                        //TODO: 长度不足，非法
+                    }
 
                     if (debug) Console.WriteLine($"数组配件: {{{partType}:[{string.Join(" ", arrayValues)}]}}");
                 }
@@ -298,39 +322,23 @@ public class ItemSerialDecoder
         }
     }
 
-    public string DecodeAsPartsString(string serial, bool debug = false)
-    {
-        var results = Decode(serial, debug);
-
-        return FormatResults(results);
-    }
-
     // 格式化输出结果
-    public static string FormatResults(List<List<object>> results)
+    public static string FormatResults(IEnumerable<Token> tokens)
     {
-        var formattedParts = new List<string>();
+        var sb = new StringBuilder();
 
-        foreach (var segment in results)
+        foreach (var token in tokens)
         {
-            var segmentParts = new List<string>();
-
-            foreach (var item in segment)
+            if (token.Type != TokenType.SegmentSeparator && token.Type != TokenType.ValueSeparator)
             {
-                if (item is uint number)
-                {
-                    segmentParts.Add(number.ToString());
-                }
-                else if (item is IPartValue val)
-                {
-                    segmentParts.Add(val.ToString()!);
-                }
+                sb.Append($" {token}");
             }
-
-            formattedParts.Add(string.Join(", ", segmentParts));
+            else
+            {
+                sb.Append(token.ToString());
+            }
         }
 
-        var result = string.Join("| ", formattedParts).Trim().Replace("| |", "||").Replace("},", "}").TrimEnd('|');
-
-        return string.IsNullOrEmpty(result) ? string.Empty : $"{result}|";
+        return sb.ToString().TrimStart('|', ' ');
     }
 }

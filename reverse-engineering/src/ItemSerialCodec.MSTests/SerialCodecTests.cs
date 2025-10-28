@@ -6,7 +6,7 @@ namespace ItemSerialCodec.MSTests;
 public sealed class SerialCodecTests
 {
     [TestMethod]
-    public void TestEncoder()
+    public void TestCodec()
     {
         string[] samples = [
             "@Ugy3L+2}TYg%$yC%i7M2gZldO)@}cgb!l34$a-qf{00",
@@ -75,6 +75,112 @@ public sealed class SerialCodecTests
             var reEncodedSerial = encoder.EncodeToSerial(partStr);
 
             Assert.AreEqual(serial, reEncodedSerial, true);
+        }
+    }
+
+    [TestMethod]
+    public void Test1()
+    {
+        var samples = new[]
+        {
+            new {
+                Serial = "@Ugr%1Tm/)}}!qhvUNWCv7Xi/fEAI%N-p&4X;r%e/;ET@0PVY$4_{=#Hmb6Q@$zvb)Hl>-",
+                Expected = "303, 0, 1, 50| 2, 885|| {8} {247:76} {9} {1} {247:[23 \"MAL_SM.part_barrel_02_firework\" 181 7]}|" //乱拼的
+            },
+            new {
+                Serial = "@UgxFw!2}TYgjNc48i7M2hN}^_>Vxm5E1~mtj2XzXS3Y7~L4s{O!",
+                Expected = "22, 0, 1, 50| 2, 3262|| {67} {2} {5} {66} {73} {72} {15} {19} {25} {28} {35} {36} {44} {48} {59}|"
+            },
+            new {
+                Serial = "@UgdhV<Fme!O0ue@92CYLCDp8FZHk1xk6LqOi-9*hng+h%&y+VaU{X_r",
+                Expected = "8, 0, 1, 50| 10, 1| 2, 3170|| {53} {2} {4} {6} {1:13} {52} {74} {11} {15} {75} {25} {32} {33} {39} {48} {79}|"
+            },
+            new {
+                Serial = "@Ugr%1Tm/)}}!qhvUNWCv7Xi/fEAI%M^D+d4",
+                Expected = "303, 0, 1, 50| 2, 885|| {8} {247:76} {9} {1} {247:[23 181 7]}|"
+            },
+            new {
+                Serial = "@Ug!pHG2}TZ*Od!Hk{GfKIO!YFT-3FEGpl%;j?$j-VsvQj+$sw}<",
+                Expected = "254, 0, 1, 50| 9, 1| 2, 3973|| {54} {12} {302} {365} {428} {491} {236} {299} {234:[48 25 83]}|"
+            },
+            new {
+                Serial = "@UgdhV<Fme!K>Q&G>RG/`esC1~Bs7ih6CTb2U6lxUe73vr2C*omj7y",
+                Expected = "8, 0, 1, 50| 2, 2677|| {53} {2} {4} {3} {52} {74} {10} {15} {75} {25} {32} {33} {39} {47} {79}| \"c\", 12|"
+            },
+            new
+            {
+                Serial = "@Ugw$Yw2}TYg44elZMKj3!PMfaryAA)sYF~EwTy~Sg^8DAFmY45u`MN?a>QIduGTet/kolc9UGT7+{uPJi@-q7ilYPx;dHMd9uZxN5)E(3*R4LRg)H&1;4gd",
+                Expected = "21, 0, 1, 50| 2, 1840|| \"MAL_SM.comp_05_legendary_firework\" {2} {5} {3} {6} {1:12} \"MAL_SM.part_barrel_02_firework\" {72} {14} {27} {35} {34} {43} {51} {1:48}|"
+            }
+        };
+
+        var decoder = new ItemSerialDecoder();
+        var encoder = new ItemSerialEncoder();
+
+        foreach (var sample in samples)
+        {
+            var partStr = decoder.DecodeAsPartsString(sample.Serial, debug: false);
+            var reEncodedSerial = encoder.EncodeToSerial(partStr);
+
+            Assert.AreEqual(sample.Serial, encoder.EncodeToSerial(partStr), true);
+        }
+
+        foreach (var sample in samples)
+        {
+            var reEncodedSerial = encoder.EncodeToSerial(sample.Expected);
+            var partStr = decoder.DecodeAsPartsString(reEncodedSerial, debug: false);
+
+            Assert.AreEqual(sample.Expected, partStr, true);
+        }
+    }
+
+    [TestMethod]
+    public void TestEncode()
+    {
+        var samples = new[]
+        {
+            new {
+                Serial = "@Ugr%1Tm/)}}!qhvUNWCv7Xi/fEAI%N-p&4X;r%e/;ET@0PVY$4_{=#Hmb6Q@$zvb)Hl>-",
+                Expected = "303, 0, 1, 50| 2, 885|| {8} {247:76} {9} {1} {247:[23 \"MAL_SM.part_barrel_02_firework\" 181 7]}|" //乱拼的
+            },
+            new {
+                Serial = "@Ugr%1Tm/)}}!qhvUNWCv7Xi/fEAI%N-p&4X;r%e/;ET@0PVY$4_{=#Hmb6Q@$zvb)Hl>-",
+                Expected = "303, 0, 1, 50| 2, 885|| {8} {247:76} {9} {1} {247:[23 \\\"MAL_SM.part_barrel_02_firework\\\" 181 7]}|" //乱拼的
+            },
+            new {
+                Serial = "@UgxFw!2}TYgjNc48i7M2hN}^_>Vxm5E1~mtj2XzXS3Y7~L4s{O!",
+                Expected = "    22, 0, 1, 50| 2, 3262||{67} {2} {5} {66} {73} {72} {15} {19} {25} {28}{35} {36} {44} {48}     {59}|     "
+            },
+            new {
+                Serial = "@UgdhV<Fme!O0ue@92CYLCDp8FZHk1xk6LqOi-9*hng+h%&y+VaU{X_r",
+                Expected = "8, 0, 1, 50| 10, 1| 2, 3170|| {53} {2} {4} {6} {1   :   13} {52} {74} {11} {15} {75} {25} {32} {33} {39} {48} {79}|"
+            },
+            new {
+                Serial = "@Ugr%1Tm/)}}!qhvUNWCv7Xi/fEAI%M^D+d4",
+                Expected = "303, 0, 1, 50| 2, 885|    | {8} {247:76} {9} {1} {247:   [   23 181 7    ]  } |"
+            },
+            new {
+                Serial = "@Ug!pHG2}TZ*Od!Hk{GfKIO!YFT-3FEGpl%;j?$j-VsvQj+$sw}<",
+                Expected = "254, 0, 1, 50| 9, 1| 2, 3973|| {54} {12} {302} {365} {428} {491} {236} {299} {    234  :  [48 25 83]   }|"
+            },
+            new {
+                Serial = "@UgdhV<Fme!K>Q&G>RG/`esC1~Bs7ih6CTb2U6lxUe73vr2C*omj7y",
+                Expected = "8, 0, 1, 50| 2, 2677|| {53} {2} {4} {3} {52} {74} {10} {15} {75} {25} {32} {33} {39} {47} {79}|\"c\", 12|"
+            },
+            new
+            {
+                Serial = "@Ugw$Yw2}TYg44elZMKj3!PMfaryAA)sYF~EwTy~Sg^8DAFmY45u`MN?a>QIduGTet/kolc9UGT7+{uPJi@-q7ilYPx;dHMd9uZxN5)E(3*R4LRg)H&1;4gd",
+                Expected = "21, 0, 1, 50| 2, 1840|| \"MAL_SM.comp_05_legendary_firework\"{2} {5} {3} {6} {1:12} \"MAL_SM.part_barrel_02_firework\" {72} {14} {27} {35} {34} {43} {51} {1:48}|"
+            }
+        };
+
+        var encoder = new ItemSerialEncoder();
+
+        foreach (var sample in samples)
+        {
+            var reEncodedSerial = encoder.EncodeToSerial(sample.Expected);
+
+            Assert.AreEqual(sample.Serial, reEncodedSerial, true);
         }
     }
 }
