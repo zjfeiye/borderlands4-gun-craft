@@ -92,7 +92,7 @@ public class ItemSerialDecoder
 
                         return;
                     }
-                case CONSTS.TOKEN_INTRA_SEGMENT_SEPARATOR:
+                case CONSTS.TOKEN_VALUE_SEPARATOR:
                     // 片段内分割符 01，读取下一个 token
                     {
                         _tokens.Add(new ValueSeparatorToken());
@@ -158,7 +158,7 @@ public class ItemSerialDecoder
 
         var token = reader.ReadBits(2);
 
-        if (token == CONSTS.TOKEN_SEGMENT_SEPARATOR || token == CONSTS.TOKEN_INTRA_SEGMENT_SEPARATOR)
+        if (token == CONSTS.TOKEN_SEGMENT_SEPARATOR || token == CONSTS.TOKEN_VALUE_SEPARATOR)
         {
             return token;
         }
@@ -194,7 +194,7 @@ public class ItemSerialDecoder
 
         // 读取下一个比特决定配件格式
         var formatBit = reader.ReadBits(1);
-        if (formatBit == CONSTS.TOKEN_PART_COMPLEX_FORMAT_FLAG) // 1
+        if (formatBit == CONSTS.TOKEN_PART_COMPOSITE_FORMAT_FLAG) // 1
         {
             // 复合值配件
             if (debug) Console.WriteLine("配件格式: 复合值");
@@ -206,7 +206,7 @@ public class ItemSerialDecoder
             if (debug) Console.WriteLine($"复合值: {{{partType}:{objValue}}}");
 
             var endMarker = reader.ReadBits(3);
-            if (endMarker != CONSTS.TOKEN_PART_COMPLEX_VALUE_END_MARKER) // 000 = 0
+            if (endMarker != CONSTS.TOKEN_PART_COMPOSITE_VALUE_END_MARKER) // 000 = 0
             {
                 throw new InvalidOperationException($"error: expected data end marker 000, but got {Convert.ToString(endMarker, 2).PadLeft(3, '0')}.");
             }
@@ -226,11 +226,11 @@ public class ItemSerialDecoder
 
                 if (debug) Console.WriteLine($"简单值: {{{partType}}}");
             }
-            else if (combinedBits == CONSTS.TOKEN_PART_ARRAY_VALUE_FLAG) // 001 = 1
+            else if (combinedBits == CONSTS.TOKEN_PART_ARRAY_FORMAT_FLAG) // 001 = 1
             {
                 // 可能是数组开始
                 var arrayStart = reader.ReadBits(2);
-                if (arrayStart == CONSTS.TOKEN_PART_ARRAY_VALUE_START_MARKER) // 01 = 1
+                if (arrayStart == CONSTS.TOKEN_PART_ARRAY_VALUES_START_MARKER) // 01 = 1
                 {
                     if (debug) Console.WriteLine("配件格式: 数组值");
 
@@ -259,7 +259,7 @@ public class ItemSerialDecoder
                             if (reader.RemainingBits >= 2)
                             {
                                 var sep = reader.PeekBits(2);
-                                if (sep == CONSTS.TOKEN_PART_ARRAY_VALUE_END_MARKER) // 00 = 0
+                                if (sep == CONSTS.TOKEN_PART_ARRAY_VALUES_END_MARKER) // 00 = 0
                                 {
                                     break;
                                 }
@@ -279,7 +279,7 @@ public class ItemSerialDecoder
                             if (reader.RemainingBits >= 2)
                             {
                                 var sep = reader.PeekBits(2);
-                                if (sep == CONSTS.TOKEN_PART_ARRAY_VALUE_END_MARKER) // 00 = 0
+                                if (sep == CONSTS.TOKEN_PART_ARRAY_VALUES_END_MARKER) // 00 = 0
                                 {
                                     break;
                                 }
@@ -298,7 +298,7 @@ public class ItemSerialDecoder
                     if (reader.RemainingBits >= 2)
                     {
                         var endMarker = reader.ReadBits(2);
-                        if (endMarker != CONSTS.TOKEN_PART_ARRAY_VALUE_END_MARKER) // 00 = 0
+                        if (endMarker != CONSTS.TOKEN_PART_ARRAY_VALUES_END_MARKER) // 00 = 0
                         {
                             throw new InvalidOperationException($"error: expected array format end marker 00, but got {Convert.ToString(endMarker, 2).PadLeft(2, '0')}.");
                         }

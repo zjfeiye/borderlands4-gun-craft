@@ -13,15 +13,10 @@ public partial class ItemSerialEncoder
         // 解析格式化数据
         var tokens = ParsePartsString(partsStr);
 
-        using var writer = new BitStreamWriter();
-
         // 生成比特流
-        BuildBitStream(writer, tokens);
+        var data = BuildBitStream(tokens);
 
-        // 获取字节数组
-        var data = writer.ToByteArray();
-
-        // 编码
+        // 编码成物品序列号
         var serial = _base85.EncodeToSerial(data);
 
         return serial;
@@ -138,13 +133,12 @@ public partial class ItemSerialEncoder
         return [.. tokens];
     }
 
-    private static void BuildBitStream(BitStreamWriter writer, Token[] tokens)
+    private static byte[] BuildBitStream(Token[] tokens)
     {
+        using var writer = new BitStreamWriter();
+
         // 起始标志
         writer.WriteBits(CONSTS.ITEM_DATA_HEADER_MARKER, 5); // 00100
-
-        //// 起始标志后的分隔符
-        //writer.WriteBits(CONSTS.TOKEN_SEGMENT_START_MARKER, 2); // 00
 
         // 编码每个片段
 
@@ -156,7 +150,7 @@ public partial class ItemSerialEncoder
             }
             else if (token is ValueSeparatorToken valueSeparatorToken)
             {
-                writer.WriteBits(CONSTS.TOKEN_INTRA_SEGMENT_SEPARATOR, 2);
+                writer.WriteBits(CONSTS.TOKEN_VALUE_SEPARATOR, 2);
             }
             else if (token is NumberToken numberToken)
             {
@@ -181,17 +175,17 @@ public partial class ItemSerialEncoder
                 // 复合格式
                 writer.WriteBits(CONSTS.TOKEN_PART, 3); // 101 - 配件标记
                 writer.WriteVarint16(compositeValue.Value);
-                writer.WriteBits(CONSTS.TOKEN_PART_COMPLEX_FORMAT_FLAG, 1); // 1 - 对象格式标记
+                writer.WriteBits(CONSTS.TOKEN_PART_COMPOSITE_FORMAT_FLAG, 1); // 1 - 对象格式标记
                 writer.WriteVarint16(compositeValue.SubValue);
-                writer.WriteBits(CONSTS.TOKEN_PART_COMPLEX_VALUE_END_MARKER, 3); // 000 - 对象结束标记
+                writer.WriteBits(CONSTS.TOKEN_PART_COMPOSITE_VALUE_END_MARKER, 3); // 000 - 对象结束标记
             }
             else if (token is ArrayValueToken arrayValue)
             {
                 // 数组格式
                 writer.WriteBits(CONSTS.TOKEN_PART, 3); // 101 - 配件标记
                 writer.WriteVarint16(arrayValue.Value);
-                writer.WriteBits(CONSTS.TOKEN_PART_ARRAY_VALUE_FLAG, 3); // 001 - 数组类型标记
-                writer.WriteBits(CONSTS.TOKEN_PART_ARRAY_VALUE_START_MARKER, 2); // 01 - 数组开始
+                writer.WriteBits(CONSTS.TOKEN_PART_ARRAY_FORMAT_FLAG, 3); // 001 - 数组类型标记
+                writer.WriteBits(CONSTS.TOKEN_PART_ARRAY_VALUES_START_MARKER, 2); // 01 - 数组开始
 
                 // 编码数组元素
                 foreach (var subValue in arrayValue.SubValues)
@@ -207,9 +201,11 @@ public partial class ItemSerialEncoder
                     }
                 }
 
-                writer.WriteBits(CONSTS.TOKEN_PART_ARRAY_VALUE_END_MARKER, 2); // 00 - 数组结束标记
+                writer.WriteBits(CONSTS.TOKEN_PART_ARRAY_VALUES_END_MARKER, 2); // 00 - 数组结束标记
             }
         }
+
+        return writer.ToByteArray();
     }
 
     [GeneratedRegex(@"\s+", RegexOptions.Compiled)]

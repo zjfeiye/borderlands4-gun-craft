@@ -135,7 +135,7 @@ public sealed class SerialCodecTests
     }
 
     [TestMethod]
-    public void TestEncode()
+    public void TestEncodeEdge()
     {
         var samples = new[]
         {
