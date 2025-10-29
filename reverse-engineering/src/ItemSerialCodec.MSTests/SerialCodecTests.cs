@@ -1,4 +1,5 @@
 ﻿using Borderlands4.ItemSerialCodec;
+using System.Text.RegularExpressions;
 
 namespace ItemSerialCodec.MSTests;
 
@@ -72,6 +73,7 @@ public sealed class SerialCodecTests
         foreach (var serial in samples)
         {
             var partStr = decoder.DecodeAsPartsString(serial, debug: false);
+
             var reEncodedSerial = encoder.EncodeToSerial(partStr);
 
             Assert.AreEqual(serial, reEncodedSerial, true);
@@ -84,8 +86,8 @@ public sealed class SerialCodecTests
         var samples = new[]
         {
             new {
-                Serial = "@Ugr%1Tm/)}}!qhvUNWCv7Xi/fEAI%N-p&4X;r%e/;ET@0PVY$4_{=#Hmb6Q@$zvb)Hl>-",
-                Expected = "303, 0, 1, 50| 2, 885|| {8} {247:76} {9} {1} {247:[23 \"MAL_SM.part_barrel_02_firework\" 181 7]}|" //乱拼的
+                Serial = "@Ugr%1Tm/)}}!qhvUNWCv7Xi/fEAI%M^D~HxV??W@l{7#!Lcvw#Vio<ewnf-;yzUH*Ne1FT=00",
+                Expected = "303, 0, 1, 50| 2, 885|| {8} {247:76} {9} {1} {247:[23 181 7]} {21:[\"MAL_SM.part_barrel_02_firework\"]}|" //乱拼的
             },
             new {
                 Serial = "@UgxFw!2}TYgjNc48i7M2hN}^_>Vxm5E1~mtj2XzXS3Y7~L4s{O!",
@@ -123,6 +125,8 @@ public sealed class SerialCodecTests
             var reEncodedSerial = encoder.EncodeToSerial(partStr);
 
             Assert.AreEqual(sample.Serial, encoder.EncodeToSerial(partStr), true);
+
+            Assert.IsTrue(Regex.IsMatch(sample.Expected, @"(((?:\d+|""[a-zA-Z0-9\._]+""|\\""[a-zA-Z0-9\._]+\\"")[ \t]*(?:,[ \t]*(?:\d+|""[a-zA-Z0-9\._]+""|\\""[a-zA-Z0-9\._]+\\""))*[ \t]*\|[ \t]*){2,}[ \t]*\|[ \t]*(""[a-zA-Z0-9\._]+""[ \t]*|\\""[a-zA-Z0-9\._]+\\""[ \t]*|\{[ \t]*\d+[ \t]*(?:[ \t]*:[ \t]*(?:\d+|\[[ \t]*(?:\d+|""[a-zA-Z0-9\._]+""|\\""[a-zA-Z0-9\._]+\\"")(?:[ \t]+(?:\d+|""[a-zA-Z0-9\._]+""|\\""[a-zA-Z0-9\._]+\\""))*[ \t]*\]))?[ \t]*\}[ \t]*)+[ \t]*(\|[ \t]*)?(((?:[ \t]*\d+|""[a-zA-Z0-9\._]+""|\\""[a-zA-Z0-9\._]+\\"")[ \t]*(?:,[ \t]*(?:\d+|""[a-zA-Z0-9\._]+""|\\""[a-zA-Z0-9\._]+\\""))*[ \t]*\|))?)"));
         }
 
         foreach (var sample in samples)
@@ -181,6 +185,7 @@ public sealed class SerialCodecTests
             var reEncodedSerial = encoder.EncodeToSerial(sample.Expected);
 
             Assert.AreEqual(sample.Serial, reEncodedSerial, true);
+            Assert.IsTrue(Regex.IsMatch(sample.Expected, @"(((?:\d+|""[a-zA-Z0-9\._]+""|\\""[a-zA-Z0-9\._]+\\"")[ \t]*(?:,[ \t]*(?:\d+|""[a-zA-Z0-9\._]+""|\\""[a-zA-Z0-9\._]+\\""))*[ \t]*\|[ \t]*){2,}[ \t]*\|[ \t]*(""[a-zA-Z0-9\._]+""[ \t]*|\\""[a-zA-Z0-9\._]+\\""[ \t]*|\{[ \t]*\d+[ \t]*(?:[ \t]*:[ \t]*(?:\d+|\[[ \t]*(?:\d+|""[a-zA-Z0-9\._]+""|\\""[a-zA-Z0-9\._]+\\"")(?:[ \t]+(?:\d+|""[a-zA-Z0-9\._]+""|\\""[a-zA-Z0-9\._]+\\""))*[ \t]*\]))?[ \t]*\}[ \t]*)+[ \t]*(\|[ \t]*)?(((?:[ \t]*\d+|""[a-zA-Z0-9\._]+""|\\""[a-zA-Z0-9\._]+\\"")[ \t]*(?:,[ \t]*(?:\d+|""[a-zA-Z0-9\._]+""|\\""[a-zA-Z0-9\._]+\\""))*[ \t]*\|))?)"));
         }
     }
 }

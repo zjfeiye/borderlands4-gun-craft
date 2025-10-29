@@ -1,4 +1,3 @@
-using System.ComponentModel.Design.Serialization;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -12,7 +11,7 @@ namespace Borderlands4.ItemSerialCodec.WinApp
         [GeneratedRegex(@"(@U[0-9A-Za-z!#\$%&\(\)\*\+\-;<=>\?@\^_`\{\}/~]+)", RegexOptions.Compiled)]
         private static partial Regex SerialRegex { get; }
 
-        [GeneratedRegex(@"((\d+\s*(,\s*\d+)*\s*\|\s*){2,}\s*\|\s*(\{\s*\d+\s*(?:\s*:\s*(?:\d+|\[\s*\d+(?:\s+\d+)*\s*\]))?\s*\}\s*)+\s*(\|\s*)?)", RegexOptions.Compiled)]
+        [GeneratedRegex(@"(((?:\d+|""[a-zA-Z0-9\._]+""|\\""[a-zA-Z0-9\._]+\\"")[ \t]*(?:,[ \t]*(?:\d+|""[a-zA-Z0-9\._]+""|\\""[a-zA-Z0-9\._]+\\""))*[ \t]*\|[ \t]*){2,}[ \t]*\|[ \t]*(""[a-zA-Z0-9\._]+""[ \t]*|\\""[a-zA-Z0-9\._]+\\""[ \t]*|\{[ \t]*\d+[ \t]*(?:[ \t]*:[ \t]*(?:\d+|\[[ \t]*(?:\d+|""[a-zA-Z0-9\._]+""|\\""[a-zA-Z0-9\._]+\\"")(?:[ \t]+(?:\d+|""[a-zA-Z0-9\._]+""|\\""[a-zA-Z0-9\._]+\\""))*[ \t]*\]))?[ \t]*\}[ \t]*)+[ \t]*(\|[ \t]*)?(((?:[ \t]*\d+|""[a-zA-Z0-9\._]+""|\\""[a-zA-Z0-9\._]+\\"")[ \t]*(?:,[ \t]*(?:\d+|""[a-zA-Z0-9\._]+""|\\""[a-zA-Z0-9\._]+\\""))*[ \t]*\|))?)", RegexOptions.Compiled)]
         private static partial Regex PartsCodeRegex { get; }
 
         private bool _encoding = false;
@@ -167,12 +166,12 @@ namespace Borderlands4.ItemSerialCodec.WinApp
 
                         foreach (var partsCode in partsCodes)
                         {
-                            if (!ItemPartsValidator.ValidateItemParts(partsCode))
-                            {
-                                ItemSerial.Text += $"!!! INVALID PARTS STRING: {partsCode} !!!" + Environment.NewLine;
-                                ShowTip("物品配件码无效！Invalid parts string！");
-                                return;
-                            }
+                            //if (!ItemPartsValidator.ValidateItemParts(partsCode))
+                            //{
+                            //    ItemSerial.Text += $"!!! INVALID PARTS STRING: {partsCode} !!!" + Environment.NewLine;
+                            //    ShowTip("物品配件码无效！Invalid parts string！");
+                            //    return;
+                            //}
 
                             try
                             {

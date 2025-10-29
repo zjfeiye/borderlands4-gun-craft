@@ -305,7 +305,7 @@ public class ItemSerialDecoder
                     }
                     else
                     {
-                        //TODO: 长度不足，非法
+                        throw new InvalidOperationException($"error: not enough bits to read array end marker.");
                     }
 
                     if (debug) Console.WriteLine($"数组配件: {{{partType}:[{string.Join(" ", arrayValues)}]}}");
@@ -339,6 +339,6 @@ public class ItemSerialDecoder
             }
         }
 
-        return sb.ToString().TrimStart('|', ' ');
+        return sb.ToString().Trim().TrimStart('|', ' ');
     }
 }

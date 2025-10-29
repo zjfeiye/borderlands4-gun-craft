@@ -1,15 +1,53 @@
 ﻿using Borderlands4.ItemSerialCodec;
+using System.Text.RegularExpressions;
 
 namespace ItemSerialCodec.ConsoleTests;
 class Program
 {
     static void Main(string[] args)
     {
+        TestRegex();
         TestItemSerialDecoder();
         TestItemSerialEncoder();
 
         Console.WriteLine("\n按任意键退出...");
         Console.ReadKey();
+    }
+
+    static void TestRegex()
+    {
+        string combinedPattern = @"^((?:\d+|""[a-zA-Z0-9\._]+""|\\""[a-zA-Z0-9\._]+\\"")[ \t]*(?:,[ \t]*(?:\d+|""[a-zA-Z0-9\._]+""|\\""[a-zA-Z0-9\._]+\\""))*[ \t]*\|[ \t]*){2,}[ \t]*\|[ \t]*(""[a-zA-Z0-9\._]+""[ \t]*|\\""[a-zA-Z0-9\._]+\\""[ \t]*|\{[ \t]*\d+[ \t]*(?:[ \t]*:[ \t]*(?:\d+|\[[ \t]*(?:\d+|""[a-zA-Z0-9\._]+""|\\""[a-zA-Z0-9\._]+\\"")(?:[ \t]+(?:\d+|""[a-zA-Z0-9\._]+""|\\""[a-zA-Z0-9\._]+\\""))*[ \t]*\]))?[ \t]*\}[ \t]*)+[ \t]*(\|[ \t]*)?(((?:[ \t]*\d+|""[a-zA-Z0-9\._]+""|\\""[a-zA-Z0-9\._]+\\"")[ \t]*(?:,[ \t]*(?:\d+|""[a-zA-Z0-9\._]+""|\\""[a-zA-Z0-9\._]+\\""))*[ \t]*\|))?$";
+
+        string[] testCases = {
+            "303, 0, 1, 50| 2, 1733| | {8} {247:76} {1} {2} {247:[90 218 19]}|", // 原始示例
+            "\"abc\", \"def\", 123| \"test\", 456| | {8} {247:76} {1} {2} {247:[\"xyz\" 218 \"test\"]}|", // 双引号字符串
+            "\\\"abc\\\", \\\"def\\\", 123| \\\"test\\\", 456| | {8} {247:76} {1} {2} {247:[\\\"xyz\\\" 218 \\\"test\\\"]}|", // 斜杠双引号字符串
+            "303, 0, \"test1\", 50| 2, \\\"test2\\\"| | {8} {247:76} {1} {2} {247:[90 \"test3\" 19]}|", // 混合双引号和斜杠双引号
+            "303, 0, \"test1\", 50| 2, \\\"test2\\\"| | {8} {247:76} \"test3\" {2} {247:[90 \"test4\" 19]}|", // 混合双引号和斜杠双引号
+            "303, 0, 1, 50| 2, 1733| | {8} {247:76} {1} {2} {247:[90 218 19]}|", // 纯数字
+        };
+
+        foreach (string test in testCases)
+        {
+            bool isMatch = Regex.IsMatch(test, combinedPattern);
+            Console.WriteLine($"'{test}' -> {(isMatch ? "匹配" : "不匹配")}");
+
+            if (isMatch)
+            {
+                // 提取匹配的部分进行验证
+                Match match = Regex.Match(test, combinedPattern);
+                Console.WriteLine($"  完整匹配: '{match.Value}'");
+
+                // 提取花括号部分
+                MatchCollection braceMatches = Regex.Matches(match.Value, @"\{\s*[^}]+\}");
+                Console.WriteLine($"  找到 {braceMatches.Count} 个花括号单元:");
+                foreach (Match braceMatch in braceMatches)
+                {
+                    Console.WriteLine($"    {braceMatch.Value}");
+                }
+            }
+            Console.WriteLine();
+        }
     }
 
     static void TestItemSerialDecoder()
