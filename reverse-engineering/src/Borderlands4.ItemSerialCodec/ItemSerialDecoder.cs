@@ -63,13 +63,13 @@ public class ItemSerialDecoder
                 ReadNextSegment(reader, debug);
             }
 
-            return _tokens.ToArray();
+            return [.. _tokens];
         }
         catch (Exception ex)
         {
             if (debug) Console.WriteLine($"解码过程中出错: {ex}");
 
-            throw new InvalidOperationException("decoding error.", ex);
+            throw new InvalidOperationException("invalid serial.", ex);
         }
     }
 
@@ -320,6 +320,11 @@ public class ItemSerialDecoder
                 throw new InvalidOperationException($"unknown part format: {Convert.ToString(combinedBits, 2).PadLeft(3, '0')}");
             }
         }
+    }
+
+    public Token[] GetDecodedTokens()
+    {
+        return [.. _tokens];
     }
 
     // 格式化输出结果

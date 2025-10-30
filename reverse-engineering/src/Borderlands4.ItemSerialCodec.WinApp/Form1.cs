@@ -24,7 +24,21 @@ namespace Borderlands4.ItemSerialCodec.WinApp
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            Text += $" - v{GetAssemblyVersion()}";
             ClearTip();
+        }
+
+        /// <summary>
+        /// 读取程序集的版本。
+        /// </summary>
+        /// <param name="assembly"></param>
+        /// <returns></returns>
+        public static string GetAssemblyVersion()
+        {
+            var assembly = typeof(Form1).Assembly;
+            var ver = assembly.GetName().Version?.ToString();
+
+            return !string.IsNullOrEmpty(ver) ? ver : "0.0.0.0";
         }
 
         #region Copy & Paste & Cut
@@ -113,13 +127,13 @@ namespace Borderlands4.ItemSerialCodec.WinApp
                                 }
                                 else
                                 {
-                                    ItemParts.Text += $"!!! INVALID SERIAL: {serial} !!!" + Environment.NewLine;
+                                    ItemParts.Text += $"!!! ERROR: {serial} !!!" + Environment.NewLine;
                                     ShowTip($"物品序列号无效 Invalid serial！");
                                 }
                             }
                             catch (Exception ex)
                             {
-                                ItemParts.Text += $"!!! INVALID SERIAL: {serial} !!!" + Environment.NewLine;
+                                ItemParts.Text += $"!!! {ItemSerialDecoder.FormatResults(_itemDecoder.GetDecodedTokens())}... !!!" + Environment.NewLine;
                                 ShowTip(ex.Message, ex.ToString());
                             }
                         }
@@ -182,7 +196,7 @@ namespace Borderlands4.ItemSerialCodec.WinApp
                             }
                             catch (Exception ex)
                             {
-                                ItemSerial.Text += $"!!! INVALID PARTS STRING: {partsCode} !!!" + Environment.NewLine;
+                                ItemSerial.Text += $"!!! ERROR: {partsCode} !!!" + Environment.NewLine;
                                 ShowTip(ex.Message, ex.ToString());
                             }
                         }
