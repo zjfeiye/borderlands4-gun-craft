@@ -211,6 +211,7 @@
             Controls.Add(ItemSerial);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
             Name = "Form1";
             Text = "无主之地4物品序列号编解码器 - Borderlands4 Item Serials Codec by ZiGMa GaN";
             Load += Form1_Load;
