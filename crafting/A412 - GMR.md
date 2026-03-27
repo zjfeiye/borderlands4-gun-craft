@@ -74,10 +74,10 @@ GMR#2，弹容版，8783，2703，68%，2.1，4.3，27，38%
 ```yaml
         slot_0: 
           serial: '@UgggUGFnkc<+)WAHMAbwk>QIHshl+=qhpLC#)SyP8N}*n%S/R`'
-          state_flags: 1
+          state_flags: 17
         slot_1: 
           serial: '@UgggUGFnkc<+)WAHMAbwk>QIHshl+=qhpLC_)SyP8N}*n%S/R`'
-          state_flags: 1
+          state_flags: 17
 ```
 
 ### 高爆伤
@@ -93,10 +93,10 @@ GMR#4，弹容版，7752，2451，68%，2.3，4.3，27，104%
 ```yaml
         slot_2: 
           serial: '@UgggUGFnkc<+)WAHMAbwks!@f?hl+=qhpLC#)SyP8N}*n%dLaM'
-          state_flags: 1
+          state_flags: 33
         slot_3: 
           serial: '@UgggUGFnkc<+)WAHMAbwks!@f?hl+=qhpLC_)SyP8N}*n%dLaM'
-          state_flags: 1
+          state_flags: 33
 ```
 
 ### 高射速
