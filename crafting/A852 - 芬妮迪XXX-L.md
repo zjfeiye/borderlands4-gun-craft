@@ -49,29 +49,47 @@
 ## 拼好枪
 
 ```
-16, 0, 1, 50| 2, 9527|| {66} {2} {4} {5} {1:12} {1} {77} {78} {79} {80} {16} {26} {42} {59}|
+16, 0, 1, 60| 2, 9527|| {66} {2} {4} {5} {1:12} {1} {77} {78} {79} {80} {16} {26} {42} {59}|
                                                                                   {71} {61}
                                                                                   {43} {60}
 ```
 
 ### 面板
 ```
-@Uguq~c2}TYgoVzKZlBhx@YEeUm2DKB_6ZI1n78M3n2UQDo4*>
-16, 0, 1, 50| 2, 9527|| {66} {2} {4} {5} {1:12} {1} {77} {78} {79} {80} {16} {26} {42} {59}|
+@Uguq~c35E/MoVzKZlBhx@YEeUm2DKB_6ZI1n78M3n2UQDo4*>
+16, 0, 1, 60| 2, 9527|| {66} {2} {4} {5} {1:12} {1} {77} {78} {79} {80} {16} {26} {42} {59}|
+```
+```yaml
+        slot_0: 
+          serial: '@Uguq~c35E/MoVzKZlBhx@YEeUm2DKB_6ZI1n78M3n2UQDo4*>'
+          state_flags: 17
 ```
 
 ### 射速
 ```
-@Uguq~c2}TYgoVzKZlBhx@YEeUm2DKB_6ZI1n78M3n2XzaT4*>
-16, 0, 1, 50| 2, 9527|| {66} {2} {4} {5} {1:12} {1} {77} {78} {79} {80} {16} {26} {43} {60}|
+@Uguq~c35E/MoVzKZlBhx@YEeUm2DKB_6ZI1n78M3n2XzaT4*>
+16, 0, 1, 60| 2, 9527|| {66} {2} {4} {5} {1:12} {1} {77} {78} {79} {80} {16} {26} {43} {60}|
+```
+```yaml
+        slot_1: 
+          serial: '@Uguq~c35E/MoVzKZlBhx@YEeUm2DKB_6ZI1n78M3n2XzaT4*>'
+          state_flags: 33
 ```
 
 ### 亥伯龙
 ```
-@Uguq~c2}TYgoVzKZlBhx@YEeUm2DKB_6ZI1n78M3n2lWzl4*>
-16, 0, 1, 50| 2, 9527|| {66} {2} {4} {5} {1:12} {1} {77} {78} {79} {80} {16} {26} {71} {59}|
-@Uguq~c2}TYgoVzKZlBhx@YEeUm2DKB_6ZI1n78M3n2lW!Q4*>
-16, 0, 1, 50| 2, 9527|| {66} {2} {4} {5} {1:12} {1} {77} {78} {79} {80} {16} {26} {71} {61}|
+@Uguq~c35E/MoVzKZlBhx@YEeUm2DKB_6ZI1n78M3n2lWzl4*>
+16, 0, 1, 60| 2, 9527|| {66} {2} {4} {5} {1:12} {1} {77} {78} {79} {80} {16} {26} {71} {59}|
+@Uguq~c35E/MoVzKZlBhx@YEeUm2DKB_6ZI1n78M3n2lW!Q4*>
+16, 0, 1, 60| 2, 9527|| {66} {2} {4} {5} {1:12} {1} {77} {78} {79} {80} {16} {26} {71} {61}|
+```
+```yaml
+        slot_2: 
+          serial: '@Uguq~c35E/MoVzKZlBhx@YEeUm2DKB_6ZI1n78M3n2lWzl4*>'
+          state_flags: 65
+        slot_3: 
+          serial: '@Uguq~c35E/MoVzKZlBhx@YEeUm2DKB_6ZI1n78M3n2lW!Q4*>'
+          state_flags: 65
 ```
 
 
