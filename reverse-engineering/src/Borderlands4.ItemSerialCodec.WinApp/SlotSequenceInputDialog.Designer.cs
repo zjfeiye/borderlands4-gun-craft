@@ -62,6 +62,7 @@
             // 
             SlotSequence.Anchor = AnchorStyles.Top;
             SlotSequence.Location = new Point(154, 63);
+            SlotSequence.Maximum = new decimal(new int[] { 9999, 0, 0, 0 });
             SlotSequence.Name = "SlotSequence";
             SlotSequence.Size = new Size(60, 23);
             SlotSequence.TabIndex = 1;
