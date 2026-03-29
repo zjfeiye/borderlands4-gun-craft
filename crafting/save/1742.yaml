@@ -1,0 +1,2150 @@
+state: 
+  char_guid: 1B7DE41440EC6D683B387086F848A742
+  class: Char_DarkSiren
+  char_name: A742 - 死马王子
+  player_difficulty: Easy
+  true_mode: false
+  experience: 
+  - type: Character
+    level: 60
+    points: 5714893
+  - type: Specialization
+    level: 701
+    points: 0xffffffff89d66d94
+  inventory: 
+    items: 
+      backpack: 
+        slot_0: 
+          serial: '@Ugv?-o35E/MoVzKZK^5vyiCWYcR7+G$R87>U!lLq^PN7nvYN5&@00'
+          state_flags: 17
+        slot_1: 
+          serial: '@Ugv?-o35E/MoVzKZK^5vyiCR>nh6;^AwM4~4)kJ+NEGiG`6e<;}7OETq'
+          state_flags: 17
+        slot_2: 
+          serial: '@Ugv?-o35E/MoVzKZK^5vyiCR>nh6{~BwM4~4)kJ+NEGiG`6e<;}7OETq'
+          state_flags: 17
+        slot_3: 
+          serial: '@Ugv?-o35E/MoVzKZK^5vyiCR>nh765CwM4~4)kJ+NEGiG`6e<;}7OETq'
+          state_flags: 17
+        slot_4: 
+          serial: '@Ugv?-o35E/MoVzKZK^5vyiCR>nh7FBDwM4~4)kJ+NEGiG`6e<;}7OETq'
+          state_flags: 17
+        slot_5: 
+          serial: '@Ugv?-o35E/MoVzKZK^5vyiCR>nh7OHEwM4~4)kJ+NEGiG`6e<;}7OETq'
+          state_flags: 17
+        slot_6: 
+          serial: '@Ugv?-o35E/MoVzKZK^5vyiCWYcR7+G$R87>U#-j3/PN7nvYN5&@00'
+          state_flags: 33
+        slot_7: 
+          serial: '@Ugv?-o35E/MoVzKZK^5vyiCR>nh6;^AwM4~4)kJ-2EGiG`6e<;}7OETq'
+          state_flags: 33
+        slot_8: 
+          serial: '@Ugv?-o35E/MoVzKZK^5vyiCR>nh6{~BwM4~4)kJ-2EGiG`6e<;}7OETq'
+          state_flags: 33
+        slot_9: 
+          serial: '@Ugv?-o35E/MoVzKZK^5vyiCR>nh765CwM4~4)kJ-2EGiG`6e<;}7OETq'
+          state_flags: 33
+        slot_10: 
+          serial: '@Ugv?-o35E/MoVzKZK^5vyiCR>nh7FBDwM4~4)kJ-2EGiG`6e<;}7OETq'
+          state_flags: 33
+        slot_11: 
+          serial: '@Ugv?-o35E/MoVzKZK^5vyiCR>nh7OHEwM4~4)kJ-2EGiG`6e<;}7OETq'
+          state_flags: 33
+    equipped_inventory: 
+      equipped: 
+    equip_slots_unlocked: 
+    - 2
+    - 3
+    - 6
+    - 7
+    - 8
+    active_slot: 2
+  player_customization: 
+  blackmarket_cooldown: 1758054660
+  challenge_objectives: 
+  - challenge_ident: Challenges_Achievements_24_missions_side
+    challenge_bitfield: 
+    - 939524485
+    - 33611810
+    - 1879048192
+    - 3
+  - challenge_ident: Challenges_Achievements_23_missions_claptrap
+    challenge_bitfield: 
+    - 1
+  - challenge_ident: Challenges_Achievements_22_missions_electi
+    challenge_bitfield: 
+    - 7
+  - challenge_ident: Challenge_Misc_World_CompleteCityEpilogue
+    challenge_bitfield: 
+    - 1
+  gbxactorparts: 
+    character: 'gap,Cosmetics_DarkSiren_Body[Cosmetics_DarkSiren_Body00_Default],Cosmetics_DarkSiren_Head[Cosmetics_DarkSiren_Head00_Default],Cosmetics_DarkSiren_Skin[Cosmetics_DarkSiren_SkinFilter00_Default],Cosmetics_Colorization_Primary[Cosmetics_Colorization_Primary_1],Cosmetics_Colorization_Secondary[Cosmetics_Colorization_Secondary_45],Cosmetics_Colorization_Tertiary[Cosmetics_Colorization_Tertiary_31]'
+    echo4: 'gap,Cosmetics_Echo4_Attachment[Cosmetics_Echo4_Attachment10_Crown],cosmetics_echo4_body[Cosmetics_Echo4_Body03_Ripper],Cosmetics_Echo4_Skin[Cosmetics_Echo4_Skin00_Default]'
+    vehicle: 'gap,Cosmetics_Vehicle[Cosmetics_Vehicle_Mat00_DefaultFilter]'
+  total_playtime: 317913.09375
+  last_played_timestamp: 1774746333
+  first_timestamp: 
+  unique_rewards: 
+  - pgraph.sdu_upgrades.RepKit_Slot
+  - RewardPackage_PreOrder
+  - RewardPackage_Premium
+  - RewardPackage_Headhunter
+  - pgraph.sdu_upgrades.Weapon_Slot_03
+  - Reward_HoverDrive_Maliwan_01
+  - Reward_Vehicle_Grazer
+  - Reward_HoverDrive_Jakobs_01
+  - pgraph.sdu_upgrades.Weapon_Slot_04
+  - RewardPackage_EchoAttachment_01_PartyHat
+  - Reward_HoverDrive_Torgue_01
+  - Reward_HoverDrive_Jakobs_02
+  - Reward_HoverDrive_Order_01
+  - pgraph.sdu_upgrades.Enhancement_Slot
+  - Reward_HoverDrive_Vladof_02
+  - Reward_HoverDrive_Vladof_01
+  - RewardPackage_VehicleSkin_07_CuteCat
+  - Reward_HoverDrive_Torgue_02
+  - RewardPackage_VehicleSkin_28_Ripper
+  - RewardPackage_CharacterSkin_37_Maliwan
+  - RewardPackage_WeaponSkin_17_DeadWood
+  - Reward_HoverDrive_Jakobs_03
+  - RewardPackage_WeaponSkin_07_CuteCat
+  - pgraph.sdu_upgrades.Class_Mod_Slot
+  - RewardPackage_EchoSkin_37_Maliwan
+  - RewardPackage_EchoSkin_33_Jakobs
+  - RewardPackage_CharacterHeads_06_UniqueE
+  - RewardPackage_CharacterSkin_25_Slimed
+  - Reward_HoverDrive_Maliwan_02
+  - RewardPackage_EchoAttachment_04_Wings
+  - RewardPackage_EchoSkin_04_Tech
+  - RewardPackage_EchoSkin_29_Guardian
+  - RewardPackage_WeaponSkin_21_Afterburn
+  - Reward_HoverDrive_Torgue_03
+  - RewardPackage_WeaponSkin_28_Ripper
+  - RewardPackage_EchoSkin_2_Order
+  - RewardPackage_CharacterSkin_39_Critters
+  - RewardPackage_EchoSkin_25_Slimed
+  - Reward_HoverDrive_Order_02
+  - RewardPackage_EchoSkin_38_CyberPop
+  - Reward_HoverDrive_Daedalus_01
+  - RewardPackage_EchoAttachment_09_Goggles
+  - RewardPackage_EchoSkin_35_Vladof
+  - Reward_HoverDrive_Borg_01
+  - RewardPackage_CharacterSkin_19_Dirty
+  - RewardPackage_CharacterSkin_30_Cute
+  - RewardPackage_CharacterSkin_03_Ghost
+  - Reward_HoverDrive_Daedalus_02
+  - RewardPackage_WeaponSkin_06_ElectiSamurai
+  - RewardPackage_CharacterSkin_26_MoneyCamo
+  - Reward_HoverDrive_Jakobs_04
+  - Reward_Vehicle_DarkSiren
+  - RewardPackage_EchoSkin_3_Ghost
+  - RewardPackage_EchoSkin_20_HighRoller
+  - RewardPackage_EchoSkin_19_Dirty
+  - RewardPackage_EchoAttachment_10_Crown
+  - Reward_HoverDrive_Tediore_01
+  - RewardPackage_EchoSkin_22_Knitted
+  - RewardPackage_EchoSkin_36_Torgue
+  - RewardPackage_WeaponSkin_04_Doodles
+  - RewardPackage_BreakFree
+  - RewardPackage_GoldenEcho4
+  - Reward_HoverDrive_Order_03
+  - RewardPackage_EchoAttachment_08_TinfoilHat
+  - RewardPackage_VehicleSkin_19_Meltdown
+  - RewardPackage_EchoSkin_39_Critters
+  - RewardPackage_VehicleSkin_17_DeadWood
+  - ChallengeReward_Shiny_DividedFocus
+  - ChallengeReward_Shiny_Bully
+  - ChallengeReward_Shiny_Bod
+  - RewardPackage_EchoSkin_13_3CatMoon
+  - ChallengeReward_Shiny_Ballista
+  - ChallengeReward_Shiny_Symmetry
+  - RewardPackage_WeaponSkin_13_Whiteout
+  - ChallengeReward_Shiny_PlasmaCoil
+  - ChallengeReward_Shiny_star_helix
+  - ChallengeReward_Shiny_Truck
+  - ChallengeReward_Shiny_Bugbear
+  - ChallengeReward_Shiny_RainbowVomit
+  - ChallengeReward_Shiny_Zipgun
+  - ChallengeReward_Shiny_TKsWave
+  - ChallengeReward_Shiny_QuickDraw
+  - ChallengeReward_Shiny_Slugger
+  - ChallengeReward_Shiny_Kaleidosplode
+  - ChallengeReward_Shiny_WomboCombo
+  - ChallengeReward_Shiny_PotatoThrower
+  - RewardPackage_WeaponSkin_31_Splash
+  - RewardPackage_EchoSkin_21_Graffiti
+  - RewardPackage_WeaponSkin_26_Auger
+  - RewardPackage_CharacterSkin_34_Daedalus
+  - ChallengeReward_Shiny_RubysGrasp
+  - RewardPackage_WeaponSkin_18_CrashTest
+  - Reward_HoverDrive_Daedalus_03
+  - RewardPackage_WeaponSkin_14_Grunt
+  - ChallengeReward_Shiny_anarchy
+  - RewardPackage_EchoSkin_11_Astral
+  - ChallengeReward_Shiny_Vamoose
+  - RewardPackage_EchoSkin_40_Veil
+  - ChallengeReward_Shiny_Luty
+  - ChallengeReward_Shiny_RocketReload
+  - ChallengeReward_Shiny_Lucian
+  - ChallengeReward_Shiny_Hellwalker
+  - Reward_HoverDrive_Jakobs_05
+  - ChallengeReward_Shiny_Roach
+  - RewardPackage_CharacterSkin_40_Veil
+  - ChallengeReward_Shiny_Finnty
+  - RewardPackage_CharacterHeads_03_UniqueB
+  - Reward_HoverDrive_Daedalus_04
+  - RewardPackage_WeaponSkin_12_AnimalPrint
+  - RewardPackage_EchoSkin_28_Ritual
+  - RewardPackage_EchoSkin_34_Daedalus
+  - RewardPackage_EchoAttachment_07_Horns
+  - RewardPackage_CharacterSkin_28_Ritual
+  - ChallengeReward_Shiny_Goalkeeper
+  - RewardPackage_EchoSkin_26_Camo
+  - ChallengeReward_Shiny_seventh_sense
+  - ChallengeReward_Shiny_GoreMaster
+  - ChallengeReward_Shiny_GoldenGod
+  - ChallengeReward_Shiny_Onslaught
+  - RewardPackage_EchoAttachment_03_Bolt
+  - RewardPackage_WeaponSkin_20_Cyberspace
+  - RewardPackage_WeaponSkin_08_EchoBot
+  - ChallengeReward_Shiny_OhmIGot
+  - ChallengeReward_Shiny_NoisyCricket
+  - ChallengeReward_Shiny_KaoSon
+  - ChallengeReward_Shiny_LeadBalloon
+  - ChallengeReward_Shiny_HeavyTurret
+  - ChallengeReward_Shiny_StopGap
+  - Reward_HoverDrive_Order_04
+  packages: 
+  - time_received: 1774745494
+    game_stage: '-1'
+    reward_scale: 1.0
+    rewards_def: RewardPackage_VehicleSkin_41_Synthesizer
+    source: None
+    viewed: false
+  - time_received: 1774745494
+    game_stage: '-1'
+    reward_scale: 1.0
+    rewards_def: RewardPackage_VehicleSkin_40_AnimeMech
+    source: None
+    viewed: false
+  - time_received: 1774745494
+    game_stage: '-1'
+    reward_scale: 1.0
+    rewards_def: RewardPackage_VehicleSkin_43_NitroFlame
+    source: None
+    viewed: false
+  - time_received: 1774745494
+    game_stage: '-1'
+    reward_scale: 1.0
+    rewards_def: RewardPackage_WeaponSkin_09_FolkHero
+    source: None
+    viewed: false
+  - time_received: 1774745494
+    game_stage: '-1'
+    reward_scale: 1.0
+    rewards_def: RewardPackage_WeaponSkin_05_FransFroyo
+    source: None
+    viewed: false
+  - time_received: 1774745494
+    game_stage: '-1'
+    reward_scale: 1.0
+    rewards_def: RewardPackage_WeaponSkin_02_LavaRock
+    source: None
+    viewed: false
+  - time_received: 1774745494
+    game_stage: '-1'
+    reward_scale: 1.0
+    rewards_def: RewardPackage_VehicleSkin_15_Retro
+    source: None
+    viewed: false
+  - time_received: 1774745494
+    game_stage: '-1'
+    reward_scale: 1.0
+    rewards_def: RewardPackage_VehicleSkin_31_Splash
+    source: None
+    viewed: false
+  - time_received: 1774745494
+    game_stage: '-1'
+    reward_scale: 1.0
+    rewards_def: RewardPackage_VehicleSkin_01_Synthwave
+    source: None
+    viewed: false
+  - time_received: 1774745494
+    game_stage: '-1'
+    reward_scale: 1.0
+    rewards_def: RewardPackage_WeaponSkin_15_Retro
+    source: None
+    viewed: false
+  currencies: 
+    cash: 782111652
+    eridium: 4977
+  ammo: 
+    assaultrifle: 802
+    pistol: 600
+    shotgun: 200
+    smg: 1440
+    sniper: 170
+    repairkit: 10
+  checkpoint_name: World_P.FT_MOU_Sanctuary3
+  world_region_name: KairosGeneric
+  personal_vehicle: PV_DarkSiren
+  hover_drive: HoverDrive_Jakobs_05
+  vehicle_weapon_slot: 1
+  lostloot: 
+    items: 
+    - serial: '@Uge8pzm/)}}!f=hCI;cifYS_>m1O'
+      in_machine: true
+    - serial: '@UgxFw!2}TYgTp/v/MHMPhhkA=zi<(rY`k-2&a-rIx@*w~'
+      in_machine: true
+    - serial: '@Ugg66CFme!KxHM2IRH0s>+M&{+&Y>oC7BvTT3-uBK'
+      in_machine: true
+    - serial: '@UgxFw!2}TYgT<Q;<L>1~#B~dp~Gf/&9gPMb?gW81(hq{LV'
+      in_machine: true
+    - serial: '@UgxFw!2}TYgOvea1i7M2gN}^(-ZlXSQ1~ms&2ek_o4wVl9'
+      in_machine: true
+    - serial: '@Ugr$fEm/)}}!fcM9Qm9UaL4E2B>J$P'
+      in_machine: true
+    slots: 6
+  seen_eridium_logs: 1
+onlinecharacterprefs: 
+  recentfriends: 
+  - shiftid: 'Shift:1735504341959659966'
+    platformid: 'STEAM:76561198199580851'
+    platformname: xboxlive
+  partyleader: 
+    shiftid: 'Shift:1735504341959659966'
+    platformid: 'STEAM:76561198199580851'
+    platformname: xboxlive
+pips: 
+  pips_list: !tags
+  - Character.replay.Mission_Side_WhatLurksBeneath
+  - Character.replay.Mission_Side_OneGassyIssue
+  - Character.missions.Mission_Side_BelowTheSurface
+  - Character.inventory.EchoLogs.EchoLogDef_BelowTheSurface_Log05
+  - Character.replay.Mission_Side_BelowTheSurface
+  - Character.inventory.rewards.RewardPackage_VehicleSkin_41_Synthesizer
+  - Character.inventory.rewards.RewardPackage_VehicleSkin_40_AnimeMech
+  - Character.inventory.rewards.RewardPackage_VehicleSkin_43_NitroFlame
+  - Character.inventory.rewards.RewardPackage_WeaponSkin_09_FolkHero
+  - Character.inventory.rewards.RewardPackage_WeaponSkin_05_FransFroyo
+  - Character.inventory.rewards.RewardPackage_WeaponSkin_02_LavaRock
+  - Character.inventory.rewards.RewardPackage_VehicleSkin_15_Retro
+  - Character.inventory.rewards.RewardPackage_VehicleSkin_31_Splash
+  - Character.inventory.rewards.RewardPackage_VehicleSkin_01_Synthwave
+  - Character.inventory.rewards.RewardPackage_WeaponSkin_15_Retro
+  - Character.VaultCards.tickets
+globals: 
+  time_of_day: Day
+  introlights1: TRUE
+  introlights2: TRUE
+  introlights3: TRUE
+  introlights4: TRUE
+  movegrant_glide: TRUE
+  movegrant_grapplegrabber: TRUE
+  movegrant_grapplegrabber_presentation: TRUE
+  repkit_unlocked: TRUE
+  lockdownlifted: TRUE
+  movegrant_echolocation: TRUE
+  prologue_completed: TRUE
+  event_count_ambient_order: 15
+  city_burritochallenge_completed: FALSE
+  event_count_caravan: 3
+  mainmissioncomplete: TRUE
+  highest_unlocked_vault_hunter_level: 5
+  vault_hunter_level: 5
+  true_mode: FALSE
+stats: 
+  challenge: 
+    kills_all: 12246
+    general_kill_enemies: 8000
+    general_kill_badass: 422
+    general_kill_corrupted: 44
+    general_kill_crit: 2000
+    general_kill_melee: 8
+    general_kill_sliding: 323
+    general_kill_dashing: 1000
+    general_kill_airborne: 1000
+    assault_kill: 1780
+    assault_hit_crit: 7500
+    assault_kill_crit: 795
+    assault_kill_crouched: 15
+    assault_kill_scoped: 119
+    assault_kill_secondwind: 16
+    smg_kill: 868
+    smg_hit_crit: 10000
+    smg_kill_crit: 324
+    smg_kill_sliding: 20
+    smg_kill_secondwind: 9
+    smg_kill_dashing: 102
+    shotgun_kill: 2000
+    shotgun_hit_crit: 5000
+    shotgun_kill_crit: 750
+    shotgun_kill_close: 263
+    shotgun_kill_distant: 210
+    shotgun_kill_sliding: 74
+    shotgun_bigshot: 1
+    shotgun_kill_secondwind: 23
+    shotgun_kill_dashing: 481
+    sniper_kill: 1829
+    sniper_hit_crit: 4500
+    sniper_kill_crit: 750
+    sniper_kill_distant: 71
+    sniper_kill_oneshot: 150
+    sniper_kill_unaware: 300
+    sniper_kill_unscoped: 200
+    sniper_bigshot: 1
+    sniper_kill_secondwind: 9
+    pistol_kill: 801
+    pistol_hit_crit: 5000
+    pistol_kill_crit: 308
+    pistol_kill_scoped: 26
+    pistol_kill_gliding: 237
+    pistol_kill_secondwind: 6
+    killenemy_grenade: 317
+    killenemy_grenade_mirv: 2
+    killenemy_grenade_artillery: 7
+    killenemy_grenade_lingering: 32
+    killenemy_heavy_vladof: 1
+    killenemy_heavy_borg: 28
+    shield_take_damage: 2001621
+    shield_kills: 750
+    shield_kills_nova: 200
+    shield_kills_reflect: 1
+    shield_absorb_ammo: 58
+    shield_pickup_boosters: 1000
+    shield_pickup_shards: 458
+    shield_kills_amp: 500
+    repkit_uses: 500
+    repkit_healself: 0x00000001fff6cb1e
+    repkit_kills: 145
+    repkit_lifesteal: 600796
+    loot_whites: 200
+    loot_greens: 200
+    loot_blues: 150
+    loot_purples: 75
+    loot_legendaries: 25
+    loot_weapons: 500
+    loot_gadgets: 200
+    loot_shields: 200
+    loot_repkits: 200
+    loot_classmods: 200
+    loot_enhancements: 200
+    loot_redchest: 250
+    loot_anylootable: 1687
+    killenemyarmy_bandits: 3363
+    killenemyarmy_creatures: 2133
+    killenemyarmy_order: 4000
+    killenemytype_psycho: 752
+    killenemytype_guntoter: 1250
+    killenemytype_splice: 557
+    killenemytype_meathead: 114
+    killenemytype_phalanx: 26
+    killenemytype_bat: 494
+    killenemytype_beast: 94
+    killenemytype_cat: 681
+    killenemytype_creep: 300
+    killenemytype_pangolin: 238
+    killenemytype_thresher: 323
+    killenemytype_soldier: 1433
+    killenemytype_striker: 752
+    killenemytype_drone: 220
+    killenemytype_leader: 227
+    killenemytype_brute: 389
+    killenemytype_grunt: 1026
+    revivepartner: 3
+    secondwind: 68
+    secondwindbadassboss: 19
+    getcash: 2945826
+    geteridium: 2137
+    kill_elemental_corrosive: 503
+    kill_elemental_cryo: 326
+    kill_elemental_cryo_status: 2
+    kill_elemental_fire: 475
+    kill_elemental_radiation: 601
+    kill_elemental_shock: 275
+    kill_2_status: 5
+    manufacturer_borg_criticalhits: 1500
+    manufacturer_borg_multikills: 104
+    manufacturer_borg_kills: 103
+    manufacturer_daedalus_multiloader_assault: 38
+    manufacturer_daedalus_multiloader_pistol: 411
+    manufacturer_daedalus_multiloader_shotgun: 5
+    manufacturer_daedalus_multiloader_sniper: 81
+    manufacturer_daedalus_multiloader_smg: 512
+    manufacturer_daedalus_kills: 1239
+    manufacturer_jakobs_grenadecrits: 400
+    manufacturer_jakobs_oneshot: 500
+    manufacturer_jakobs_quickdraw: 350
+    manufacturer_jakobs_ricochetkills: 150
+    manufacturer_jakobs_kills: 2000
+    manufacturer_jakobs_underbarrel_kills: 165
+    manufacturer_maliwan_status_fire: 506
+    manufacturer_maliwan_status_cryo: 14
+    manufacturer_maliwan_status_corrosive: 128
+    manufacturer_maliwan_status_radiation: 289
+    manufacturer_maliwan_status_shock: 138
+    manufacturer_maliwan_kills: 209
+    manufacturer_order_killorder: 247
+    manufacturer_order_fullcharge_kills: 40
+    manufacturer_order_halfcharge_kills: 600
+    manufacturer_order_oneshot_kills: 187
+    manufacturer_order_kills: 930
+    manufacturer_tediore_comboreload_kills: 11
+    manufacturer_tediore_emptyreload_kills: 53
+    manufacturer_tediore_fullreload_kills: 1
+    manufacturer_tediore_turret_kills: 2
+    manufacturer_tediore_kills: 145
+    manufacturer_torgue_grenade_kills: 4
+    manufacturer_torgue_impact_kills: 340
+    manufacturer_torgue_sticky_kills: 11
+    manufacturer_torgue_splash_kills: 76
+    manufacturer_torgue_kills: 464
+    manufacturer_torgue_underbarrel_kills: 1
+    manufacturer_vladof_explosive_underbarrel: 2
+    manufacturer_vladof_shotgun_underbarrel: 2
+    manufacturer_vladof_kills: 374
+    spareparts_atlas_tracker_pucks: 48
+    spareparts_atlas_tracker_grenades: 43
+    spareparts_cov_overheated: 46
+    spareparts_cov_not_overheated: 427
+    manufacturer_borg_loyalty: 103
+    manufacturer_daedalus_loyalty: 1239
+    manufacturer_jakobs_loyalty: 2528
+    manufacturer_maliwan_loyalty: 209
+    manufacturer_order_loyalty: 930
+    manufacturer_tediore_loyalty: 145
+    manufacturer_torgue_loyalty: 464
+    manufacturer_vladof_loyalty: 372
+    siren_death_tiered: 294
+    siren_demonology_tiered: 438
+    siren_demonology_single: 1
+    siren_duplicate_tiered: 631
+    siren_duplicate_single: 1
+    siren_levelup: 50
+    economy_maxheld_cash: 1
+    economy_maxheld_morecash: 1
+    economy_sellloot: 500
+    economy_upgrade_inventory: 1
+    economy_upgrade_inventory_all: 1
+    economy_firmware_set: 1
+    mission_epilogue: 1
+    mission_uvh_1a: 1
+    mission_uvh_1b: 1
+    mission_uvh_1c: 1
+    mission_uvh_2a: 1
+    mission_uvh_2b: 1
+    mission_uvh_2c: 1
+    mission_uvh_2d: 1
+    mission_uvh_3a: 1
+    mission_uvh_3b: 1
+    mission_uvh_3c: 1
+    mission_uvh_3d: 1
+    mission_uvh_4a: 1
+    mission_uvh_4b: 1
+    mission_uvh_4c: 1
+    mission_uvh_4d: 1
+    mission_uvh_5a: 1
+    mission_uvh_5b: 1
+    mission_uvh_5c: 1
+    uvh_1_finalchallenge: 1
+    uvh_2_finalchallenge: 1
+    uvh_3_finalchallenge: 1
+    uvh_4_finalchallenge: 1
+    uvh_5_finalchallenge: 1
+  spawncontrol: 
+    spawned_loot: 12
+  achievements: 
+    00_level_10: 1
+    01_level_30: 1
+    02_level_50: 1
+    03_uvh_5: 1
+    04_cosmetics_collect: 60
+    05_vehicles_collect: 11
+    06_legendaries_equip: 1
+    14_discovery_grasslands: 43
+    15_discovery_mountains: 33
+    16_discovery_shatteredlands: 40
+    17_discovery_city: 13
+    18_worldboss_defeat: 1
+    19_vaultguardian_defeat: 
+      19_vaultguardian_grasslands: 1
+      19_vaultguardian_mountains: 1
+      19_vaultguardian_shatteredlands: 1
+    22_missions_electi: 3
+    23_missions_claptrap: 1
+    24_missions_side: 18
+    25_missions_grasslands: 1
+    26_missions_mountains: 1
+    27_missions_shatteredlands: 1
+    28_missions_elpis: 1
+    29_missions_main: 1
+  openworld: 
+    activities: 
+      safehouses: 
+        safehouse_grasslands_1: 1
+        safehouse_grasslands_2: 1
+        safehouse_grasslands_3: 1
+        safehouse_grasslands_4: 1
+        safehouse_mountains_1: 1
+        safehouse_mountains_2: 1
+        safehouse_mountains_3: 1
+        safehouse_mountains_4: 1
+        safehouse_shatteredlands_1: 1
+        safehouse_shatteredlands_2: 1
+        safehouse_shatteredlands_3: 1
+        safehouse_city_1: 1
+        safehouse_city_2: 1
+        safehouse_city_3: 1
+      silos: 
+        silo_grasslands_1: 1
+        silo_grasslands_2: 1
+        silo_grasslands_3: 1
+        silo_mountains_1: 1
+        silo_mountains_2: 1
+        silo_mountains_3: 1
+        silo_shatteredlands_1: 1
+        silo_shatteredlands_2: 1
+        silo_shatteredlands_3: 1
+      crawlers: 
+        crawlers_grasslands: 
+          crawler_grasslands_1: 1
+          crawler_grasslands_2: 1
+          crawler_grasslands_3: 1
+          crawler_grasslands_4: 1
+        crawlers_mountains: 
+          crawler_mountains_1: 1
+          crawler_mountains_2: 1
+          crawler_mountains_3: 1
+          crawler_mountains_4: 1
+        crawlers_shatteredlands: 
+          crawler_shatteredlands_1: 1
+          crawler_shatteredlands_2: 1
+          crawler_shatteredlands_3: 1
+      bounties_augur: 
+        augurbounty_grasslands_1: 1
+        augurbounty_grasslands_2: 1
+        augurbounty_mountains_1: 1
+        augurbounty_mountains_2: 1
+        augurbounty_shatteredlands_1: 1
+        augurbounty_shatteredlands_2: 1
+        augurbounty_city_1: 1
+      bounties_order: 
+        orderbounty_grasslands_1: 1
+        orderbounty_grasslands_2: 1
+        orderbounty_mountains_1: 1
+        orderbounty_mountains_2: 1
+        orderbounty_shatteredlands_1: 1
+        orderbounty_city_1: 1
+      bounties_vanguard: 
+        vanguardbounty_grasslands_1: 1
+        vanguardbounty_grasslands_2: 1
+        vanguardbounty_mountains_1: 1
+        vanguardbounty_mountains_2: 1
+        vanguardbounty_shatteredlands_1: 1
+        vanguardbounty_shatteredlands_2: 1
+    collectibles: 
+      vaultsymbols: 
+        vaultsymbol_grasslands_1: 1
+        vaultsymbol_grasslands_2: 1
+        vaultsymbol_grasslands_3: 1
+        vaultsymbol_grasslands_4: 1
+        vaultsymbol_grasslands_5: 1
+        vaultsymbol_grasslands_6: 1
+        vaultsymbol_grasslands_7: 1
+        vaultsymbol_grasslands_8: 1
+        vaultsymbol_grasslands_9: 1
+        vaultsymbol_grasslands_10: 1
+        vaultsymbol_grasslands_11: 1
+        vaultsymbol_grasslands_12: 1
+        vaultsymbol_mountains_1: 1
+        vaultsymbol_mountains_2: 1
+        vaultsymbol_mountains_3: 1
+        vaultsymbol_mountains_4: 1
+        vaultsymbol_mountains_5: 1
+        vaultsymbol_mountains_6: 1
+        vaultsymbol_mountains_7: 1
+        vaultsymbol_mountains_8: 1
+        vaultsymbol_mountains_9: 1
+        vaultsymbol_mountains_10: 1
+        vaultsymbol_mountains_11: 1
+        vaultsymbol_mountains_12: 1
+        vaultsymbol_shatteredlands_1: 1
+        vaultsymbol_shatteredlands_2: 1
+        vaultsymbol_shatteredlands_3: 1
+        vaultsymbol_shatteredlands_4: 1
+        vaultsymbol_shatteredlands_5: 1
+        vaultsymbol_shatteredlands_6: 1
+        vaultsymbol_shatteredlands_7: 1
+        vaultsymbol_shatteredlands_8: 1
+        vaultsymbol_shatteredlands_9: 1
+        vaultsymbol_shatteredlands_10: 1
+        vaultsymbol_shatteredlands_11: 1
+        vaultsymbol_shatteredlands_12: 1
+        vaultsymbol_city_1: 1
+        vaultsymbol_city_2: 1
+        vaultsymbol_city_3: 1
+        vaultsymbol_city_4: 1
+        vaultsymbol_city_5: 1
+        vaultsymbol_city_6: 1
+        vaultsymbol_elpis_1: 1
+        vaultsymbol_elpis_2: 1
+        vaultsymbol_uppercity_1: 1
+        vaultsymbol_uppercity_2: 1
+      caches: 
+        cache_grasslands_1: 1
+        cache_grasslands_2: 1
+        cache_grasslands_3: 1
+        cache_grasslands_4: 1
+        cache_grasslands_5: 1
+        cache_grasslands_6: 1
+        cache_grasslands_7: 1
+        cache_grasslands_8: 1
+        cache_grasslands_9: 1
+        cache_grasslands_10: 1
+      shrines: 
+        shrine_mountains_1: 1
+        shrine_mountains_2: 1
+        shrine_mountains_3: 1
+        shrine_mountains_4: 1
+        shrine_mountains_5: 1
+        shrine_mountains_6: 1
+        shrine_mountains_7: 1
+        shrine_mountains_8: 1
+        shrine_mountains_9: 1
+        shrine_mountains_10: 1
+      safes: 
+        safe_shatteredlands_1: 1
+        safe_shatteredlands_2: 1
+        safe_shatteredlands_3: 1
+        safe_shatteredlands_4: 1
+        safe_shatteredlands_5: 1
+        safe_shatteredlands_6: 1
+        safe_shatteredlands_7: 1
+        safe_shatteredlands_8: 1
+        safe_shatteredlands_9: 1
+        safe_shatteredlands_10: 1
+        safe_city_1: 1
+        safe_city_2: 1
+        safe_city_3: 1
+      capsules: 
+        capsule_grasslands_1: 1
+        capsule_grasslands_2: 1
+        capsule_grasslands_3: 1
+        capsule_grasslands_4: 1
+        capsule_grasslands_5: 1
+        capsule_grasslands_6: 1
+        capsule_mountains_1: 1
+        capsule_mountains_2: 1
+        capsule_mountains_3: 1
+        capsule_mountains_4: 1
+        capsule_mountains_5: 1
+        capsule_mountains_6: 1
+        capsule_shatteredlands_1: 1
+        capsule_shatteredlands_2: 1
+        capsule_shatteredlands_3: 1
+        capsule_shatteredlands_4: 1
+        capsule_shatteredlands_5: 1
+        capsule_city_1: 1
+        capsule_city_2: 1
+        capsule_city_3: 1
+      evocariums: 
+        evocarium_grasslands_1: 1
+        evocarium_grasslands_2: 1
+        evocarium_grasslands_3: 1
+        evocarium_grasslands_4: 1
+        evocarium_grasslands_5: 1
+        evocarium_grasslands_6: 1
+        evocarium_mountains_1: 1
+        evocarium_mountains_2: 1
+        evocarium_mountains_3: 1
+        evocarium_mountains_4: 1
+        evocarium_mountains_5: 1
+        evocarium_shatteredlands_1: 1
+        evocarium_shatteredlands_2: 1
+        evocarium_shatteredlands_3: 1
+        evocarium_shatteredlands_4: 1
+        evocarium_city_1: 1
+        evocarium_city_2: 1
+        evocarium_city_3: 1
+      propaspeakers: 
+        propaspeakers_grasslands_1: 1
+        propaspeakers_grasslands_2: 1
+        propaspeakers_grasslands_3: 1
+        propaspeakers_grasslands_4: 1
+        propaspeakers_grasslands_5: 1
+        propaspeakers_grasslands_6: 1
+        propaspeakers_grasslands_7: 1
+        propaspeakers_grasslands_8: 1
+        propaspeakers_mountains_1: 1
+        propaspeakers_mountains_2: 1
+        propaspeakers_mountains_3: 1
+        propaspeakers_mountains_4: 1
+        propaspeakers_mountains_5: 1
+        propaspeakers_mountains_6: 1
+        propaspeakers_mountains_7: 1
+        propaspeakers_shatteredlands_1: 1
+        propaspeakers_shatteredlands_2: 1
+        propaspeakers_shatteredlands_3: 1
+        propaspeakers_shatteredlands_4: 1
+        propaspeakers_shatteredlands_5: 1
+        propaspeakers_shatteredlands_6: 1
+        propaspeakers_shatteredlands_7: 1
+        propaspeakers_shatteredlands_8: 1
+        propaspeakers_city_1: 1
+        propaspeakers_city_2: 1
+        propaspeakers_city_3: 1
+        propaspeakers_city_4: 1
+      echologs_general: 
+        el_g_grasslands: 
+          gra_gen_01: 1
+          gra_gen_02: 1
+          gra_gen_03: 1
+          gra_gen_04: 1
+          gra_gen_05: 1
+          gra_gen_06: 1
+          gra_gen_07: 1
+          gra_gen_09: 1
+          gra_gen_10: 1
+          gra_gen_11: 1
+          gra_gen_12: 1
+          gra_gen_13: 1
+          gra_gen_14: 1
+          gra_gen_15: 1
+          gra_gen_16: 1
+          gra_gen_17: 1
+          gra_gen_18: 1
+          gra_gen_19: 1
+          gra_gen_20: 1
+          gra_gen_21: 1
+          gra_gen_22: 1
+          gra_gen_23: 1
+          gra_gen_24: 1
+          gra_gen_26: 1
+          gra_gen_27: 1
+          gra_gen_28: 1
+          gra_mis_01: 1
+          gra_mis_02: 1
+          gra_mis_04: 1
+          gra_mis_05: 1
+          gra_mis_06: 1
+          gra_mis_07: 1
+          gra_mis_08: 1
+          gra_mis_09: 1
+          gra_mis_10: 1
+          gra_mis_11: 1
+        el_g_mountains: 
+          mtn_gen_01: 1
+          mtn_gen_02: 1
+          mtn_gen_03: 1
+          mtn_gen_04: 1
+          mtn_gen_05: 1
+          mtn_gen_06: 1
+          mtn_gen_07: 1
+          mtn_gen_08: 1
+          mtn_gen_09: 1
+          mtn_gen_10: 1
+          mtn_gen_11: 1
+          mtn_gen_12: 1
+          mtn_gen_13: 1
+          mtn_gen_14: 1
+          mtn_gen_15: 1
+          mtn_gen_16: 1
+          mtn_gen_17: 1
+          mtn_gen_18: 1
+          mtn_gen_19: 1
+          mtn_gen_20: 1
+          mtn_gen_21: 1
+          mtn_gen_22: 1
+          mtn_gen_23: 1
+          mtn_gen_24: 1
+          mtn_gen_25: 1
+          mtn_gen_26: 1
+          mtn_gen_27: 1
+          mtn_gen_28: 1
+          mtn_mis_05: 1
+          mtn_mis_06: 1
+          mtn_mis_07: 1
+        el_g_shatteredlands: 
+          sha_gen_01: 1
+          sha_gen_02: 1
+          sha_gen_03: 1
+          sha_gen_04: 1
+          sha_gen_05: 1
+          sha_gen_06: 1
+          sha_gen_07: 1
+          sha_gen_08: 1
+          sha_gen_09: 1
+          sha_gen_10: 1
+          sha_gen_11: 1
+          sha_gen_12: 1
+          sha_gen_13: 1
+          sha_gen_14: 1
+          sha_gen_15: 1
+          sha_gen_16: 1
+          sha_gen_17: 1
+          sha_gen_18: 1
+          sha_gen_19: 1
+          sha_gen_20: 1
+          sha_gen_21: 1
+          sha_gen_22: 1
+          sha_gen_23: 1
+          sha_gen_24: 1
+          sha_gen_25: 1
+          sha_gen_26: 1
+          sha_gen_27: 1
+          sha_gen_28: 1
+          sha_gen_29: 1
+          sha_mis_01: 1
+          sha_mis_02: 1
+          sha_mis_03: 1
+          sha_mis_04: 1
+          sha_mis_05: 1
+          sha_mis_07: 1
+          sha_mis_08: 1
+          sha_mis_09: 1
+          sha_mis_10: 1
+          sha_mis_11: 1
+          sha_mis_12: 1
+          sha_mis_13: 1
+          sha_mis_14: 1
+          sha_mis_15: 1
+        el_g_elpis: 
+          elp_gen_01: 1
+          elp_gen_03: 1
+          elp_gen_04: 1
+          elp_gen_06: 1
+          elp_gen_07: 1
+          elp_gen_08: 1
+        el_g_city: 
+          city_gen_01: 1
+          city_gen_02: 1
+          city_gen_03: 1
+          city_gen_04: 1
+          city_gen_05: 1
+          city_gen_06: 1
+          city_gen_07: 1
+          city_gen_08: 1
+          city_gen_09: 1
+          city_gen_10: 1
+          city_gen_11: 1
+          city_gen_12: 1
+          city_gen_13: 1
+          city_gen_14: 1
+          city_gen_15: 1
+          city_gen_16: 1
+          city_gen_17: 1
+          city_gen_18: 1
+          city_gen_19: 1
+          city_gen_21: 1
+          city_gen_22: 1
+          city_gen_23: 1
+          city_mis_01: 1
+          city_mis_02: 1
+          city_mis_03: 1
+          city_mis_04: 1
+          city_mis_05: 0x0000000100000001
+          city_mis_06: 1
+          city_mis_07: 1
+          city_mis_08: 1
+          city_mis_09: 1
+          city_mis_10: 1
+          city_mis_11: 1
+          city_mis_12: 1
+          city_mis_13: 1
+          city_mis_14: 1
+          city_mis_15: 1
+      echologs_arjay: 
+        el_a_grasslands: 
+          gra_arj_01: 1
+          gra_arj_02: 1
+          gra_arj_03: 1
+        el_a_mountains: 
+          mtn_arj_01: 1
+          mtn_arj_02: 1
+          mtn_arj_03: 1
+        el_a_shatteredlands: 
+          sha_arj_01: 1
+          sha_arj_02: 1
+          sha_arj_03: 1
+        el_a_city: 
+          city_arj_01: 1
+          city_arj_02: 1
+          city_arj_03: 1
+      echologs_vaulthunter: 
+        el_vh_grasslands: 
+          gra_vh_01: 1
+          gra_vh_02: 1
+          gra_vh_03: 1
+          gra_vh_04: 1
+          gra_vh_05: 1
+          gra_vh_06: 1
+          gra_vh_07: 1
+          gra_vh_08: 1
+          gra_vh_09: 1
+          gra_vh_10: 1
+        el_vh_mountains: 
+          mtn_vh_01: 1
+          mtn_vh_02: 1
+          mtn_vh_03: 1
+          mtn_vh_04: 1
+          mtn_vh_05: 1
+          mtn_vh_06: 1
+          mtn_vh_07: 1
+          mtn_vh_08: 1
+          mtn_vh_09: 1
+          mtn_vh_10: 1
+        el_vh_shatteredlands: 
+          sha_vh_01: 1
+          sha_vh_02: 1
+          sha_vh_03: 1
+          sha_vh_04: 1
+          sha_vh_05: 1
+          sha_vh_06: 1
+          sha_vh_07: 1
+          sha_vh_08: 1
+          sha_vh_09: 1
+          sha_vh_10: 1
+        el_vh_city: 
+          city_vh_01: 1
+          city_vh_02: 1
+          city_vh_03: 1
+          city_vh_04: 1
+          city_vh_05: 1
+          city_vh_06: 1
+          city_vh_07: 1
+          city_vh_08: 1
+          city_vh_09: 1
+      vaultdoor: 
+        vaultdoor_grasslands: 1
+        vaultdoor_mountains: 1
+        vaultdoor_shatteredlands: 1
+      vaultlock: 
+        vaultlock_grasslands: 1
+        vaultlock_mountains: 1
+        vaultlock_shatteredlands: 1
+      vaultkey_grasslands: 
+        vaultkey_a_grasslands: 1
+        vaultkey_b_grasslands: 1
+        vaultkey_c_grasslands: 1
+      vaultkey_mountains: 
+        vaultkey_a_mountains: 1
+        vaultkey_b_mountains: 1
+        vaultkey_c_mountains: 1
+      vaultkey_shatteredlands: 
+        vaultkey_a_shatteredlands: 1
+        vaultkey_b_shatteredlands: 1
+        vaultkey_c_shatteredlands: 1
+      vaultpower_grasslands: 1
+      vaultpower_mountains: 1
+      vaultpower_shatteredlands: 1
+  shinygear: 
+    base: 
+      shiny_convergence: 1
+      shiny_goldengod: 1
+      shiny_goremaster: 1
+      shiny_hellfire: 1
+      shiny_prince: 1
+      shiny_stray: 1
+      shiny_vamoose: 1
+      shiny_lumberjack: 1
+      shiny_om: 1
+      shiny_star_helix: 1
+      shiny_rangefinder: 1
+      shiny_zipgun: 1
+      shiny_bod: 1
+      shiny_heartgun: 1
+      shiny_bloodstarved: 1
+      shiny_luty: 1
+      shiny_bonnieclyde: 1
+      shiny_rowan: 1
+      shiny_kingsgambit: 1
+      shiny_phantom_flame: 1
+      shiny_quickdraw: 1
+      shiny_seventh_sense: 1
+      shiny_hellwalker: 1
+      shiny_rainbowvomit: 1
+      shiny_slugger: 1
+      shiny_tkswave: 1
+      shiny_ballista: 1
+      shiny_boomslang: 1
+      shiny_truck: 1
+      shiny_kaleidosplode: 1
+      shiny_kickballer: 1
+      shiny_sweet_embrace: 1
+      shiny_ohmigot: 1
+      shiny_plasmacoil: 1
+      shiny_asher: 1
+      shiny_complex_root: 1
+      shiny_katagawa: 1
+      shiny_gmr: 1
+      shiny_goalkeeper: 1
+      shiny_bully: 1
+      shiny_noisycricket: 1
+      shiny_rocketreload: 1
+      shiny_fisheye: 1
+      shiny_symmetry: 1
+      shiny_chuck: 1
+      shiny_dividedfocus: 1
+      shiny_atlien: 1
+      shiny_rubysgrasp: 1
+      shiny_sideshow: 1
+      shiny_anarchy: 1
+      shiny_heavyturret: 1
+      shiny_bugbear: 1
+      shiny_coldshoulder: 1
+      shiny_potatothrower: 1
+      shiny_queensrest: 1
+      shiny_roach: 1
+      shiny_leadballoon: 1
+      shiny_linebacker: 1
+      shiny_dualdamage: 1
+      shiny_lucian: 1
+      shiny_wf: 1
+      shiny_wombocombo: 1
+      shiny_beegun: 1
+      shiny_kaoson: 1
+      shiny_onslaught: 1
+      shiny_finnty: 1
+      shiny_stopgap: 1
+  tutorial: 
+    climb: 1
+    crouch: 1
+    double_jump: 1
+    grapple: 1
+    ground_pound: 1
+    jump: 1
+    look: 1
+    revive: 1
+    shield: 1
+    walk: 1
+    weapon_fire: 1
+    weapon_reload: 1
+    checkpoints: 1
+    echo_location: 1
+    vault_tracking: 1
+    specialization: 1
+    blackmarket: 1
+    activity_safehouse_discovery: 1
+    activity_safehouse_capture: 1
+    activity_crawler_discovery: 1
+    activity_silo_discovery: 1
+    activity_silo_capture: 1
+    activity_augermine_discovery: 1
+    activity_augermine_locked: 1
+    activity_orderbunker_discovery: 1
+    activity_drillsite_discovery: 1
+    collectible_vaultsymbol_discovery: 1
+    collectible_echologgeneral_discovery: 1
+    collectible_echologarjay_discovery: 1
+    collectible_echologvh_discovery: 1
+    collectible_evocarium_discovery: 1
+    collectible_shrine_discovery: 1
+    collectible_cache_discovery: 1
+    collectible_safe_discovery: 1
+    collectible_speaker_discovery: 1
+    collectible_vaultpower_discovery: 1
+    misc_combatchest_discovery: 1
+    city_locust_gas_dispenser_unlocked: 1
+    uvh_unlock: 1
+    uvh_unlock2: 1
+    sdu_tokens: 1
+    vehicle: 1
+    actionskill_unlock: 1
+    repkit: 1
+    gamesystem_respecmachine: 1
+    dash: 1
+    glide: 1
+    augermines: 1
+    orderbunkers: 1
+    melee: 1
+  regions: 
+    city_regiona: 
+      discovered: 1
+      region_kills: 465
+    city_regionb: 
+      discovered: 1
+      region_kills: 190
+    city_regionc: 
+      discovered: 1
+      region_kills: 502
+    grasslands_regiona: 
+      discovered: 1
+      region_kills: 1367
+    grasslands_regionb: 
+      discovered: 1
+      region_kills: 385
+    grasslands_regionc: 
+      discovered: 1
+      region_kills: 220
+    grasslands_regiond: 
+      discovered: 1
+      region_kills: 796
+    grasslands_regione: 
+      discovered: 1
+      region_kills: 721
+    mountains_regiona: 
+      discovered: 1
+      region_kills: 352
+    mountains_regionb: 
+      discovered: 1
+      region_kills: 474
+    mountains_regionc: 
+      discovered: 1
+      region_kills: 111
+    mountains_regiond: 
+      discovered: 1
+      region_kills: 207
+    mountains_regione: 
+      discovered: 1
+      region_kills: 515
+    shatteredlands_regiona: 
+      discovered: 1
+      region_kills: 900
+    shatteredlands_regionb: 
+      discovered: 1
+      region_kills: 910
+    shatteredlands_regionc: 
+      discovered: 1
+      region_kills: 431
+    shatteredlands_regiond: 
+      discovered: 1
+      region_kills: 38
+    shatteredlands_regione: 
+      discovered: 1
+      region_kills: 181
+gbx_discovery_pc: 
+  pins_state: 
+  metrics: 
+    lastworld: World_P
+    lastregion: mountains_RegionD
+    hasseenworldlist: 
+    - Intro_P
+    - World_P
+    - Vault_Grasslands_P
+    - Fortress_Grasslands_P
+    - Fortress_Shatteredlands_P
+    - Fortress_Mountains_P
+    - ElpisElevator_P
+    - Elpis_P
+    - UpperCity_P
+    - Vault_ShatteredLands_P
+    - Vault_Mountains_P
+    hasseenregionlist: 
+    - grasslands_Prison
+    - grasslands_RegionA
+    - grasslands_RegionC
+    - grasslands_RegionB
+    - grasslands_RegionD
+    - grasslands_RegionE
+    - Grasslands_Vault
+    - Grasslands_Fortress
+    - shatteredlands_RegionD
+    - shatteredlands_RegionA
+    - shatteredlands_RegionC
+    - shatteredlands_RegionB
+    - KairosGeneric
+    - shatteredlands_RegionE
+    - shatteredlands_Fortress
+    - mountains_RegionB
+    - mountains_RegionC
+    - mountains_RegionA
+    - mountains_RegionD
+    - mountains_RegionE
+    - Mountains_Fortress
+    - elpis_elevator
+    - elpis
+    - city_RegionC
+    - city_RegionB
+    - city_RegionA
+    - city_Upper
+    - shatteredlands_Vault
+    - mountains_Vault
+missions: 
+  tracked_missions: 
+  - Mission_Side_Vending
+  - none
+  local_sets: 
+    missionset_main_prisonprologue: 
+      status: completed
+      missions: 
+        mission_main_prisonprologue: 
+          ui_flags: 1
+          status: completed
+          final: 
+            possessionscene_endstate: completed
+            obj_followarjay_walkntalk_endstate: completed
+            obj_firstswim_endstate: completed
+            inv_gettocrouch_endstate: completed
+            inv_afterprisonexit_endstate: completed
+            inv_beforeprisonexit_endstate: completed
+            inv_firstdropdown_endstate: completed
+    missionset_main_beach: 
+      status: completed
+      missions: 
+        mission_main_beach: 
+          ui_flags: 1
+          status: completed
+          final: 
+            activate__cl4ptps_safehouse_endstate: completed
+            melee_the_door_0_endstate: completed
+            reach_village_endstate: completed
+            use_glide_to_reach_exit_endstate: completed
+            destroy_bolt_1_endstate: deactivated
+            destroy_bolt_3_endstate: deactivated
+            destroy_bolt_2_endstate: completed
+    missionset_main_grasslands2a: 
+      status: completed
+      missions: 
+        mission_main_grasslands2: 
+          ui_flags: 1
+          status: completed
+          final: 
+            find_zadra_1_endstate: completed
+            kill_the_gunship_endstate: completed
+            invis_fast_complete_generator_endstate: completed
+            wait_for_zadra_endstate: completed
+            enter_slide_quick_complete_endstate: completed
+            find_zadra_endstate: completed
+            holder_for_timekeeper_vo_finish_endstate: completed
+            kill_roof_intro_guys_endstate: completed
+            kill_synth_reinforcements_invis_tracker_endstate: deactivated
+            combat_composit_obj_endstate: deactivated
+            find_zadra_0_endstate: completed
+    missionset_zoneactivity_safehouse: 
+      missions: 
+        zoneactivity_mountains_safehouse3: 
+          status: completed
+          final: 
+            fact_lightson: TRUE
+        zoneactivity_grasslands_safehousemain: 
+          status: completed
+          final: 
+            fact_lightson: TRUE
+            find_the_datapad_endstate: completed
+            claim_the_command_console_endstate: completed
+        zoneactivity_grasslands_safehouse3: 
+          status: completed
+          final: 
+            fact_lightson: TRUE
+        zoneactivity_grasslands_safehouse4: 
+          status: completed
+          final: 
+            fact_lightson: TRUE
+        zoneactivity_grasslands_safehouse2: 
+          status: completed
+          final: 
+            fact_lightson: TRUE
+        zoneactivity_shatteredlands_safehouse1: 
+          status: completed
+        zoneactivity_mountains_safehouse2: 
+          status: completed
+          final: 
+            claim_the_command_console_endstate: completed
+            fact_lightson: TRUE
+        zoneactivity_mountains_safehouse4: 
+          status: completed
+          final: 
+            fact_lightson: TRUE
+        zoneactivity_city_safehouse1: 
+          status: completed
+          final: 
+            fact_lightson: TRUE
+        zoneactivity_shatteredlands_safehouse2: 
+          status: completed
+          final: 
+            fact_lightson: TRUE
+        zoneactivity_city_safehouse3: 
+          status: completed
+          final: 
+            fact_lightson: TRUE
+        zoneactivity_mountains_safehouse1: 
+          status: completed
+          final: 
+            fact_lightson: TRUE
+        zoneactivity_city_safehouse2: 
+          status: completed
+          final: 
+            fact_lightson: TRUE
+        zoneactivity_shatteredlands_safehouse3: 
+          status: completed
+          final: 
+            fact_lightson: TRUE
+    missionset_main_mountains3: 
+      status: completed
+      missions: 
+        mission_main_mountains3: 
+          ui_flags: 1
+          status: completed
+          final: 
+            obj_destroydoorlocks_endstate: completed
+            invis_obj_waypointforwayback_endstate: completed
+            obj_lootcommandersbolt_endstate: completed
+            obj_killcommander_endstate: completed
+    missionset_main_grasslands3: 
+      status: completed
+      missions: 
+        mission_main_grasslands3: 
+          ui_flags: 1
+          status: completed
+          final: 
+            gettosaftey_endstate: completed
+            enterfortress_endstate: completed
+            kill_commander_endstate: completed
+            salvagelocusts_endstate: completed
+            opengate_endstate: completed
+            advancetofortress_endstate: completed
+            findairshiphangar_endstate: completed
+            bosswaypoint03_endstate: completed
+            enter_commander_arena_endstate: completed
+    missionset_main_city3: 
+      status: completed
+      missions: 
+        mission_main_city3: 
+          ui_flags: 1
+          status: completed
+          final: 
+            killtimekeeper_endstate: completed
+            killtimekeeper_guardian_endstate: completed
+    missionset_main_shatteredlands3: 
+      status: completed
+      missions: 
+        mission_main_shatteredlands3: 
+          ui_flags: 1
+          status: completed
+          final: 
+            killrip_fortfrontbadass_endstate: completed
+            gotoramp_endstate: completed
+            shootbomb_endstate: completed
+            rampillar_endstate: completed
+            turnonramp_endstate: completed
+            enterfortress_endstate: completed
+            killboss_endstate: completed
+    missionset_side_shatteredlandsa: 
+      missions: 
+        mission_side_vending: 
+          ui_flags: 1
+          status: Active
+          cursorposition: 3
+          final: 
+            talkstreamsstart_endstate: completed
+          objectives: 
+            talkstreamsstart: 
+              status: Completed_PostFinished
+            beach_inputcode: 
+              status: WaitingOnMission
+            beach_killcreature: 
+              status: WaitingOnMission
+            buyback_inputcode: 
+              status: WaitingOnDependencies
+            buysomething: 
+              status: WaitingOnMission
+            checksymbol: 
+              status: Completed_PostFinished
+            crushloopstart: 
+              status: Completed_PostFinished
+            customer_attackmachine: 
+              status: WaitingOnDependencies
+            customer_hit_entercode: 
+              status: WaitingOnDependencies
+            customer_hitcustomer: 
+              status: WaitingOnDependencies
+            customer_hitmachine: 
+              status: WaitingOnDependencies
+            customer_kill_entercode: 
+              status: WaitingOnDependencies
+            enter_the_lair: 
+              status: WaitingOnMission
+            findclues: 
+              status: Active
+            findzanepicture: 
+              status: WaitingOnMission
+            followarrow1: 
+              status: Active
+            followredwire: 
+              status: WaitingOnMission
+            give_picture_to_zane: 
+              status: WaitingOnMission
+            inputcode: 
+              status: Completed_PostFinished
+            inspectmachine: 
+              status: Completed_PostFinished
+            killmonster: 
+              status: WaitingOnMission
+            seemachine: 
+              status: WaitingOnMission
+            speakcustomer: 
+              status: WaitingOnDependencies
+            take_picture: 
+              status: WaitingOnMission
+            turnoffjukebox: 
+              status: WaitingOnDependencies
+            vend_beach: 
+              status: WaitingOnMission
+            inv_buybackapproach: 
+              status: Active
+            vend_buyback: 
+              status: WaitingOnDependencies
+            invisnearbuyback2: 
+              status: WaitingOnDependencies
+            inv_customerapproach: 
+              status: Active
+            inv_crushapproach: 
+              status: Completed_PostFinished
+            followarrowvo1: 
+              status: Active
+            _beach_killcreature_sub0: 
+              status: WaitingOnMission
+            _beach_killcreature_sub1: 
+              status: WaitingOnMission
+            buy_nosecret: 
+              status: WaitingOnMission
+            nosecretend: 
+              status: WaitingOnMission
+    missionset_main_mountains2b: 
+      status: completed
+      missions: 
+        mission_main_mountains2b: 
+          ui_flags: 1
+          status: completed
+          final: 
+            obj_findawayin_endstate: completed
+            obj_overarching_findphase_endstate: completed
+    missionset_zoneactivity_orderbunker: 
+      missions: 
+        zoneactivity_mountains_orderbunker1: 
+          status: completed
+          final: 
+            open_the_door_endstate: completed
+        zoneactivity_grasslands_orderbunker2: 
+          status: completed
+          final: 
+            open_the_door_endstate: completed
+        zoneactivity_mountains_orderbunker2: 
+          status: completed
+          final: 
+            open_the_door_endstate: completed
+        zoneactivity_city_orderbunker1: 
+          status: completed
+          final: 
+            open_the_door_endstate: completed
+        zoneactivity_grasslands_orderbunker1: 
+          status: completed
+          final: 
+            open_the_door_endstate: completed
+        zoneactivity_shatteredlands_orderbunker1: 
+          status: completed
+          final: 
+            open_the_door_endstate: completed
+    missionset_vault_grasslands: 
+      status: completed
+      missions: 
+        mission_side_grasslandsvault: 
+          ui_flags: 1
+          status: completed
+          final: 
+            lootvaultpower_endstate: completed
+            defeatinceptus_endstate: completed
+    missionset_main_city1: 
+      status: completed
+      missions: 
+        mission_main_city1: 
+          ui_flags: 1
+          status: completed
+          final: 
+            talktolilith_endstate: completed
+            entercity_visible_endstate: deactivated
+            inv_enter_the_city_bc5_endstate: completed
+            capture_safehouse_endstate: completed
+    missionset_main_elpis: 
+      status: completed
+      missions: 
+        mission_main_elpis: 
+          ui_flags: 1
+          status: completed
+          final: 
+            generatorlight_4: TRUE
+            generatorlight_3: TRUE
+            generatorlight_2: TRUE
+            generatorlight_1: TRUE
+            generatorlight_5: TRUE
+            generatorlight_6: TRUE
+            generatorlight_7: TRUE
+            generatorlight_8: TRUE
+            escortavatoarch_endstate: completed
+            findlilith_endstate: completed
+            clearenemies_pregenerator_endstate: completed
+            inv_interactwithelevator_endstate: completed
+            takeelevator_fixed_endstate: completed
+    missionset_main_city2: 
+      status: completed
+      missions: 
+        mission_main_city2: 
+          ui_flags: 1
+          status: completed
+          final: 
+            hack_progress_pt1_endstate: completed
+            openascensionchamber_endstate: completed
+    missionset_main_postgame: 
+      status: completed
+      cursorposition: 3
+      missions: 
+        micro_uvh_blackmarkettutorial: 
+          ui_flags: 1
+          status: completed
+        micro_uvh_firmwaretransfertutorial: 
+          ui_flags: 1
+          status: completed
+          exit: Micro_UVH_FirmwareTransferTutorial_SHA_Exit
+        micro_uvh_trueboss: 
+          ui_flags: 1
+          status: completed
+          exit: Exit
+        micro_uvh_trait: 
+          ui_flags: 1
+          status: completed
+          final: 
+            talktolilith_endstate: completed
+    missionset_main_searchforlilith: 
+      status: completed
+      missions: 
+        mission_main_searchforlilith: 
+          ui_flags: 1
+          status: completed
+          final: 
+            sfl_activate_space_elevator_endstate: completed
+            sfl_talk_to_amara_endstate: completed
+    missionset_main_shatteredlands2: 
+      status: completed
+      missions: 
+        mission_main_shatteredlands2: 
+          ui_flags: 1
+          status: completed
+          final: 
+            melee_generator_endstate: completed
+            activate_core_chamber_systems_endstate: completed
+            find_a_power_core_endstate: completed
+            repair_leaders_chamber_critical_systems_endstate: completed
+            restore_flowing_water_to_carcadia_endstate: completed
+            findquent_endstate: completed
+            ppppoutpost2_echo_endstate: completed
+            ppppoutpost1_echo_endstate: completed
+            invisechocollection_endstate: completed
+            kill_badass_security_jones_endstate: completed
+            kill_reinforcements_endstate: completed
+            pull_the_device_endstate: completed
+            destroy_the_fuel_endstate: completed
+            save_quent_endstate: deactivated
+    missionset_main_shatteredlands1: 
+      status: completed
+      cursorposition: 1
+      missions: 
+        mission_main_shatteredlands1: 
+          ui_flags: 1
+          status: completed
+        mission_main_shatteredlands1b: 
+          ui_flags: 1
+          status: completed
+          final: 
+            meet_zane_endstate: completed
+            head_to_the_electi_council_chamber_0_endstate: completed
+    missionset_zoneactivity_mine: 
+      missions: 
+        zoneactivity_grasslands_mine2: 
+          status: completed
+          final: 
+            find_the_entrance_to_the_mine_endstate: completed
+        zoneactivity_mountains_mine2: 
+          status: completed
+          final: 
+            find_the_entrance_to_the_mine_endstate: completed
+        zoneactivity_city_mine1: 
+          status: completed
+          final: 
+            find_the_entrance_to_the_mine_endstate: completed
+        zoneactivity_shatteredlands_mine2: 
+          status: completed
+          final: 
+            find_the_entrance_to_the_mine_endstate: completed
+        zoneactivity_mountains_mine1: 
+          status: completed
+          final: 
+            find_the_entrance_to_the_mine_endstate: completed
+        zoneactivity_shatteredlands_mine1: 
+          status: completed
+          final: 
+            find_the_entrance_to_the_mine_endstate: completed
+        zoneactivity_grasslands_mine1: 
+          status: completed
+          final: 
+            find_the_entrance_to_the_mine_endstate: completed
+    missionset_main_cityepilogue: 
+      status: completed
+      missions: 
+        mission_main_cityepilogue: 
+          ui_flags: 1
+          status: completed
+          final: 
+            inv_openportal_endstate: completed
+            phasedimensionentered_1st: TRUE
+            defeat_arjay_endstate: completed
+            take_object_endstate: completed
+            returntomoxxisbar_endstate: completed
+    missionset_zoneactivity_silo: 
+      missions: 
+        zoneactivity_grasslands_silo2: 
+          status: completed
+        zoneactivity_grasslands_silo1: 
+          status: completed
+        zoneactivity_grasslands_silo3: 
+          status: completed
+        zoneactivity_mountains_silo3: 
+          status: completed
+        zoneactivity_shatteredlands_silo1: 
+          status: completed
+        zoneactivity_shatteredlands_silo2: 
+          status: completed
+        zoneactivity_mountains_silo2: 
+          status: completed
+        zoneactivity_mountains_silo1: 
+          status: completed
+        zoneactivity_shatteredlands_silo3: 
+          status: completed
+    missionset_main_grasslands1: 
+      status: completed
+      missions: 
+        mission_main_grasslands1: 
+          ui_flags: 1
+          status: completed
+          final: 
+            meet_nudge_endstate: completed
+            kill_order_soldiers_endstate: completed
+            commander_holo_tracker_endstate: completed
+            talk_with_conway_endstate: completed
+            scan_vehicle_endstate: completed
+            get_close_to_contra_2_endstate: completed
+            get_close_to_contra_1_endstate: completed
+            get_close_to_contra_4_endstate: completed
+            get_close_to_contra_3_endstate: completed
+            reach_the_lieutenant_endstate: completed
+            return_to_outbounder_hq_endstate: completed
+    missionset_main_grasslands2b: 
+      status: completed
+      missions: 
+        mission_main_grasslands2b: 
+          ui_flags: 1
+          status: completed
+          final: 
+            invisunderairship_endstate: completed
+            removedebris_endstate: completed
+            kill_factory_boss_endstate: completed
+            evacuateship_endstate: completed
+            gettohq_endstate: completed
+    missionset_main_mountains1: 
+      status: completed
+      missions: 
+        mission_main_mountains1: 
+          ui_flags: 1
+          status: completed
+    missionset_main_city1_b: 
+      status: completed
+      missions: 
+        mission_main_city1_b: 
+          ui_flags: 1
+          status: completed
+    missionset_micro_grasslandsa: 
+      missions: 
+        micro_grasslands_abductioninjunction: 
+          ui_flags: 1
+          status: completed
+        micro_grasslands_abductioninjunctionending: 
+          status: completed
+    missionset_side_grasslandsa: 
+      missions: 
+        grasslands_side_murdermystery: 
+          ui_flags: 1
+          status: completed
+          final: 
+            enter_the_bunker_endstate: deactivated
+            kill_the_ice_cream_man_endstate: deactivated
+            listen_to_final_radio_endstate: completed
+        grasslands_side_murdermystery_beckon: 
+          status: completed
+        mission_side_thecureintro: 
+          status: completed
+        mission_side_lifespurpose: 
+          ui_flags: 1
+          status: completed
+          final: 
+            find_guide_endstate: completed
+            start_launch_sequence_endstate: completed
+            dumb_rando_encoutners_endstate: completed
+        mission_side_thecure: 
+          ui_flags: 1
+          status: completed
+        grasslands_side_claptrapofpandora_invis_postmission: 
+          status: completed
+        grasslands_side_claptrapofpandora: 
+          ui_flags: 1
+          status: completed
+          final: 
+            retrieve_the_portrait_endstate: completed
+            reach_the_bunker__endstate: completed
+            destroy_the_toilet_endstate: completed
+        grasslands_side_salvagerippertunnelsintro: 
+          status: completed
+    missionset_micro_grasslandsb: 
+      missions: 
+        micro_grasslands_hydroplantpowerup: 
+          ui_flags: 1
+          status: completed
+          final: 
+            flipswitch4_endstate: completed
+    missionset_zoneactivity_crawler: 
+      missions: 
+        zoneactivity_grasslands_crawler3: 
+          status: completed
+        zoneactivity_shatteredlands_crawler1: 
+          status: completed
+        zoneactivity_shatteredlands_crawler3: 
+          status: completed
+        zoneactivity_mountains_crawler1: 
+          status: completed
+        zoneactivity_mountains_crawler4: 
+          status: completed
+        zoneactivity_mountains_crawler2: 
+          status: completed
+        zoneactivity_grasslands_crawler2: 
+          status: completed
+        zoneactivity_mountains_crawler3: 
+          status: completed
+        zoneactivity_grasslands_crawler1: 
+          status: completed
+        zoneactivity_grasslands_crawler4: 
+          status: completed
+        zoneactivity_shatteredlands_crawler2: 
+          status: completed
+    missionset_micro_shatteredlandsb: 
+      missions: 
+        micro_shattered_ep_mole: 
+          ui_flags: 1
+          status: completed
+          final: 
+            placedevices_endstate: completed
+            activatedevices_endstate: completed
+        micro_shattered_ep_agri: 
+          ui_flags: 1
+          status: completed
+    missionset_side_shatteredlandsb: 
+      missions: 
+        mission_side_electifactionmission1: 
+          ui_flags: 1
+          status: completed
+          final: 
+            findcrates_endstate: completed
+            opencrates_endstate: completed
+            leavecratearea: completed
+            reachseabase: completed
+            foundboomsticks: completed
+            placedbombsship2: completed
+            placedbombsship3: completed
+            placedbombsship1: completed
+            killmeatmeat_endstate: completed
+    missionset_side_shatteredlandsc: 
+      status: completed
+      missions: 
+        mission_side_electifactionmission2: 
+          ui_flags: 1
+          status: completed
+          final: 
+            echobadasskilled: completed
+            explore_cave_waypoiont_endstate: completed
+            shootmolenodept4_endstate: completed
+    missionset_side_shatteredlandsd: 
+      status: completed
+      missions: 
+        mission_side_electifactionmission3: 
+          ui_flags: 1
+          status: completed
+          final: 
+            invsbreadcrumb_endstate: completed
+            tomolebreadcrumb_endstate: completed
+    missionset_main_mountains2a: 
+      status: completed
+      missions: 
+        mission_main_mountains2: 
+          ui_flags: 1
+          status: completed
+    missionset_zoneactivity_drillsite: 
+      missions: 
+        zoneactivity_mountains_drillsite2: 
+          status: completed
+        zoneactivity_grasslands_drillsite1: 
+          status: completed
+        zoneactivity_shatteredlands_drillsite1: 
+          status: completed
+        zoneactivity_grasslands_drillsite2: 
+          status: completed
+        zoneactivity_mountains_drillsite1: 
+          status: completed
+        zoneactivity_shatteredlands_drillsite2: 
+          status: completed
+    missionset_side_postgame: 
+      cursorposition: 1
+    missionset_side_mountainsd: 
+      missions: 
+        mission_side_planetaryescape_intro4: 
+          status: completed
+    missionset_vault_mountains: 
+      status: completed
+      missions: 
+        mission_side_vault_glide: 
+          ui_flags: 1
+          status: completed
+          final: 
+            bossfight_endstate: completed
+    missionset_vault_shatteredlands: 
+      status: completed
+      missions: 
+        mission_side_resonatorvault: 
+          ui_flags: 1
+          status: completed
+          final: 
+            defeatshatteredlandsvaultguardian_endstate: completed
+    missionset_side_citya: 
+      missions: 
+        event_side_thepriceoffreedompart1: 
+          status: Active
+          objectives: 
+            _checkorderdead_sub1: 
+              status: WaitingOnDependencies
+            checkcombatstarted: 
+              status: Active
+            checkfarfromjoe: 
+              status: WaitingOnDependencies
+            checknearjoe: 
+              status: WaitingOnDependencies
+            checkorderdead: 
+              status: WaitingOnDependencies
+            opencell: 
+              status: Active
+            _checkorderdead_sub0: 
+              status: WaitingOnDependencies
+        mission_side_belowthesurface: 
+          status: completed
+    missionset_side_cityb: 
+      missions: 
+        mission_side_whatlurksbeneath: 
+          status: completed
+        mission_side_onegassyissue: 
+          status: completed
+    missionset_micro_grasslandse: 
+      missions: 
+        micro_grasslands_faction01intro: 
+          status: completed
+oak.ui.progression_data: 
+  ui_progression_data: 
+    active_tree_index: 0
+    dont_ask_again_skills: false
+    dont_ask_again_respec_skills: false
+    dont_ask_again_specializations: false
+    dont_ask_again_respec_specializations: false
+    dont_ask_again_respec_node: false
+save_game_header: 
+  guid: 97576BC74DD4277AC91AB2930D2EFCDC
+  timestamp: 1774746333
+progression: 
+  graphs: 
+  - name: Progress_DarkSiren_ActionSkills
+    group_def_name: ProgressGroup_DarkSiren
+    nodes: 
+    - name: Phase Avatar
+      is_activated: true
+  - name: Progress_DarkSiren_ActionSkill_Modifiers_PhaseAvatar
+    group_def_name: ProgressGroup_DarkSiren
+    nodes: 
+    - name: Phase Reap
+      is_activated: true
+    - name: Vibe Check
+      is_activated: true
+  - name: Progress_DS_Trunk_Domination
+    group_def_name: ProgressGroup_DarkSiren
+    nodes: 
+    - name: Overpowered
+      points_spent: 5
+    - name: Phase Plating
+      points_spent: 3
+  - name: Progress_DS_Trunk_Death
+    group_def_name: ProgressGroup_DarkSiren
+    nodes: 
+    - name: Draining Attunement
+      points_spent: 5
+    - name: Grave Sights
+      points_spent: 5
+    - name: Bleed
+      points_spent: 5
+    - name: Infused Bullets
+      points_spent: 5
+    - name: Kinetic Influence
+      points_spent: 5
+    - name: Grave Power
+      points_spent: 3
+  - name: Progress_DS_Branch_Death_02
+    group_def_name: ProgressGroup_DarkSiren
+    nodes: 
+    - name: Wombo Combo
+      points_spent: 5
+    - name: Extra
+      points_spent: 5
+  - name: Progress_DS_Branch_Death_03
+    group_def_name: ProgressGroup_DarkSiren
+    nodes: 
+    - name: Enlightenment
+      points_spent: 5
+    - name: Draining Essence
+      points_spent: 5
+    - name: Blood Is Power
+      points_spent: 3
+  - name: ProgressGraph_Specializations
+    group_def_name: ProgressGroup_DarkSiren
+    nodes: 
+    - name: Survivor
+      points_spent: 100
+    - name: Artificer
+      points_spent: 100
+    - name: Enforcer
+      points_spent: 100
+    - name: Slayer
+      points_spent: 100
+    - name: HUNTER
+      points_spent: 100
+    - name: Adventurer
+      points_spent: 100
+    - name: Wanderer
+      points_spent: 100
+  - name: ProgressGraph_Specializations_Skills
+    group_def_name: ProgressGroup_DarkSiren
+    nodes: 
+    - name: ST_1_Skill_2
+      is_activated: true
+    - name: ST_1_Skill_3
+      is_activated: true
+      activation_level: 1
+    - name: ST_2_Skill_1
+      is_activated: true
+      activation_level: 2
+    - name: ST_6_Skill_1
+      is_activated: true
+      activation_level: 3
+  point_pools: 
+    characterprogresspoints: 59
+    specializationtokenpool: 700
+  progress_state_data: 
+    characterprogresspoints: 
+      id: EB767C634ACAB2613C2FF9BD4BC4ECDE
+      reset_count: 4
+    specializationtokenpool: 
+      id: E8CD5CF547AC5011695ABC81D369DA7A
+      reset_count: 1
+unlockables: 
+  unlockable_hoverdrives: 
+    entries: 
+    - Unlockable_HoverDrives.maliwan_01
+    - Unlockable_HoverDrives.jakobs_02
+    - Unlockable_HoverDrives.daedalus_01
+    - Unlockable_HoverDrives.Jakobs_01
+    - Unlockable_HoverDrives.daedalus_02
+    - Unlockable_HoverDrives.jakobs_03
+    - Unlockable_HoverDrives.jakobs_04
+    - Unlockable_HoverDrives.torgue_01
+    - Unlockable_HoverDrives.jakobs_05
+    - Unlockable_HoverDrives.maliwan_02
+    - Unlockable_HoverDrives.torgue_02
+    - Unlockable_HoverDrives.vladof_01
+    - Unlockable_HoverDrives.vladof_02
+    - Unlockable_HoverDrives.borg_01
+    - Unlockable_HoverDrives.tediore_01
+    - Unlockable_HoverDrives.order_01
+    - Unlockable_HoverDrives.daedalus_03
+    - Unlockable_HoverDrives.torgue_03
+    - Unlockable_HoverDrives.order_02
+    - Unlockable_HoverDrives.order_03
+    - Unlockable_HoverDrives.daedalus_04
+    - Unlockable_HoverDrives.order_04
+world_state: 
+  world_p.top.base.io_worldtrigger_propagandasystem_force_02: 
+    team: INVALID_TEAM
+    consumed: TRUE
+  world_p.top.base.io_worldtrigger_propagandasystem_force_05: 
+    team: INVALID_TEAM
+    consumed: TRUE
+  world_p.top.base.io_damageable_burritosha5: 
+    damageable_state: Damageable
+    team: Team_IO_Combat
+  world_p.top.base.io_damageable_burritosha1: 
+    damageable_state: Damageable
+    team: Team_IO_Combat
+  world_p.top.base.io_damageable_burritosha2: 
+    damageable_state: Damageable
+    team: Team_IO_Combat
+  world_p.top.base.io_damageable_burritosha4: 
+    damageable_state: Damageable
+    team: Team_IO_Combat
+  world_p.top.base.io_damageable_burritomnt1: 
+    damageable_state: Damageable
+    team: Team_IO_Combat
+  world_p.top.base.io_damageable_burritomnt3: 
+    damageable_state: Damageable
+    team: Team_IO_Combat
+  world_p.top.base.io_damageable_burritomnt2: 
+    damageable_state: Damageable
+    team: Team_IO_Combat
+  world_p.top.base.io_damageable_burritomnt5: 
+    damageable_state: Damageable
+    team: Team_IO_Combat
+  world_p.top.base.io_worldtrigger_propagandasystem_force_01: 
+    team: INVALID_TEAM
+    consumed: TRUE
+  world_p.top.base.io_damageable_burritomnt4: 
+    damageable_state: Damageable
+    team: Team_IO_Combat
+  world_p.top.base.io_worldtrigger_propagandasystem_force_03: 
+    team: INVALID_TEAM
+    consumed: TRUE
+  world_p.top.base.io_damageable_burritogra5: 
+    damageable_state: Damageable
+    team: Team_IO_Combat
+  world_p.top.base.io_damageable_burritogra2: 
+    damageable_state: Damageable
+    team: Team_IO_Combat
+  world_p.top.base.io_worldtrigger_propagandasystem_force_04: 
+    team: INVALID_TEAM
+  world_p.top.base.io_damageable_burritogra1: 
+    damageable_state: Damageable
+    team: Team_IO_Combat
+  world_p.top.base.io_damageable_burritosha3: 
+    damageable_state: Damageable
+    team: Team_IO_Combat
+  world_p.top.base.io_damageable_burritogra3: 
+    damageable_state: Damageable
+    team: Team_IO_Combat
+  world_p.top.base.io_damageable_burritogra4: 
+    damageable_state: Damageable
+    team: Team_IO_Combat
+  world_p.top.base.io_aaaforeffort_secretdoormover_floor: 
+    script_doorstate: Closed
+    team: INVALID_TEAM
+  world_p.top.base.switch_waterthechances_damageablevalve: 
+    interactive: Off
+    light: Off
+    team: Team_Order
+  world_p.top.base.maxsmemoires_floorpanelswitch: 
+    interactive: Locked
+    hasglow: TRUE
+    team: INVALID_TEAM
+  world_p.top.base.io_aaaforeffort_secretdoormover: 
+    script_doorstate: Closed
+    team: INVALID_TEAM
+activities: 
+  allactivities: 
+timed_facts: 
+gbx_discovery_pg: 
