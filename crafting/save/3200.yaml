@@ -1,7 +1,7 @@
 state: 
-  char_guid: 1B7DE41440EC6D683B387086F8480000
+  char_guid: 1B7DE41440EC6D683B387086F848C200
   class: Char_DarkSiren
-  char_name: 0000 - 空白
+  char_name: C200 - 紫手雷
   player_difficulty: Easy
   true_mode: false
   experience: 
@@ -15,10 +15,16 @@ state:
     items: 
       backpack: 
         slot_0: 
-          serial: '@Ugr%Scm/)}}$pj+I_X>JcrP@~qv^$y<M2%`+1po'
+          serial: '@Ugr$WBm/*xI!nvCgdeorSM{`52NF}j^(zgH'
           state_flags: 1
         slot_1: 
-          serial: '@Ugr$-Om/)}}$pj+I%?PSgqS{vn6hE360s{@IeH8!'
+          serial: '@Ugr$WBm/*xI!nvCgdeorSM{`52NF}j^(w7DR'
+          state_flags: 1
+        slot_2: 
+          serial: '@Ugr$WBm/*xI!nvCgdeorSM{`52NF}+1(zgH'
+          state_flags: 1
+        slot_3: 
+          serial: '@Ugr$WBm/*xI!nvCgdeorSM{`52NF}+1(w7DR'
           state_flags: 1
     equipped_inventory: 
       equipped: 

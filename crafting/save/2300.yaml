@@ -1,7 +1,7 @@
 state: 
-  char_guid: 1B7DE41440EC6D683B387086F8480000
+  char_guid: 1B7DE41440EC6D683B387086F848B300
   class: Char_DarkSiren
-  char_name: 0000 - 空白
+  char_name: B300 - 紫重武器
   player_difficulty: Easy
   true_mode: false
   experience: 
@@ -15,11 +15,35 @@ state:
     items: 
       backpack: 
         slot_0: 
-          serial: '@Ugr%Scm/)}}$pj+I_X>JcrP@~qv^$y<M2%`+1po'
-          state_flags: 1
+          serial: '@Ugr$%Mm/*xI!nvCgdV^Y2qaGEhp+c7mgBpWMUjqO'
+          state_flags: 17
         slot_1: 
-          serial: '@Ugr$-Om/)}}$pj+I%?PSgqS{vn6hE360s{@IeH8!'
-          state_flags: 1
+          serial: '@Ugr$%Mm/*xI!nvCgdV^Y2qaGEh;X;=RgBpWMUjqO'
+          state_flags: 17
+        slot_2: 
+          serial: '@Ugr$%Mm/*xI!nvCgdV^Y2qaGEhAw!o6gBpWMUjqO'
+          state_flags: 17
+        slot_3: 
+          serial: '@Ugr$%Mm/*xI!nvCgdV^Y2qaGEhVMCV+gBpWMUjqO'
+          state_flags: 17
+        slot_4: 
+          serial: '@Ugr$%Mm/*xI!nvCgdV^Y2qaGEhp+lECgBpWMUjqO'
+          state_flags: 17
+        slot_5: 
+          serial: '@Ugr$%Mm/*xI!nvCgdV^Y2qaGEhp+c7$gF1ssUjqO'
+          state_flags: 33
+        slot_6: 
+          serial: '@Ugr$%Mm/*xI!nvCgdV^Y2qaGEh;X;=hgF1ssUjqO'
+          state_flags: 33
+        slot_7: 
+          serial: '@Ugr$%Mm/*xI!nvCgdV^Y2qaGEhAw!oMgF1ssUjqO'
+          state_flags: 33
+        slot_8: 
+          serial: '@Ugr$%Mm/*xI!nvCgdV^Y2qaGEhVMCW1gF1ssUjqO'
+          state_flags: 33
+        slot_9: 
+          serial: '@Ugr$%Mm/*xI!nvCgdV^Y2qaGEhp+lD%gF1ssUjqO'
+          state_flags: 33
     equipped_inventory: 
       equipped: 
     equip_slots_unlocked: 
