@@ -15,10 +15,10 @@ state:
     items: 
       backpack: 
         slot_0: 
-          serial: '@Ugr$xKm/)}}!nvCgYE+@lM{`ZANgshG1po'
+          serial: '@Ugr$xKm/*xI!nvCgYE+@lM{`ZANgshG1po'
           state_flags: 1
         slot_1: 
-          serial: '@Ugr$xKm/)}}!nvCgYE+@lM{`ZANgshGGyn'
+          serial: '@Ugr$xKm/*xI!nvCgYE+@lM{`ZANgshGGyn'
           state_flags: 1
         slot_2: 
           serial: '@Uge8#%m/*xI!nvCgdQ_p#M{`Z8p+TLGhL#in'
@@ -42,16 +42,16 @@ state:
           serial: '@Uge8#%m/*xI!nvCgdQ_p#M{`Z8p+TLGW/tTM'
           state_flags: 17
         slot_9: 
-          serial: '@Ugr$xKm/)}}!nvCgdQ_p#M{`Z8p+TLGhL#in'
+          serial: '@Ugr$xKm/*xI!nvCgdQ_p#M{`Z8p+TLGhL#in'
           state_flags: 33
         slot_10: 
-          serial: '@Ugr$xKm/)}}!nvCgdQ_p#M{`Z8p+TLGrj`@{'
+          serial: '@Ugr$xKm/*xI!nvCgdQ_p#M{`Z8p+TLGrj`@{'
           state_flags: 33
         slot_11: 
-          serial: '@Ugr$xKm/)}}!nvCgdQ_p#M{`Z8p+TLG2AUKA'
+          serial: '@Ugr$xKm/*xI!nvCgdQ_p#M{`Z8p+TLG2AUKA'
           state_flags: 33
         slot_12: 
-          serial: '@Ugr$xKm/)}}!nvCgdQ_p#M{`Z8p+TLGW/tTM'
+          serial: '@Ugr$xKm/*xI!nvCgdQ_p#M{`Z8p+TLGW/tTM'
           state_flags: 33
         slot_13: 
           serial: '@Uge8dvm/*xI!o*#mM-}RPG}@#Z8r1n{Xh{J'
