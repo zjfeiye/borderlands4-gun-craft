@@ -63,20 +63,20 @@
 
 ### 高面板
 ```
-GMR#1，伤害版，9104，2845，68%，1.7，4.3，21，38%
-@UgggUGFnkc<+)WAHMAbwk>QIHshl+=qhpLC#)SyP8N}*n%S/R`
-15, 0, 1, 60| 2, 9527|| {75} {74} {4} {3} {2} {60} {56} {57} {58} {13} {1} {33} {34} {39} {70}|
+GMR#3，伤害版，9607，2845，65%，1.7，4.7，21，38%
+@UgggUGFnkc<+)WAHMAbwk>QIHshl+=)hq{N_)SyP8N}*n%S/R`
+15, 0, 1, 60| 2, 9527|| {75} {74} {4} {3} {2} {60} {56} {58} {59} {13} {1} {33} {34} {39} {70}|
 GMR#2，弹容版，8783，2703，68%，2.1，4.3，27，38%
-@UgggUGFnkc<+)WAHMAbwk>QIHshl+=qhpLC_)SyP8N}*n%S/R`
-15, 0, 1, 60| 2, 9527|| {75} {74} {4} {3} {2} {60} {56} {57} {58} {14} {1} {33} {34} {39} {70}|
+@UgggUGFnkc<+)WAHMAbwk>QIHshl+=)hq{OA)SyP8N}*n%S/R`
+15, 0, 1, 60| 2, 9527|| {75} {74} {4} {3} {2} {60} {56} {58} {59} {14} {1} {33} {34} {39} {70}|
                                    ↑   ↑            ↑↑   ↑↑   ↑↑   ↑↑                 ↑↑   ↑↑
 ```
 ```yaml
         slot_0: 
-          serial: '@UgggUGFnkc<+)WAHMAbwk>QIHshl+=qhpLC#)SyP8N}*n%S/R`'
+          serial: '@UgggUGFnkc<+)WAHMAbwk>QIHshl+=)hq{N_)SyP8N}*n%S/R`'
           state_flags: 17
         slot_1: 
-          serial: '@UgggUGFnkc<+)WAHMAbwk>QIHshl+=qhpLC_)SyP8N}*n%S/R`'
+          serial: '@UgggUGFnkc<+)WAHMAbwk>QIHshl+=)hq{OA)SyP8N}*n%S/R`'
           state_flags: 17
 ```
 
@@ -97,24 +97,6 @@ GMR#4，弹容版，7752，2451，68%，2.3，4.3，27，104%
         slot_3: 
           serial: '@UgggUGFnkc<+)WAHMAbwks!@f?hl+=qhpLC_)SyP8N}*n%dLaM'
           state_flags: 33
-```
-
-### 高射速
-```
-GMR#3，9607，2845，65%，1.7，4.7，21，38%
-@UgggUGFnkc<+)WAHMAbwk>QIHshl+=~hpLC#)SyP8N}*n%S/R`
-15, 0, 1, 60| 2, 9527|| {75} {74} {4} {3} {2} {60} {56} {59} {58} {13} {1} {33} {34} {39} {70}|
-GMR#3，9150，2580，65%，1.7，5.0，21，38%
-@UgggUGFnkc<+)WAHMAbwk>QIHshl+=~hpLC#)SyP8N}*z*S/R`
-15, 0, 1, 60| 2, 9527|| {75} {74} {4} {3} {2} {60} {56} {59} {58} {13} {1} {33} {34} {40} {70}|
-```
-```yaml
-        slot_4: 
-          serial: '@UgggUGFnkc<+)WAHMAbwk>QIHshl+=~hpLC#)SyP8N}*n%S/R`'
-          state_flags: 1
-        slot_5: 
-          serial: '@UgggUGFnkc<+)WAHMAbwk>QIHshl+=~hpLC#)SyP8N}*z*S/R`'
-          state_flags: 1
 ```
 
 ## 素材样本

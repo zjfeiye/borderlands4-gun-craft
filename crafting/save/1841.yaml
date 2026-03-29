@@ -15,45 +15,30 @@ state:
     items: 
       backpack: 
         slot_0: 
-          serial: '@UgxFw!35E/MoVzKZlc+)+YEdOoF;O#7pE`q@gUW+Cg-V6Wg$jqdhX4'
+          serial: '@UgxFw!35E/MoVzKZlc+)+YEdOoF;O#7HBmQFpE`q@gUW+Cg-V6Wg$jqdhX4'
           state_flags: 17
         slot_1: 
           serial: '@UgxFw!35E/MoVzKZlc+)+Dp4g-F;O#7HBmQFpE`q@gUW+Cg-V6Wg$jqdhX4'
           state_flags: 17
         slot_2: 
-          serial: '@UgxFw!35E/MoVzKZlc+)+s!>CQN}^(-W}-fI1~mtj2XzXS3Y7~L4s{O!'
-          state_flags: 33
-        slot_3: 
           serial: '@UgxFw!35E/MoVzKZlc+)+s!>CQN}^(-W}<4MZlXSQ1~mtj2XzXS3Y7~L4s{O!'
           state_flags: 33
-        slot_4: 
-          serial: '@UgxFw!35E/MoVzKZlc+)+s!_v*N}^(-W}-fI1~mtj2XzXS3Y7~L4s{O!'
-          state_flags: 33
-        slot_5: 
+        slot_3: 
           serial: '@UgxFw!35E/MoVzKZlc+)+s!_v*N}^(-W}<4MZlXSQ1~mtj2XzXS3Y7~L4s{O!'
           state_flags: 33
-        slot_6: 
-          serial: '@UgxFw!35E/MoVzKZlc+)+s!>CRN}^(-W}-fI1~mtj2XzXS3Y7~L4s{O!'
-          state_flags: 33
-        slot_7: 
+        slot_4: 
           serial: '@UgxFw!35E/MoVzKZlc+)+s!>CRN}^(-W}<4MZlXSQ1~mtj2XzXS3Y7~L4s{O!'
           state_flags: 33
-        slot_8: 
-          serial: '@UgxFw!35E/MoVzKZlc+)+s!_v+N}^(-W}-fI1~mtj2XzXS3Y7~L4s{O!'
-          state_flags: 33
-        slot_9: 
+        slot_5: 
           serial: '@UgxFw!35E/MoVzKZlc+)+s!_v+N}^(-W}<4MZlXSQ1~mtj2XzXS3Y7~L4s{O!'
           state_flags: 33
-        slot_10: 
-          serial: '@UgxFw!35E/MoVzKZlc+)+s!>CSN}^(-W}-fI1~mtj2XzXS3Y7~L4s{O!'
-          state_flags: 33
-        slot_11: 
+        slot_6: 
           serial: '@UgxFw!35E/MoVzKZlc+)+s!>CSN}^(-W}<4MZlXSQ1~mtj2XzXS3Y7~L4s{O!'
           state_flags: 33
-        slot_12: 
+        slot_7: 
           serial: '@UgxFw!35E/MoVzKZlc+)+Dp4g-F;O#7HBmQFVNstdgPMcNgF1yuh028rhq{LV'
           state_flags: 65
-        slot_13: 
+        slot_8: 
           serial: '@UgxFw!35E/MoVzKZlc+)^YEdOoF;O#7HBmQFVNstdgPMcNgF1yuh028rhq{LV'
           state_flags: 65
     equipped_inventory: 
