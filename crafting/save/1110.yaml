@@ -15,46 +15,46 @@ state:
     items: 
       backpack: 
         slot_0: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^he}kVCRM31s5+=Us9304s9UIYsF0/a2m'
+          serial: '@Ugfs(8Fnkc<+)W9UMh&V^he}kVCRM31s5+=Us8py}s9LC7sCB52sFnx'
           state_flags: 17
         slot_1: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^he}kVCRM31s5+=Us8*<6s9&gcsF0/a2m'
+          serial: '@Ugfs(8Fnkc<+)W9UMh&V^he}kVCRM31s5+=Us8py{s9vaFsCB52sFnx'
           state_flags: 17
         slot_2: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#H7p+-%rQe#kcP<v3VP`yyUQ0q`3Q7;h'
+          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#H7p+-%rQe#kcP<v3RP_a<8P`6O)P$5w*5d'
           state_flags: 17
         slot_3: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#Hdp+-%rQe#kcP<v3VP`yyUQ0q`3Q7;h'
+          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#Hdp+-%rQe#kcP<v3RP_a<8P`6O)P$5w*5d'
           state_flags: 17
         slot_4: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#H-p+-%rQe#kcP<v3VP`yyUQ0q`3Q7;h'
+          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#H-p+-%rQe#kcP<v3RP_a<8P`6O)P$5w*5d'
           state_flags: 17
         slot_5: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#IIp+-%rQe#kcP<v3VP`yyUQ0q`3Q7;h'
+          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#IIp+-%rQe#kcP<v3RP_a<8P`6O)P$5w*5d'
           state_flags: 17
         slot_6: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#Iop+-%rQe#kcP<v3VP`yyUQ0q`3Q7;h'
+          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#Iop+-%rQe#kcP<v3RP_a<8P`6O)P$5w*5d'
           state_flags: 17
         slot_7: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hf36=Hub47s5+=Us9304s9UIYsF0/a2m'
+          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hf36=Hub47s5+=Us8py}s9LC7sCB52sFnx'
           state_flags: 33
         slot_8: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hf36=Hub47s5+=Us8*<6s9&gcsF0/a2m'
+          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hf36=Hub47s5+=Us8py{s9vaFsCB52sFnx'
           state_flags: 33
         slot_9: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#H7p+{}%Q)5tdP<v3ZP_<CEQ0q`3Q7;h'
+          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#H7p+{}%Q)5tdP<v3RP_a<8P`6O)P$5w*5d'
           state_flags: 33
         slot_10: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#Hdp+{}%Q)5tdP<v3ZP_<CEQ0q`3Q7;h'
+          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#Hdp+{}%Q)5tdP<v3RP_a<8P`6O)P$5w*5d'
           state_flags: 33
         slot_11: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#H-p+{}%Q)5tdP<v3ZP_<CEQ0q`3Q7;h'
+          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#H-p+{}%Q)5tdP<v3RP_a<8P`6O)P$5w*5d'
           state_flags: 33
         slot_12: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#IIp+{}%Q)5tdP<v3ZP_<CEQ0q`3Q7;h'
+          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#IIp+{}%Q)5tdP<v3RP_a<8P`6O)P$5w*5d'
           state_flags: 33
         slot_13: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#Iop+{}%Q)5tdP<v3ZP_<CEQ0q`3Q7;h'
+          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#Iop+{}%Q)5tdP<v3RP_a<8P`6O)P$5w*5d'
           state_flags: 33
     equipped_inventory: 
       equipped: 

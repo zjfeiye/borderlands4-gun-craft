@@ -18,31 +18,31 @@ state:
           serial: '@Uge(J0Fnkc<+)W9UMHMPhiyDjShx&&aiJH_J)E?9*R4LRh)H_r?)Iftr<^T'
           state_flags: 17
         slot_1: 
-          serial: '@Uge(J0Fnkc<+)W9UMHMPhiyDjShx&&aiJH_J)E?9*R4LRh)H_r?)IgI*<^T'
-          state_flags: 17
-        slot_2: 
           serial: '@Uge(J0Fnkc<+)W9UMHMPhiyDjShx&&aiJH_J)E?9*R4LRh)H_r?)Ig(0<^T'
           state_flags: 17
-        slot_3: 
-          serial: '@Uge(J0Fnkc<+)W9UMHMPhiyDjShx&&aiJH_J)E?9*R4LRh)H_r?)IhUG<^T'
-          state_flags: 17
-        slot_4: 
+        slot_2: 
           serial: '@Uge(J0Fnkc<+)W9UMHMPhiyDjShx&&aiJH_J)E?9*R4LRh)H_r?)Ih^W<^T'
           state_flags: 17
+        slot_3: 
+          serial: '@Uge(J0Fnkc<+)W9UMHMPhiyDjShx&&aiJH_J)E?9*R4LRh)H_r?)IgI*<^T'
+          state_flags: 17
+        slot_4: 
+          serial: '@Uge(J0Fnkc<+)W9UMHMPhiyDjShx&&aiJH_J)E?9*R4LRh)H_r?)IhUG<^T'
+          state_flags: 17
         slot_5: 
-          serial: '@Uge(J0Fnkc<+)W9UMHMPhiyDjShx&(ViJH_J)E?9*R4LRh)H_r?)Iftr<^T'
+          serial: '@Uge(J0Fnkc<+)W9UMHMPhiyDjShx&(ViJH_K)E?9*R4LRh)H_r?)Iftr<^T'
           state_flags: 33
         slot_6: 
-          serial: '@Uge(J0Fnkc<+)W9UMHMPhiyDjShx&(ViJH_J)E?9*R4LRh)H_r?)IgI*<^T'
+          serial: '@Uge(J0Fnkc<+)W9UMHMPhiyDjShx&(ViJH_K)E?9*R4LRh)H_r?)Ig(0<^T'
           state_flags: 33
         slot_7: 
-          serial: '@Uge(J0Fnkc<+)W9UMHMPhiyDjShx&(ViJH_J)E?9*R4LRh)H_r?)Ig(0<^T'
+          serial: '@Uge(J0Fnkc<+)W9UMHMPhiyDjShx&(ViJH_K)E?9*R4LRh)H_r?)Ih^W<^T'
           state_flags: 33
         slot_8: 
-          serial: '@Uge(J0Fnkc<+)W9UMHMPhiyDjShx&(ViJH_J)E?9*R4LRh)H_r?)IhUG<^T'
+          serial: '@Uge(J0Fnkc<+)W9UMHMPhiyDjShx&(ViJH_K)E?9*R4LRh)H_r?)IgI*<^T'
           state_flags: 33
         slot_9: 
-          serial: '@Uge(J0Fnkc<+)W9UMHMPhiyDjShx&(ViJH_J)E?9*R4LRh)H_r?)Ih^W<^T'
+          serial: '@Uge(J0Fnkc<+)W9UMHMPhiyDjShx&(ViJH_K)E?9*R4LRh)H_r?)IhUG<^T'
           state_flags: 33
     equipped_inventory: 
       equipped: 

@@ -15,34 +15,34 @@ state:
     items: 
       backpack: 
         slot_0: 
-          serial: '@Ugydj=35E/MoVzKZvZz8Ws!>CQ#-diDVxnfE#-RS8@}N$kQlW04dZFH-2AVrE2LJ'
+          serial: '@Ugydj=35E/MoVzKZvZz8Os!>CQ#-diDUZP^6#-RS8@}N$kQlWC8dZFH-2AVrE2LJ'
           state_flags: 17
         slot_1: 
-          serial: '@Ugydj=35E/MoVzKZvZz8Ws!>CR#-diDVxnfE#-RS8@}N$kQlW04dZFH-2AVrE2LJ'
+          serial: '@Ugydj=35E/MoVzKZvZz8Os!>CR#-diDUZP^6#-RS8@}N$kQlWC8dZFH-2AVrE2LJ'
           state_flags: 17
         slot_2: 
-          serial: '@Ugydj=35E/MoVzKZvZz8Ws!>CS#-diDVxnfE#-RS8@}N$kQlW04dZFH-2AVrE2LJ'
+          serial: '@Ugydj=35E/MoVzKZvZz8Os!>CS#-diDUZP^6#-RS8@}N$kQlWC8dZFH-2AVrE2LJ'
           state_flags: 17
         slot_3: 
-          serial: '@Ugydj=35E/MoVzKZvZz8Ws!_v*#-diDVxnfE#-RS8@}N$kQlW04dZFH-1{ypv2LJ'
+          serial: '@Ugydj=35E/MoVzKZvZz8Os!_v*#-diDUZP^6#-RS8@}N$kQlWC8dZFH-1{ypv2LJ'
           state_flags: 17
         slot_4: 
-          serial: '@Ugydj=35E/MoVzKZvZz8Ws!_v+#-diDVxnfE#-RS8@}N$kQlW04dZFH-1{ysw2LJ'
+          serial: '@Ugydj=35E/MoVzKZvZz8Os!_v+#-diDUZP^6#-RS8@}N$kQlWC8dZFH-1{ysw2LJ'
           state_flags: 17
         slot_5: 
-          serial: '@Ugydj=35E/MoVzKZvZz8Ws!>CQ#-d)LVxnfE#-RS8@}N$kQlWC8dZFT>2AVrE2LJ'
+          serial: '@Ugydj=35E/MoVzKZvZz8Os!>CQ#-diDUZQ5AI+X`?3Y7/V3)Kr14>i!-kvRY'
           state_flags: 33
         slot_6: 
-          serial: '@Ugydj=35E/MoVzKZvZz8Ws!>CR#-d)LVxnfE#-RS8@}N$kQlWC8dZFT>2AVrE2LJ'
+          serial: '@Ugydj=35E/MoVzKZvZz8Os!>CR#-diDUZQ5AI+X`?3Y7/V3)Kr14>i!-kvRY'
           state_flags: 33
         slot_7: 
-          serial: '@Ugydj=35E/MoVzKZvZz8Ws!>CS#-d)LVxnfE#-RS8@}N$kQlWC8dZFT>2AVrE2LJ'
+          serial: '@Ugydj=35E/MoVzKZvZz8Os!>CS#-diDUZQ5AI+X`?3Y7/V3)Kr14>i!-kvRY'
           state_flags: 33
         slot_8: 
-          serial: '@Ugydj=35E/MoVzKZvZz8Ws!_v*#-d)LVxnfE#-RS8@}N$kQlWC8dZFT>1{ypv2LJ'
+          serial: '@Ugydj=35E/MoVzKZvZz8Os!_v*#-diDUZQ5AI+X`?3Y7/V3)Kr14>i!>kvRY'
           state_flags: 33
         slot_9: 
-          serial: '@Ugydj=35E/MoVzKZvZz8Ws!_v+#-d)LVxnfE#-RS8@}N$kQlWC8dZFT>1{ysw2LJ'
+          serial: '@Ugydj=35E/MoVzKZvZz8Os!_v+#-diDUZQ5AI+X`?3Y7/V3)Kr14>i!}kvRY'
           state_flags: 33
     equipped_inventory: 
       equipped: 

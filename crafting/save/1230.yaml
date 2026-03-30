@@ -15,49 +15,22 @@ state:
     items: 
       backpack: 
         slot_0: 
-          serial: '@Ugd_t@Fnkc<+)W9UMiuH%iE7lN-l5{5=ArhY=Ac5MMxkP%b/C-'
-          state_flags: 17
-        slot_1: 
           serial: '@Ugd_t@Fnkc<+)W9UMiuH%iE7lN-l5{5PNFik7c~bJ3N;E93$+UY'
           state_flags: 17
-        slot_2: 
-          serial: '@Ugd_t@Fnkc<+)W9UMiuH%iE7lN-l5{5=ArhY=Ac5MMxkP%dLaM'
-          state_flags: 17
-        slot_3: 
+        slot_1: 
           serial: '@Ugd_t@Fnkc<+)W9UMiuH%iE7lN-l5{5PNFik7c~bJ3N;E93)Kq&'
           state_flags: 17
-        slot_4: 
-          serial: '@Ugd_t@Fnkc<+)W9UMiuH%iE7lN-l5{5=ArhY=Ac5MMxkP%${_#'
-          state_flags: 17
-        slot_5: 
+        slot_2: 
           serial: '@Ugd_t@Fnkc<+)W9UMiuH%iE7lN-l5{5PNFik7c~bJ3N;E93snvQ'
           state_flags: 17
-        slot_6: 
+        slot_3: 
           serial: '@Ugd_t@Fnkc<+)W9UMiuH%iE31&?xFUf`l0%w=Ac5MMxkP%b/C-'
           state_flags: 33
-        slot_7: 
+        slot_4: 
           serial: '@Ugd_t@Fnkc<+)W9UMiuH%iE31&?xFUf`l0%w=Ac5MMxkP%dLaM'
           state_flags: 33
-        slot_8: 
+        slot_5: 
           serial: '@Ugd_t@Fnkc<+)W9UMiuH%iE31&?xFUf`l0%w=Ac5MMxkP%${_#'
-          state_flags: 33
-        slot_9: 
-          serial: '@Ugd_t@Fnkc<+)W9UMiuH%iE31&?xFUf`k_9x5;X@E3N;E93$+UY'
-          state_flags: 33
-        slot_10: 
-          serial: '@Ugd_t@Fnkc<+)W9UMiuH%iE31&?xFUf`k_9x5;X@E3N;E93)Kq&'
-          state_flags: 33
-        slot_11: 
-          serial: '@Ugd_t@Fnkc<+)W9UMiuH%iE31&?xFUf`k_9x5;X@E3N;E93snvQ'
-          state_flags: 33
-        slot_12: 
-          serial: '@Ugd_t@Fnkc<+)W9UMiuH%iE31&?xFUf`k_A65;X@E3N;E93$+UY'
-          state_flags: 33
-        slot_13: 
-          serial: '@Ugd_t@Fnkc<+)W9UMiuH%iE31&?xFUf`k_A65;X@E3N;E93)Kq&'
-          state_flags: 33
-        slot_14: 
-          serial: '@Ugd_t@Fnkc<+)W9UMiuH%iE31&?xFUf`k_A65;X@E3N;E93snvQ'
           state_flags: 33
     equipped_inventory: 
       equipped: 

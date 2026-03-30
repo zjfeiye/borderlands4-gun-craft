@@ -29,12 +29,6 @@ state:
         slot_4: 
           serial: '@Ugd_t@Fnkc<+)WAHMHT8$jjD^fhuVkghx$}p)ErbO)F@OeR4xP'
           state_flags: 33
-        slot_5: 
-          serial: '@Ugd_t@Fnkc<+)WAHMHT8$jjD^fhw6tKiRz1*g9?Qjg<6Hmg#Z'
-          state_flags: 65
-        slot_6: 
-          serial: '@Ugd_t@Fnkc<+)WAHMHT8$jjD^fhw6taiRz1*g9?Qjg<6Hmg#Z'
-          state_flags: 65
     equipped_inventory: 
       equipped: 
     equip_slots_unlocked: 
