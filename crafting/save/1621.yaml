@@ -15,47 +15,41 @@ state:
     items: 
       backpack: 
         slot_0: 
-          serial: '@Ugct)%Fnkc<+)W9sLlr7fi%N$Ii7JUoiTczVR3FqI)GAa?1O'
-          state_flags: 17
-        slot_1: 
           serial: '@Ugct)%Fnkc<+)W9sLlx>!iAskGi7JUoiTczVR3FqI)GAa?1O'
           state_flags: 17
-        slot_2: 
+        slot_1: 
           serial: '@Ugct)%Fnkc<+)W9sLlr7fjT$PH4iyqr5/tA5sW+%Ts6VJxsGJA'
           state_flags: 17
-        slot_3: 
+        slot_2: 
           serial: '@Ugct)%Fnkc<+)W9sLlr7fjT$bL4iyqr5/tA5sW+%Ts6VJxsGJA'
           state_flags: 17
-        slot_4: 
+        slot_3: 
           serial: '@Ugct)%Fnkc<+)W9sLlr7fjT$nP4iyqr5/tA5sW+%Ts6VJxsGJA'
           state_flags: 17
-        slot_5: 
+        slot_4: 
           serial: '@Ugct)%Fnkc<+)W9sLlr7fjT$zT4iyqr5/tA5sW+%Ts6VJxsGJA'
           state_flags: 17
-        slot_6: 
+        slot_5: 
           serial: '@Ugct)%Fnkc<+)W9sLlr7fjT$<X4iyqr5/tA5sW+%Ts6VJxsGJA'
           state_flags: 17
-        slot_7: 
-          serial: '@Ugct)%Fnkc<+)W9sLlr7fi%N$Ii7JUoiTczVR3FqI)GE/0)Hnn'
-          state_flags: 33
-        slot_8: 
+        slot_6: 
           serial: '@Ugct)%Fnkc<+)W9sLlx>!iAskGi7JUoiTczVR3FqI)GE/0)Hnn'
-          state_flags: 33
-        slot_9: 
+          state_flags: 129
+        slot_7: 
           serial: '@Ugct)%Fnkc<+)W9sLlr7fjT$PH4iyqr5/tA5sW+%Ts6VJxs9C6S2m'
-          state_flags: 33
-        slot_10: 
+          state_flags: 129
+        slot_8: 
           serial: '@Ugct)%Fnkc<+)W9sLlr7fjT$bL4iyqr5/tA5sW+%Ts6VJxs9C6S2m'
-          state_flags: 33
-        slot_11: 
+          state_flags: 129
+        slot_9: 
           serial: '@Ugct)%Fnkc<+)W9sLlr7fjT$nP4iyqr5/tA5sW+%Ts6VJxs9C6S2m'
-          state_flags: 33
-        slot_12: 
+          state_flags: 129
+        slot_10: 
           serial: '@Ugct)%Fnkc<+)W9sLlr7fjT$zT4iyqr5/tA5sW+%Ts6VJxs9C6S2m'
-          state_flags: 33
-        slot_13: 
+          state_flags: 129
+        slot_11: 
           serial: '@Ugct)%Fnkc<+)W9sLlr7fjT$<X4iyqr5/tA5sW+%Ts6VJxs9C6S2m'
-          state_flags: 33
+          state_flags: 129
     equipped_inventory: 
       equipped: 
     equip_slots_unlocked: 

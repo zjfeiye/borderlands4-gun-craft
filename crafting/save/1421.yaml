@@ -18,9 +18,6 @@ state:
           serial: '@Ugb)KvFnkc<+)WAPL=`Ggjk</CiK<i>R2<YFR4CLdR7wN'
           state_flags: 17
         slot_1: 
-          serial: '@Ugb)KvFnkc<+)WAPL=`Ggjk</CiK<i>R2/ePR4LRe)Gq`'
-          state_flags: 17
-        slot_2: 
           serial: '@Ugb)KvFnkc<+)WAPL=`Ggjk</CiK<i>R2<YFR4CLd)Gq`'
           state_flags: 17
     equipped_inventory: 

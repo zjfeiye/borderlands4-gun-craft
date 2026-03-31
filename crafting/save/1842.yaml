@@ -24,10 +24,7 @@ state:
           serial: '@UgxFw!35E/MoVzKZxTr!MDp7AyVNsuYiJF7TgF1yuh029Ghl+=~hX4'
           state_flags: 33
         slot_3: 
-          serial: '@UgxFw!35E/MoVzKZxTr!MDp7AyVNqjHb5MCur%<U-xlrd&@lf{='
-          state_flags: 33
-        slot_4: 
-          serial: '@UgxFw!35E/MoVzKZxTr!MDp7AyVNqjHb5MCur%<U-yHMv)@lg2?'
+          serial: '@UgxFw!35E/MoVzKZxTr!MDp7AyVNqjHc~GZNsZhI6=TPxb`49'
           state_flags: 33
     equipped_inventory: 
       equipped: 

@@ -28,8 +28,9 @@
 - {56} → 加伤害
 - {57} → 加精准
 - {58} → 加射速
+
 - {59} → 加射速
-- {60} → 雅各布斯
+- {60} → 雅各布斯（和{59}冲突）
 
 ### E. 弹夹
 
@@ -63,29 +64,29 @@
 
 ### 高面板
 ```
-GMR#3，伤害版，9607，2845，65%，1.7，4.7，21，38%
-@UgggUGFnkc<+)WAHMAbwk>QIHshl+=)hq{N_)SyP8N}*n%S/R`
-15, 0, 1, 60| 2, 9527|| {75} {74} {4} {3} {2} {60} {56} {58} {59} {13} {1} {33} {34} {39} {70}|
-GMR#2，弹容版，8783，2703，68%，2.1，4.3，27，38%
-@UgggUGFnkc<+)WAHMAbwk>QIHshl+=)hq{OA)SyP8N}*n%S/R`
-15, 0, 1, 60| 2, 9527|| {75} {74} {4} {3} {2} {60} {56} {58} {59} {14} {1} {33} {34} {39} {70}|
+GMR#3，伤害弹匣
+@UgggUGFnkc<+)WAHMAbwk>QIHshl+=qhpLC#)SyP8N}*n%S/R`
+15, 0, 1, 60| 2, 9527|| {75} {74} {4} {3} {2} {60} {56} {57} {58} {13} {1} {33} {34} {39} {70}|
+GMR#2，弹容弹匣
+@UgggUGFnkc<+)WAHMAbwk>QIHshl+=qhpLC_)SyP8N}*n%S/R`
+15, 0, 1, 60| 2, 9527|| {75} {74} {4} {3} {2} {60} {56} {57} {58} {14} {1} {33} {34} {39} {70}|
                                    ↑   ↑            ↑↑   ↑↑   ↑↑   ↑↑                 ↑↑   ↑↑
 ```
 ```yaml
         slot_0: 
-          serial: '@UgggUGFnkc<+)WAHMAbwk>QIHshl+=)hq{N_)SyP8N}*n%S/R`'
+          serial: '@UgggUGFnkc<+)WAHMAbwk>QIHshl+=qhpLC#)SyP8N}*n%S/R`'
           state_flags: 17
         slot_1: 
-          serial: '@UgggUGFnkc<+)WAHMAbwk>QIHshl+=)hq{OA)SyP8N}*n%S/R`'
+          serial: '@UgggUGFnkc<+)WAHMAbwk>QIHshl+=qhpLC_)SyP8N}*n%S/R`'
           state_flags: 17
 ```
 
 ### 高爆伤
 ```
-GMR#3，伤害版，8026，2580，68%，1.9，4.3，21，104%
+GMR#3，伤害弹匣
 @UgggUGFnkc<+)WAHMAbwks!@f?hl+=qhpLC#)SyP8N}*n%dLaM
 15, 0, 1, 60| 2, 9527|| {75} {74} {4} {6} {2} {60} {56} {57} {58} {13} {1} {33} {34} {39} {46}|
-GMR#4，弹容版，7752，2451，68%，2.3，4.3，27，104%
+GMR#4，弹容弹匣
 @UgggUGFnkc<+)WAHMAbwks!@f?hl+=qhpLC_)SyP8N}*n%dLaM
 15, 0, 1, 60| 2, 9527|| {75} {74} {4} {6} {2} {60} {56} {57} {58} {14} {1} {33} {34} {39} {46}|
                                    ↑   ↑            ↑↑   ↑↑   ↑↑   ↑↑                 ↑↑   ↑↑

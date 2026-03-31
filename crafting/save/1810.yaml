@@ -15,58 +15,43 @@ state:
     items: 
       backpack: 
         slot_0: 
-          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8AiR7})NR9Muf%Ao3?`k?-xW})IC00'
+          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8AiR7})NR9Muf%Ao3?`k?-xW})7q&Y/KV00'
           state_flags: 17
         slot_1: 
-          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8AiR7})NR9IA}>Y)0d{-9=/;voP'
+          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8AiR7})NR9Muf%Ao3?`k?-xW}(`m)}h*=P9gv'
           state_flags: 17
         slot_2: 
-          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8AiR7})NR9Muf%Ao3?`k?-xW}(`m+M(W/P9gv'
+          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8FZD)gwBsF/p+s85wa)j{<^{Xxw_y+xfv#X/r'
           state_flags: 17
         slot_3: 
-          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8AiR7})NR9IA}>Y)0d{-9=/+M?Q_-l0w+00'
+          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8FZF7&9FsF/p+s85wa)j{<^{Xxw_y+xfv#X/r'
           state_flags: 17
         slot_4: 
-          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8FZD)gwBsF/p+s85wa)j{<^{Xxw_wMDf<y+fTu00'
+          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8FZGW4jJsF/p+s85wa)j{<^{Xxw_y+xfv#X/r'
           state_flags: 17
         slot_5: 
-          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8FZF7&9FsF/p+s85wa)j{<^{Xxw_wMDf<y+fTu00'
+          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8FZHuR{NsF/p+s85wa)j{<^{Xxw_y+xfv#X/r'
           state_flags: 17
         slot_6: 
-          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8FZGW4jJsF/p+s85wa)j{<^{Xxw_wMDf<y+fTu00'
+          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8FZI`pWRsF/p+s85wa)j{<^{Xxw_y+xfv#X/r'
           state_flags: 17
         slot_7: 
-          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8FZHuR{NsF/p+s85wa)j{<^{Xxw_wMDf<y+fTu00'
-          state_flags: 17
+          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8AyR8CY+R9Muf%Ao3?`k?-xW})7q&Y/KV00'
+          state_flags: 33
         slot_8: 
-          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8FZI`pWRsF/p+s85wa)j{<^{Xxw_wMDf<y+fTu00'
-          state_flags: 17
+          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8FZDio=lsGX>=s85wa)j{<^{Xxw_y+xfv#X/r'
+          state_flags: 33
         slot_9: 
-          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8AyR8G`RR9Muf%Ao3?`k?-xW}(KR%Aw*R00'
+          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8FZE)=PpsGX>=s85wa)j{<^{Xxw_y+xfv#X/r'
           state_flags: 33
         slot_10: 
-          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8AyR8G`RR9IA}>Y)0d{-9=/#-Ylg;voP'
+          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8FZG8CztsGX>=s85wa)j{<^{Xxw_y+xfv#X/r'
           state_flags: 33
         slot_11: 
-          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8AyR8G`RR9Muf%Ao3?`k?-xW})7q&Y/KV00'
+          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8FZHWaCxsGX>=s85wa)j{<^{Xxw_y+xfv#X/r'
           state_flags: 33
         slot_12: 
-          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8AyR8G`RR9IA}>Y)0d{-9=/-lEQ-;voP'
-          state_flags: 33
-        slot_13: 
-          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8FZDio=lsGX>=s85wa)j{<^{Xxw_jYE/~#X/r'
-          state_flags: 33
-        slot_14: 
-          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8FZE)=PpsGX>=s85wa)j{<^{Xxw_jYE/~#X/r'
-          state_flags: 33
-        slot_15: 
-          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8FZG8CztsGX>=s85wa)j{<^{Xxw_jYE/~#X/r'
-          state_flags: 33
-        slot_16: 
-          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8FZHWaCxsGX>=s85wa)j{<^{Xxw_jYE/~#X/r'
-          state_flags: 33
-        slot_17: 
-          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8FZIuxm#sGX>=s85wa)j{<^{Xxw_jYE/~#X/r'
+          serial: '@Ugvelk35E/MoVzKZ(x^fmDp8FZIuxm#sGX>=s85wa)j{<^{Xxw_y+xfv#X/r'
           state_flags: 33
     equipped_inventory: 
       equipped: 

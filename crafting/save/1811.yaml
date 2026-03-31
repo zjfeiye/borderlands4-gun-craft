@@ -15,53 +15,77 @@ state:
     items: 
       backpack: 
         slot_0: 
-          serial: '@Ugvelk35E/MoVzKZy{JMZYEgYrVNp3zJyBy&cTlBJr%<y{c~Nsw@el'
+          serial: '@Ugvelk35E/MoVzKZy{JMRDp7q=VNp3zJyBy&cTlBJr%<y{c~N&!@el'
           state_flags: 17
         slot_1: 
-          serial: '@Ugvelk35E/MoVzKZy{JMZYEgYrVNp3zJ5gg$cTlBJr%<y{c~Nsw^$-'
+          serial: '@Ugvelk35E/MoVzKZy{JMZs!>CQ`l7<3a-w>o#-Q$?N}*1nW})(;?xNx$00'
           state_flags: 17
         slot_2: 
-          serial: '@Ugvelk35E/MoVzKZy{JMZYEgYrVNp3zJyBy&cTlBJr%<y{c~Nsw^AG'
+          serial: '@Ugvelk35E/MoVzKZy{JMZs!_v*`l7<3a-w>o#-Q$?N}*1nW})(;?xNx$00'
           state_flags: 17
         slot_3: 
-          serial: '@Ugvelk35E/MoVzKZy{JMZs!>CQ`l7<3a-w>o#-Q$?N}*1nW})(;=Az;u00'
+          serial: '@Ugvelk35E/MoVzKZy{JMZs!>CR`l7<3a-w>o#-Q$?N}*1nW})(;?xNx$00'
           state_flags: 17
         slot_4: 
-          serial: '@Ugvelk35E/MoVzKZy{JMZs!_v*`l7<3a-w>o#-Q$?N}*1nW})(;=Az;u00'
+          serial: '@Ugvelk35E/MoVzKZy{JMZs!_v+`l7<3a-w>o#-Q$?N}*1nW})(;?xNx$00'
           state_flags: 17
         slot_5: 
-          serial: '@Ugvelk35E/MoVzKZy{JMZs!>CR`l7<3a-w>o#-Q$?N}*1nW})(;=Az;u00'
+          serial: '@Ugvelk35E/MoVzKZy{JMZs!>CS`l7<3a-w>o#-Q$?N}*1nW})(;?xNx$00'
           state_flags: 17
         slot_6: 
-          serial: '@Ugvelk35E/MoVzKZy{JMZs!_v+`l7<3a-w>o#-Q$?N}*1nW})(;=Az;u00'
-          state_flags: 17
+          serial: '@Ugvelk35E/MoVzKZy{JMRDp7q=VNp3zJyBy&cTlBJr%<&}c~N&!^AG'
+          state_flags: 33
         slot_7: 
-          serial: '@Ugvelk35E/MoVzKZy{JMZs!>CS`l7<3a-w>o#-Q$?N}*1nW})(;=Az;u00'
-          state_flags: 17
+          serial: '@Ugvelk35E/MoVzKZy{JMZs!>CQ`l7<3a-w>o#-Q$?N}*1nYN7I??xN-)00'
+          state_flags: 33
         slot_8: 
-          serial: '@Ugvelk35E/MoVzKZy{JMZYEgYrVNp3zJyD-3gSvw%g*t_rg{q61i;9N;'
+          serial: '@Ugvelk35E/MoVzKZy{JMZs!_v*`l7<3a-w>o#-Q$?N}*1nYN7I??xN-)00'
           state_flags: 33
         slot_9: 
-          serial: '@Ugvelk35E/MoVzKZy{JMZYEgYrVNp3zJ5ir1gSvw%g*t_rg{q61i>ikJ'
+          serial: '@Ugvelk35E/MoVzKZy{JMZs!>CR`l7<3a-w>o#-Q$?N}*1nYN7I??xN-)00'
           state_flags: 33
         slot_10: 
-          serial: '@Ugvelk35E/MoVzKZy{JMZYEgYrVNp3zJyD-3gSvw%g*t_rg{q61i<*Z3'
+          serial: '@Ugvelk35E/MoVzKZy{JMZs!_v+`l7<3a-w>o#-Q$?N}*1nYN7I??xN-)00'
           state_flags: 33
         slot_11: 
-          serial: '@Ugvelk35E/MoVzKZy{JMZs!>CQ`l7<3a-w>oK2-*F2UQAn3N;H=7d00Z4*>'
+          serial: '@Ugvelk35E/MoVzKZy{JMZs!>CS`l7<3a-w>o#-Q$?N}*1nYN7I??xN-)00'
           state_flags: 33
         slot_12: 
-          serial: '@Ugvelk35E/MoVzKZy{JMZs!_v*`l7<3a-w>oK2-*F2UQAn3N;H=7d00Z4*>'
-          state_flags: 33
+          serial: '@Ugvelk35E/MoVzKZy{JMRDp7q=VNp3zJyD-3gSvw%g*t_rg{q61i;9N;'
+          state_flags: 65
         slot_13: 
-          serial: '@Ugvelk35E/MoVzKZy{JMZs!>CR`l7<3a-w>oK2-*F2UQAn3N;H=7d00Z4*>'
-          state_flags: 33
+          serial: '@Ugvelk35E/MoVzKZy{JMZs!>CQ`l7<3a-w>oK2-*F2UQAn3N;H=7d00Z4*>'
+          state_flags: 65
         slot_14: 
-          serial: '@Ugvelk35E/MoVzKZy{JMZs!_v+`l7<3a-w>oK2-*F2UQAn3N;H=7d00Z4*>'
-          state_flags: 33
+          serial: '@Ugvelk35E/MoVzKZy{JMZs!_v*`l7<3a-w>oK2-*F2UQAn3N;H=7d00Z4*>'
+          state_flags: 65
         slot_15: 
+          serial: '@Ugvelk35E/MoVzKZy{JMZs!>CR`l7<3a-w>oK2-*F2UQAn3N;H=7d00Z4*>'
+          state_flags: 65
+        slot_16: 
+          serial: '@Ugvelk35E/MoVzKZy{JMZs!_v+`l7<3a-w>oK2-*F2UQAn3N;H=7d00Z4*>'
+          state_flags: 65
+        slot_17: 
           serial: '@Ugvelk35E/MoVzKZy{JMZs!>CS`l7<3a-w>oK2-*F2UQAn3N;H=7d00Z4*>'
-          state_flags: 33
+          state_flags: 65
+        slot_18: 
+          serial: '@Ugvelk35E/MoVzKZy{JMRDp7q=VNp3zJyD-JgSvw%g*t_rh02S%i;9N;'
+          state_flags: 129
+        slot_19: 
+          serial: '@Ugvelk35E/MoVzKZy{JMZs!>CQ`l7<3a-w>oK6M6l2UQAn3N;Ir7j+jE4*>'
+          state_flags: 129
+        slot_20: 
+          serial: '@Ugvelk35E/MoVzKZy{JMZs!_v*`l7<3a-w>oK6M6l2UQAn3N;Ir7j+jE4*>'
+          state_flags: 129
+        slot_21: 
+          serial: '@Ugvelk35E/MoVzKZy{JMZs!>CR`l7<3a-w>oK6M6l2UQAn3N;Ir7j+jE4*>'
+          state_flags: 129
+        slot_22: 
+          serial: '@Ugvelk35E/MoVzKZy{JMZs!_v+`l7<3a-w>oK6M6l2UQAn3N;Ir7j+jE4*>'
+          state_flags: 129
+        slot_23: 
+          serial: '@Ugvelk35E/MoVzKZy{JMZs!>CS`l7<3a-w>oK6M6l2UQAn3N;Ir7j+jE4*>'
+          state_flags: 129
     equipped_inventory: 
       equipped: 
     equip_slots_unlocked: 

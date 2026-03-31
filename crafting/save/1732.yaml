@@ -18,19 +18,19 @@ state:
           serial: '@Ugd77*Fnkc<+)W9kK^5vyi5gT(R7_M&RHw?K@}N$kQlV<0${_#'
           state_flags: 17
         slot_1: 
-          serial: '@Ugd77*Fnkc<+)W9kK@}=djT$O6sFtXisG6uwl//)2okFET)k2j+00'
+          serial: '@Ugd77*Fnkc<+)W9kK@}=djT$O6sFtXhsG6uwl//)2okFET)k2j+00'
           state_flags: 17
         slot_2: 
-          serial: '@Ugd77*Fnkc<+)W9kK@}=djT$aAsFtXisG6uwl//)2okFET)k2j+00'
+          serial: '@Ugd77*Fnkc<+)W9kK@}=djT$aAsFtXhsG6uwl//)2okFET)k2j+00'
           state_flags: 17
         slot_3: 
-          serial: '@Ugd77*Fnkc<+)W9kK@}=djT$mEsFtXisG6uwl//)2okFET)k2j+00'
+          serial: '@Ugd77*Fnkc<+)W9kK@}=djT$mEsFtXhsG6uwl//)2okFET)k2j+00'
           state_flags: 17
         slot_4: 
-          serial: '@Ugd77*Fnkc<+)W9kK@}=djT$yIsFtXisG6uwl//)2okFET)k2j+00'
+          serial: '@Ugd77*Fnkc<+)W9kK@}=djT$yIsFtXhsG6uwl//)2okFET)k2j+00'
           state_flags: 17
         slot_5: 
-          serial: '@Ugd77*Fnkc<+)W9kK@}=djT$;MsFtXisG6uwl//)2okFET)k2j+00'
+          serial: '@Ugd77*Fnkc<+)W9kK@}=djT$;MsFtXhsG6uwl//)2okFET)k2j+00'
           state_flags: 17
     equipped_inventory: 
       equipped: 

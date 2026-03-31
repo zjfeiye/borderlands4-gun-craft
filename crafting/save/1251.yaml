@@ -15,59 +15,17 @@ state:
     items: 
       backpack: 
         slot_0: 
-          serial: '@Ugy3L+35E/MoVzKZoTx%2s!=yl^HB9r_fVaxgX)9&gQ/r(hX4'
-          state_flags: 17
-        slot_1: 
-          serial: '@Ugy3L+35E/MoVzKZoTx%2s!=yl^HB9r_fVfIgQ/n-gZhK2g*t}-'
-          state_flags: 17
-        slot_2: 
-          serial: '@Ugy3L+35E/MoVzKZoTx%2s!=yl^HB9r_fVfYgQ/n-gZhK2g*t}-'
-          state_flags: 17
-        slot_3: 
           serial: '@Ugy3L+35E/MoVzKZoTx%2s!=yl^HB9r_fVa>gDQnOg{p-*hX4'
           state_flags: 17
-        slot_4: 
-          serial: '@Ugy3L+35E/MoVzKZoTx%2s!=yl^HB9r_fVfIgSvw%g*t_*g*t}-'
+        slot_1: 
+          serial: '@Ugy3L+35E/MoVzKZoTx%2s!=yl^HB9r_fVa>gDQnOg{p-LhiZuc'
           state_flags: 17
-        slot_5: 
-          serial: '@Ugy3L+35E/MoVzKZoTx%2s!=yl^HB9r_fVfYgSvw%g*t_*g*t}-'
-          state_flags: 17
-        slot_6: 
+        slot_2: 
           serial: '@Ugy3L+35E/MoVzKZoTx%2s!=yl^HB9r_fVbMgGz;3g}Q}0hX4'
           state_flags: 33
-        slot_7: 
-          serial: '@Ugy3L+35E/MoVzKZoTx%2s!=yl^HB9r_fVfIgW7{ig<6HWg*t}-'
+        slot_3: 
+          serial: '@Ugy3L+35E/MoVzKZoTx%2s!=yl^HB9r_fVbMgGz;3g}Q/bhiZuc'
           state_flags: 33
-        slot_8: 
-          serial: '@Ugy3L+35E/MoVzKZoTx%2s!=yl^HB9r_fVfYgW7{ig<6HWg*t}-'
-          state_flags: 33
-        slot_9: 
-          serial: '@Ugy3L+35E/MoVzKZoTx%2s!=yl^HB9r_fVb6g9?Qjg}Q}0hX4'
-          state_flags: 33
-        slot_10: 
-          serial: '@Ugy3L+35E/MoVzKZoTx%2s!=yl^HB9r_fVfIgUW*ng&Kvrg*t}-'
-          state_flags: 33
-        slot_11: 
-          serial: '@Ugy3L+35E/MoVzKZoTx%2s!=yl^HB9r_fVfYgUW*ng&Kvrg*t}-'
-          state_flags: 33
-        slot_12: 
-          serial: '@Ugy3L+35E/MoVzKZoTx%2s!=yl^HB9r_fVbMgGz;3g{p-*hX4'
-          state_flags: 65
-        slot_13: 
-          serial: '@Ugy3L+35E/MoVzKZoTx%2s!=yl^HB9r_fVfIgW7{ig<6HGg*t}-'
-          state_flags: 65
-        slot_14: 
-          serial: '@Ugy3L+35E/MoVzKZoTx%2s!=yl^HB9r_fVfYgW7{ig<6HGg*t}-'
-          state_flags: 65
-        slot_15: 
-          serial: '@Ugy3L+35E/MoVzKZoTx%2s!=yl^HB9r_fVb6g9?Qjg{p-*hX4'
-          state_flags: 65
-        slot_16: 
-          serial: '@Ugy3L+35E/MoVzKZoTx%2s!=yl^HB9r_fVfIgUW*ng&Kvbg*t}-'
-          state_flags: 65
-        slot_17: 
-          serial: '@Ugy3L+35E/MoVzKZoTx%2s!=yl^HB9r_fVfYgUW*ng&Kvbg*t}-'
-          state_flags: 65
     equipped_inventory: 
       equipped: 
     equip_slots_unlocked: 

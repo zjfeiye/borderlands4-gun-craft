@@ -15,10 +15,10 @@ state:
     items: 
       backpack: 
         slot_0: 
-          serial: '@UgggUGFnkc<+)WAHMAbwk>QIHshl+=)hq{N_)SyP8N}*n%S/R`'
+          serial: '@UgggUGFnkc<+)WAHMAbwk>QIHshl+=qhpLC#)SyP8N}*n%S/R`'
           state_flags: 17
         slot_1: 
-          serial: '@UgggUGFnkc<+)WAHMAbwk>QIHshl+=)hq{OA)SyP8N}*n%S/R`'
+          serial: '@UgggUGFnkc<+)WAHMAbwk>QIHshl+=qhpLC_)SyP8N}*n%S/R`'
           state_flags: 17
         slot_2: 
           serial: '@UgggUGFnkc<+)WAHMAbwks!@f?hl+=qhpLC#)SyP8N}*n%dLaM'

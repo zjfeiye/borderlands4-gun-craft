@@ -15,77 +15,47 @@ state:
     items: 
       backpack: 
         slot_0: 
-          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8AiR7})NR9Muf%An?;@}N$kQlWC8)}iVl00'
+          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8AiR7})NR9Muf%An?;@}N$kQlWC8&Y/L=?jZm'
           state_flags: 17
         slot_1: 
-          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZD)gwBsF/p+s85wa%/YcsokFET<wC7P)k6R'
+          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8AiR7})NR9Muf&Y<R?@}N$kQlWC8&Y/L=?jZm'
           state_flags: 17
         slot_2: 
-          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZF7&9FsF/p+s85wa%/YcsokFET<wC7P)k6R'
+          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZD)gwBsF/p+s85wa%/YcsokFET<wBi9#Y5dg00'
           state_flags: 17
         slot_3: 
-          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZGW4jJsF/p+s85wa%/YcsokFET<wC7P)k6R'
+          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZF7&9FsF/p+s85wa%/YcsokFET<wBi9#Y5dg00'
           state_flags: 17
         slot_4: 
-          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZHuR{NsF/p+s85wa%/YcsokFET<wC7P)k6R'
+          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZGW4jJsF/p+s85wa%/YcsokFET<wBi9#Y5dg00'
           state_flags: 17
         slot_5: 
-          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZI`pWRsF/p+s85wa%/YcsokFET<wC7P)k6R'
+          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZHuR{NsF/p+s85wa%/YcsokFET<wBi9#Y5dg00'
           state_flags: 17
         slot_6: 
-          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8AiR7})NR9Muf%An?;@}N$kQlWC8&Y/L=?jZm'
-          state_flags: 33
+          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZI`pWRsF/p+s85wa%/YcsokFET<wBi9#Y5dg00'
+          state_flags: 17
         slot_7: 
-          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZD)gwBsF/p+s85wa%/YcsokFET<wBi9#Y5dg00'
+          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8AyR8CY+R9Muf%An?;@}N$kQlWC8&Y/L=@*w~'
           state_flags: 33
         slot_8: 
-          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZF7&9FsF/p+s85wa%/YcsokFET<wBi9#Y5dg00'
+          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8AyR8CY+R9Muf&Y<R?@}N$kQlWC8&Y/L=@*w~'
           state_flags: 33
         slot_9: 
-          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZGW4jJsF/p+s85wa%/YcsokFET<wBi9#Y5dg00'
+          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZDio=lsGg{>s85wa%/YcsokFET<wBi9#Y5#o00'
           state_flags: 33
         slot_10: 
-          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZHuR{NsF/p+s85wa%/YcsokFET<wBi9#Y5dg00'
+          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZE)=PpsGg{>s85wa%/YcsokFET<wBi9#Y5#o00'
           state_flags: 33
         slot_11: 
-          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZI`pWRsF/p+s85wa%/YcsokFET<wBi9#Y5dg00'
+          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZG8CztsGg{>s85wa%/YcsokFET<wBi9#Y5#o00'
           state_flags: 33
         slot_12: 
-          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8AyR8CY+R9Muf%An?;@}N$kQlWC8)}iVl00'
-          state_flags: 65
+          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZHWaCxsGg{>s85wa%/YcsokFET<wBi9#Y5#o00'
+          state_flags: 33
         slot_13: 
-          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZDio=lsGg{>s85wa%/YcsokFET<wC7P)k6R'
-          state_flags: 65
-        slot_14: 
-          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZE)=PpsGg{>s85wa%/YcsokFET<wC7P)k6R'
-          state_flags: 65
-        slot_15: 
-          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZG8CztsGg{>s85wa%/YcsokFET<wC7P)k6R'
-          state_flags: 65
-        slot_16: 
-          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZHWaCxsGg{>s85wa%/YcsokFET<wC7P)k6R'
-          state_flags: 65
-        slot_17: 
-          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZIuxm#sGg{>s85wa%/YcsokFET<wC7P)k6R'
-          state_flags: 65
-        slot_18: 
-          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8AyR8CY+R9Muf%AoR~=AcfYQlWC8&Y/L=?jZm'
-          state_flags: 129
-        slot_19: 
-          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZDio=lsGg{>s85wa%/YcsokFET<wBi9#Y5dg00'
-          state_flags: 129
-        slot_20: 
-          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZE)=PpsGg{>s85wa%/YcsokFET<wBi9#Y5dg00'
-          state_flags: 129
-        slot_21: 
-          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZG8CztsGg{>s85wa%/YcsokFET<wBi9#Y5dg00'
-          state_flags: 129
-        slot_22: 
-          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZHWaCxsGg{>s85wa%/YcsokFET<wBi9#Y5dg00'
-          state_flags: 129
-        slot_23: 
-          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZIuxm#sGg{>s85wa%/YcsokFET<wBi9#Y5dg00'
-          state_flags: 129
+          serial: '@UgxFw!35E/MoVzKZ(x^fmDp8FZIuxm#sGg{>s85wa%/YcsokFET<wBi9#Y5#o00'
+          state_flags: 33
     equipped_inventory: 
       equipped: 
     equip_slots_unlocked: 
