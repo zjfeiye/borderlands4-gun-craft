@@ -15,42 +15,45 @@ state:
     items: 
       backpack: 
         slot_0: 
-          serial: '@Ugv4Ng35E/MoVzKZo~U%FL@jD3svhbdswC=DZBTVkcTlTPH4y'
+          serial: '@Ugv4Ng35E/MoVzKZo~U%FL@jD3svhbdswC=DZBTVkcTlTP^AG'
           state_flags: 17
         slot_1: 
-          serial: '@Ugv4Ng35E/MoVzKZo~U%FL^W!t&`wl6)IC&5)Ti2@>Y(nRR-tMl00'
+          serial: '@Ugv4Ng35E/MoVzKZo~U%FL@jD3svhbdswApYZBTVkcTlTPF%b'
           state_flags: 17
         slot_2: 
-          serial: '@Ugv4Ng35E/MoVzKZo~U%FL^W!-&`wl6)IC&5)Ti2@>Y(nRR-tMl00'
+          serial: '@Ugv4Ng35E/MoVzKZo~U%FL^W!t&`wl6)IC&5RHxdY>Y(nRR-s}d00'
           state_flags: 17
         slot_3: 
-          serial: '@Ugv4Ng35E/MoVzKZo~U%FL^W#2&`wl6)IC&5)Ti2@>Y(nRR-tMl00'
+          serial: '@Ugv4Ng35E/MoVzKZo~U%FL^W!-&`wl6)IC&5RHxdY>Y(nRR-s}d00'
           state_flags: 17
         slot_4: 
-          serial: '@Ugv4Ng35E/MoVzKZo~U%FL^W#I&`wl6)IC&5)Ti2@>Y(nRR-tMl00'
+          serial: '@Ugv4Ng35E/MoVzKZo~U%FL^W#2&`wl6)IC&5RHxdY>Y(nRR-s}d00'
           state_flags: 17
         slot_5: 
-          serial: '@Ugv4Ng35E/MoVzKZo~U%FL^W#Y&`wl6)IC&5)Ti2@>Y(nRR-tMl00'
+          serial: '@Ugv4Ng35E/MoVzKZo~U%FL^W#I&`wl6)IC&5RHxdY>Y(nRR-s}d00'
           state_flags: 17
         slot_6: 
+          serial: '@Ugv4Ng35E/MoVzKZo~U%FL^W#Y&`wl6)IC&5RHxdY>Y(nRR-s}d00'
+          state_flags: 17
+        slot_7: 
           serial: '@Ugv4Ng35E/MoVzKZo~U%FL@jD3svhbdswApYZBTVkcTlTPyAS'
           state_flags: 33
-        slot_7: 
+        slot_8: 
           serial: '@Ugv4Ng35E/MoVzKZo~U%FL@jD3svhbdDj(`oZBTVkcTlTPyAS'
           state_flags: 33
-        slot_8: 
+        slot_9: 
           serial: '@Ugv4Ng35E/MoVzKZo~U%FL^W!t&`wl6)IC%_)Ti2@>Y(nRR-tww00'
           state_flags: 33
-        slot_9: 
+        slot_10: 
           serial: '@Ugv4Ng35E/MoVzKZo~U%FL^W!-&`wl6)IC%_)Ti2@>Y(nRR-tww00'
           state_flags: 33
-        slot_10: 
+        slot_11: 
           serial: '@Ugv4Ng35E/MoVzKZo~U%FL^W#2&`wl6)IC%_)Ti2@>Y(nRR-tww00'
           state_flags: 33
-        slot_11: 
+        slot_12: 
           serial: '@Ugv4Ng35E/MoVzKZo~U%FL^W#I&`wl6)IC%_)Ti2@>Y(nRR-tww00'
           state_flags: 33
-        slot_12: 
+        slot_13: 
           serial: '@Ugv4Ng35E/MoVzKZo~U%FL^W#Y&`wl6)IC%_)Ti2@>Y(nRR-tww00'
           state_flags: 33
     equipped_inventory: 

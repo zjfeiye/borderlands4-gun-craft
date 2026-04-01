@@ -18,19 +18,13 @@ state:
           serial: '@UgzR8/35E/MoVzKZpQu75s!=^roBC83)ErbRR4vpkR65i?1O'
           state_flags: 17
         slot_1: 
-          serial: '@UgzR8/35E/MoVzKZpQu75s!=^roBC83)ErbRR4vpkR65i=1O'
+          serial: '@UgzR8/35E/MoVzKZpQu75s!=^roBC83)E(3xR4Y_1)Gbsx)H?('
           state_flags: 17
         slot_2: 
-          serial: '@UgzR8/35E/MoVzKZpQu75s!=^roBC83)E!hGR4Y_1)GbsxR6GO'
-          state_flags: 17
-        slot_3: 
           serial: '@UgzR8/35E/MoVzKZpQu75s!=^roBC83)Ev}HR7%uJ)H>8Y1O'
           state_flags: 33
-        slot_4: 
-          serial: '@UgzR8/35E/MoVzKZpQu75s!=^roBC83)Ev}HR7%uJ)H>8W1O'
-          state_flags: 33
-        slot_5: 
-          serial: '@UgzR8/35E/MoVzKZpQu75s!=^roBC83)E!hG)Js%K)JoJkR6GO'
+        slot_3: 
+          serial: '@UgzR8/35E/MoVzKZpQu75s!=^roBC83)E(3x)Js%K)JoJk)H?('
           state_flags: 33
     equipped_inventory: 
       equipped: 

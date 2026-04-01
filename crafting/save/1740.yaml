@@ -1,7 +1,7 @@
 state: 
-  char_guid: 1B7DE41440EC6D683B387086F848A110
+  char_guid: 1B7DE41440EC6D683B387086F848A740
   class: Char_DarkSiren
-  char_name: A110 - 獠牙&特种科技
+  char_name: A740 - 噬菌体&侵扰
   player_difficulty: Easy
   true_mode: false
   experience: 
@@ -15,46 +15,40 @@ state:
     items: 
       backpack: 
         slot_0: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^he}kVCRM31s5+=Us8py}s9LC7sCB52sFnx'
+          serial: '@Ugv?-o35E/MoVzKZ(x^fmDp8AiR7q4#R7%vR#-j3/PN7nvYN66000'
           state_flags: 17
         slot_1: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^he}kVCRM31s5+=ns8py}s9LC7sCB4)2m'
+          serial: '@Ugv?-o35E/MoVzKZ(x^fmDp8FZD)gw5sG6vhs85YW<w2c7r9#z0r9%J'
           state_flags: 17
         slot_2: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#H7p+-%rQe#kcP@zz%P_a<8P`6O)Q2P)'
+          serial: '@Ugv?-o35E/MoVzKZ(x^fmDp8FZF7&99sG6vhs85YW<w2c7r9#z0r9%J'
           state_flags: 17
         slot_3: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#Hdp+-%rQe#kcP@zz%P_a<8P`6O)Q2P)'
+          serial: '@Ugv?-o35E/MoVzKZ(x^fmDp8FZGW4jDsG6vhs85YW<w2c7r9#z0r9%J'
           state_flags: 17
         slot_4: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#H-p+-%rQe#kcP@zz%P_a<8P`6O)Q2P)'
+          serial: '@Ugv?-o35E/MoVzKZ(x^fmDp8FZHuR{HsG6vhs85YW<w2c7r9#z0r9%J'
           state_flags: 17
         slot_5: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#IIp+-%rQe#kcP@zz%P_a<8P`6O)Q2P)'
+          serial: '@Ugv?-o35E/MoVzKZ(x^fmDp8FZI`pWLsG6vhs85YW<w2c7r9#z0r9%J'
           state_flags: 17
         slot_6: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#Iop+-%rQe#kcP@zz%P_a<8P`6O)Q2P)'
-          state_flags: 17
+          serial: '@Ugv?-o35E/MoVzKZ(x^fmDp8AyR7+G$R87>U#-j3/PN7nvYN66000'
+          state_flags: 33
         slot_7: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hf36=Hub47s5+=Us8py}s9LC7sCB52sFnx'
+          serial: '@Ugv?-o35E/MoVzKZ(x^fmDp8FZDio=fsF<jls85YW<w2c7r9#z0r9%J'
           state_flags: 33
         slot_8: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hf36=Hub47s5+=ns8py}s9LC7sCB4)2m'
+          serial: '@Ugv?-o35E/MoVzKZ(x^fmDp8FZE)=PjsF<jls85YW<w2c7r9#z0r9%J'
           state_flags: 33
         slot_9: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#H7p+{}%Q)5tdP@zz%P_a<8P`6O)Q2P)'
+          serial: '@Ugv?-o35E/MoVzKZ(x^fmDp8FZG8CznsF<jls85YW<w2c7r9#z0r9%J'
           state_flags: 33
         slot_10: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#Hdp+{}%Q)5tdP@zz%P_a<8P`6O)Q2P)'
+          serial: '@Ugv?-o35E/MoVzKZ(x^fmDp8FZHWaCrsF<jls85YW<w2c7r9#z0r9%J'
           state_flags: 33
         slot_11: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#H-p+{}%Q)5tdP@zz%P_a<8P`6O)Q2P)'
-          state_flags: 33
-        slot_12: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#IIp+{}%Q)5tdP@zz%P_a<8P`6O)Q2P)'
-          state_flags: 33
-        slot_13: 
-          serial: '@Ugfs(8Fnkc<+)W9UMh&V^hg#Iop+{}%Q)5tdP@zz%P_a<8P`6O)Q2P)'
+          serial: '@Ugv?-o35E/MoVzKZ(x^fmDp8FZIuxmvsF<jls85YW<w2c7r9#z0r9%J'
           state_flags: 33
     equipped_inventory: 
       equipped: 
