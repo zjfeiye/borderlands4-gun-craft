@@ -16,22 +16,22 @@ state:
       backpack: 
         slot_0: 
           serial: '@UgwSAs35E/MoVzKZLiIx(Dp7+<i)xE{iyDI}iMoR-g*t`Gg-VC2hX4'
-          state_flags: 1
+          state_flags: 17
         slot_1: 
           serial: '@UgwSAs35E/MoVzKZLiIx(s!>CQ29*}o7WEc222~Pu2UQAn3Y80$4pk2U'
-          state_flags: 1
+          state_flags: 17
         slot_2: 
           serial: '@UgwSAs35E/MoVzKZLiIx(s!_v*29*}o7WEc222~Pu2UQAn3Y80$4pk2U'
-          state_flags: 1
+          state_flags: 17
         slot_3: 
           serial: '@UgwSAs35E/MoVzKZLiIx(s!>CR29*}o7WEc222~Pu2UQAn3Y80$4pk2U'
-          state_flags: 1
+          state_flags: 17
         slot_4: 
           serial: '@UgwSAs35E/MoVzKZLiIx(s!_v+29*}o7WEc222~Pu2UQAn3Y80$4pk2U'
-          state_flags: 1
+          state_flags: 17
         slot_5: 
           serial: '@UgwSAs35E/MoVzKZLiIx(s!>CS29*}o7WEc222~Pu2UQAn3Y80$4pk2U'
-          state_flags: 1
+          state_flags: 17
     equipped_inventory: 
       equipped: 
     equip_slots_unlocked: 

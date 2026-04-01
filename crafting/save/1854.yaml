@@ -17,6 +17,9 @@ state:
         slot_0: 
           serial: '@Uguq~c35E/MoVzKZxTr!UYEg}Pi<*h5iMolJgX+{B)E`tRR4r6F)H~EY1O'
           state_flags: 17
+        slot_1: 
+          serial: '@Uguq~c35E/MoVzKZxTr!UYEg}Pi>isbiOPwZgX+{B)E`tRR4r6F)H~EY1O'
+          state_flags: 17
     equipped_inventory: 
       equipped: 
     equip_slots_unlocked: 
