@@ -29,6 +29,9 @@ state:
         slot_4: 
           serial: '@Ug!pHG35E/MoVzKZbEr?HFsPFTRpOvV9#ja0dY@`%P_?5e$sxV~'
           state_flags: 1
+        slot_5: 
+          serial: '@Ug!pHG35E/MoVzKZJPLJ3p-vc7NrM`3P$3WM/3U3S<wDhtCW_<`UjP'
+          state_flags: 1
     equipped_inventory: 
       equipped: 
     equip_slots_unlocked: 

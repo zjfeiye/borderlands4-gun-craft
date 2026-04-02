@@ -1,7 +1,7 @@
 state: 
-  char_guid: 1B7DE41440EC6D683B387086F848C211
+  char_guid: 1B7DE41440EC6D683B387086F848C300
   class: Char_DarkSiren
-  char_name: C211 - 导火索
+  char_name: C300 - 紫手雷
   player_difficulty: Easy
   true_mode: false
   experience: 
@@ -15,23 +15,17 @@ state:
     items: 
       backpack: 
         slot_0: 
-          serial: '@Uge8Xtm/*xI!nvCgnpCCM_XZTH_0i-JPEr5'
-          state_flags: 17
+          serial: '@Ugr$WBm/*xI!nvCgdeorSM{`52NF}j^(zgH'
+          state_flags: 1
         slot_1: 
-          serial: '@Uge8Xtm/*xI!nvCgnpCCM7Y7un_0i-JPEr5'
-          state_flags: 33
+          serial: '@Ugr$WBm/*xI!nvCgdeorSM{`52NF}j^(w7DR'
+          state_flags: 1
         slot_2: 
-          serial: '@Uge8Xtm/*xI!nvCgnpCCMHwP4{_0i-JPEr5'
-          state_flags: 33
+          serial: '@Ugr$WBm/*xI!nvCgdeorSM{`52NF}+1(zgH'
+          state_flags: 1
         slot_3: 
-          serial: '@Uge8Xtm/*xI!nvCgnpCCMR/gcS_0i-JPEr5'
-          state_flags: 33
-        slot_4: 
-          serial: '@Uge8Xtm/*xI!nvCgnpCCMcLx-y_0i-JPEr5'
-          state_flags: 33
-        slot_5: 
-          serial: '@Uge8Xtm/*xI!nvCgnpCCMmj@K7_0i-JPEr5'
-          state_flags: 33
+          serial: '@Ugr$WBm/*xI!nvCgdeorSM{`52NF}+1(w7DR'
+          state_flags: 1
     equipped_inventory: 
       equipped: 
     equip_slots_unlocked: 
@@ -63,8 +57,8 @@ state:
     character: 'gap,Cosmetics_DarkSiren_Body[Cosmetics_DarkSiren_Body00_Default],Cosmetics_DarkSiren_Head[Cosmetics_DarkSiren_Head00_Default],Cosmetics_DarkSiren_Skin[Cosmetics_DarkSiren_SkinFilter00_Default],Cosmetics_Colorization_Primary[Cosmetics_Colorization_Primary_1],Cosmetics_Colorization_Secondary[Cosmetics_Colorization_Secondary_45],Cosmetics_Colorization_Tertiary[Cosmetics_Colorization_Tertiary_31]'
     echo4: 'gap,Cosmetics_Echo4_Attachment[Cosmetics_Echo4_Attachment10_Crown],cosmetics_echo4_body[Cosmetics_Echo4_Body03_Ripper],Cosmetics_Echo4_Skin[Cosmetics_Echo4_Skin00_Default]'
     vehicle: 'gap,Cosmetics_Vehicle[Cosmetics_Vehicle_Mat00_DefaultFilter]'
-  total_playtime: 317913.09375
-  last_played_timestamp: 1774746333
+  total_playtime: 318036.90625
+  last_played_timestamp: 1774770524
   first_timestamp: 
   unique_rewards: 
   - pgraph.sdu_upgrades.RepKit_Slot
@@ -1246,111 +1240,6 @@ missions:
   - Mission_Side_Vending
   - none
   local_sets: 
-    missionset_main_prisonprologue: 
-      status: completed
-      missions: 
-        mission_main_prisonprologue: 
-          ui_flags: 1
-          status: completed
-          final: 
-            possessionscene_endstate: completed
-            obj_followarjay_walkntalk_endstate: completed
-            obj_firstswim_endstate: completed
-            inv_gettocrouch_endstate: completed
-            inv_afterprisonexit_endstate: completed
-            inv_beforeprisonexit_endstate: completed
-            inv_firstdropdown_endstate: completed
-    missionset_main_beach: 
-      status: completed
-      missions: 
-        mission_main_beach: 
-          ui_flags: 1
-          status: completed
-          final: 
-            activate__cl4ptps_safehouse_endstate: completed
-            melee_the_door_0_endstate: completed
-            reach_village_endstate: completed
-            use_glide_to_reach_exit_endstate: completed
-            destroy_bolt_1_endstate: deactivated
-            destroy_bolt_3_endstate: deactivated
-            destroy_bolt_2_endstate: completed
-    missionset_main_grasslands2a: 
-      status: completed
-      missions: 
-        mission_main_grasslands2: 
-          ui_flags: 1
-          status: completed
-          final: 
-            find_zadra_1_endstate: completed
-            kill_the_gunship_endstate: completed
-            invis_fast_complete_generator_endstate: completed
-            wait_for_zadra_endstate: completed
-            enter_slide_quick_complete_endstate: completed
-            find_zadra_endstate: completed
-            holder_for_timekeeper_vo_finish_endstate: completed
-            kill_roof_intro_guys_endstate: completed
-            kill_synth_reinforcements_invis_tracker_endstate: deactivated
-            combat_composit_obj_endstate: deactivated
-            find_zadra_0_endstate: completed
-    missionset_zoneactivity_safehouse: 
-      missions: 
-        zoneactivity_mountains_safehouse3: 
-          status: completed
-          final: 
-            fact_lightson: TRUE
-        zoneactivity_grasslands_safehousemain: 
-          status: completed
-          final: 
-            fact_lightson: TRUE
-            find_the_datapad_endstate: completed
-            claim_the_command_console_endstate: completed
-        zoneactivity_grasslands_safehouse3: 
-          status: completed
-          final: 
-            fact_lightson: TRUE
-        zoneactivity_grasslands_safehouse4: 
-          status: completed
-          final: 
-            fact_lightson: TRUE
-        zoneactivity_grasslands_safehouse2: 
-          status: completed
-          final: 
-            fact_lightson: TRUE
-        zoneactivity_shatteredlands_safehouse1: 
-          status: completed
-        zoneactivity_mountains_safehouse2: 
-          status: completed
-          final: 
-            claim_the_command_console_endstate: completed
-            fact_lightson: TRUE
-        zoneactivity_mountains_safehouse4: 
-          status: completed
-          final: 
-            fact_lightson: TRUE
-        zoneactivity_city_safehouse1: 
-          status: completed
-          final: 
-            fact_lightson: TRUE
-        zoneactivity_shatteredlands_safehouse2: 
-          status: completed
-          final: 
-            fact_lightson: TRUE
-        zoneactivity_city_safehouse3: 
-          status: completed
-          final: 
-            fact_lightson: TRUE
-        zoneactivity_mountains_safehouse1: 
-          status: completed
-          final: 
-            fact_lightson: TRUE
-        zoneactivity_city_safehouse2: 
-          status: completed
-          final: 
-            fact_lightson: TRUE
-        zoneactivity_shatteredlands_safehouse3: 
-          status: completed
-          final: 
-            fact_lightson: TRUE
     missionset_main_mountains3: 
       status: completed
       missions: 
@@ -1482,6 +1371,111 @@ missions:
               status: WaitingOnMission
             nosecretend: 
               status: WaitingOnMission
+    missionset_main_prisonprologue: 
+      status: completed
+      missions: 
+        mission_main_prisonprologue: 
+          ui_flags: 1
+          status: completed
+          final: 
+            possessionscene_endstate: completed
+            obj_followarjay_walkntalk_endstate: completed
+            obj_firstswim_endstate: completed
+            inv_gettocrouch_endstate: completed
+            inv_afterprisonexit_endstate: completed
+            inv_beforeprisonexit_endstate: completed
+            inv_firstdropdown_endstate: completed
+    missionset_main_beach: 
+      status: completed
+      missions: 
+        mission_main_beach: 
+          ui_flags: 1
+          status: completed
+          final: 
+            activate__cl4ptps_safehouse_endstate: completed
+            melee_the_door_0_endstate: completed
+            reach_village_endstate: completed
+            use_glide_to_reach_exit_endstate: completed
+            destroy_bolt_1_endstate: deactivated
+            destroy_bolt_3_endstate: deactivated
+            destroy_bolt_2_endstate: completed
+    missionset_main_grasslands2a: 
+      status: completed
+      missions: 
+        mission_main_grasslands2: 
+          ui_flags: 1
+          status: completed
+          final: 
+            find_zadra_1_endstate: completed
+            kill_the_gunship_endstate: completed
+            invis_fast_complete_generator_endstate: completed
+            wait_for_zadra_endstate: completed
+            enter_slide_quick_complete_endstate: completed
+            find_zadra_endstate: completed
+            holder_for_timekeeper_vo_finish_endstate: completed
+            kill_roof_intro_guys_endstate: completed
+            kill_synth_reinforcements_invis_tracker_endstate: deactivated
+            combat_composit_obj_endstate: deactivated
+            find_zadra_0_endstate: completed
+    missionset_zoneactivity_safehouse: 
+      missions: 
+        zoneactivity_mountains_safehouse3: 
+          status: completed
+          final: 
+            fact_lightson: TRUE
+        zoneactivity_grasslands_safehousemain: 
+          status: completed
+          final: 
+            fact_lightson: TRUE
+            find_the_datapad_endstate: completed
+            claim_the_command_console_endstate: completed
+        zoneactivity_grasslands_safehouse3: 
+          status: completed
+          final: 
+            fact_lightson: TRUE
+        zoneactivity_grasslands_safehouse4: 
+          status: completed
+          final: 
+            fact_lightson: TRUE
+        zoneactivity_grasslands_safehouse2: 
+          status: completed
+          final: 
+            fact_lightson: TRUE
+        zoneactivity_shatteredlands_safehouse1: 
+          status: completed
+        zoneactivity_mountains_safehouse2: 
+          status: completed
+          final: 
+            claim_the_command_console_endstate: completed
+            fact_lightson: TRUE
+        zoneactivity_mountains_safehouse4: 
+          status: completed
+          final: 
+            fact_lightson: TRUE
+        zoneactivity_city_safehouse1: 
+          status: completed
+          final: 
+            fact_lightson: TRUE
+        zoneactivity_shatteredlands_safehouse2: 
+          status: completed
+          final: 
+            fact_lightson: TRUE
+        zoneactivity_city_safehouse3: 
+          status: completed
+          final: 
+            fact_lightson: TRUE
+        zoneactivity_mountains_safehouse1: 
+          status: completed
+          final: 
+            fact_lightson: TRUE
+        zoneactivity_city_safehouse2: 
+          status: completed
+          final: 
+            fact_lightson: TRUE
+        zoneactivity_shatteredlands_safehouse3: 
+          status: completed
+          final: 
+            fact_lightson: TRUE
     missionset_main_mountains2b: 
       status: completed
       missions: 
@@ -1933,7 +1927,7 @@ oak.ui.progression_data:
     dont_ask_again_respec_node: false
 save_game_header: 
   guid: 97576BC74DD4277AC91AB2930D2EFCDC
-  timestamp: 1774746333
+  timestamp: 1774770524
 progression: 
   graphs: 
   - name: Progress_DarkSiren_ActionSkills
@@ -2022,11 +2016,11 @@ progression:
     specializationtokenpool: 700
   progress_state_data: 
     characterprogresspoints: 
-      id: EB767C634ACAB2613C2FF9BD4BC4ECDE
-      reset_count: 4
+      id: 05C1CAE34B97FA6012CFABAAB64A8F17
+      reset_count: 0
     specializationtokenpool: 
-      id: E8CD5CF547AC5011695ABC81D369DA7A
-      reset_count: 1
+      id: 021DCCB64327BE5247CE4990D3F15D5C
+      reset_count: 0
 unlockables: 
   unlockable_hoverdrives: 
     entries: 
@@ -2126,7 +2120,7 @@ world_state:
   world_p.top.base.io_aaaforeffort_secretdoormover: 
     script_doorstate: Closed
     team: INVALID_TEAM
-activities: 
-  allactivities: 
 timed_facts: 
 gbx_discovery_pg: 
+activities: 
+  allactivities: 

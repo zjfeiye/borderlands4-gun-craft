@@ -1,7 +1,7 @@
 state: 
-  char_guid: 1B7DE41440EC6D683B387086F848A514
+  char_guid: 1B7DE41440EC6D683B387086F848C361
   class: Char_DarkSiren
-  char_name: A514 - 激光飞盘
+  char_name: C361 - 反制措施
   player_difficulty: Easy
   true_mode: false
   experience: 
@@ -15,19 +15,19 @@ state:
     items: 
       backpack: 
         slot_0: 
-          serial: '@Ugg66CFnkc<+)WAnL>1~#i5e=@6ZH-?4^<D9sk5j!s5+=Ss9UI#2m'
+          serial: '@Uge8>*m/*xI!nvCg%G9OSM}tFr2p8cb1po'
           state_flags: 17
         slot_1: 
-          serial: '@Ugg66CFnkc<+)WAnL>1~#i5f1{6ZH-?4^<D9sk5j!s5+=Ss9UI#2m'
+          serial: '@Uge8>*m/*xI!nvCg%G9OSN0UQ*2p8cb1po'
           state_flags: 17
         slot_2: 
-          serial: '@Ugg66CFnkc<+)WAnL>1~#i5fE06ZH-?4^<D9sk5j!s5+=Ss9UI#2m'
+          serial: '@Uge8>*m/*xI!nvCg%G9OSN25c02p8cb1po'
           state_flags: 17
         slot_3: 
-          serial: '@Ugg66CFnkc<+)WAnL>1~#i5fQ46ZH-?4^<D9sk5j!s5+=Ss9UI#2m'
+          serial: '@Uge8>*m/*xI!nvCg%G9OSN3%nG2p8cb1po'
           state_flags: 17
         slot_4: 
-          serial: '@Ugg66CFnkc<+)WAnL>1~#i5fc86ZH-?4^<D9sk5j!s5+=Ss9UI#2m'
+          serial: '@Uge8>*m/*xI!nvCg%G9OSN5eyW2p8cb1po'
           state_flags: 17
     equipped_inventory: 
       equipped: 
