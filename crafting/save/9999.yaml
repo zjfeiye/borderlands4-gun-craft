@@ -15,7 +15,26 @@ state:
     items: 
       backpack: 
         slot_0: 
-          serial: '@Ugw$Yw35E/MoVzLEQ8a_h@3iR}zuWLHtoCJ>&t*3`EYE+<X?gknmai++q7K!lA;W!W2ASV!(*+O9>0fbJE-$mcFxl6fmY45u`MQ{>PTfJBLX/?@LY+em;Q#'
+          serial: '@Ugw$Yw35E/MoVzKZv#3HX>QIduGE^276V<6Zs8gs?s9UIWs39Bx'
+          state_flags: 17
+        slot_1: 
+          serial: '@Ugfs(8Fnkc<+)W9sMGY!Zg-VO6)TAyo2bBu-3Y81B3-t~)615Tm'
+          state_flags: 17
+        slot_2: 
+          serial: '@Ugr$fEm/*xI!nvCgYK7/5r^2Adpw6IHq0%=1'
+          state_flags: 17
+        slot_3: 
+          serial: '@Uge8jxm/*xI!nvCg`c$FT_XgCd_0eFG00'
+          state_flags: 17
+        slot_4: 
+          serial: '@Uge(J0Fnkc<+)WAfL>1~#iQ0(@iTa0{)Ed+t)F@Ob)Gbsy1O'
+          state_flags: 17
+        slot_5: 
+          serial: '@Uge98>m/*xI!nvCgO4R#uf(BKnLrv<JfhI&`BvB3nO^C=yqB#bd5Rs8YeGD`qA/r`z8E8U8MiTun(1eJLB#LFA2@x4d6vIFhA~KRFkAWscWF%2415Jp?NTT=A<dR&HOKM3isU^4sm*5gyf=h4-F2N<Z1ef3vT!Kq*2`<4UxCEEr5?r!NcF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucU9wAd$u8L?yJVN_l3lV(cF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucU9wAd$u8L?yJVN_l3lV(cF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucU9wAd$u8L?yJVN_l3lV(cF8W;C9x!y#1dViOLR#zi6+q`n#dAaB1>e+Ex9GP<d)o$TXIWo$t}4hx8#=Gl3Q/1ZpkgVCAZ/3*b-Y}OKiz3nI*Gime3MfLQ7}~Eukf}gqF/}T0%=`2`!-/w1k$>5?Vq_XbCN$CA5T=&=N(pqj7O@adB~RadB};Nl8gbNl8gbNr@pbB!<M07!pHbNDPS~F(ih>kQfp}Vn_^$Au%L/#E=*gLt;n_i6Jp0hQyE<5<_B042dBzB!<M07!pHbNDPS~F(ih>kQfp}Vn_^$Au%L/#E=*gLt;n_i6Jp0hQyE<5<_B042dBzB!<M07!pHbNDPS~F(ih>kQfp}Vn_^$Au%L/#E=*gLt;n_i6Jp0hQyE<5<_B042dBzB!<L5@eDL3h(;P3l*<sIH--oR'
+          state_flags: 33
+        slot_6: 
+          serial: '@Uge98>m/%P$!nvCgO4R#uf(BKnLrv<JfhI&`BvB3nO^C=yqB#bd5Rs8YeGD`qA/r`z8E8U8MiTun(1eJLB#LFA2@x4d6vIFhA~KRFkAWscWF%2415Jp?NTT=A<dR&HOKM3isU^4sm*5gyf=h4-F2N<Z1ef3vT!Kq*2`<4UxCEEr5?r!NcF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucU9wAd$u8L?yJVN_l3lV(cF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucU9wAd$u8L?yJVN_l3lV(cF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucU9wAd$u8L?yJVN_l3lV(cF8W;C9x!y#1dViOLR#zi6+q`n#dAaB1>e+Ex9GP<d)o$TXIWo$t}4hx8#=Gl3Q/1ZpkgVCAZ/3*b-Y}OKiz3nI*Gime3MfLQ7}~Eukf}gqF/}T0%=`2`!-/w1k$>5?Vq_XbCN$CA5T=&=N(pqj7O@adB~RadB};Nl8gbNl8gbNr@pbB!<M07!pHbNDPS~F(ih>kQfp}Vn_^$Au%L/#E=*gLt;n_i6Jp0hQyE<5<_B042dBzB!<M07!pHbNDPS~F(ih>kQfp}Vn_^$Au%L/#E=*gLt;n_i6Jp0hQyE<5<_B042dBzB!<M07!pHbNDPS~F(ih>kQfp}Vn_^$Au%L/#E=*gLt;n_i6Jp0hQyE<5<_B042dBzB!<L5@eDL3h(;P3l*<sIH--oR'
+          state_flags: 33
     equipped_inventory: 
       equipped: 
     equip_slots_unlocked: 
@@ -24,7 +43,7 @@ state:
     - 6
     - 7
     - 8
-    active_slot: 2
+    active_slot: 0
   player_customization: 
   blackmarket_cooldown: 1758054660
   challenge_objectives: 
@@ -47,8 +66,8 @@ state:
     character: 'gap,Cosmetics_DarkSiren_Body[Cosmetics_DarkSiren_Body00_Default],Cosmetics_DarkSiren_Head[Cosmetics_DarkSiren_Head00_Default],Cosmetics_DarkSiren_Skin[Cosmetics_DarkSiren_SkinFilter00_Default],Cosmetics_Colorization_Primary[Cosmetics_Colorization_Primary_1],Cosmetics_Colorization_Secondary[Cosmetics_Colorization_Secondary_45],Cosmetics_Colorization_Tertiary[Cosmetics_Colorization_Tertiary_31]'
     echo4: 'gap,Cosmetics_Echo4_Attachment[Cosmetics_Echo4_Attachment10_Crown],cosmetics_echo4_body[Cosmetics_Echo4_Body03_Ripper],Cosmetics_Echo4_Skin[Cosmetics_Echo4_Skin00_Default]'
     vehicle: 'gap,Cosmetics_Vehicle[Cosmetics_Vehicle_Mat00_DefaultFilter]'
-  total_playtime: 317913.09375
-  last_played_timestamp: 1774746333
+  total_playtime: 318917.40625
+  last_played_timestamp: 1775271649
   first_timestamp: 
   unique_rewards: 
   - pgraph.sdu_upgrades.RepKit_Slot
@@ -278,9 +297,9 @@ onlinecharacterprefs:
     platformid: 'STEAM:76561198199580851'
     platformname: xboxlive
   partyleader: 
-    shiftid: 'Shift:1735504341959659966'
-    platformid: 'STEAM:76561198199580851'
-    platformname: xboxlive
+    shiftid: 'Shift:1735504341960554549'
+    platformid: 'STEAM:76561199056784375'
+    platformname: steam
 pips: 
   pips_list: !tags
   - Character.replay.Mission_Side_WhatLurksBeneath
@@ -288,16 +307,6 @@ pips:
   - Character.missions.Mission_Side_BelowTheSurface
   - Character.inventory.EchoLogs.EchoLogDef_BelowTheSurface_Log05
   - Character.replay.Mission_Side_BelowTheSurface
-  - Character.inventory.rewards.RewardPackage_VehicleSkin_41_Synthesizer
-  - Character.inventory.rewards.RewardPackage_VehicleSkin_40_AnimeMech
-  - Character.inventory.rewards.RewardPackage_VehicleSkin_43_NitroFlame
-  - Character.inventory.rewards.RewardPackage_WeaponSkin_09_FolkHero
-  - Character.inventory.rewards.RewardPackage_WeaponSkin_05_FransFroyo
-  - Character.inventory.rewards.RewardPackage_WeaponSkin_02_LavaRock
-  - Character.inventory.rewards.RewardPackage_VehicleSkin_15_Retro
-  - Character.inventory.rewards.RewardPackage_VehicleSkin_31_Splash
-  - Character.inventory.rewards.RewardPackage_VehicleSkin_01_Synthwave
-  - Character.inventory.rewards.RewardPackage_WeaponSkin_15_Retro
   - Character.VaultCards.tickets
 globals: 
   time_of_day: Day
@@ -320,6 +329,31 @@ globals:
   vault_hunter_level: 5
   true_mode: FALSE
 stats: 
+  achievements: 
+    00_level_10: 1
+    01_level_30: 1
+    02_level_50: 1
+    03_uvh_5: 1
+    04_cosmetics_collect: 60
+    05_vehicles_collect: 11
+    06_legendaries_equip: 1
+    14_discovery_grasslands: 43
+    15_discovery_mountains: 33
+    16_discovery_shatteredlands: 40
+    17_discovery_city: 13
+    18_worldboss_defeat: 1
+    19_vaultguardian_defeat: 
+      19_vaultguardian_grasslands: 1
+      19_vaultguardian_mountains: 1
+      19_vaultguardian_shatteredlands: 1
+    22_missions_electi: 3
+    23_missions_claptrap: 1
+    24_missions_side: 18
+    25_missions_grasslands: 1
+    26_missions_mountains: 1
+    27_missions_shatteredlands: 1
+    28_missions_elpis: 1
+    29_missions_main: 1
   challenge: 
     kills_all: 12246
     general_kill_enemies: 8000
@@ -517,33 +551,6 @@ stats:
     uvh_3_finalchallenge: 1
     uvh_4_finalchallenge: 1
     uvh_5_finalchallenge: 1
-  spawncontrol: 
-    spawned_loot: 12
-  achievements: 
-    00_level_10: 1
-    01_level_30: 1
-    02_level_50: 1
-    03_uvh_5: 1
-    04_cosmetics_collect: 60
-    05_vehicles_collect: 11
-    06_legendaries_equip: 1
-    14_discovery_grasslands: 43
-    15_discovery_mountains: 33
-    16_discovery_shatteredlands: 40
-    17_discovery_city: 13
-    18_worldboss_defeat: 1
-    19_vaultguardian_defeat: 
-      19_vaultguardian_grasslands: 1
-      19_vaultguardian_mountains: 1
-      19_vaultguardian_shatteredlands: 1
-    22_missions_electi: 3
-    23_missions_claptrap: 1
-    24_missions_side: 18
-    25_missions_grasslands: 1
-    26_missions_mountains: 1
-    27_missions_shatteredlands: 1
-    28_missions_elpis: 1
-    29_missions_main: 1
   openworld: 
     activities: 
       safehouses: 
@@ -1072,6 +1079,8 @@ stats:
       shiny_onslaught: 1
       shiny_finnty: 1
       shiny_stopgap: 1
+  spawncontrol: 
+    spawned_loot: 12
   tutorial: 
     climb: 1
     crouch: 1
@@ -1258,6 +1267,56 @@ missions:
             destroy_bolt_1_endstate: deactivated
             destroy_bolt_3_endstate: deactivated
             destroy_bolt_2_endstate: completed
+    missionset_main_mountains3: 
+      status: completed
+      missions: 
+        mission_main_mountains3: 
+          ui_flags: 1
+          status: completed
+          final: 
+            obj_destroydoorlocks_endstate: completed
+            invis_obj_waypointforwayback_endstate: completed
+            obj_lootcommandersbolt_endstate: completed
+            obj_killcommander_endstate: completed
+    missionset_main_grasslands3: 
+      status: completed
+      missions: 
+        mission_main_grasslands3: 
+          ui_flags: 1
+          status: completed
+          final: 
+            gettosaftey_endstate: completed
+            enterfortress_endstate: completed
+            kill_commander_endstate: completed
+            salvagelocusts_endstate: completed
+            opengate_endstate: completed
+            advancetofortress_endstate: completed
+            findairshiphangar_endstate: completed
+            bosswaypoint03_endstate: completed
+            enter_commander_arena_endstate: completed
+    missionset_main_city3: 
+      status: completed
+      missions: 
+        mission_main_city3: 
+          ui_flags: 1
+          status: completed
+          final: 
+            killtimekeeper_endstate: completed
+            killtimekeeper_guardian_endstate: completed
+    missionset_main_shatteredlands3: 
+      status: completed
+      missions: 
+        mission_main_shatteredlands3: 
+          ui_flags: 1
+          status: completed
+          final: 
+            killrip_fortfrontbadass_endstate: completed
+            gotoramp_endstate: completed
+            shootbomb_endstate: completed
+            rampillar_endstate: completed
+            turnonramp_endstate: completed
+            enterfortress_endstate: completed
+            killboss_endstate: completed
     missionset_main_grasslands2a: 
       status: completed
       missions: 
@@ -1335,56 +1394,41 @@ missions:
           status: completed
           final: 
             fact_lightson: TRUE
-    missionset_main_mountains3: 
+    missionset_main_mountains2b: 
       status: completed
       missions: 
-        mission_main_mountains3: 
+        mission_main_mountains2b: 
           ui_flags: 1
           status: completed
           final: 
-            obj_destroydoorlocks_endstate: completed
-            invis_obj_waypointforwayback_endstate: completed
-            obj_lootcommandersbolt_endstate: completed
-            obj_killcommander_endstate: completed
-    missionset_main_grasslands3: 
-      status: completed
+            obj_findawayin_endstate: completed
+            obj_overarching_findphase_endstate: completed
+    missionset_zoneactivity_orderbunker: 
       missions: 
-        mission_main_grasslands3: 
-          ui_flags: 1
+        zoneactivity_mountains_orderbunker1: 
           status: completed
           final: 
-            gettosaftey_endstate: completed
-            enterfortress_endstate: completed
-            kill_commander_endstate: completed
-            salvagelocusts_endstate: completed
-            opengate_endstate: completed
-            advancetofortress_endstate: completed
-            findairshiphangar_endstate: completed
-            bosswaypoint03_endstate: completed
-            enter_commander_arena_endstate: completed
-    missionset_main_city3: 
-      status: completed
-      missions: 
-        mission_main_city3: 
-          ui_flags: 1
+            open_the_door_endstate: completed
+        zoneactivity_grasslands_orderbunker2: 
           status: completed
           final: 
-            killtimekeeper_endstate: completed
-            killtimekeeper_guardian_endstate: completed
-    missionset_main_shatteredlands3: 
-      status: completed
-      missions: 
-        mission_main_shatteredlands3: 
-          ui_flags: 1
+            open_the_door_endstate: completed
+        zoneactivity_mountains_orderbunker2: 
           status: completed
           final: 
-            killrip_fortfrontbadass_endstate: completed
-            gotoramp_endstate: completed
-            shootbomb_endstate: completed
-            rampillar_endstate: completed
-            turnonramp_endstate: completed
-            enterfortress_endstate: completed
-            killboss_endstate: completed
+            open_the_door_endstate: completed
+        zoneactivity_city_orderbunker1: 
+          status: completed
+          final: 
+            open_the_door_endstate: completed
+        zoneactivity_grasslands_orderbunker1: 
+          status: completed
+          final: 
+            open_the_door_endstate: completed
+        zoneactivity_shatteredlands_orderbunker1: 
+          status: completed
+          final: 
+            open_the_door_endstate: completed
     missionset_side_shatteredlandsa: 
       missions: 
         mission_side_vending: 
@@ -1466,41 +1510,6 @@ missions:
               status: WaitingOnMission
             nosecretend: 
               status: WaitingOnMission
-    missionset_main_mountains2b: 
-      status: completed
-      missions: 
-        mission_main_mountains2b: 
-          ui_flags: 1
-          status: completed
-          final: 
-            obj_findawayin_endstate: completed
-            obj_overarching_findphase_endstate: completed
-    missionset_zoneactivity_orderbunker: 
-      missions: 
-        zoneactivity_mountains_orderbunker1: 
-          status: completed
-          final: 
-            open_the_door_endstate: completed
-        zoneactivity_grasslands_orderbunker2: 
-          status: completed
-          final: 
-            open_the_door_endstate: completed
-        zoneactivity_mountains_orderbunker2: 
-          status: completed
-          final: 
-            open_the_door_endstate: completed
-        zoneactivity_city_orderbunker1: 
-          status: completed
-          final: 
-            open_the_door_endstate: completed
-        zoneactivity_grasslands_orderbunker1: 
-          status: completed
-          final: 
-            open_the_door_endstate: completed
-        zoneactivity_shatteredlands_orderbunker1: 
-          status: completed
-          final: 
-            open_the_door_endstate: completed
     missionset_vault_grasslands: 
       status: completed
       missions: 
@@ -1917,7 +1926,7 @@ oak.ui.progression_data:
     dont_ask_again_respec_node: false
 save_game_header: 
   guid: 97576BC74DD4277AC91AB2930D2EFCDC
-  timestamp: 1774746333
+  timestamp: 1775271649
 progression: 
   graphs: 
   - name: Progress_DarkSiren_ActionSkills
@@ -2017,7 +2026,7 @@ unlockables:
     - Unlockable_HoverDrives.maliwan_01
     - Unlockable_HoverDrives.jakobs_02
     - Unlockable_HoverDrives.daedalus_01
-    - Unlockable_HoverDrives.Jakobs_01
+    - Unlockable_HoverDrives.jakobs_01
     - Unlockable_HoverDrives.daedalus_02
     - Unlockable_HoverDrives.jakobs_03
     - Unlockable_HoverDrives.jakobs_04
