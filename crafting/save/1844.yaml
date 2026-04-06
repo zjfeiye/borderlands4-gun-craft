@@ -15,59 +15,41 @@ state:
     items: 
       backpack: 
         slot_0: 
-          serial: '@UgxFw!35E/MoVzKZyr@DQDp7Y)IZ-=NJyBs%pQ?+RgUW+Cg-V6Wh5CiMhx&&A'
+          serial: '@UgxFw!35E/MoVzKZyr@DQDp7Y)IZ-=NJy9)DpPGxBgUW+Cg-V6Wh5CiMhx&&A'
           state_flags: 17
         slot_1: 
-          serial: '@UgxFw!35E/MoVzKZyr@DYs!>CQ?xJ#{cA/Qs!lFJ^7c~c!2XzXS3Y81>3w00m4*>'
+          serial: '@UgxFw!35E/MoVzKZyr@DYs!>CQ?xJ#{cA/QsTB1HR7c~c!2XzXS3Y81>3w00m4*>'
           state_flags: 17
         slot_2: 
-          serial: '@UgxFw!35E/MoVzKZyr@DYs!_v*?xJ#{cA/Qs!lFJ^7c~c!2XzXS3Y81>3w00m4*>'
+          serial: '@UgxFw!35E/MoVzKZyr@DYs!_v*?xJ#{cA/QsTB1HR7c~c!2XzXS3Y81>3w00m4*>'
           state_flags: 17
         slot_3: 
-          serial: '@UgxFw!35E/MoVzKZyr@DYs!>CR?xJ#{cA/Qs!lFJ^7c~c!2XzXS3Y81>3w00m4*>'
+          serial: '@UgxFw!35E/MoVzKZyr@DYs!>CR?xJ#{cA/QsTB1HR7c~c!2XzXS3Y81>3w00m4*>'
           state_flags: 17
         slot_4: 
-          serial: '@UgxFw!35E/MoVzKZyr@DYs!_v+?xJ#{cA/Qs!lFJ^7c~c!2XzXS3Y81>3w00m4*>'
+          serial: '@UgxFw!35E/MoVzKZyr@DYs!_v+?xJ#{cA/QsTB1HR7c~c!2XzXS3Y81>3w00m4*>'
           state_flags: 17
         slot_5: 
-          serial: '@UgxFw!35E/MoVzKZyr@DYs!>CS?xJ#{cA/Qs!lFJ^7c~c!2XzXS3Y81>3w00m4*>'
+          serial: '@UgxFw!35E/MoVzKZyr@DYs!>CS?xJ#{cA/QsTB1HR7c~c!2XzXS3Y81>3w00m4*>'
           state_flags: 17
         slot_6: 
-          serial: '@UgxFw!35E/MoVzKZyr@DQDp7Y)IZ-=NJy9)DpPGxBgUW+Cg-V6Wh5CiMhx&&A'
+          serial: '@UgxFw!35E/MoVzKZyr@DQDp7Y)IZ-=NJy9)DpPGxBgUW+Cg-V6Wg=&YohX4'
           state_flags: 33
         slot_7: 
-          serial: '@UgxFw!35E/MoVzKZyr@DYs!>CQ?xJ#{cA/QsTB1HR7c~c!2XzXS3Y81>3w00m4*>'
+          serial: '@UgxFw!35E/MoVzKZyr@DYs!>CQ?xJ#{cA/QsTB1HR7c~c!2XzXS3Y81h4s{O!'
           state_flags: 33
         slot_8: 
-          serial: '@UgxFw!35E/MoVzKZyr@DYs!_v*?xJ#{cA/QsTB1HR7c~c!2XzXS3Y81>3w00m4*>'
+          serial: '@UgxFw!35E/MoVzKZyr@DYs!_v*?xJ#{cA/QsTB1HR7c~c!2XzXS3Y81h4s{O!'
           state_flags: 33
         slot_9: 
-          serial: '@UgxFw!35E/MoVzKZyr@DYs!>CR?xJ#{cA/QsTB1HR7c~c!2XzXS3Y81>3w00m4*>'
+          serial: '@UgxFw!35E/MoVzKZyr@DYs!>CR?xJ#{cA/QsTB1HR7c~c!2XzXS3Y81h4s{O!'
           state_flags: 33
         slot_10: 
-          serial: '@UgxFw!35E/MoVzKZyr@DYs!_v+?xJ#{cA/QsTB1HR7c~c!2XzXS3Y81>3w00m4*>'
+          serial: '@UgxFw!35E/MoVzKZyr@DYs!_v+?xJ#{cA/QsTB1HR7c~c!2XzXS3Y81h4s{O!'
           state_flags: 33
         slot_11: 
-          serial: '@UgxFw!35E/MoVzKZyr@DYs!>CS?xJ#{cA/QsTB1HR7c~c!2XzXS3Y81>3w00m4*>'
-          state_flags: 33
-        slot_12: 
-          serial: '@UgxFw!35E/MoVzKZyr@DQDp7Y)IZ-=NJy9)DpPGxBgUW+Cg-V6Wg=&YohX4'
-          state_flags: 65
-        slot_13: 
-          serial: '@UgxFw!35E/MoVzKZyr@DYs!>CQ?xJ#{cA/QsTB1HR7c~c!2XzXS3Y81h4s{O!'
-          state_flags: 65
-        slot_14: 
-          serial: '@UgxFw!35E/MoVzKZyr@DYs!_v*?xJ#{cA/QsTB1HR7c~c!2XzXS3Y81h4s{O!'
-          state_flags: 65
-        slot_15: 
-          serial: '@UgxFw!35E/MoVzKZyr@DYs!>CR?xJ#{cA/QsTB1HR7c~c!2XzXS3Y81h4s{O!'
-          state_flags: 65
-        slot_16: 
-          serial: '@UgxFw!35E/MoVzKZyr@DYs!_v+?xJ#{cA/QsTB1HR7c~c!2XzXS3Y81h4s{O!'
-          state_flags: 65
-        slot_17: 
           serial: '@UgxFw!35E/MoVzKZyr@DYs!>CS?xJ#{cA/QsTB1HR7c~c!2XzXS3Y81h4s{O!'
-          state_flags: 65
+          state_flags: 33
     equipped_inventory: 
       equipped: 
     equip_slots_unlocked: 
