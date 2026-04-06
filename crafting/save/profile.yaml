@@ -1,0 +1,1833 @@
+inputprefs: 
+  toggle_zoom: false
+  toggle_crouch: true
+  toggle_sprint: true
+  enable_dash: true
+  censor_content: false
+  display_damage_numbers: true
+  look_mouse_sensitivity: 1.0
+  look_controller_sensitivity: 1.0
+  look_sensitivity_horizontal: 0.8
+  look_sensitivity_vertical: 0.8
+  ads_sensitivity_horizontal: 0.8
+  ads_sensitivity_vertical: 0.8
+  motion_controls_look_sensitivity_horizontal: 1.0
+  motion_controls_look_sensitivity_vertical: 1.0
+  motion_controls_ads_sensitivity_horizontal: 1.0
+  motion_controls_ads_sensitivity_vertical: 1.0
+  motion_controls_setting: 0
+  jcms_look_sensitivity_horizontal: 1.0
+  jcms_look_sensitivity_vertical: 1.0
+  jcms_ads_sensitivity_horizontal: 1.0
+  jcms_ads_sensitivity_vertical: 1.0
+  jcms_enable_control: 1
+  controller_ads_snap: true
+  mouse_ads_snap: false
+  controller_aim_assist: true
+  controller_aim_recentering: false
+  camera_head_bob: 1.0
+  mantle_with_forward: false
+  invert_look_x_axis_kbm: false
+  invert_look_y_axis_kbm: false
+  invert_move_x_axis_kbm: false
+  invert_move_y_axis_kbm: false
+  invert_look_x_axis_gamepad: false
+  invert_look_y_axis_gamepad: false
+  invert_move_x_axis_gamepad: false
+  invert_move_y_axis_gamepad: false
+  left_stick_radial_dead_zone_inner: 0.25
+  left_stick_radial_dead_zone_outer: 0.1
+  left_stick_axial_dead_zone_inner: 7.5
+  left_stick_axial_dead_zone_outer: 15.0
+  right_stick_radial_dead_zone_inner: 0.25
+  right_stick_radial_dead_zone_outer: 0.1
+  right_stick_axial_dead_zone_inner: 7.5
+  right_stick_axial_dead_zone_outer: 15.0
+  use_toggle_glide_kbm: false
+  use_toggle_glide_gamepad: true
+  crosshair_position: 1
+  compass_vertical_indicator_config: 0
+  radar_enabled: 1
+  base_fov: 90.0
+  vehicle_fov: 90.0
+  map_viewer_zoom_speed: 1.0
+  grapple_pitch_correction: true
+  on_foot_gamepad_stick_preset: 
+  is_southpaw_on_foot_gamepad_stick_preset_active: false
+  on_vehicle_gamepad_stick_preset: 
+  is_southpaw_on_vehicle_gamepad_stick_preset_active: false
+  rumble_enabled: true
+  camera_shake_intensity: 1.0
+  reactivetriggers_enabled: true
+  mouse_smoothing_enabled: true
+  controller_lighting_enabled: true
+  aim_mouse_and_touch_enabled: false
+  show_challenge_notifications: true
+  show_vault_card_notifications: true
+  binding_profiles: 
+  - profile_identifier: InputUserSettings.Profiles.Default
+    class_path: /Script/EnhancedInput.EnhancedPlayerMappableKeyProfile
+    object_path: EnhancedPlayerMappableKeyProfile_2147406959
+    dirty_mappings: 
+    - mapping_name: action_kbm_melee
+      current_key_name: ThumbMouseButton2
+      hardware_device_input_class_name: None
+      hardware_device_hardware_device_identifier: None
+      hardware_device_primary_device_type: 0
+      hardware_device_supported_features_mask: 0
+      slot: 0
+      localized: true
+    - mapping_name: action_kbm_melee_1s
+      current_key_name: ThumbMouseButton2
+      hardware_device_input_class_name: None
+      hardware_device_hardware_device_identifier: None
+      hardware_device_primary_device_type: 0
+      hardware_device_supported_features_mask: 0
+      slot: 0
+      localized: true
+ui: 
+  default: true
+  user_preferences: 
+    safe_area: 
+      horizontal_ratio: 0.0
+      vertical_ratio: 0.0
+    font_scaling: 
+      menu: 0
+      hud: 0
+    color_blind_mode: 0
+    high_contrast_mode: 
+      hud: false
+      crosshair: false
+  subtitles: 
+    size: 1.0
+    speaker_color: 
+    - 0.147027
+    - 0.577581
+    - 0.930111
+    - 1.0
+    text_opacity: 1.0
+    text_color: 
+    - 0.775822
+    - 0.693872
+    - 0.617207
+    - 1.0
+    background_opacity: 0.5
+    background_color: 
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+    background_enabled: true
+    show_subtitle: true
+    show_speaker: true
+    use_bold_text: false
+  cursor_preferences: 
+    invert_x_axis: false
+    invert_y_axis: false
+    sensitivity: 0.8
+    friction_default: 0.4
+    show_idle_flash: false
+    max_idle_time: 60.0
+    pc_scroll_sensitivity: 5
+  first_time_calibration: 
+    shown_first_time_calibration: true
+  eula_data: 
+    accepted_eulas: 
+    - 22.1.2
+    - 23.1.2
+    - 10.1.4
+    - 4.1.0
+  contentwarning_data: 
+    photosensitivity_warning: true
+  tutorials: 
+    menu_tutorials_enabled: true
+    hud_tutorials_enabled: true
+    seen_menu_tutorials: 
+    - menu_tutorial_equipment
+    - menu_tutorial_reward_center
+    - menu_tutorial_skills_intro
+    - menu_tutorial_skills_action_and_points
+    - menu_tutorial_big_map_intro
+    - menu_tutorial_vending_machine
+    - menu_tutorial_echo_upgrades
+    - menu_tutorial_missionlog_intro
+    - menu_tutorial_skills_augments
+    - menu_tutorial_respec
+    - menu_tutorial_lost_loot
+    - menu_tutorial_skills_capstones
+    - menu_tutorial_firmware
+    - menu_tutorials_specializations
+    - menu_tutorial_transfer
+    - menu_tutorial_weekly_activities
+    - menu_vault_cards_tutorial
+    seen_hud_tutorials: 
+    - stats.tutorial.Walk
+    - stats.tutorial.checkpoints
+    - stats.tutorial.weapon_fire
+    - stats.tutorial.weapon_reload
+    - stats.tutorial.Repkit
+    - stats.tutorial.Jump
+    - stats.tutorial.double_jump
+    - stats.tutorial.Grapple
+    - stats.tutorial.Crouch
+    - stats.tutorial.Climb
+    - stats.tutorial.Shield
+    - stats.tutorial.actionskill_unlock
+    - stats.tutorial.Revive
+    - stats.tutorial.echo_location
+    - stats.tutorial.Glide
+    - stats.tutorial.Melee
+    - stats.tutorial.activity_safehouse_discovery
+    - stats.tutorial.activity_safehouse_capture
+    - stats.tutorial.sdu_tokens
+    - stats.tutorial.activity_silo_discovery
+    - stats.tutorial.collectible_evocarium_discovery
+    - stats.tutorial.activity_crawler_discovery
+    - stats.tutorial.collectible_cache_discovery
+    - stats.tutorial.activity_silo_capture
+    - stats.tutorial.collectible_speaker_discovery
+    - stats.tutorial.ground_pound
+    - stats.tutorial.collectible_echologgeneral_discovery
+    - stats.tutorial.misc_combatchest_discovery
+    - stats.tutorial.vault_tracking
+    - stats.tutorial.collectible_vaultsymbol_discovery
+    - stats.tutorial.gamesystem_respecmachine
+    - stats.tutorial.Vehicle
+    - stats.tutorial.collectible_lostcapsule_discovery
+    - stats.tutorial.collectible_lostcapsule_decrypt
+    - stats.tutorial.activity_orderbunker_locked
+    - stats.tutorial.activity_augermine_discovery
+    - stats.tutorial.activity_augermine_locked
+    - stats.tutorial.orderbunkers
+    - stats.tutorial.activity_orderbunker_discovery
+    - stats.tutorial.augermines
+    - stats.tutorial.collectible_shrine_discovery
+    - stats.tutorial.activity_drillsite_discovery
+    - stats.tutorial.collectible_echologarjay_discovery
+    - stats.tutorial.collectible_safe_discovery
+    - stats.tutorial.collectible_echologvh_discovery
+    - stats.tutorial.Specialization
+    - stats.tutorial.blackmarket
+    - stats.tutorial.uvh_unlock
+    - stats.tutorial.uvh_unlock2
+    - stats.tutorial.city_locust_gas_dispenser_unlocked
+    - stats.tutorial.city_sewer_doors_unlocked
+    - stats.tutorial.city_ordonite_battery_dispenser_unlocked
+  crosshair_settings: 
+    crosshair_friendly_color: 
+    - 0.226316
+    - 0.938686
+    - 0.461698
+    - 1.0
+    crosshair_enemy_color: 
+    - 1.0
+    - 0.142361
+    - 0.167265
+    - 1.0
+    crosshair_neutral_color: 
+    - 1.0
+    - 1.0
+    - 1.0
+    - 1.0
+onlineprefs: 
+  crossplaypref: 1
+  networktypepref: 2
+  networkprivacypref: 1
+  friendsyncpref: true
+  favoritefriends: 
+  hide_nat_dialog: false
+  hide_age_dialog: false
+  pushtotalkpref: false
+  voiceenabledpref: true
+  textchatenabledpref: true
+  incomingvoicevolume: 1.0
+  profanityfilterpref: true
+  streamer_mode_local_pref: false
+  streamer_mode_remote_pref: false
+  hide_promotional_content_pref: false
+  matchmakingautoregionselectpref: true
+  matchmakingregionspref: 
+  favoritefriendsnotifications: true
+  charactermemory: 
+  - partyleader: 'Shift:1735504341959592672'
+    charguid: 8419045D49E16654C3BA0E9DA9581ECB
+  - partyleader: 'Shift:1735504341959659966'
+    charguid: 1B7DE41440EC6D683B387086F848A344
+  - partyleader: 'Shift:1735504342004650825'
+    charguid: 8419045D49E16654C3BA0E9DA9581ECB
+  - partyleader: 'Shift:1735504341962883051'
+    charguid: 8419045D49E16654C3BA0E9DA958A142
+  hide_character_memory_dialog: false
+  enable_automatic_character_switching: 
+domains: 
+  local: 
+    characters_selected: C_1344
+    characters: 
+      c_1: 
+      c_2: 
+      c_997: 
+      c_998: 
+      c_999: 
+      c_1110: 
+      c_1111: 
+      c_1112: 
+      c_1113: 
+      c_1115: 
+      c_1121: 
+      c_1122: 
+      c_1129: 
+      c_1131: 
+      c_1132: 
+      c_1133: 
+      c_1141: 
+      c_1142: 
+      c_1143: 
+      c_1210: 
+      c_1211: 
+      c_1212: 
+      c_1213: 
+      c_1221: 
+      c_1222: 
+      c_1223: 
+      c_1224: 
+      c_1225: 
+      c_1230: 
+      c_1231: 
+      c_1232: 
+      c_1233: 
+      c_1234: 
+      c_1235: 
+      c_1251: 
+      c_1252: 
+      c_1253: 
+      c_1254: 
+      c_1330: 
+      c_1331: 
+      c_1332: 
+      c_1333: 
+      c_1334: 
+      c_1335: 
+      c_1341: 
+      c_1342: 
+      c_1344: 
+      c_1345: 
+      c_1351: 
+      c_1352: 
+      c_1353: 
+      c_1359: 
+      c_1410: 
+      c_1411: 
+      c_1412: 
+      c_1419: 
+      c_1421: 
+      c_1422: 
+      c_1423: 
+      c_1424: 
+      c_1425: 
+      c_1451: 
+      c_1452: 
+      c_1453: 
+      c_1510: 
+      c_1511: 
+      c_1512: 
+      c_1513: 
+      c_1514: 
+      c_1521: 
+      c_1522: 
+      c_1523: 
+      c_1524: 
+      c_1531: 
+      c_1532: 
+      c_1539: 
+      c_1610: 
+      c_1611: 
+      c_1612: 
+      c_1614: 
+      c_1621: 
+      c_1622: 
+      c_1623: 
+      c_1624: 
+      c_1629: 
+      c_1631: 
+      c_1632: 
+      c_1633: 
+      c_1634: 
+      c_1731: 
+      c_1732: 
+      c_1733: 
+      c_1734: 
+      c_1739: 
+      c_1740: 
+      c_1741: 
+      c_1742: 
+      c_1743: 
+      c_1744: 
+      c_1751: 
+      c_1752: 
+      c_1753: 
+      c_1754: 
+      c_1810: 
+      c_1811: 
+      c_1812: 
+      c_1813: 
+      c_1814: 
+      c_1815: 
+      c_1816: 
+      c_1840: 
+      c_1841: 
+      c_1842: 
+      c_1843: 
+      c_1844: 
+      c_1851: 
+      c_1852: 
+      c_1853: 
+      c_1854: 
+      c_2300: 
+      c_3100: 
+      c_3300: 
+      c_3311: 
+      c_3361: 
+      c_3381: 
+      c_3410: 
+      c_3500: 
+      c_3601: 
+      c_3602: 
+      c_3603: 
+      c_3605: 
+      c_3606: 
+      c_3607: 
+      c_3608: 
+      c_3610: 
+      c_9999: 
+      default: 
+    shared: 
+      currencies: 
+        vaultcard01_tokens: 999253
+        vaultcard02_tokens: 0
+      merged_shared_data_version: 5
+      experience: 
+      - type: VaultCard01_Experience
+        level: 168
+        points: 3934909
+      - type: VaultCard02_Experience
+        level: 1
+        points: 0
+      inventory: 
+        items: 
+          bank: 
+      last_seen_bmvm_idx: 4
+      blackmarket_items: 
+      - blackmarket_itemtype: VLA_SM
+        blackmarket_itemcomp: vla_sm.comp_05_legendary_mercury
+        blackmarket_gamestage: 60
+      - blackmarket_itemtype: VLA_SM
+        blackmarket_itemcomp: vla_sm.comp_05_legendary_mercury
+        blackmarket_gamestage: 60
+      blackmarket_usedpools: 
+      - 16384
+      - 8
+      - 0
+      blackmarket_trackerstate: false
+    unlockables: 
+      unlockable_darksiren: 
+        entries: 
+        - Unlockable_DarkSiren.head21_reindeeer
+        - Unlockable_DarkSiren.head26_giftbox
+        - Unlockable_DarkSiren.head27_nutcracker
+        - Unlockable_DarkSiren.head28_krampus
+        - Unlockable_DarkSiren.skin46_ripwrappings
+        - Unlockable_DarkSiren.skin47_hanginglights
+        - Unlockable_DarkSiren.skin48_krampusclaus
+        - Unlockable_DarkSiren.skin49_midcentury
+        - Unlockable_DarkSiren.Head01_Prison
+        - Unlockable_DarkSiren.Body01_Prison
+        - Unlockable_DarkSiren.Skin01_Prison
+        - Unlockable_DarkSiren.Skin31_Koto
+        - Unlockable_DarkSiren.skin37_maliwan
+        - Unlockable_DarkSiren.Skin02_Order
+        - Unlockable_DarkSiren.Skin04_Tech
+        - Unlockable_DarkSiren.Skin06_Amara
+        - Unlockable_DarkSiren.Head05_BikeHelmet
+        - Unlockable_DarkSiren.skin30_cute
+        - Unlockable_DarkSiren.Head02_PigTails
+        - Unlockable_DarkSiren.Skin05_Ripper
+        - Unlockable_DarkSiren.skin03_ghost
+        - Unlockable_DarkSiren.Skin08_Corrupted
+        - Unlockable_DarkSiren.Head11_Ripper
+        - Unlockable_DarkSiren.Skin07_RedHanded
+        - Unlockable_DarkSiren.skin19_dirty
+        - Unlockable_DarkSiren.skin39_critters
+        - Unlockable_DarkSiren.Head12_Order
+        - Unlockable_DarkSiren.Skin29_Guardian
+        - Unlockable_DarkSiren.head06_punkmask
+        - Unlockable_DarkSiren.skin34_daedalus
+        - Unlockable_DarkSiren.skin26_camo
+        - Unlockable_DarkSiren.skin25_slimed
+        - Unlockable_DarkSiren.skin40_veil
+        - Unlockable_DarkSiren.head03_mohawk
+        - Unlockable_DarkSiren.Head04_Shades
+        - Unlockable_DarkSiren.head07_demon
+        - Unlockable_DarkSiren.Head08_Survivalist
+        - Unlockable_DarkSiren.Head09_Electi
+        - Unlockable_DarkSiren.Head10_Transhuman
+        - Unlockable_DarkSiren.head13_robot
+        - Unlockable_DarkSiren.Head14_Thresher
+        - Unlockable_DarkSiren.Head15_CrimeLord
+        - Unlockable_DarkSiren.Skin09_Sewer
+        - Unlockable_DarkSiren.Skin10_Hawaiian
+        - Unlockable_DarkSiren.Skin11_Astral
+        - Unlockable_DarkSiren.Skin12_Tediore
+        - Unlockable_DarkSiren.Skin13_3CatMoon
+        - Unlockable_DarkSiren.Skin14_Fire
+        - Unlockable_DarkSiren.Skin15_Survivalist
+        - Unlockable_DarkSiren.Skin16_Crimson
+        - Unlockable_DarkSiren.Skin17_Auger
+        - Unlockable_DarkSiren.Skin18_Electi
+        - Unlockable_DarkSiren.skin20_highroller
+        - Unlockable_DarkSiren.skin21_graffiti
+        - Unlockable_DarkSiren.skin22_knitted
+        - Unlockable_DarkSiren.Skin23_GearboxDev
+        - Unlockable_DarkSiren.Skin27_Space
+        - Unlockable_DarkSiren.skin28_ritual
+        - Unlockable_DarkSiren.Skin32_DuctTaped
+        - Unlockable_DarkSiren.skin33_jakobs
+        - Unlockable_DarkSiren.skin35_vladof
+        - Unlockable_DarkSiren.skin36_torgue
+        - Unlockable_DarkSiren.skin38_cyberpop
+        - Unlockable_DarkSiren.Skin45_BreakFree
+      unlockable_exosoldier: 
+        entries: 
+        - Unlockable_ExoSoldier.head21_reindeeer
+        - Unlockable_ExoSoldier.head26_giftbox
+        - Unlockable_ExoSoldier.head27_nutcracker
+        - Unlockable_ExoSoldier.head28_krampus
+        - Unlockable_ExoSoldier.skin46_ripwrappings
+        - Unlockable_ExoSoldier.skin47_hanginglights
+        - Unlockable_ExoSoldier.skin48_krampusclaus
+        - Unlockable_ExoSoldier.skin49_midcentury
+        - Unlockable_ExoSoldier.Head01_Prison
+        - Unlockable_ExoSoldier.Body01_Prison
+        - Unlockable_ExoSoldier.Skin01_Prison
+        - Unlockable_ExoSoldier.Skin31_Koto
+        - Unlockable_ExoSoldier.skin37_maliwan
+        - Unlockable_ExoSoldier.Skin02_Order
+        - Unlockable_ExoSoldier.Skin04_Tech
+        - Unlockable_ExoSoldier.Skin06_Amara
+        - Unlockable_ExoSoldier.Head07_Helm
+        - Unlockable_ExoSoldier.skin30_cute
+        - Unlockable_ExoSoldier.Head03_Guerilla
+        - Unlockable_ExoSoldier.Skin05_Ripper
+        - Unlockable_ExoSoldier.skin03_ghost
+        - Unlockable_ExoSoldier.Skin08_Corrupted
+        - Unlockable_ExoSoldier.Head11_Ripper
+        - Unlockable_ExoSoldier.Skin07_RedHanded
+        - Unlockable_ExoSoldier.skin19_dirty
+        - Unlockable_ExoSoldier.skin39_critters
+        - Unlockable_ExoSoldier.Head12_Order
+        - Unlockable_ExoSoldier.Skin29_Guardian
+        - Unlockable_ExoSoldier.head04_techhawk
+        - Unlockable_ExoSoldier.skin34_daedalus
+        - Unlockable_ExoSoldier.skin26_camo
+        - Unlockable_ExoSoldier.skin25_slimed
+        - Unlockable_ExoSoldier.skin40_veil
+        - Unlockable_ExoSoldier.head02_mullet
+        - Unlockable_ExoSoldier.Head05_LongHair
+        - Unlockable_ExoSoldier.head06_blindfold
+        - Unlockable_ExoSoldier.Head08_Survivalist
+        - Unlockable_ExoSoldier.Head09_Electi
+        - Unlockable_ExoSoldier.Head10_Transhuman
+        - Unlockable_ExoSoldier.head13_robot
+        - Unlockable_ExoSoldier.Head14_Thresher
+        - Unlockable_ExoSoldier.Head15_CrimeLord
+        - Unlockable_ExoSoldier.Skin09_Sewer
+        - Unlockable_ExoSoldier.Skin10_Hawaiian
+        - Unlockable_ExoSoldier.Skin11_Astral
+        - Unlockable_ExoSoldier.Skin12_Tediore
+        - Unlockable_ExoSoldier.Skin13_3CatMoon
+        - Unlockable_ExoSoldier.Skin14_Fire
+        - Unlockable_ExoSoldier.Skin15_Survivalist
+        - Unlockable_ExoSoldier.Skin16_Crimson
+        - Unlockable_ExoSoldier.Skin17_Auger
+        - Unlockable_ExoSoldier.Skin18_Electi
+        - Unlockable_ExoSoldier.skin20_highroller
+        - Unlockable_ExoSoldier.skin21_graffiti
+        - Unlockable_ExoSoldier.skin22_knitted
+        - Unlockable_ExoSoldier.Skin23_GearboxDev
+        - Unlockable_ExoSoldier.Skin27_Space
+        - Unlockable_ExoSoldier.skin28_ritual
+        - Unlockable_ExoSoldier.Skin32_DuctTaped
+        - Unlockable_ExoSoldier.skin33_jakobs
+        - Unlockable_ExoSoldier.skin35_vladof
+        - Unlockable_ExoSoldier.skin36_torgue
+        - Unlockable_ExoSoldier.skin38_cyberpop
+        - Unlockable_ExoSoldier.Skin45_BreakFree
+      unlockable_gravitar: 
+        entries: 
+        - Unlockable_Gravitar.head21_reindeeer
+        - Unlockable_Gravitar.head26_giftbox
+        - Unlockable_Gravitar.head27_nutcracker
+        - Unlockable_Gravitar.head28_krampus
+        - Unlockable_Gravitar.skin46_ripwrappings
+        - Unlockable_Gravitar.skin47_hanginglights
+        - Unlockable_Gravitar.skin48_krampusclaus
+        - Unlockable_Gravitar.skin49_midcentury
+        - Unlockable_Gravitar.Head01_Prison
+        - Unlockable_Gravitar.Body01_Prison
+        - Unlockable_Gravitar.Skin01_Prison
+        - Unlockable_Gravitar.Skin31_Koto
+        - Unlockable_Gravitar.skin37_maliwan
+        - Unlockable_Gravitar.Skin02_Order
+        - Unlockable_Gravitar.Skin04_Tech
+        - Unlockable_Gravitar.Skin06_Amara
+        - Unlockable_Gravitar.Head03_Helmet
+        - Unlockable_Gravitar.skin30_cute
+        - Unlockable_Gravitar.Head02_DreadBuns
+        - Unlockable_Gravitar.Skin05_Ripper
+        - Unlockable_Gravitar.skin03_ghost
+        - Unlockable_Gravitar.Skin08_Corrupted
+        - Unlockable_Gravitar.Head11_Ripper
+        - Unlockable_Gravitar.Skin07_RedHanded
+        - Unlockable_Gravitar.skin19_dirty
+        - Unlockable_Gravitar.skin39_critters
+        - Unlockable_Gravitar.Head12_Order
+        - Unlockable_Gravitar.Skin29_Guardian
+        - Unlockable_Gravitar.head05_safetyfirst
+        - Unlockable_Gravitar.skin34_daedalus
+        - Unlockable_Gravitar.skin26_camo
+        - Unlockable_Gravitar.skin25_slimed
+        - Unlockable_Gravitar.skin40_veil
+        - Unlockable_Gravitar.head04_techbraids
+        - Unlockable_Gravitar.Head06_RoundGlasses
+        - Unlockable_Gravitar.head07_vrpunk
+        - Unlockable_Gravitar.Head08_Survivalist
+        - Unlockable_Gravitar.Head09_Electi
+        - Unlockable_Gravitar.Head10_Transhuman
+        - Unlockable_Gravitar.head13_robot
+        - Unlockable_Gravitar.Head14_Thresher
+        - Unlockable_Gravitar.Head15_CrimeLord
+        - Unlockable_Gravitar.Skin09_Sewer
+        - Unlockable_Gravitar.Skin10_Hawaiian
+        - Unlockable_Gravitar.Skin11_Astral
+        - Unlockable_Gravitar.Skin12_Tediore
+        - Unlockable_Gravitar.Skin13_3CatMoon
+        - Unlockable_Gravitar.Skin14_Fire
+        - Unlockable_Gravitar.Skin15_Survivalist
+        - Unlockable_Gravitar.Skin16_Crimson
+        - Unlockable_Gravitar.Skin17_Auger
+        - Unlockable_Gravitar.Skin18_Electi
+        - Unlockable_Gravitar.skin20_highroller
+        - Unlockable_Gravitar.skin21_graffiti
+        - Unlockable_Gravitar.skin22_knitted
+        - Unlockable_Gravitar.Skin23_GearboxDev
+        - Unlockable_Gravitar.Skin27_Space
+        - Unlockable_Gravitar.skin28_ritual
+        - Unlockable_Gravitar.Skin32_DuctTaped
+        - Unlockable_Gravitar.skin33_jakobs
+        - Unlockable_Gravitar.skin35_vladof
+        - Unlockable_Gravitar.skin36_torgue
+        - Unlockable_Gravitar.skin38_cyberpop
+        - Unlockable_Gravitar.Skin45_BreakFree
+      unlockable_paladin: 
+        entries: 
+        - Unlockable_Paladin.head21_reindeeer
+        - Unlockable_Paladin.head26_giftbox
+        - Unlockable_Paladin.head27_nutcracker
+        - Unlockable_Paladin.head28_krampus
+        - Unlockable_Paladin.skin46_ripwrappings
+        - Unlockable_Paladin.skin47_hanginglights
+        - Unlockable_Paladin.skin48_krampusclaus
+        - Unlockable_Paladin.skin49_midcentury
+        - Unlockable_Paladin.Head01_Prison
+        - Unlockable_Paladin.Body01_Prison
+        - Unlockable_Paladin.Skin01_Prison
+        - Unlockable_Paladin.Skin31_Koto
+        - Unlockable_Paladin.skin37_maliwan
+        - Unlockable_Paladin.Skin02_Order
+        - Unlockable_Paladin.Skin04_Tech
+        - Unlockable_Paladin.Skin06_Amara
+        - Unlockable_Paladin.Head04_Visor
+        - Unlockable_Paladin.skin30_cute
+        - Unlockable_Paladin.Head02_PonyTail
+        - Unlockable_Paladin.Skin05_Ripper
+        - Unlockable_Paladin.skin03_ghost
+        - Unlockable_Paladin.Skin08_Corrupted
+        - Unlockable_Paladin.Head11_Ripper
+        - Unlockable_Paladin.Skin07_RedHanded
+        - Unlockable_Paladin.skin19_dirty
+        - Unlockable_Paladin.skin39_critters
+        - Unlockable_Paladin.Head12_Order
+        - Unlockable_Paladin.Skin29_Guardian
+        - Unlockable_Paladin.head03_baldmask
+        - Unlockable_Paladin.skin34_daedalus
+        - Unlockable_Paladin.skin26_camo
+        - Unlockable_Paladin.skin25_slimed
+        - Unlockable_Paladin.skin40_veil
+        - Unlockable_Paladin.Head05_Goth
+        - Unlockable_Paladin.head06_hooded
+        - Unlockable_Paladin.head07_headband
+        - Unlockable_Paladin.Head08_Survivalist
+        - Unlockable_Paladin.Head09_Electi
+        - Unlockable_Paladin.Head10_Transhuman
+        - Unlockable_Paladin.head13_robot
+        - Unlockable_Paladin.Head14_Thresher
+        - Unlockable_Paladin.Head15_CrimeLord
+        - Unlockable_Paladin.Skin09_Sewer
+        - Unlockable_Paladin.Skin10_Hawaiian
+        - Unlockable_Paladin.Skin11_Astral
+        - Unlockable_Paladin.Skin12_Tediore
+        - Unlockable_Paladin.Skin13_3CatMoon
+        - Unlockable_Paladin.Skin14_Fire
+        - Unlockable_Paladin.Skin15_Survivalist
+        - Unlockable_Paladin.Skin16_Crimson
+        - Unlockable_Paladin.Skin17_Auger
+        - Unlockable_Paladin.Skin18_Electi
+        - Unlockable_Paladin.skin20_highroller
+        - Unlockable_Paladin.skin21_graffiti
+        - Unlockable_Paladin.skin22_knitted
+        - Unlockable_Paladin.Skin23_GearboxDev
+        - Unlockable_Paladin.Skin27_Space
+        - Unlockable_Paladin.skin28_ritual
+        - Unlockable_Paladin.Skin32_DuctTaped
+        - Unlockable_Paladin.skin33_jakobs
+        - Unlockable_Paladin.skin35_vladof
+        - Unlockable_Paladin.skin36_torgue
+        - Unlockable_Paladin.skin38_cyberpop
+        - Unlockable_Paladin.Skin45_BreakFree
+      unlockable_echo4: 
+        entries: 
+        - Unlockable_Echo4.attachment14_santahat
+        - Unlockable_Echo4.attachment15_neonstar
+        - Unlockable_Echo4.skin46_ripwrappings
+        - Unlockable_Echo4.skin47_hanginglights
+        - Unlockable_Echo4.skin48_krampusclaus
+        - Unlockable_Echo4.skin49_midcentury
+        - Unlockable_Echo4.Skin01_Prison
+        - Unlockable_Echo4.attachment01_partyhat
+        - Unlockable_Echo4.Skin42_Legacy
+        - Unlockable_Echo4.attachment04_wings
+        - Unlockable_Echo4.Skin05_Ripper
+        - Unlockable_Echo4.skin37_maliwan
+        - Unlockable_Echo4.Body03_Ripper
+        - Unlockable_Echo4.skin33_jakobs
+        - Unlockable_Echo4.Skin04_Tech
+        - Unlockable_Echo4.Skin07_RedHanded
+        - Unlockable_Echo4.Skin02_Order
+        - Unlockable_Echo4.skin38_cyberpop
+        - Unlockable_Echo4.Skin29_Guardian
+        - Unlockable_Echo4.Skin50_BreakTheGame
+        - Unlockable_Echo4.skin22_knitted
+        - Unlockable_Echo4.skin25_slimed
+        - Unlockable_Echo4.skin03_ghost
+        - Unlockable_Echo4.skin35_vladof
+        - Unlockable_Echo4.attachment09_goggles
+        - Unlockable_Echo4.skin19_dirty
+        - Unlockable_Echo4.skin36_torgue
+        - Unlockable_Echo4.attachment10_crown
+        - Unlockable_Echo4.Skin11_Astral
+        - Unlockable_Echo4.skin20_highroller
+        - Unlockable_Echo4.Skin31_Koto
+        - Unlockable_Echo4.attachment02_bow
+        - Unlockable_Echo4.attachment03_bolt
+        - Unlockable_Echo4.attachment05_skull
+        - Unlockable_Echo4.attachment06_crystalhorn
+        - Unlockable_Echo4.attachment07_horns
+        - Unlockable_Echo4.attachment08_tinfoilhat
+        - Unlockable_Echo4.attachment11_mohawk
+        - Unlockable_Echo4.attachment12_psychomask
+        - Unlockable_Echo4.attachment13_fishinghat
+        - Unlockable_Echo4.Body01_GeneVIV
+        - Unlockable_Echo4.body02_order
+        - Unlockable_Echo4.Skin06_Amara
+        - Unlockable_Echo4.Skin08_Corrupted
+        - Unlockable_Echo4.Skin09_Sewer
+        - Unlockable_Echo4.Skin10_Hawaiian
+        - Unlockable_Echo4.Skin12_Tediore
+        - Unlockable_Echo4.Skin13_3CatMoon
+        - Unlockable_Echo4.Skin14_Fire
+        - Unlockable_Echo4.Skin15_Survivalist
+        - Unlockable_Echo4.Skin16_Crimson
+        - Unlockable_Echo4.Skin17_Auger
+        - Unlockable_Echo4.Skin18_Electi
+        - Unlockable_Echo4.skin21_graffiti
+        - Unlockable_Echo4.Skin23_GearboxDev
+        - Unlockable_Echo4.skin26_camo
+        - Unlockable_Echo4.Skin27_Space
+        - Unlockable_Echo4.skin28_ritual
+        - Unlockable_Echo4.skin30_cute
+        - Unlockable_Echo4.Skin32_DuctTaped
+        - Unlockable_Echo4.skin34_daedalus
+        - Unlockable_Echo4.skin39_critters
+        - Unlockable_Echo4.skin40_veil
+        - Unlockable_Echo4.Skin41_Butterfinger
+        - Unlockable_Echo4.Skin43_Twitch
+        - Unlockable_Echo4.Skin45_BreakFree
+      unlockable_weapons: 
+        entries: 
+        - Unlockable_Weapons.mat41_starrynight
+        - Unlockable_Weapons.mat42_uglyxmassweater
+        - Unlockable_Weapons.mat43_snowfall
+        - Unlockable_Weapons.mat44_giftwrap
+        - Unlockable_Weapons.mat45_gingerbread
+        - Unlockable_Weapons.Mat37_SHiFT
+        - Unlockable_Weapons.Mat01_Synthwave
+        - Unlockable_Weapons.mat21_afterburn
+        - Unlockable_Weapons.Mat25_LocustGas
+        - Unlockable_Weapons.mat13_whiteout
+        - Unlockable_Weapons.mat23_futureproof
+        - Unlockable_Weapons.mat22_overload
+        - Unlockable_Weapons.mat27_goldenpower
+        - Unlockable_Weapons.mat20_cyberspace
+        - Unlockable_Weapons.mat14_grunt
+        - Unlockable_Weapons.mat18_crashtest
+        - Unlockable_Weapons.mat02_lavarock
+        - Unlockable_Weapons.mat03_biogoo
+        - Unlockable_Weapons.mat04_doodles
+        - Unlockable_Weapons.mat05_fransfroyo
+        - Unlockable_Weapons.mat06_electisamurai
+        - Unlockable_Weapons.mat07_cutecat
+        - Unlockable_Weapons.mat08_echobot
+        - Unlockable_Weapons.mat09_folkhero
+        - Unlockable_Weapons.mat10_graffiti
+        - Unlockable_Weapons.mat11_cupcake
+        - Unlockable_Weapons.mat12_animalprint
+        - Unlockable_Weapons.mat15_retro
+        - Unlockable_Weapons.mat16_poleposition
+        - Unlockable_Weapons.mat17_deadwood
+        - Unlockable_Weapons.mat19_meltdown
+        - Unlockable_Weapons.mat24_propaganda
+        - Unlockable_Weapons.mat26_augersight
+        - Unlockable_Weapons.mat28_ripper
+        - Unlockable_Weapons.mat29_cheers
+        - Unlockable_Weapons.mat30_crimsonraiders
+        - Unlockable_Weapons.mat31_splash
+        - Unlockable_Weapons.mat32_imperialguard
+        - Unlockable_Weapons.mat33_creepy
+        - Unlockable_Weapons.mat34_moneycamo
+        - Unlockable_Weapons.Mat35_GearboxDev
+        - Unlockable_Weapons.mat39_premium
+        - Unlockable_Weapons.shiny_anarchy
+        - Unlockable_Weapons.shiny_asher
+        - Unlockable_Weapons.shiny_atlien
+        - Unlockable_Weapons.shiny_ballista
+        - Unlockable_Weapons.shiny_beegun
+        - Unlockable_Weapons.shiny_bloodstarved
+        - Unlockable_Weapons.shiny_bod
+        - Unlockable_Weapons.shiny_bonnieclyde
+        - Unlockable_Weapons.shiny_boomslang
+        - Unlockable_Weapons.shiny_bugbear
+        - Unlockable_Weapons.shiny_bully
+        - Unlockable_Weapons.shiny_chuck
+        - Unlockable_Weapons.shiny_coldshoulder
+        - Unlockable_Weapons.shiny_commbd
+        - Unlockable_Weapons.shiny_complex_root
+        - Unlockable_Weapons.shiny_conglomerate
+        - Unlockable_Weapons.shiny_convergence
+        - Unlockable_Weapons.shiny_crowdsourced
+        - Unlockable_Weapons.shiny_dividedfocus
+        - Unlockable_Weapons.shiny_dualdamage
+        - Unlockable_Weapons.shiny_finnty
+        - Unlockable_Weapons.shiny_fisheye
+        - Unlockable_Weapons.shiny_gmr
+        - Unlockable_Weapons.shiny_goalkeeper
+        - Unlockable_Weapons.shiny_goldengod
+        - Unlockable_Weapons.shiny_goremaster
+        - Unlockable_Weapons.shiny_heartgun
+        - Unlockable_Weapons.shiny_heavyturret
+        - Unlockable_Weapons.shiny_hellfire
+        - Unlockable_Weapons.shiny_hellwalker
+        - Unlockable_Weapons.shiny_kaleidosplode
+        - Unlockable_Weapons.shiny_kaoson
+        - Unlockable_Weapons.shiny_katagawa
+        - Unlockable_Weapons.shiny_kickballer
+        - Unlockable_Weapons.shiny_kingsgambit
+        - Unlockable_Weapons.shiny_leadballoon
+        - Unlockable_Weapons.shiny_linebacker
+        - Unlockable_Weapons.shiny_loarmaster
+        - Unlockable_Weapons.shiny_lucian
+        - Unlockable_Weapons.shiny_lumberjack
+        - Unlockable_Weapons.shiny_luty
+        - Unlockable_Weapons.shiny_noisycricket
+        - Unlockable_Weapons.shiny_ohmigot
+        - Unlockable_Weapons.shiny_om
+        - Unlockable_Weapons.shiny_onslaught
+        - Unlockable_Weapons.shiny_phantom_flame
+        - Unlockable_Weapons.shiny_plasmacoil
+        - Unlockable_Weapons.shiny_potatothrower
+        - Unlockable_Weapons.shiny_prince
+        - Unlockable_Weapons.shiny_queensrest
+        - Unlockable_Weapons.shiny_quickdraw
+        - Unlockable_Weapons.shiny_rainbowvomit
+        - Unlockable_Weapons.shiny_rangefinder
+        - Unlockable_Weapons.shiny_roach
+        - Unlockable_Weapons.shiny_rocketreload
+        - Unlockable_Weapons.shiny_rowan
+        - Unlockable_Weapons.shiny_rubysgrasp
+        - Unlockable_Weapons.shiny_seventh_sense
+        - Unlockable_Weapons.shiny_sideshow
+        - Unlockable_Weapons.shiny_slugger
+        - Unlockable_Weapons.shiny_star_helix
+        - Unlockable_Weapons.shiny_stopgap
+        - Unlockable_Weapons.shiny_stray
+        - Unlockable_Weapons.shiny_sweet_embrace
+        - Unlockable_Weapons.shiny_symmetry
+        - Unlockable_Weapons.shiny_tkswave
+        - Unlockable_Weapons.shiny_truck
+        - Unlockable_Weapons.shiny_ultimate
+        - Unlockable_Weapons.shiny_vamoose
+        - Unlockable_Weapons.shiny_wf
+        - Unlockable_Weapons.shiny_wombocombo
+        - Unlockable_Weapons.shiny_zipgun
+      unlockable_vehicles: 
+        entries: 
+        - Unlockable_Vehicles.mat53_missiletoe
+        - Unlockable_Vehicles.mat54_candycaned
+        - Unlockable_Vehicles.mat55_thatswrap
+        - Unlockable_Vehicles.mat56_krampstyle
+        - Unlockable_Vehicles.mat57_frostyreception
+        - Unlockable_Vehicles.Grazer
+        - Unlockable_Vehicles.mat13_whiteout
+        - Unlockable_Vehicles.mat07_cutecat
+        - Unlockable_Vehicles.Paladin_Proto
+        - Unlockable_Vehicles.DarkSiren_Proto
+        - Unlockable_Vehicles.Gravitar_Proto
+        - Unlockable_Vehicles.Borg
+        - Unlockable_Vehicles.ExoSoldier_Proto
+        - Unlockable_Vehicles.mat27_goldenpower
+        - Unlockable_Vehicles.mat10_graffiti
+        - Unlockable_Vehicles.Gravitar
+        - Unlockable_Vehicles.mat42_gratata
+        - Unlockable_Vehicles.mat19_meltdown
+        - Unlockable_Vehicles.mat52_vladofuncommon
+        - Unlockable_Vehicles.mat45_ripperuncommon
+        - Unlockable_Vehicles.mat51_torgueuncommon
+        - Unlockable_Vehicles.mat50_tedioreuncommon
+        - Unlockable_Vehicles.mat49_orderuncommon
+        - Unlockable_Vehicles.mat48_maliwanuncommon
+        - Unlockable_Vehicles.ExoSoldier
+        - Unlockable_Vehicles.Paladin
+        - Unlockable_Vehicles.DarkSiren
+        - Unlockable_Vehicles.Mat01_Synthwave
+        - Unlockable_Vehicles.mat02_lavarock
+        - Unlockable_Vehicles.mat03_biogoo
+        - Unlockable_Vehicles.mat04_doodles
+        - Unlockable_Vehicles.mat05_fransfroyo
+        - Unlockable_Vehicles.mat06_electisamurai
+        - Unlockable_Vehicles.mat08_echobot
+        - Unlockable_Vehicles.mat09_folkhero
+        - Unlockable_Vehicles.mat11_cupcake
+        - Unlockable_Vehicles.mat12_animalprint
+        - Unlockable_Vehicles.mat14_grunt
+        - Unlockable_Vehicles.mat15_retro
+        - Unlockable_Vehicles.mat16_poleposition
+        - Unlockable_Vehicles.mat17_deadwood
+        - Unlockable_Vehicles.mat18_crashtest
+        - Unlockable_Vehicles.mat20_cyberspace
+        - Unlockable_Vehicles.mat21_afterburn
+        - Unlockable_Vehicles.mat22_overload
+        - Unlockable_Vehicles.mat23_futureproof
+        - Unlockable_Vehicles.mat24_propaganda
+        - Unlockable_Vehicles.Mat25_LocustGas
+        - Unlockable_Vehicles.mat26_augersight
+        - Unlockable_Vehicles.mat28_ripper
+        - Unlockable_Vehicles.mat29_cheers
+        - Unlockable_Vehicles.mat30_crimsonraiders
+        - Unlockable_Vehicles.mat31_splash
+        - Unlockable_Vehicles.mat32_imperialguard
+        - Unlockable_Vehicles.mat33_creepy
+        - Unlockable_Vehicles.mat34_moneycamo
+        - Unlockable_Vehicles.Mat35_GearboxDev
+        - Unlockable_Vehicles.mat40_animemech
+        - Unlockable_Vehicles.mat41_synthesizer
+        - Unlockable_Vehicles.mat43_nitroflame
+        - Unlockable_Vehicles.mat44_hotrod
+        - Unlockable_Vehicles.mat46_daedalusuncommon
+        - Unlockable_Vehicles.mat47_jakobsuncommon
+        - Unlockable_Vehicles.shatterlandv1
+      shared_progress: 
+        entries: 
+        - shared_progress.vault_hunter_level
+        - shared_progress.prologue_completed
+        - shared_progress.story_completed
+        - shared_progress.epilogue_started
+      unlockable_hoverdrives: 
+        entries: 
+        - Unlockable_HoverDrives.maliwan_01
+        - Unlockable_HoverDrives.jakobs_02
+        - Unlockable_HoverDrives.daedalus_01
+        - Unlockable_HoverDrives.jakobs_01
+        - Unlockable_HoverDrives.daedalus_02
+        - Unlockable_HoverDrives.jakobs_03
+        - Unlockable_HoverDrives.jakobs_04
+        - Unlockable_HoverDrives.torgue_01
+        - Unlockable_HoverDrives.jakobs_05
+        - Unlockable_HoverDrives.maliwan_02
+        - Unlockable_HoverDrives.torgue_02
+        - Unlockable_HoverDrives.vladof_01
+        - Unlockable_HoverDrives.vladof_02
+        - Unlockable_HoverDrives.borg_01
+        - Unlockable_HoverDrives.tediore_01
+        - Unlockable_HoverDrives.order_01
+        - Unlockable_HoverDrives.tediore_02
+        - Unlockable_HoverDrives.tediore_03
+        - Unlockable_HoverDrives.daedalus_03
+        - Unlockable_HoverDrives.torgue_03
+        - Unlockable_HoverDrives.order_02
+        - Unlockable_HoverDrives.order_03
+        - Unlockable_HoverDrives.daedalus_04
+        - Unlockable_HoverDrives.order_04
+      echo_upgrade_challenges: 
+        entries: 
+        - echo_upgrade_challenges.activity_augermines_grasslands_1
+        - echo_upgrade_challenges.activity_augermines_grasslands_2
+        - echo_upgrade_challenges.activity_augermines_mountains_1
+        - echo_upgrade_challenges.activity_augermines_mountains_2
+        - echo_upgrade_challenges.activity_augermines_shatteredlands_1
+        - echo_upgrade_challenges.activity_augermines_shatteredlands_2
+        - echo_upgrade_challenges.activity_augermines_city_1
+        - echo_upgrade_challenges.activity_drillsites_grasslands_1
+        - echo_upgrade_challenges.activity_drillsites_grasslands_2
+        - echo_upgrade_challenges.activity_drillsites_mountains_1
+        - echo_upgrade_challenges.activity_drillsites_mountains_2
+        - echo_upgrade_challenges.activity_drillsites_shatteredlands_1
+        - echo_upgrade_challenges.activity_drillsites_shatteredlands_2
+        - echo_upgrade_challenges.activity_orderbunkers_grasslands_1
+        - echo_upgrade_challenges.activity_orderbunkers_grasslands_2
+        - echo_upgrade_challenges.activity_orderbunkers_mountains_1
+        - echo_upgrade_challenges.activity_orderbunkers_mountains_2
+        - echo_upgrade_challenges.activity_orderbunkers_shatteredlands_1
+        - echo_upgrade_challenges.activity_orderbunkers_city_1
+        - echo_upgrade_challenges.activity_safehouses_grasslands_1
+        - echo_upgrade_challenges.activity_safehouses_grasslands_2
+        - echo_upgrade_challenges.activity_safehouses_grasslands_3
+        - echo_upgrade_challenges.activity_safehouses_grasslands_4
+        - echo_upgrade_challenges.activity_safehouses_mountains_1
+        - echo_upgrade_challenges.activity_safehouses_mountains_2
+        - echo_upgrade_challenges.activity_safehouses_mountains_3
+        - echo_upgrade_challenges.activity_safehouses_mountains_4
+        - echo_upgrade_challenges.activity_safehouses_shatteredlands_1
+        - echo_upgrade_challenges.activity_safehouses_shatteredlands_2
+        - echo_upgrade_challenges.activity_safehouses_shatteredlands_3
+        - echo_upgrade_challenges.activity_safehouses_city_1
+        - echo_upgrade_challenges.activity_safehouses_city_2
+        - echo_upgrade_challenges.activity_safehouses_city_3
+        - echo_upgrade_challenges.activity_silos_grasslands_1
+        - echo_upgrade_challenges.activity_silos_grasslands_2
+        - echo_upgrade_challenges.activity_silos_grasslands_3
+        - echo_upgrade_challenges.activity_silos_mountains_1
+        - echo_upgrade_challenges.activity_silos_mountains_2
+        - echo_upgrade_challenges.activity_silos_mountains_3
+        - echo_upgrade_challenges.activity_silos_shatteredlands_1
+        - echo_upgrade_challenges.activity_silos_shatteredlands_2
+        - echo_upgrade_challenges.activity_silos_shatteredlands_3
+        - echo_upgrade_challenges.collect_caches_grasslands_1
+        - echo_upgrade_challenges.collect_caches_grasslands_2
+        - echo_upgrade_challenges.collect_caches_grasslands_3
+        - echo_upgrade_challenges.collect_caches_grasslands_4
+        - echo_upgrade_challenges.collect_caches_grasslands_5
+        - echo_upgrade_challenges.collect_caches_grasslands_6
+        - echo_upgrade_challenges.collect_caches_grasslands_7
+        - echo_upgrade_challenges.collect_caches_grasslands_8
+        - echo_upgrade_challenges.collect_caches_grasslands_9
+        - echo_upgrade_challenges.collect_caches_grasslands_10
+        - echo_upgrade_challenges.collect_evocariums_grasslands_1
+        - echo_upgrade_challenges.collect_evocariums_grasslands_2
+        - echo_upgrade_challenges.collect_evocariums_grasslands_3
+        - echo_upgrade_challenges.collect_evocariums_grasslands_4
+        - echo_upgrade_challenges.collect_evocariums_grasslands_5
+        - echo_upgrade_challenges.collect_evocariums_grasslands_6
+        - echo_upgrade_challenges.collect_evocariums_mountains_1
+        - echo_upgrade_challenges.collect_evocariums_mountains_2
+        - echo_upgrade_challenges.collect_evocariums_mountains_3
+        - echo_upgrade_challenges.collect_evocariums_mountains_4
+        - echo_upgrade_challenges.collect_evocariums_mountains_5
+        - echo_upgrade_challenges.collect_evocariums_shatteredlands_1
+        - echo_upgrade_challenges.collect_evocariums_shatteredlands_2
+        - echo_upgrade_challenges.collect_evocariums_shatteredlands_3
+        - echo_upgrade_challenges.collect_evocariums_shatteredlands_4
+        - echo_upgrade_challenges.collect_evocariums_city_1
+        - echo_upgrade_challenges.collect_evocariums_city_2
+        - echo_upgrade_challenges.collect_evocariums_city_3
+        - echo_upgrade_challenges.collect_capsules_grasslands_1
+        - echo_upgrade_challenges.collect_capsules_grasslands_2
+        - echo_upgrade_challenges.collect_capsules_grasslands_3
+        - echo_upgrade_challenges.collect_capsules_grasslands_4
+        - echo_upgrade_challenges.collect_capsules_grasslands_5
+        - echo_upgrade_challenges.collect_capsules_grasslands_6
+        - echo_upgrade_challenges.collect_capsules_mountains_1
+        - echo_upgrade_challenges.collect_capsules_mountains_2
+        - echo_upgrade_challenges.collect_capsules_mountains_3
+        - echo_upgrade_challenges.collect_capsules_mountains_4
+        - echo_upgrade_challenges.collect_capsules_mountains_5
+        - echo_upgrade_challenges.collect_capsules_mountains_6
+        - echo_upgrade_challenges.collect_capsules_shatteredlands_1
+        - echo_upgrade_challenges.collect_capsules_shatteredlands_2
+        - echo_upgrade_challenges.collect_capsules_shatteredlands_3
+        - echo_upgrade_challenges.collect_capsules_shatteredlands_4
+        - echo_upgrade_challenges.collect_capsules_shatteredlands_5
+        - echo_upgrade_challenges.collect_capsules_city_1
+        - echo_upgrade_challenges.collect_capsules_city_2
+        - echo_upgrade_challenges.collect_capsules_city_3
+        - echo_upgrade_challenges.collect_propagandaspeakers_grasslands_1
+        - echo_upgrade_challenges.collect_propagandaspeakers_grasslands_2
+        - echo_upgrade_challenges.collect_propagandaspeakers_grasslands_3
+        - echo_upgrade_challenges.collect_propagandaspeakers_grasslands_4
+        - echo_upgrade_challenges.collect_propagandaspeakers_grasslands_5
+        - echo_upgrade_challenges.collect_propagandaspeakers_grasslands_6
+        - echo_upgrade_challenges.collect_propagandaspeakers_grasslands_7
+        - echo_upgrade_challenges.collect_propagandaspeakers_grasslands_8
+        - echo_upgrade_challenges.collect_propagandaspeakers_mountains_1
+        - echo_upgrade_challenges.collect_propagandaspeakers_mountains_2
+        - echo_upgrade_challenges.collect_propagandaspeakers_mountains_3
+        - echo_upgrade_challenges.collect_propagandaspeakers_mountains_4
+        - echo_upgrade_challenges.collect_propagandaspeakers_mountains_5
+        - echo_upgrade_challenges.collect_propagandaspeakers_mountains_6
+        - echo_upgrade_challenges.collect_propagandaspeakers_mountains_7
+        - echo_upgrade_challenges.collect_propagandaspeakers_shatteredlands_1
+        - echo_upgrade_challenges.collect_propagandaspeakers_shatteredlands_2
+        - echo_upgrade_challenges.collect_propagandaspeakers_shatteredlands_3
+        - echo_upgrade_challenges.collect_propagandaspeakers_shatteredlands_4
+        - echo_upgrade_challenges.collect_propagandaspeakers_shatteredlands_5
+        - echo_upgrade_challenges.collect_propagandaspeakers_shatteredlands_6
+        - echo_upgrade_challenges.collect_propagandaspeakers_shatteredlands_7
+        - echo_upgrade_challenges.collect_propagandaspeakers_shatteredlands_8
+        - echo_upgrade_challenges.collect_propagandaspeakers_city_1
+        - echo_upgrade_challenges.collect_propagandaspeakers_city_2
+        - echo_upgrade_challenges.collect_propagandaspeakers_city_3
+        - echo_upgrade_challenges.collect_propagandaspeakers_city_4
+        - echo_upgrade_challenges.collect_safes_shatteredlands_1
+        - echo_upgrade_challenges.collect_safes_shatteredlands_2
+        - echo_upgrade_challenges.collect_safes_shatteredlands_3
+        - echo_upgrade_challenges.collect_safes_shatteredlands_4
+        - echo_upgrade_challenges.collect_safes_shatteredlands_5
+        - echo_upgrade_challenges.collect_safes_shatteredlands_6
+        - echo_upgrade_challenges.collect_safes_shatteredlands_7
+        - echo_upgrade_challenges.collect_safes_shatteredlands_8
+        - echo_upgrade_challenges.collect_safes_shatteredlands_9
+        - echo_upgrade_challenges.collect_safes_shatteredlands_10
+        - echo_upgrade_challenges.collect_safes_city_1
+        - echo_upgrade_challenges.collect_safes_city_2
+        - echo_upgrade_challenges.collect_safes_city_3
+        - echo_upgrade_challenges.collect_shrines_mountains_1
+        - echo_upgrade_challenges.collect_shrines_mountains_2
+        - echo_upgrade_challenges.collect_shrines_mountains_3
+        - echo_upgrade_challenges.collect_shrines_mountains_4
+        - echo_upgrade_challenges.collect_shrines_mountains_5
+        - echo_upgrade_challenges.collect_shrines_mountains_6
+        - echo_upgrade_challenges.collect_shrines_mountains_7
+        - echo_upgrade_challenges.collect_shrines_mountains_8
+        - echo_upgrade_challenges.collect_shrines_mountains_9
+        - echo_upgrade_challenges.collect_shrines_mountains_10
+        - echo_upgrade_challenges.collect_vaultsymbols_grasslands_1
+        - echo_upgrade_challenges.collect_vaultsymbols_grasslands_2
+        - echo_upgrade_challenges.collect_vaultsymbols_grasslands_3
+        - echo_upgrade_challenges.collect_vaultsymbols_grasslands_4
+        - echo_upgrade_challenges.collect_vaultsymbols_grasslands_5
+        - echo_upgrade_challenges.collect_vaultsymbols_grasslands_6
+        - echo_upgrade_challenges.collect_vaultsymbols_grasslands_7
+        - echo_upgrade_challenges.collect_vaultsymbols_grasslands_8
+        - echo_upgrade_challenges.collect_vaultsymbols_grasslands_9
+        - echo_upgrade_challenges.collect_vaultsymbols_grasslands_10
+        - echo_upgrade_challenges.collect_vaultsymbols_grasslands_11
+        - echo_upgrade_challenges.collect_vaultsymbols_grasslands_12
+        - echo_upgrade_challenges.collect_vaultsymbols_mountains_1
+        - echo_upgrade_challenges.collect_vaultsymbols_mountains_2
+        - echo_upgrade_challenges.collect_vaultsymbols_mountains_3
+        - echo_upgrade_challenges.collect_vaultsymbols_mountains_4
+        - echo_upgrade_challenges.collect_vaultsymbols_mountains_5
+        - echo_upgrade_challenges.collect_vaultsymbols_mountains_6
+        - echo_upgrade_challenges.collect_vaultsymbols_mountains_7
+        - echo_upgrade_challenges.collect_vaultsymbols_mountains_8
+        - echo_upgrade_challenges.collect_vaultsymbols_mountains_9
+        - echo_upgrade_challenges.collect_vaultsymbols_mountains_10
+        - echo_upgrade_challenges.collect_vaultsymbols_mountains_11
+        - echo_upgrade_challenges.collect_vaultsymbols_mountains_12
+        - echo_upgrade_challenges.collect_vaultsymbols_shatteredlands_1
+        - echo_upgrade_challenges.collect_vaultsymbols_shatteredlands_2
+        - echo_upgrade_challenges.collect_vaultsymbols_shatteredlands_3
+        - echo_upgrade_challenges.collect_vaultsymbols_shatteredlands_4
+        - echo_upgrade_challenges.collect_vaultsymbols_shatteredlands_5
+        - echo_upgrade_challenges.collect_vaultsymbols_shatteredlands_6
+        - echo_upgrade_challenges.collect_vaultsymbols_shatteredlands_7
+        - echo_upgrade_challenges.collect_vaultsymbols_shatteredlands_8
+        - echo_upgrade_challenges.collect_vaultsymbols_shatteredlands_9
+        - echo_upgrade_challenges.collect_vaultsymbols_shatteredlands_10
+        - echo_upgrade_challenges.collect_vaultsymbols_shatteredlands_11
+        - echo_upgrade_challenges.collect_vaultsymbols_shatteredlands_12
+        - echo_upgrade_challenges.collect_vaultsymbols_city_1
+        - echo_upgrade_challenges.collect_vaultsymbols_city_2
+        - echo_upgrade_challenges.collect_vaultsymbols_city_3
+        - echo_upgrade_challenges.collect_vaultsymbols_city_4
+        - echo_upgrade_challenges.collect_vaultsymbols_city_5
+        - echo_upgrade_challenges.collect_vaultsymbols_city_6
+        - echo_upgrade_challenges.collect_vaultsymbols_elpis_1
+        - echo_upgrade_challenges.collect_vaultsymbols_elpis_2
+        - echo_upgrade_challenges.collect_vaultsymbols_uppercity_1
+        - echo_upgrade_challenges.collect_vaultsymbols_uppercity_2
+        - echo_upgrade_challenges.collect_safes_parent
+        - echo_upgrade_challenges.collect_shrines_parent
+        - echo_upgrade_challenges.activity_crawlers_grasslands_1
+        - echo_upgrade_challenges.activity_crawlers_grasslands_2
+        - echo_upgrade_challenges.activity_crawlers_grasslands_3
+        - echo_upgrade_challenges.activity_crawlers_grasslands_4
+        - echo_upgrade_challenges.activity_crawlers_mountains_1
+        - echo_upgrade_challenges.activity_crawlers_mountains_2
+        - echo_upgrade_challenges.activity_crawlers_mountains_3
+        - echo_upgrade_challenges.activity_crawlers_mountains_4
+        - echo_upgrade_challenges.activity_crawlers_shatteredlands_1
+        - echo_upgrade_challenges.activity_crawlers_shatteredlands_2
+        - echo_upgrade_challenges.activity_crawlers_shatteredlands_3
+      echo_log_challenges: 
+        entries: 
+        - echo_log_challenges.collect_echolog_arj_city_01
+        - echo_log_challenges.collect_echolog_arj_city_02
+        - echo_log_challenges.collect_echolog_arj_city_03
+        - echo_log_challenges.collect_echolog_arj_gra_01
+        - echo_log_challenges.collect_echolog_arj_gra_02
+        - echo_log_challenges.collect_echolog_arj_gra_03
+        - echo_log_challenges.collect_echolog_arj_mtn_01
+        - echo_log_challenges.collect_echolog_arj_mtn_02
+        - echo_log_challenges.collect_echolog_arj_mtn_03
+        - echo_log_challenges.collect_echolog_arj_sha_01
+        - echo_log_challenges.collect_echolog_arj_sha_02
+        - echo_log_challenges.collect_echolog_arj_sha_03
+        - echo_log_challenges.collect_echolog_gen_city_01
+        - echo_log_challenges.collect_echolog_gen_city_02
+        - echo_log_challenges.collect_echolog_gen_city_03
+        - echo_log_challenges.collect_echolog_gen_city_04
+        - echo_log_challenges.collect_echolog_gen_city_05
+        - echo_log_challenges.collect_echolog_gen_city_06
+        - echo_log_challenges.collect_echolog_gen_city_07
+        - echo_log_challenges.collect_echolog_gen_city_08
+        - echo_log_challenges.collect_echolog_gen_city_09
+        - echo_log_challenges.collect_echolog_gen_city_10
+        - echo_log_challenges.collect_echolog_gen_city_11
+        - echo_log_challenges.collect_echolog_gen_city_12
+        - echo_log_challenges.collect_echolog_gen_city_13
+        - echo_log_challenges.collect_echolog_gen_city_14
+        - echo_log_challenges.collect_echolog_gen_city_15
+        - echo_log_challenges.collect_echolog_gen_city_16
+        - echo_log_challenges.collect_echolog_gen_city_17
+        - echo_log_challenges.collect_echolog_gen_city_18
+        - echo_log_challenges.collect_echolog_gen_city_19
+        - echo_log_challenges.collect_echolog_gen_city_21
+        - echo_log_challenges.collect_echolog_gen_city_22
+        - echo_log_challenges.collect_echolog_gen_city_23
+        - echo_log_challenges.collect_echolog_mis_city_01
+        - echo_log_challenges.collect_echolog_mis_city_02
+        - echo_log_challenges.collect_echolog_mis_city_03
+        - echo_log_challenges.collect_echolog_mis_city_04
+        - echo_log_challenges.collect_echolog_mis_city_05
+        - echo_log_challenges.collect_echolog_mis_city_06
+        - echo_log_challenges.collect_echolog_mis_city_07
+        - echo_log_challenges.collect_echolog_mis_city_08
+        - echo_log_challenges.collect_echolog_mis_city_09
+        - echo_log_challenges.collect_echolog_mis_city_10
+        - echo_log_challenges.collect_echolog_mis_city_11
+        - echo_log_challenges.collect_echolog_mis_city_12
+        - echo_log_challenges.collect_echolog_mis_city_13
+        - echo_log_challenges.collect_echolog_mis_city_14
+        - echo_log_challenges.collect_echolog_mis_city_15
+        - echo_log_challenges.collect_echolog_gen_elp_01
+        - echo_log_challenges.collect_echolog_gen_elp_03
+        - echo_log_challenges.collect_echolog_gen_elp_04
+        - echo_log_challenges.collect_echolog_gen_elp_06
+        - echo_log_challenges.collect_echolog_gen_elp_07
+        - echo_log_challenges.collect_echolog_gen_elp_08
+        - echo_log_challenges.collect_echolog_gen_gra_01
+        - echo_log_challenges.collect_echolog_gen_gra_02
+        - echo_log_challenges.collect_echolog_gen_gra_03
+        - echo_log_challenges.collect_echolog_gen_gra_04
+        - echo_log_challenges.collect_echolog_gen_gra_05
+        - echo_log_challenges.collect_echolog_gen_gra_06
+        - echo_log_challenges.collect_echolog_gen_gra_07
+        - echo_log_challenges.collect_echolog_gen_gra_09
+        - echo_log_challenges.collect_echolog_gen_gra_10
+        - echo_log_challenges.collect_echolog_gen_gra_11
+        - echo_log_challenges.collect_echolog_gen_gra_12
+        - echo_log_challenges.collect_echolog_gen_gra_13
+        - echo_log_challenges.collect_echolog_gen_gra_14
+        - echo_log_challenges.collect_echolog_gen_gra_15
+        - echo_log_challenges.collect_echolog_gen_gra_16
+        - echo_log_challenges.collect_echolog_gen_gra_17
+        - echo_log_challenges.collect_echolog_gen_gra_18
+        - echo_log_challenges.collect_echolog_gen_gra_19
+        - echo_log_challenges.collect_echolog_gen_gra_20
+        - echo_log_challenges.collect_echolog_gen_gra_21
+        - echo_log_challenges.collect_echolog_gen_gra_22
+        - echo_log_challenges.collect_echolog_gen_gra_23
+        - echo_log_challenges.collect_echolog_gen_gra_24
+        - echo_log_challenges.collect_echolog_gen_gra_26
+        - echo_log_challenges.collect_echolog_gen_gra_27
+        - echo_log_challenges.collect_echolog_gen_gra_28
+        - echo_log_challenges.collect_echolog_mis_gra_01
+        - echo_log_challenges.collect_echolog_mis_gra_02
+        - echo_log_challenges.collect_echolog_mis_gra_04
+        - echo_log_challenges.collect_echolog_mis_gra_05
+        - echo_log_challenges.collect_echolog_mis_gra_06
+        - echo_log_challenges.collect_echolog_mis_gra_07
+        - echo_log_challenges.collect_echolog_mis_gra_08
+        - echo_log_challenges.collect_echolog_mis_gra_09
+        - echo_log_challenges.collect_echolog_mis_gra_10
+        - echo_log_challenges.collect_echolog_mis_gra_11
+        - echo_log_challenges.collect_echolog_gen_mtn_01
+        - echo_log_challenges.collect_echolog_gen_mtn_02
+        - echo_log_challenges.collect_echolog_gen_mtn_03
+        - echo_log_challenges.collect_echolog_gen_mtn_04
+        - echo_log_challenges.collect_echolog_gen_mtn_05
+        - echo_log_challenges.collect_echolog_gen_mtn_06
+        - echo_log_challenges.collect_echolog_gen_mtn_07
+        - echo_log_challenges.collect_echolog_gen_mtn_08
+        - echo_log_challenges.collect_echolog_gen_mtn_09
+        - echo_log_challenges.collect_echolog_gen_mtn_10
+        - echo_log_challenges.collect_echolog_gen_mtn_11
+        - echo_log_challenges.collect_echolog_gen_mtn_12
+        - echo_log_challenges.collect_echolog_gen_mtn_13
+        - echo_log_challenges.collect_echolog_gen_mtn_14
+        - echo_log_challenges.collect_echolog_gen_mtn_15
+        - echo_log_challenges.collect_echolog_gen_mtn_16
+        - echo_log_challenges.collect_echolog_gen_mtn_17
+        - echo_log_challenges.collect_echolog_gen_mtn_18
+        - echo_log_challenges.collect_echolog_gen_mtn_19
+        - echo_log_challenges.collect_echolog_gen_mtn_20
+        - echo_log_challenges.collect_echolog_gen_mtn_21
+        - echo_log_challenges.collect_echolog_gen_mtn_22
+        - echo_log_challenges.collect_echolog_gen_mtn_23
+        - echo_log_challenges.collect_echolog_gen_mtn_24
+        - echo_log_challenges.collect_echolog_gen_mtn_25
+        - echo_log_challenges.collect_echolog_gen_mtn_26
+        - echo_log_challenges.collect_echolog_gen_mtn_27
+        - echo_log_challenges.collect_echolog_gen_mtn_28
+        - echo_log_challenges.collect_echolog_mis_mtn_05
+        - echo_log_challenges.collect_echolog_mis_mtn_07
+        - echo_log_challenges.collect_echolog_mis_mtn_06
+        - echo_log_challenges.collect_echolog_gen_sha_01
+        - echo_log_challenges.collect_echolog_gen_sha_02
+        - echo_log_challenges.collect_echolog_gen_sha_03
+        - echo_log_challenges.collect_echolog_gen_sha_04
+        - echo_log_challenges.collect_echolog_gen_sha_05
+        - echo_log_challenges.collect_echolog_gen_sha_06
+        - echo_log_challenges.collect_echolog_gen_sha_07
+        - echo_log_challenges.collect_echolog_gen_sha_08
+        - echo_log_challenges.collect_echolog_gen_sha_09
+        - echo_log_challenges.collect_echolog_gen_sha_10
+        - echo_log_challenges.collect_echolog_gen_sha_11
+        - echo_log_challenges.collect_echolog_gen_sha_12
+        - echo_log_challenges.collect_echolog_gen_sha_13
+        - echo_log_challenges.collect_echolog_gen_sha_14
+        - echo_log_challenges.collect_echolog_gen_sha_15
+        - echo_log_challenges.collect_echolog_gen_sha_16
+        - echo_log_challenges.collect_echolog_gen_sha_17
+        - echo_log_challenges.collect_echolog_gen_sha_18
+        - echo_log_challenges.collect_echolog_gen_sha_19
+        - echo_log_challenges.collect_echolog_gen_sha_20
+        - echo_log_challenges.collect_echolog_gen_sha_21
+        - echo_log_challenges.collect_echolog_gen_sha_22
+        - echo_log_challenges.collect_echolog_gen_sha_23
+        - echo_log_challenges.collect_echolog_gen_sha_24
+        - echo_log_challenges.collect_echolog_gen_sha_25
+        - echo_log_challenges.collect_echolog_gen_sha_26
+        - echo_log_challenges.collect_echolog_gen_sha_27
+        - echo_log_challenges.collect_echolog_gen_sha_28
+        - echo_log_challenges.collect_echolog_gen_sha_29
+        - echo_log_challenges.collect_echolog_mis_sha_01
+        - echo_log_challenges.collect_echolog_mis_sha_02
+        - echo_log_challenges.collect_echolog_mis_sha_03
+        - echo_log_challenges.collect_echolog_mis_sha_04
+        - echo_log_challenges.collect_echolog_mis_sha_05
+        - echo_log_challenges.collect_echolog_mis_sha_07
+        - echo_log_challenges.collect_echolog_mis_sha_08
+        - echo_log_challenges.collect_echolog_mis_sha_09
+        - echo_log_challenges.collect_echolog_mis_sha_10
+        - echo_log_challenges.collect_echolog_mis_sha_11
+        - echo_log_challenges.collect_echolog_mis_sha_12
+        - echo_log_challenges.collect_echolog_mis_sha_13
+        - echo_log_challenges.collect_echolog_mis_sha_14
+        - echo_log_challenges.collect_echolog_mis_sha_15
+        - echo_log_challenges.collect_echolog_vh_city_01
+        - echo_log_challenges.collect_echolog_vh_city_02
+        - echo_log_challenges.collect_echolog_vh_city_03
+        - echo_log_challenges.collect_echolog_vh_city_04
+        - echo_log_challenges.collect_echolog_vh_city_05
+        - echo_log_challenges.collect_echolog_vh_city_06
+        - echo_log_challenges.collect_echolog_vh_city_07
+        - echo_log_challenges.collect_echolog_vh_city_08
+        - echo_log_challenges.collect_echolog_vh_city_09
+        - echo_log_challenges.collect_echolog_vh_gra_01
+        - echo_log_challenges.collect_echolog_vh_gra_02
+        - echo_log_challenges.collect_echolog_vh_gra_03
+        - echo_log_challenges.collect_echolog_vh_gra_04
+        - echo_log_challenges.collect_echolog_vh_gra_05
+        - echo_log_challenges.collect_echolog_vh_gra_06
+        - echo_log_challenges.collect_echolog_vh_gra_07
+        - echo_log_challenges.collect_echolog_vh_gra_08
+        - echo_log_challenges.collect_echolog_vh_gra_09
+        - echo_log_challenges.collect_echolog_vh_gra_10
+        - echo_log_challenges.collect_echolog_vh_mtn_01
+        - echo_log_challenges.collect_echolog_vh_mtn_02
+        - echo_log_challenges.collect_echolog_vh_mtn_03
+        - echo_log_challenges.collect_echolog_vh_mtn_04
+        - echo_log_challenges.collect_echolog_vh_mtn_05
+        - echo_log_challenges.collect_echolog_vh_mtn_06
+        - echo_log_challenges.collect_echolog_vh_mtn_07
+        - echo_log_challenges.collect_echolog_vh_mtn_08
+        - echo_log_challenges.collect_echolog_vh_mtn_09
+        - echo_log_challenges.collect_echolog_vh_mtn_10
+        - echo_log_challenges.collect_echolog_vh_sha_01
+        - echo_log_challenges.collect_echolog_vh_sha_02
+        - echo_log_challenges.collect_echolog_vh_sha_03
+        - echo_log_challenges.collect_echolog_vh_sha_04
+        - echo_log_challenges.collect_echolog_vh_sha_05
+        - echo_log_challenges.collect_echolog_vh_sha_06
+        - echo_log_challenges.collect_echolog_vh_sha_07
+        - echo_log_challenges.collect_echolog_vh_sha_08
+        - echo_log_challenges.collect_echolog_vh_sha_09
+        - echo_log_challenges.collect_echolog_vh_sha_10
+      vault_object_challenges: 
+        entries: 
+        - vault_object_challenges.collect_vaultkeya_grasslands
+        - vault_object_challenges.collect_vaultkeyb_grasslands
+        - vault_object_challenges.collect_vaultkeyc_grasslands
+        - vault_object_challenges.collect_vaultkeya_mountains
+        - vault_object_challenges.collect_vaultkeyb_mountains
+        - vault_object_challenges.collect_vaultkeyc_mountains
+        - vault_object_challenges.collect_vaultkeya_shatteredlands
+        - vault_object_challenges.collect_vaultkeyb_shatteredlands
+        - vault_object_challenges.collect_vaultkeyc_shatteredlands
+        - vault_object_challenges.unlock_vaultlock_grasslands
+        - vault_object_challenges.unlock_vaultlock_mountains
+        - vault_object_challenges.unlock_vaultlock_shatteredlands
+        - vault_object_challenges.collect_vaultpower_grasslands
+        - vault_object_challenges.collect_vaultpower_mountains
+        - vault_object_challenges.collect_vaultpower_shatteredlands
+        - vault_object_challenges.unlock_vaultdoor_grasslands
+        - vault_object_challenges.unlock_vaultdoor_mountains
+        - vault_object_challenges.unlock_vaultdoor_shatteredlands
+      unlockable_robodealer: 
+        entries: 
+        - Unlockable_RoboDealer.Head01_Prison
+        - Unlockable_RoboDealer.Body01_Prison
+        - Unlockable_RoboDealer.Skin01_Prison
+        - Unlockable_RoboDealer.Skin23_GearboxDev
+        - Unlockable_RoboDealer.head03_robandages
+        - Unlockable_RoboDealer.head05_crow
+        - Unlockable_RoboDealer.head02_occult
+        - Unlockable_RoboDealer.head07_robohobo
+        - Unlockable_RoboDealer.head04_cyberdome
+        - Unlockable_RoboDealer.head06_warlock
+        - Unlockable_RoboDealer.Head08_Survivalist
+        - Unlockable_RoboDealer.Head09_Electi
+        - Unlockable_RoboDealer.Head10_Transhuman
+        - Unlockable_RoboDealer.Head11_Ripper
+        - Unlockable_RoboDealer.Head12_Order
+        - Unlockable_RoboDealer.Skin29_Guardian
+        - Unlockable_RoboDealer.head13_robot
+        - Unlockable_RoboDealer.Head14_Thresher
+        - Unlockable_RoboDealer.Head15_CrimeLord
+        - Unlockable_RoboDealer.Skin02_Order
+        - Unlockable_RoboDealer.Skin04_Tech
+        - Unlockable_RoboDealer.Skin05_Ripper
+        - Unlockable_RoboDealer.Skin06_Amara
+        - Unlockable_RoboDealer.Skin07_RedHanded
+        - Unlockable_RoboDealer.Skin08_Corrupted
+        - Unlockable_RoboDealer.Skin09_Sewer
+        - Unlockable_RoboDealer.Skin10_Hawaiian
+        - Unlockable_RoboDealer.Skin11_Astral
+        - Unlockable_RoboDealer.Skin12_Tediore
+        - Unlockable_RoboDealer.Skin13_3CatMoon
+        - Unlockable_RoboDealer.Skin14_Fire
+        - Unlockable_RoboDealer.Skin15_Survivalist
+        - Unlockable_RoboDealer.Skin16_Crimson
+        - Unlockable_RoboDealer.Skin17_Auger
+        - Unlockable_RoboDealer.Skin18_Electi
+        - Unlockable_RoboDealer.Skin27_Space
+        - Unlockable_RoboDealer.Skin31_Koto
+        - Unlockable_RoboDealer.skin03_ghost
+        - Unlockable_RoboDealer.skin19_dirty
+        - Unlockable_RoboDealer.skin20_highroller
+        - Unlockable_RoboDealer.skin21_graffiti
+        - Unlockable_RoboDealer.skin22_knitted
+        - Unlockable_RoboDealer.skin25_slimed
+        - Unlockable_RoboDealer.skin26_camo
+        - Unlockable_RoboDealer.skin28_ritual
+        - Unlockable_RoboDealer.skin30_cute
+        - Unlockable_RoboDealer.Skin32_DuctTaped
+        - Unlockable_RoboDealer.skin33_jakobs
+        - Unlockable_RoboDealer.skin34_daedalus
+        - Unlockable_RoboDealer.skin35_vladof
+        - Unlockable_RoboDealer.skin36_torgue
+        - Unlockable_RoboDealer.skin37_maliwan
+        - Unlockable_RoboDealer.skin38_cyberpop
+        - Unlockable_RoboDealer.skin39_critters
+        - Unlockable_RoboDealer.skin40_veil
+        - Unlockable_RoboDealer.Skin45_BreakFree
+        - Unlockable_RoboDealer.skin49_midcentury
+        - Unlockable_RoboDealer.skin48_krampusclaus
+        - Unlockable_RoboDealer.skin47_hanginglights
+        - Unlockable_RoboDealer.skin46_ripwrappings
+        - Unlockable_RoboDealer.head28_krampus
+        - Unlockable_RoboDealer.head27_nutcracker
+        - Unlockable_RoboDealer.head26_giftbox
+        - Unlockable_RoboDealer.head21_reindeer
+    vault_cards: 
+      activated_card: VaultCard01
+      day_reset_key: 9909
+      week_reset_key: 1415
+      vault_cards: 
+      - name: VaultCard01
+        inv_items: 
+        - name: RoilSMG
+          count: 20
+        - name: SeamstressSniper
+          count: 55
+        - name: BreadthPistol
+          count: 31
+        - name: MissilaserShotgun
+          count: 23
+        challenges_daily: 
+          active: 
+          - 129
+          - 89
+          - 141
+          picked: 
+          - 106
+          - 207
+          - 13
+          - 3
+          - 243
+          - 38
+          - 76
+          - 78
+          - 200
+          - 105
+          - 84
+          - 154
+          - 81
+          - 128
+          - 225
+          - 129
+          - 89
+          - 141
+        challenges_weekly: 
+          active: 
+          - 74
+          picked: 
+          - 13
+          - 74
+      - name: VaultCard02
+        challenges_daily: 
+          active: 
+          - 132
+          - 255
+          - 123
+          picked: 
+          - 6
+          - 87
+          - 169
+          - 120
+          - 257
+          - 233
+          - 137
+          - 7
+          - 214
+          - 132
+          - 255
+          - 123
+        challenges_weekly: 
+          active: 
+          - 54
+          picked: 
+          - 54
+    gbx_discovery_pg_shared: 
+      dlblob: 'DLMD_Intro_P_IO_VendingMachine_ResupplyStation_UAID_94F6D6F414DEB85B02_1588122976:2:DLMD_Intro_P_LevelTravelStation_UAID_02504100000136FB01_1371254719:2:DLMD_World_P_CarryableObjectContainer_UAID_08BFB89AE7C85D2802_1684482113:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_047C1619B44AA00302_1861225831:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_089204DCF7EF290002_1402034712:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_089204DCF7EF2B0002_1667303070:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_089204DCF7EF2D0002_1947412430:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_089204DCF7EF54FE01_1960602211:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_089204DCF7EFAD0F02_1616494078:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_089204DCF7EFC61D02_2081124994:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_08BFB89AE7C8082402_2027277924:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_08BFB89AE7C87C2302_1968194374:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_244BFE96422DF40F02_1726095288:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_5811224CB628B30F02_1893911891:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_5811224CB628B30F02_1955619892:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_D843AE5FAC6A091E02_1526421768:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_D843AE5FAC6ABC2302_1462881555:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_E04F43E63017481F02_1231511914:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_E04F43E6DF41E21A02_1097913731:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001256002_1337117384:2:DLMD_World_P_PoAActor_UAID_047C1619B44AA00302_1687647825:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001882102_2079195280:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000013C2202_1958193976:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001266002_1228412562:2:DLMD_World_P_OakInteractiveObject_UAID_E04F43E60D83840102_1427834786:2:DLMD_World_P_IO_VendingMachine_ResupplyStation_UAID_2CF05D8C2CE92C3802_1813796376:2:DLMD_World_P_PoAActor_UAID_04922658D4A791C201_1271147543:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000018F2102_1311268516:2:DLMD_World_P_IO_Switch_Evocarium_UAID_04922658D4A7A81F02_1827494874:2:DLMD_World_P_PoAActor_UAID_089204DCF632D0FB01_2041500824:2:DLMD_World_P_PoAActor_UAID_0050568BFC4DB31302_1570162105:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001296002_1621731092:2:DLMD_World_P_IO_VendingMachine_ResupplyStation_UAID_089204DCF632CDFE01_1633445488:2:DLMD_World_P_IO_SurvivalistCache_UAID_04922658D4A73C1B02_2110777601:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001912102_1109609876:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001286002_2012206912:2:DLMD_World_P_IO_EchoLog_General_UAID_14F6D87D5707AD4F02_1694823387:2:DLMD_World_P_IO_PropagandaSpeaker_UAID_04922658D4A7E71A02_1837541650:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000013C2202_1402840974:2:DLMD_World_P_IO_Switch_Evocarium_UAID_04922658D4A7611002_1163073484:2:DLMD_World_P_IO_EchoLog_Arjay_UAID_04922658D4A7021A02_1941302402:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000018F2102_1560760518:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001902102_1797197698:2:DLMD_World_P_IO_EchoLog_General_UAID_04922658D4A79C2002_1330556752:2:DLMD_World_P_IO_SurvivalistCache_UAID_04922658D4A7AB1F02_1295128419:2:DLMD_World_P_IO_Vault_Key_UAID_025041000001C90202_2071035984:2:DLMD_World_P_IO_VaultSymbol_UAID_04922658D4A7FB5602_1963877490:2:DLMD_World_P_IO_VaultSymbol_UAID_04922658D4A7022002_1893521669:2:DLMD_World_P_PoAActor_UAID_02504100000187D401_1882517809:2:DLMD_World_P_Lootable_GoldenChest_UAID_7C10C93FFF14E54702_1301926795:2:DLMD_World_P_IO_EchoLog_General_MissionDriven_UAID_047C1619B44AC56902_1878303049:2:DLMD_World_P_IO_EchoLog_General_MissionDriven_UAID_047C1619B44AC56902_1828382048:2:DLMD_World_P_IO_EchoLog_General_UAID_04922658D4A7133F02_1708134406:2:DLMD_World_P_IO_VaultSymbol_UAID_04922658D4A7A75602_1713283703:2:DLMD_World_P_IO_EchoLog_General_UAID_04922658D4A7153F02_1825666759:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000012B6002_2021367452:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001912102_1516002879:2:DLMD_World_P_IO_Switch_Evocarium_UAID_089204DCF632FA1402_1872482647:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001922102_1085595058:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000012A6002_1881346272:2:DLMD_World_P_IO_VendingMachine_ResupplyStation_UAID_94F6D6F414DED23702_1870336543:2:DLMD_World_P_IO_VendingMachine_Health_UAID_94F6D6F414DED23702_1793596541:2:DLMD_World_P_IO_BossReplay_UAID_38D54710AFC02CF601_1987519684:2:DLMD_World_P_IO_VaultSymbol_UAID_04922658D4A75A1002_1853027232:2:DLMD_World_P_IO_EchoLog_General_UAID_04922658D4A7173F02_1365330123:2:DLMD_World_P_PoAActor_UAID_04922658D4A75EE201_1362582382:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000012B6002_1091113450:2:DLMD_World_P_FastTravelStationObject_UAID_64D69A64CE76FE7901_1755073639:2:DLMD_World_P_IO_Vault_Key_UAID_025041000001CC0202_1504574514:2:DLMD_World_P_PoAActor_UAID_D85ED3466C0338EF01_1641636403:2:DLMD_World_P_IO_LostCapsule_CarryableDispenser_UAID_04922658D4A7A91F02_1853476063:2:DLMD_World_P_PoAActor_UAID_04922658D4A72CD401_1798204775:2:DLMD_World_P_IO_EchoLog_General_UAID_04922658D4A7183F02_1300141303:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001392202_1921861438:2:DLMD_World_P_PoAActor_UAID_04922658D4A799D801_1325231183:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000012C6002_1288736630:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000018E2102_1179125336:2:DLMD_World_P_PoAActor_UAID_14F6D87D570787D401_1419323791:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000012E6002_1449116988:2:DLMD_World_P_LevelTravelStationObject_UAID_64D69A64CE76297D01_1630823376:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001392202_1240356436:2:DLMD_World_P_IO_SurvivalistCache_UAID_08BFB89AE7C85E2402_1539083067:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000013B2202_1615822794:2:DLMD_World_P_PoAActor_UAID_907841CAD86510F801_1917494885:2:DLMD_World_P_IO_Vault_Door_LevelTravel_UAID_025041000001180702_1850596112:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000012F6002_1434149168:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001382202_1709058258:2:DLMD_World_P_IO_EchoLog_General_UAID_04922658D4A7193F02_1693069583:2:DLMD_World_P_PoAActor_UAID_907841CAD86511F801_1501116063:2:DLMD_World_P_IO_VaultSymbol_UAID_14F6D87D57077FFA01_1536490514:2:DLMD_World_P_IO_VendingMachine_ResupplyStation_UAID_0250410000010F1F02_1153531893:2:DLMD_World_P_IO_VendingMachine_Health_UAID_047C1619B44A760C02_1709500938:2:DLMD_World_P_IO_BossReplay_UAID_B04F130574AA9E0402_1123078544:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000013B2202_1976190796:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000012E6002_1672106990:2:DLMD_World_P_PoAActor_UAID_581122B4C214252202_1522288912:2:DLMD_World_P_IO_EchoLog_General_UAID_04922658D4A71E3F02_1485994471:2:DLMD_World_P_PoAActor_UAID_907841CAD86512F801_1607060252:2:DLMD_World_P_FastTravelStationObject_UAID_907841CAD8650E4A02_1592825107:2:DLMD_World_P_IO_VendingMachine_Health_UAID_907841CAD8650E4A02_1545886106:2:DLMD_World_P_IO_VendingMachine_ResupplyStation_UAID_907841CAD8650F4A02_1815599288:2:DLMD_World_P_IO_EchoLog_General_UAID_04922658D4A7123F02_2112961214:2:DLMD_World_P_IO_EchoLog_General_UAID_04922658D4A7123F02_2021452213:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001372202_2062706080:2:DLMD_World_P_IO_EchoLog_Arjay_UAID_04922658D4A7AE3502_1137693095:2:DLMD_World_P_IO_Switch_Evocarium_UAID_907841CAD865A90E02_1344162127:2:DLMD_World_P_IO_EchoLog_General_UAID_14F6D87D5707004002_1866034083:2:DLMD_World_P_IO_VendingMachine_ResupplyStation_UAID_14F6D87D5707271202_1576763525:2:DLMD_World_P_IO_VendingMachine_Health_UAID_14F6D87D5707271202_1542651523:2:DLMD_World_P_IO_EchoLog_General_UAID_14F6D87D5707004002_1288156081:2:DLMD_World_P_IO_EchoLog_General_UAID_14F6D87D5707004002_1991802085:2:DLMD_World_P_IO_VendingMachine_Health_UAID_94F6D6F414DE161202_1306291379:2:DLMD_World_P_IO_VendingMachine_ResupplyStation_UAID_907841CAD865C71202_1445076566:2:DLMD_World_P_IO_BossReplay_UAID_94F6D6F414DE161202_2111909384:2:DLMD_World_P_PoAActor_UAID_14F6D87D57071BD501_1530198843:2:DLMD_World_P_IO_SurvivalistCache_UAID_08BFB89AE7C85E2402_1597512070:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000013A2202_2064516616:2:DLMD_World_P_IO_EchoLog_General_MissionDriven_UAID_047C1619B44AD36902_1289154518:2:DLMD_World_P_IO_EchoLog_General_MissionDriven_UAID_047C1619B44AD36902_1282556517:2:DLMD_World_P_IO_PropagandaSpeaker_Order_UAID_14F6D87D57072C4202_1294657051:2:DLMD_World_P_IO_VaultSymbol_UAID_14F6D87D5707A95602_2057685142:2:DLMD_World_P_IO_EchoLog_General_UAID_04922658D4A7183F02_1955961406:2:DLMD_World_P_IO_PropagandaSpeaker_UAID_08BFB89AE7C80A2002_1958909122:2:DLMD_World_P_IO_Vault_Key_UAID_025041000001CC0202_1892900516:2:DLMD_World_P_IO_EchoLog_General_UAID_04922658D4A71D3F02_2081817292:2:DLMD_World_P_IO_EchoLog_VH_UAID_907841CAD865E14202_1357890869:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000012D6002_1725912808:2:DLMD_Fortress_Grasslands_P_LevelTravelStationObject_UAID_04D9F52032D5F18001_1882045875:2:DLMD_Fortress_Grasslands_P_FastTravelStationObject_UAID_2CF05D10036413E601_1711602384:2:DLMD_Fortress_Grasslands_P_OakVendingMachine_UAID_08BFB89AE7C8AD6702_1395318711:2:DLMD_Fortress_Grasslands_P_OakVendingMachine_UAID_08BFB89AE7C8AD6702_1532504712:2:DLMD_Fortress_Grasslands_P_OakInteractiveObject_UAID_08BFB89AE7C8954C02_2054303087:2:DLMD_Fortress_Grasslands_P_IO_VaultSymbol_UAID_2CF05D1003644A2B02_1889892932:2:DLMD_Fortress_Grasslands_P_OakInteractiveObject_UAID_08BFB89AE7C8954C02_2054300086:2:DLMD_Fortress_Grasslands_P_OakInteractiveObject_UAID_08BFB89AE7C8954C02_2054285085:2:DLMD_Fortress_Grasslands_P_IO_VaultSymbol_UAID_2CF05D1003644B2B02_1747454109:2:DLMD_Fortress_Grasslands_P_FastTravelStationObject_UAID_047BCBA5A4B6F74602_1736717888:2:DLMD_Fortress_Grasslands_P_IO_BossReplay_UAID_E04F43E6AE842F4702_2127496748:2:DLMD_Fortress_Grasslands_P_OakVendingMachine_UAID_08BFB89AE7C8682202_1986935706:2:DLMD_Fortress_Grasslands_P_OakVendingMachine_UAID_08BFB89AE7C8682202_1734027704:2:DLMD_Fortress_Grasslands_P_FastTravelStationObject_UAID_047BCBA5A5DE4FD201_1277874844:2:DLMD_Vault_Grasslands_P_IO_Vault_Door_LevelTravel_UAID_047BCBA534EA361B02_1806109512:2:DLMD_Vault_Grasslands_P_FastTravelStation_UAID_047BCBA534EAB90D02_1539120784:2:DLMD_Vault_Grasslands_P_IO_Vault_Door_LevelTravel_UAID_047BCBA534EA3B1B02_2081091392:2:DLMD_Vault_Grasslands_P_OakVendingMachine_UAID_047BCBA5A4CDAF0302_1824930529:2:DLMD_Vault_Grasslands_P_OakVendingMachine_UAID_047BCBA5A4CDAF0302_1769934528:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000011D6002_1433111978:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000011D6002_1623248980:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000011D6002_1851200984:2:DLMD_World_P_IO_EchoLog_General_UAID_5811224CB628713902_2118795589:2:DLMD_World_P_PoAActor_UAID_581122B4C214E22102_2008372158:2:DLMD_World_P_IO_PropagandaSpeaker_Order_UAID_CC96E5191F74053502_1408694359:2:DLMD_World_P_IO_LostCapsule_CarryableDispenser_UAID_5811224CB628BB3902_1619031688:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000011D6002_1734843982:2:DLMD_World_P_PoAActor_UAID_B04F130572E120DB01_1153963055:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000011D6002_1291078976:2:DLMD_World_P_IO_EchoLog_General_UAID_CC96E5191F749B3702_1575951063:2:DLMD_World_P_PoAActor_UAID_D843AE5FAC6A37FF01_2129200119:2:DLMD_World_P_IO_EchoLog_General_UAID_CC96E5191F749C3702_1517837244:2:DLMD_World_P_IO_Switch_Evocarium_UAID_5811224CB628A80F02_1408997923:2:DLMD_World_P_IO_VaultSymbol_UAID_5811224CB628935602_1135609185:2:DLMD_World_P_IO_EchoLog_General_UAID_CC96E5191F749C3702_1282640242:2:DLMD_World_P_IO_Vault_Key_UAID_025041000001CE0202_1949568872:2:DLMD_World_P_IO_VaultSymbol_UAID_5811224CB628A90F02_1434314105:2:DLMD_World_P_OakVendingMachine_UAID_00BE43B81D1F1A5002_1147201556:2:DLMD_World_P_OakVendingMachine_UAID_00BE43B81D1F1A5002_1147186555:2:DLMD_World_P_IO_VendingMachine_Munitions_UAID_00BE43B81D1F195002_1816090377:2:DLMD_World_P_IO_VendingMachine_Munitions_UAID_00BE43B81D1F195002_1816104378:2:DLMD_World_P_PoAActor_UAID_025041000001330B02_1191238087:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000011D6002_2076672988:2:DLMD_World_P_IO_EchoLog_Arjay_UAID_5811224CB628AF3902_1934919567:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000011E6002_1098058166:2:DLMD_World_P_IO_EchoLog_General_UAID_5811224CB628703902_1748350411:2:DLMD_World_P_IO_EchoLog_General_UAID_5811224CB628DA3702_1568839944:2:DLMD_World_P_PoAActor_UAID_5811224CB62827D501_1937969200:2:DLMD_World_P_IO_LostCapsule_CarryableDispenser_UAID_5811224CB628B30F02_1559707889:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001D43202_1341781607:2:DLMD_World_P_PoAActor_UAID_D85ED3466C033D0502_2021434511:2:DLMD_World_P_IO_EchoLog_General_UAID_5811224CB6286C3902_1218650699:2:DLMD_World_P_IO_TargetPracticeDummy_Static_UAID_0250410000018B4902_1157117057:2:DLMD_World_P_FastTravelStationObject_UAID_64D69A64CE76087A01_1645300414:2:DLMD_World_P_IO_FirmwareTransferMachine_UAID_CC96E5191F74A56C02_1684868610:2:DLMD_World_P_IO_PlayerBank_UAID_CC96E5191F746C6502_1495188169:2:DLMD_World_P_IO_VendingMachine_ResupplyStation_UAID_CC96E5191F746C6502_1415785167:2:DLMD_World_P_IO_RespecMachine_UAID_CC96E5191F746C6502_1381588163:2:DLMD_World_P_IO_VendingMachine_ResupplyStation_UAID_94F6D6F414DE0B3F02_1580720969:2:DLMD_World_P_IO_VendingMachine_Health_UAID_94F6D6F414DE0B3F02_1576604967:2:DLMD_World_P_IO_BossReplay_UAID_B04F130574AA250102_1374902068:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000011F6002_1645483356:2:DLMD_World_P_PoAActor_UAID_CC96E5191F7415DB01_1237205122:2:DLMD_World_P_IO_EchoLog_VH_UAID_CC96E5191F74BF2E02_2084872795:2:DLMD_World_P_IO_Vault_Door_LevelTravel_UAID_025041000001190702_1537859290:2:DLMD_World_P_PoAActor_UAID_02504100000113ED01_1588318775:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000011F6002_2100561365:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000011F6002_1744292359:2:DLMD_World_P_IO_EchoLog_Arjay_UAID_CC96E5191F74A14702_2025278888:2:DLMD_World_P_IO_PropagandaSpeaker_UAID_5811224CB628511F02_1675473437:2:DLMD_World_P_IO_EchoLog_General_UAID_5811224CB628AE3902_1495916389:2:DLMD_World_P_PoAActor_UAID_025041000001390B02_1493163148:2:DLMD_World_P_IO_EchoLog_General_UAID_5811224CB6286B3902_1180038521:2:DLMD_World_P_IO_EchoLog_General_UAID_5811224CB6286B3902_1679632522:2:DLMD_World_P_IO_EchoLog_General_UAID_5811224CB628AD3902_2089397212:2:DLMD_World_P_IO_VendingMachine_ResupplyStation_UAID_2CF05D8C2CE9B93902_1238841250:2:DLMD_World_P_IO_VendingMachine_Health_UAID_2CF05D8C2CE9B93902_1234629248:2:DLMD_World_P_IO_BossReplay_UAID_CC96E51AB12544F401_1592664794:2:DLMD_World_P_IO_BossReplay_UAID_38D54710AFC08A0002_1589927784:2:DLMD_World_P_IO_TranshumanistShrine_UAID_CC96E5191F74991602_1455505661:2:DLMD_World_P_Lootable_GoldenChest_UAID_7C10C93FFF14EB4702_1782367869:2:DLMD_World_P_IO_EchoLog_General_UAID_CC96E5191F74A36102_2010019624:2:DLMD_World_P_IO_EchoLog_General_UAID_CC96E5191F74C42E02_1291688686:2:DLMD_World_P_IO_TargetPracticeDummy_Static_UAID_5811224CB6282B4902_1824736333:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001206002_1142805543:2:DLMD_World_P_IO_EchoLog_General_UAID_CC96E5191F74C32E02_1902738508:2:DLMD_World_P_IO_Vault_Key_UAID_025041000001CF0202_1189685050:2:DLMD_World_P_PoAActor_UAID_CC96E5191F743DD401_1223726776:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001206002_1289498545:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001206002_1560182547:2:DLMD_World_P_LevelTravelStationObject_UAID_64D69A64CE76297D01_1924121378:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001206002_1662707549:2:DLMD_World_P_IO_LostCapsule_CarryableDispenser_UAID_089204DCF7EF2F0002_1181851786:2:DLMD_World_P_IO_PropagandaSpeaker_Order_UAID_CC96E5191F74F14602_1315473858:2:DLMD_World_P_IO_VendingMachine_Health_UAID_CC96E5191F7400F301_1916313789:2:DLMD_World_P_IO_VendingMachine_Munitions_UAID_CC96E5191F7400F301_1916481790:2:DLMD_World_P_IO_EchoLog_General_UAID_CC96E5191F74C42E02_2003769688:2:DLMD_World_P_IO_VendingMachine_Health_UAID_2CF05D8C2CE9694502_2017844841:2:DLMD_World_P_IO_VendingMachine_ResupplyStation_UAID_94F6D6F414DE773902_1760974650:2:DLMD_World_P_OakInteractiveObject_UAID_E04F43E60D837FEA01_1791653616:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001206002_1763529551:2:DLMD_World_P_FastTravelStation_UAID_14F6D8463D76E94002_1257203087:2:DLMD_World_P_PoAActor_UAID_CC96E5191F7479DB01_1312155739:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000011F6002_1836837361:2:DLMD_World_P_IO_Vault_Key_UAID_025041000001CD0202_2119355694:2:DLMD_World_P_IO_EchoLog_General_UAID_CC96E5191F74C52E02_1877204865:2:DLMD_World_P_PoAActor_UAID_CC96E5191F74D2D401_1997150008:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000011E6002_1948535174:2:DLMD_World_P_PoAActor_UAID_CC96E5191F748CFA01_1356293799:2:DLMD_World_P_IO_VaultSymbol_UAID_CC96E5191F74BB0E02_1256148191:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000011E6002_2057543176:2:DLMD_World_P_IO_BossReplay_UAID_54BF6467AEFCA81A02_1388992592:2:DLMD_World_P_IO_Switch_Evocarium_UAID_CC96E5191F74771202_1196617449:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000011F6002_1470939354:2:DLMD_World_P_PoAActor_UAID_CC96E5191F74B8E601_1603838428:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000011F6002_1910339363:2:DLMD_World_P_PoAActor_UAID_CC96E5191F742FD501_1430332360:2:DLMD_World_P_IO_TranshumanistShrine_UAID_CC96E5191F74D7EA01_1929255119:2:DLMD_World_P_IO_VendingMachine_Health_UAID_CC96E5191F7401F301_1090629968:2:DLMD_World_P_IO_VendingMachine_Munitions_UAID_CC96E5191F74AAF301_1856477703:2:DLMD_World_P_PoAActor_UAID_D85ED3466C037F1802_2016645195:2:DLMD_World_P_IO_EchoLog_General_UAID_CC96E5191F74C32E02_1677686507:2:DLMD_Fortress_Mountains_P_LevelTravelStationObject_UAID_B04F1307B522318101_1552810512:2:DLMD_Fortress_Mountains_P_FastTravelStationObject_UAID_0250410000015B9501_1846435520:2:DLMD_Fortress_Mountains_P_IO_VendingMachine_Health_UAID_047BCBA5A4CD4BF401_1093647024:2:DLMD_Fortress_Mountains_P_IO_VendingMachine_Health_UAID_047BCBA5A4CD4BF401_1204749026:2:DLMD_Fortress_Mountains_P_OakInteractiveObject_UAID_047BCBA5A4CDD5F001_1595751437:2:DLMD_Fortress_Mountains_P_OakInteractiveObject_UAID_047BCBA5A4CDD4F001_1184305260:2:DLMD_Fortress_Mountains_P_FastTravelStationObject_UAID_047BCBA5A4B6F84602_1233730065:2:DLMD_Fortress_Mountains_P_IO_BossReplay_UAID_2CF05D5628535B4F02_1586449935:2:DLMD_Fortress_Mountains_P_IO_VendingMachine_ResupplyStation_UAID_047BCBA5A4B6524B02_1531499128:2:DLMD_Fortress_Mountains_P_IO_VendingMachine_Health_UAID_047BCBA5A4CD38F401_1706584679:2:DLMD_World_P_IO_VaultSymbol_UAID_5811224CB6289F5602_1321149312:2:DLMD_World_P_IO_TranshumanistShrine_UAID_CC96E5191F74991602_1383641660:2:DLMD_Vault_Mountains_P_IO_Vault_Door_LevelTravel_UAID_047BCBA534EAFC1E02_2004169528:2:DLMD_Vault_Mountains_P_FastTravelStationObject_UAID_2CF05D10036449D201_2017186767:2:DLMD_Vault_Mountains_P_IO_Vault_Door_LevelTravel_UAID_047BCBA534EAFF1E02_1999986058:2:DLMD_Vault_Mountains_P_IO_VendingMachine_Health_UAID_047BCBA5AA7FD80502_1394120796:2:DLMD_Vault_Mountains_P_IO_VendingMachine_Munitions_UAID_047BCBA5AA7FD80502_1402783798:2:DLMD_World_P_IO_PropagandaSpeaker_UAID_CC96E5191F749B0F02_1744769620:2:DLMD_World_P_IO_LostCapsule_CarryableDispenser_UAID_089204DCF7EF2B0002_1918447072:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000011E6002_1858595172:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000011E6002_1716956170:2:DLMD_World_P_IO_VendingMachine_Munitions_UAID_CC96E5191F745D2F02_1085541598:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001346302_1269516192:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001366302_1165071550:2:DLMD_World_P_PoAActor_UAID_0250410000015FED01_1875042151:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001366302_1155328549:2:DLMD_World_P_IO_PropagandaSpeaker_UAID_D843AE5FAC6A951F02_1927900455:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001356302_1572831370:2:DLMD_World_P_IO_Vault_Door_LevelTravel_UAID_025041000001190702_1978629292:2:DLMD_World_P_IO_VaultSymbol_UAID_D843AE5FAC6A8F5802_1436409608:2:DLMD_World_P_IO_EchoLog_VH_UAID_D843AE5FAC6AC44F02_1278599425:2:DLMD_World_P_IO_VendingMachine_Legend_A_UAID_B04F1314BE4D902502_1903607935:2:DLMD_World_P_OakInteractiveObject_UAID_AC12039C9711FA4B02_1458825733:2:DLMD_World_P_IO_VendingMachine_Munitions_UAID_089204DCF69B9B0002_1095338784:2:DLMD_World_P_IO_VendingMachine_Health_UAID_089204DCF69B9B0002_1129942786:2:DLMD_World_P_IO_EchoLog_VH_UAID_CC96E51C04EAF84002_1255243734:2:DLMD_World_P_OakInteractiveObject_UAID_D843AE5FAC6A474102_1721424677:2:DLMD_World_P_PoAActor_UAID_025041000001410B02_1895474561:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001396302_1862208093:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001396302_1766700092:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001476302_2103696565:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001476302_1321554558:2:DLMD_World_P_IO_VaultSymbol_UAID_D843AE5FAC6A091E02_1225906766:2:DLMD_World_P_IO_ElectiSafe_UAID_D843AE5FAC6A163302_1924179233:2:DLMD_World_P_OakInteractiveObject_UAID_D843AE5FAC6AF44002_2088625027:2:DLMD_World_P_OakInteractiveObject_UAID_D843AE5FAC6AF54002_1819825206:2:DLMD_World_P_IO_VendingMachine_ResupplyStation_UAID_7C10C93FFF14EE4702_1454711399:2:DLMD_World_P_IO_VendingMachine_Munitions_UAID_7C10C93FFF14E34702_2135522424:2:DLMD_World_P_IO_VendingMachine_Health_UAID_7C10C93FFF14E44702_1077965602:2:DLMD_World_P_OakInteractiveObject_UAID_D843AE5FAC6AF54002_1674283205:2:DLMD_World_P_FastTravelStationObject_UAID_64D69A64CE76087A01_1202798410:2:DLMD_World_P_LevelTravelStationObject_UAID_2CF05D562853E93502_1134731494:2:DLMD_World_P_OakInteractiveObject_UAID_AC12039C9711FA4B02_1172859720:2:DLMD_World_P_IO_ElectiSafe_UAID_D843AE5FAC6A081E02_1171519586:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001476302_1333730560:2:DLMD_World_P_OakInteractiveObject_UAID_AC12039C9711FA4B02_1310495723:2:DLMD_World_P_OakInteractiveObject_UAID_AC12039C9711FA4B02_1118680719:2:DLMD_World_P_OakInteractiveObject_UAID_D843AE5FAC6AF44002_1260080026:2:DLMD_World_P_OakInteractiveObject_UAID_D843AE5FAC6AF64002_1122629383:2:DLMD_World_P_Lootable_GoldenChest_UAID_7C10C93FFF14F34702_1488387240:2:DLMD_World_P_OakInteractiveObject_UAID_D843AE5FAC6AF54002_1201981204:2:DLMD_World_P_OakInteractiveObject_UAID_AC12039C9711FA4B02_1112196718:2:DLMD_World_P_IO_ElectiSafe_UAID_D843AE5FAC6A345802_1359014577:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001356302_1926635371:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001366302_1139404548:2:DLMD_World_P_PoAActor_UAID_089204DCF7EFD0FA01_1541512767:2:DLMD_World_P_OakInteractiveObject_UAID_AC12039C9711FA4B02_1533579737:2:DLMD_World_P_PoAActor_UAID_089204DCF7EFF40F02_1177657411:2:DLMD_World_P_IO_Switch_Evocarium_UAID_089204DCF7EF9E0F02_1246238312:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001396302_1763420091:2:DLMD_World_P_IO_Switch_Evocarium_UAID_E04F43E6DB39273302_1118552218:2:DLMD_World_P_OakInteractiveObject_UAID_D843AE5FAC6AF64002_1371482384:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001396302_1755036088:2:DLMD_World_P_IO_VaultSymbol_UAID_D843AE5FAC6A9B5602_1904577617:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001396302_1760355090:2:DLMD_World_P_IO_EchoLog_VH_UAID_D843AE5FAC6AC44F02_1300922427:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001396302_1757768089:2:DLMD_World_P_PoAActor_UAID_089204DCF7EF120E02_2035944540:2:DLMD_World_P_OakInteractiveObject_UAID_AC12039C9711FA4B02_1559638738:2:DLMD_World_P_IO_VaultSymbol_UAID_089204DCF7EFA80F02_1108687189:2:DLMD_World_P_IO_PropagandaSpeaker_Ripper_UAID_D843AE5FAC6A483102_1585563086:2:DLMD_World_P_IO_Vault_Key_UAID_025041000001D30202_1708187748:2:DLMD_World_P_OakInteractiveObject_UAID_AC12039C9711FA4B02_1403081726:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001396302_1751567087:2:DLMD_World_P_IO_LostCapsule_CarryableDispenser_UAID_D843AE5FAC6A515202_1871129343:2:DLMD_World_P_IO_EchoLog_VH_UAID_D843AE5FAC6AC44F02_1267959422:2:DLMD_World_P_FastTravelStationObject_UAID_2CF05D1003644A6102_1381889951:2:DLMD_World_P_OakInteractiveObject_UAID_E04F43E60D83C70202_1344365639:2:DLMD_World_P_OakVendingMachine_UAID_CC96E51C03AE1D0C02_2107775279:2:DLMD_World_P_IO_VendingMachine_ResupplyStation_UAID_94F6D6F414DE723902_1498533760:2:DLMD_World_P_OakInteractiveObject_UAID_AC12039C9711FA4B02_1340139724:2:DLMD_World_P_PoAActor_UAID_0050568BFC4D67FF01_1298388568:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001476302_2093134562:2:DLMD_World_P_OakInteractiveObject_UAID_AC12039C9711FA4B02_1370802725:2:DLMD_World_P_IO_VendingMachine_ResupplyStation_UAID_2CF05D8C2CE9563A02_1108628888:2:DLMD_World_P_IO_VendingMachine_Health_UAID_2CF05D8C2CE9563A02_1105980886:2:DLMD_World_P_IO_BossReplay_UAID_54BF6467AEFC7C0002_1893237322:2:DLMD_World_P_IO_PropagandaSpeaker_UAID_D843AE5FAC6AFA1E02_1434224185:2:DLMD_World_P_IO_EchoLog_VH_UAID_D843AE5FAC6AC44F02_1296455426:2:DLMD_World_P_IO_Switch_Evocarium_UAID_D843AE5FAC6A551F02_1280900193:2:DLMD_World_P_PoAActor_UAID_34CFF6FF1DA56FD601_1995548687:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001476302_1324759559:2:DLMD_World_P_OakInteractiveObject_UAID_AC12039C9711FA4B02_1505284736:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001476302_1337161561:2:DLMD_World_P_PoAActor_UAID_D843AE5FAC6A141D02_1110247641:2:DLMD_World_P_IO_EchoLog_VH_UAID_D843AE5FAC6AC44F02_1271641423:2:DLMD_World_P_IO_ElectiSafe_UAID_D843AE5FAC6A081E02_1170401585:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001476302_2099496564:2:DLMD_World_P_IO_Vault_Key_UAID_025041000001D20202_1961069570:2:DLMD_World_P_OakInteractiveObject_UAID_AC12039C9711FA4B02_1429190729:2:DLMD_World_P_IO_ElectiSafe_UAID_CC96E51A1C62CD3702_2003623656:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001476302_2106707566:2:DLMD_World_P_IO_VendingMachine_Health_UAID_B04F130570D7236B02_1124922654:2:DLMD_World_P_IO_VendingMachine_Munitions_UAID_089204DCF776543502_1473933359:2:DLMD_World_P_IO_EchoLog_VH_UAID_D843AE5FAC6AC44F02_1263007421:2:DLMD_World_P_IO_VaultSymbol_UAID_D843AE5FAC6A6E5902_1890210879:2:DLMD_World_P_LevelTravelStationObject_UAID_64D69A64CE76297D01_2045164380:2:DLMD_World_P_FastTravelStationObject_UAID_64D69A64CE76077A01_1929442228:2:DLMD_World_P_IO_VendingMachine_ResupplyStation_UAID_089204DCF7761A0E02_1755071993:2:DLMD_World_P_IO_VendingMachine_Munitions_UAID_089204DCF7761A0E02_1755041992:2:DLMD_World_P_LevelTravelStationObject_UAID_025041000001617C02_1144379513:2:DLMD_World_P_LevelTravelStationObject_UAID_2CF05D100364712D02_1502694903:2:DLMD_Fortress_Shatteredlands_P_FastTravelStationObject_UAID_025041000001609501_1315293402:2:DLMD_Fortress_Shatteredlands_P_LevelTravelStationObject_UAID_025041000001609501_1620023403:2:DLMD_Fortress_Shatteredlands_P_OakVendingMachine_UAID_CC96E51C04EA764902_1705089365:2:DLMD_Fortress_Shatteredlands_P_OakVendingMachine_UAID_CC96E51C04EA764902_1705117366:2:DLMD_Fortress_Shatteredlands_P_IO_VaultSymbol_UAID_F8B54DF0012146FE01_1914621704:2:DLMD_Fortress_Shatteredlands_P_IO_VaultSymbol_UAID_F8B54DF00121EFF901_1272575184:2:DLMD_Fortress_Shatteredlands_P_FastTravelStationObject_UAID_047BCBA5A4B6F54602_1712971535:2:DLMD_Fortress_Shatteredlands_P_IO_VendingMachine_ResupplyStation_UAID_047BCBA5A4B6074A02_2141721898:2:DLMD_Fortress_Shatteredlands_P_OakVendingMachine_UAID_047BCBA5A5DE021F02_1797188587:2:DLMD_Fortress_Shatteredlands_P_IO_BossReplay_UAID_2CF05D5628534C5002_2142538407:2:DLMD_World_P_OakInteractiveObject_UAID_AC12039C9711FA4B02_1444847731:2:DLMD_World_P_PoAActor_UAID_D85ED3466C0336EF01_1395506047:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001366302_1167549551:2:DLMD_World_P_PoAActor_UAID_089204DCF7EFE7CD01_1497324333:2:DLMD_World_P_IO_EchoLog_VH_UAID_D843AE5FAC6AC44F02_1274835424:2:DLMD_World_P_PoAActor_UAID_025041000001EF1B02_1282385074:2:DLMD_World_P_IO_BossReplay_UAID_54BF6467AEFCD60002_1156551161:2:DLMD_World_P_PoAActor_UAID_089204DCF7EF92FA01_2135167885:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001396302_1746413085:2:DLMD_World_P_IO_ElectiSafe_UAID_AC12039C97111A4A02_1530287215:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001396302_1749107086:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001396302_1743424084:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001396302_1740256083:2:DLMD_World_P_IO_Switch_Evocarium_UAID_089204DCF7EF041E02_1319211880:2:DLMD_World_P_IO_VendingMachine_Legend_A_UAID_B04F1314BE4DBB2302_1288844368:2:DLMD_World_P_IO_LostCapsule_CarryableDispenser_UAID_D843AE5FAC6A515202_1924449344:2:DLMD_World_P_IO_Vault_Key_UAID_025041000001D20202_1437280568:2:DLMD_World_P_IO_EchoLog_VH_UAID_D843AE5FAC6AC44F02_1252597418:2:DLMD_World_P_PoAActor_UAID_089204DCF7EFDED901_1881139395:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001366302_1208432554:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001366302_1183570552:2:DLMD_World_P_OakInteractiveObject_UAID_AC12039C9711FA4B02_1437885730:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000018F2102_2070757520:2:DLMD_Vault_ShatteredLands_P_IO_Vault_Door_LevelTravel_UAID_047BCBA534EACC1C02_1110894968:2:DLMD_Vault_ShatteredLands_P_FastTravelStation_UAID_047BCBA534EA9D2A02_1907018480:2:DLMD_Vault_ShatteredLands_P_IO_Vault_Door_LevelTravel_UAID_047BCBA534EACB1C02_1156853810:2:DLMD_Vault_ShatteredLands_P_OakVendingMachine_UAID_047BCBA5A4CD6B0D02_1173001221:2:DLMD_Vault_ShatteredLands_P_OakVendingMachine_UAID_047BCBA5A4CD6A0D02_2054420044:2:DLMD_World_P_IO_TargetPracticeDummy_Static_UAID_025041000001C54902_1613658747:2:DLMD_World_P_IO_TargetPracticeDummy_Static_UAID_025041000001C54902_1694529751:2:DLMD_World_P_IO_TargetPracticeDummy_Static_UAID_CC96E5191F74366802_1965053823:2:DLMD_ElpisElevator_P_FastTravelStationObject_UAID_0250410000018ED801_1663079247:2:DLMD_ElpisElevator_P_LevelTravelStationObject_UAID_0250410000015F7C02_1530049160:2:DLMD_Elpis_P_FastTravelStationObject_UAID_E04F43E6DB33FBFD01_1267828511:2:DLMD_Elpis_P_LevelTravelStationObject_UAID_08BFB89AE7C8F26602_1817662799:2:DLMD_Elpis_P_IO_VendingMachine_Munitions_UAID_244BFE96422D521402_2118481146:2:DLMD_Elpis_P_IO_VendingMachine_Health_UAID_244BFE96422D521402_2109818144:2:DLMD_Elpis_P_IO_EchoLog_General_UAID_244BFE96422D7D3102_2030542243:2:DLMD_Elpis_P_IO_EchoLog_General_UAID_244BFE96422D7D3102_2035119245:2:DLMD_Elpis_P_IO_VaultSymbol_UAID_244BFE96422D5C0D02_1227550436:2:DLMD_Elpis_P_IO_Elpis_HangingThruster_UAID_E04F43E65D25E8F901_1750160819:2:DLMD_Elpis_P_IO_EchoLog_General_UAID_244BFE96422D7D3102_2033222244:2:DLMD_Elpis_P_IO_EchoLog_General_UAID_244BFE96422D7D3102_1671280240:2:DLMD_Elpis_P_IO_EchoLog_General_UAID_244BFE96422D7F3102_1297700602:2:DLMD_Elpis_P_IO_VaultSymbol_UAID_244BFE96422D5E0D02_1305627792:2:DLMD_Elpis_P_ResurrectTravelStationObject_UAID_E04F43E6DB33AB2F02_1850251223:2:DLMD_Elpis_P_LevelTravelStationObject_UAID_047C164D0C210D5602_1859613600:2:DLMD_Elpis_P_IO_EchoLog_General_UAID_244BFE96422D7D3102_2026799242:2:DLMD_Elpis_P_FinalRiftTravelStation_UAID_047BCBA5AA7F304E02_1654026314:2:DLMD_Elpis_P_LevelTravelStationObject_UAID_047C164D0C210D5602_2050343601:2:DLMD_Elpis_P_FastTravelStationObject_UAID_E04F43E6DB3302FE01_1914043744:2:DLMD_World_P_PoAActor_UAID_244BFE96422D75DF01_1582716244:2:DLMD_World_P_IO_EchoLog_Arjay_UAID_244BFE96422DD73102_1954339194:2:DLMD_World_P_FastTravelStationObject_UAID_E04F43E6DB3946D201_1271129239:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000017B6302_2008795691:2:DLMD_World_P_Lootable_GoldenChest_UAID_244BFE96422D564B02_1290402850:2:DLMD_World_P_IO_VaultSymbol_UAID_244BFE96422D9EED01_1845723300:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000017B6302_1996599690:2:DLMD_World_P_IO_Switch_Evocarium_UAID_244BFE96422D341502_1332765824:2:DLMD_World_P_PoAActor_UAID_244BFE96422D31D401_2101065829:2:DLMD_World_P_IO_EchoLog_VH_UAID_244BFE96422DCA4202_2092114753:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000017B6302_2027094693:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000017B6302_2018540692:2:DLMD_World_P_IO_EchoLog_VH_UAID_244BFE96422DCD4202_1901506285:2:DLMD_World_P_PoAActor_UAID_244BFE96422DA2F901_1897336641:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000017B6302_2035295694:2:DLMD_World_P_IO_EchoLog_General_UAID_E04F43E6DF41063502_1167924813:2:DLMD_World_P_IO_PropagandaSpeaker_Order_UAID_E04F43E6DF417A3702_2055516266:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000017B6302_2045889695:2:DLMD_World_P_IO_EchoLog_VH_UAID_E04F43E6DF41DB4202_1273349762:2:DLMD_World_P_IO_EchoLog_VH_UAID_E04F43E6DF41DB4202_2057540765:2:DLMD_World_P_IO_LostCapsule_CarryableDispenser_UAID_E04F43E6DF41E11A02_2036003553:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000017B6302_2053789696:2:DLMD_World_P_IO_EchoLog_Arjay_UAID_E04F43E6DF41F93402_2066017978:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000017B6302_2061469697:2:DLMD_World_P_FastTravelStationObject_UAID_244BFE96417DD12702_1521581463:2:DLMD_World_P_IO_VaultSymbol_UAID_E04F43E6DF41B31A02_1291019460:2:DLMD_World_P_IO_ElectiSafe_UAID_E04F43E6DF41B21A02_1478375279:2:DLMD_World_P_IO_EchoLog_General_UAID_E04F43E6DF41924202_1640837066:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000017E6302_1743938227:2:DLMD_World_P_PoAActor_UAID_244BFE96422D67FC01_1828107959:2:DLMD_World_P_FastTravelStationObject_UAID_047C164D0C215D4502_1408312727:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001836302_1093828112:2:DLMD_World_P_IO_EchoLog_Arjay_UAID_E04F43E63017583502_1092004727:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000017E6302_1788394231:2:DLMD_World_P_IO_EchoLog_General_UAID_E04F43E630174D3502_1923136488:2:DLMD_World_P_PoAActor_UAID_244BFE96422DC5FC01_1346905034:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000017E6302_1785046230:2:DLMD_World_P_IO_EchoLog_General_UAID_E04F43E630174C3502_1410363310:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001846302_1122558289:2:DLMD_World_P_IO_Switch_Evocarium_UAID_D843AE100841792302_1123948764:2:DLMD_World_P_IO_EchoLog_VH_UAID_D843AE100841E04202_1281849620:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000017E6302_1781740229:2:DLMD_World_P_IO_EchoLog_General_UAID_E04F43E630174D3502_1105878487:2:DLMD_World_P_IO_LostCapsule_CarryableDispenser_UAID_E04F43E63017481F02_1134502912:2:DLMD_World_P_IO_PropagandaSpeaker_UAID_D843AE100841142402_1268382073:2:DLMD_World_P_IO_VaultSymbol_UAID_D843AE100841C31902_1475901221:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000017E6302_1778673228:2:DLMD_World_P_IO_Switch_Evocarium_UAID_E04F43E6DF41B21A02_2054900282:2:DLMD_World_P_LevelTravelStation_UAID_E04F43E6DB331B8E01_1561982867:2:DLMD_UpperCity_P_LevelTravelStationObject_UAID_64D69A64CE768B8C01_2092729463:2:DLMD_UpperCity_P_FastTravelStationObject_UAID_047BCBA534EAC07002_2081382559:2:DLMD_UpperCity_P_IO_Vault_Door_LevelTravel_Order_UAID_E04F43E6DB33484B02_1773167372:2:DLMD_UpperCity_P_IO_Vault_Door_LevelTravel_Order_UAID_E04F43E6DB33494B02_1474192549:2:DLMD_UpperCity_P_IO_VendingMachine_Health_UAID_74563CB78D1FA15C02_1248111989:2:DLMD_UpperCity_P_FastTravelStationObject_UAID_E04F43E63017674902_2010716712:2:DLMD_UpperCity_P_IO_VendingMachine_ResupplyStation_UAID_74563CB78D1FA15C02_1248103988:2:DLMD_UpperCity_P_IO_BossReplay_UAID_74563CB78D1FA15C02_1362280990:2:DLMD_UpperCity_P_IO_EchoLog_General_UAID_D843AE100841313802_1150568256:2:DLMD_UpperCity_P_IO_VaultSymbol_UAID_E04F43E63017521F02_2066367666:2:DLMD_UpperCity_P_IO_VaultSymbol_UAID_E04F43E63017521F02_1669482664:2:DLMD_UpperCity_P_IO_EchoLog_General_UAID_D843AE100841333802_1767995609:2:DLMD_UpperCity_P_IO_VendingMachine_Health_UAID_047BCBA5A5DE55F801_1313608013:2:DLMD_UpperCity_P_IO_VendingMachine_ResupplyStation_UAID_047BCBA5A4B6094A02_1442164258:2:DLMD_UpperCity_P_IO_BossReplay_UAID_E04F43E6AE84A05002_1128500350:2:DLMD_UpperCity_P_FastTravelStationObject_UAID_047BCBA5A4B6F84602_1946814066:2:DLMD_UpperCity_P_IO_Vault_Door_LevelTravel_Order_UAID_047C164D0C21584B02_1565480184:2:DLMD_UpperCity_P_FinalRiftTravelStation_UAID_047BCBA5A4B6D32702_1979210829:2:DLMD_World_P_IO_BossReplay_UAID_54BF6467AEFCBE1802_1726729284:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000011D6002_1939848986:2:DLMD_World_P_IO_EchoLog_General_UAID_5811224CB6286F3902_1605574232:2:DLMD_World_P_PoAActor_UAID_5811224CB62835D501_1890737431:2:DLMD_World_P_IO_EchoLog_General_UAID_5811224CB628DA3702_2108088946:2:DLMD_World_P_IO_EchoLog_General_UAID_5811224CB6286D3902_1161572878:2:DLMD_World_P_IO_PropagandaSpeaker_UAID_04922658D4A7462002_1137862665:2:DLMD_World_P_IO_VendingMachine_BlackMarket_UAID_04922658D4A7803802_2075206105:2:DLMD_Vault_Grasslands_P_FastTravelStationObject_UAID_047BCBA5A4B6A54602_1723672456:2:DLMD_Vault_Grasslands_P_OakVendingMachine_UAID_047BCBA5A4CDAF0302_1242631464:2:DLMD_Vault_Grasslands_P_IO_VendingMachine_ResupplyStation_UAID_047BCBA5A4B6084A02_1840932076:2:DLMD_Vault_Grasslands_P_IO_BossReplay_UAID_E04F43E6AE84FD4F02_2091336463:2:DLMD_World_P_IO_VaultSymbol_UAID_CC96E5191F74B10E02_1272774502:2:DLMD_World_P_IO_VendingMachine_ResupplyStation_UAID_2CF05D8C2CE9C93902_1950598068:2:DLMD_World_P_IO_VendingMachine_Health_UAID_2CF05D8C2CE9C93902_1958980070:2:DLMD_World_P_IO_BossReplay_UAID_54BF6467AEFC530E02_1998308892:2:DLMD_World_P_IO_EchoLog_General_UAID_E04F43E630174B3502_1844855132:2:DLMD_World_P_IO_EchoLog_General_UAID_E04F43E630174C3502_1136474309:2:DLMD_World_P_IO_EchoLog_VH_UAID_D843AE100841DE4202_1664039266:2:DLMD_World_P_IO_ElectiSafe_UAID_D843AE1008417A2302_1482477948:2:DLMD_World_P_IO_VaultSymbol_UAID_D843AE100841C31902_1721912222:2:DLMD_World_P_IO_BossReplay_UAID_94F6D6F414DED05E02_1619776369:2:DLMD_World_P_IO_BossReplay_UAID_74563CB78D1F8D0002_1977063315:2:DLMD_World_P_IO_EchoLog_General_UAID_04922658D4A7133F02_1360223391:2:DLMD_World_P_IO_EchoLog_General_UAID_CC96E5191F749B3702_1887937064:2:DLMD_World_P_IO_EchoLog_VH_UAID_04922658D4A7E85C02_1825479479:2:DLMD_World_P_IO_EchoLog_VH_UAID_04922658D4A71C4902_1919126578:2:DLMD_World_P_IO_BossReplay_UAID_38D54710AFC03E0002_1714446409:2:DLMD_World_P_OakInteractiveObject_UAID_00D861C3A6AA7B2402_1523338173:2:DLMD_World_P_PoAActor_UAID_907841CAD86510F801_1664963883:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000012D6002_2119128810:2:DLMD_World_P_IO_EchoLog_VH_UAID_907841CAD865E34202_1292868224:2:DLMD_World_P_IO_VaultSymbol_UAID_14F6D87D5707AA5602_1239130321:2:DLMD_World_P_PoAActor_UAID_14F6D87D570760E101_1189134792:2:DLMD_World_P_IO_SurvivalistCache_UAID_08BFB89AE7C85E2402_1561455068:2:DLMD_World_P_OakInteractiveObject_UAID_907841CAD8657D0102_1585489597:2:DLMD_World_P_OakInteractiveObject_UAID_D843AE5FAC6A7B0102_1648938215:2:DLMD_Vault_ShatteredLands_P_FastTravelStationObject_UAID_047BCBA534EAE74602_1893266071:2:DLMD_Vault_ShatteredLands_P_OakVendingMachine_UAID_047BCBA5A4CD8A1102_2130303178:2:DLMD_Vault_ShatteredLands_P_IO_VendingMachine_ResupplyStation_UAID_047BCBA5A4B6094A02_1129515256:2:DLMD_Vault_ShatteredLands_P_IO_BossReplay_UAID_2CF05D562853AF4F02_1787837744:2:DLMD_Vault_Mountains_P_FastTravelStationObject_UAID_047BCBA534EAEE4602_1796459304:2:DLMD_Vault_Mountains_P_IO_VendingMachine_ResupplyStation_UAID_047BCBA5A4B6084A02_2068635078:2:DLMD_Vault_Mountains_P_IO_VendingMachine_Health_UAID_047BCBA5AA7F290B02_1889796331:2:DLMD_Vault_Mountains_P_IO_BossReplay_UAID_2CF05D562853D84D02_1287652858:2:DLMD_World_P_IO_BossReplay_UAID_54BF6467AEFC581402_1707512104:2:DLMD_World_P_IO_EchoLog_VH_UAID_04922658D4A7A41F02_1291057141:2:DLMD_World_P_IO_VaultSymbol_UAID_5811224CB628915602_2117152831:2:DLMD_World_P_IO_TranshumanistShrine_UAID_5811224CB6289C0F02_1236959798:2:DLMD_World_P_IO_EchoLog_General_UAID_5811224CB628DA3702_1919236945:2:DLMD_World_P_PoAActor_UAID_025041000001181202_1219939729:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000011E6002_1580590168:2:DLMD_World_P_IO_VaultSymbol_UAID_5811224CB628A90F02_1662915106:2:DLMD_World_P_IO_LostCapsule_CarryableDispenser_UAID_089204DCF7EF290002_2126087716:2:DLMD_World_P_IO_PropagandaSpeaker_Order_UAID_CC96E5191F74F44002_1943759025:2:DLMD_World_P_IO_Switch_Evocarium_UAID_089204DCF7EF3B0002_1396072888:2:DLMD_World_P_IO_EchoLog_General_UAID_CC96E5191F74EB5C02_1522269007:2:DLMD_World_P_IO_BossReplay_UAID_D85ED3466C03FFEE01_1901674368:2:DLMD_World_P_OakInteractiveObject_UAID_AC12039C9711FA4B02_1410213727:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001356302_1337662369:2:DLMD_World_P_IO_BossReplay_UAID_38D54710AFC0720102_1085973631:2:DLMD_World_P_IO_EchoLog_VH_UAID_D843AE5FAC6AC44F02_1243490416:2:DLMD_World_P_IO_VendingMachine_ResupplyStation_UAID_2CF05D8C2CE9CD3E02_1166262079:2:DLMD_World_P_IO_VendingMachine_Health_UAID_2CF05D8C2CE9CD3E02_1162664077:2:DLMD_World_P_IO_BossReplay_UAID_94F6D6F414DEAB3A02_1902783844:2:DLMD_World_P_IO_EchoLog_VH_UAID_D843AE5FAC6AC44F02_1255786419:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000017B6302_1986755689:2:DLMD_World_P_IO_EchoLog_General_UAID_244BFE96422DD43102_1803567557:2:DLMD_World_P_IO_EchoLog_General_UAID_244BFE96422DD43102_1801294556:2:DLMD_World_P_IO_PropagandaSpeaker_UAID_244BFE96422D5F0E02_1101318062:2:DLMD_World_P_IO_EchoLog_General_UAID_244BFE96422DD43102_1774773553:2:DLMD_World_P_IO_LostCapsule_CarryableDispenser_UAID_244BFE96422DF40F02_1688761286:2:DLMD_World_P_IO_BossReplay_UAID_244BFE96422D3AFF01_2066486654:2:DLMD_World_P_IO_EchoLog_General_UAID_E04F43E6DF41023502_1156876314:2:DLMD_World_P_IO_BossReplay_UAID_244BFE96422D31FF01_1907577065:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001476302_2096353563:2:DLMD_World_P_PoAActor_UAID_089204DCF485770E02_1192963223:2:DLMD_World_P_IO_EchoLog_VH_UAID_D843AE5FAC6AC44F02_1259437420:2:DLMD_World_P_PoAActor_UAID_025041000001550E02_1949761240:2:DLMD_World_P_IO_EchoLog_General_UAID_04922658D4A7123F02_1714952212:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000018E2102_1729712338:2:DLMD_World_P_IO_PropagandaSpeaker_Order_UAID_089204DCF632F83002_1992158832:2:DLMD_World_P_IO_EchoLog_General_UAID_089204DCF632CE1802_1183449098:2:DLMD_World_P_IO_EchoLog_VH_UAID_04922658D4A72F4902_1645049928:2:DLMD_World_P_PoAActor_UAID_04922658D4A7AFD701_1939292037:2:DLMD_World_P_IO_VaultSymbol_UAID_04922658D4A7FA5602_1776093313:2:DLMD_World_P_IO_LostCapsule_CarryableDispenser_UAID_089204DCF7EF55FE01_1730788389:2:DLMD_World_P_IO_PropagandaSpeaker_Order_UAID_907841CAD8656A3902_1886597344:2:DLMD_World_P_IO_VendingMachine_ResupplyStation_UAID_94F6D6F414DE0E3A02_1602261212:2:DLMD_World_P_IO_VendingMachine_Health_UAID_94F6D6F414DE0E3A02_1612325214:2:DLMD_World_P_IO_BossReplay_UAID_54BF6467AEFC1B0102_1273536307:2:DLMD_World_P_IO_SurvivalistCache_UAID_089204DCF632C91202_1119552880:2:DLMD_World_P_IO_EchoLog_General_UAID_04922658D4A7683302_2071671916:2:DLMD_World_P_IO_EchoLog_General_MissionDriven_UAID_047BCBA5391F100802_2082367761:2:DLMD_World_P_IO_EchoLog_General_UAID_E04F43E6DF41FD3402_1477430400:2:DLMD_World_P_IO_PropagandaSpeaker_UAID_E04F43E6DF41B22402_1438772842:2:DLMD_World_P_IO_EchoLog_General_MissionDriven_UAID_047BCBA5391FC40702_1482758404:2:DLMD_World_P_IO_EchoLog_General_MissionDriven_UAID_047BCBA5391FC40702_1766871406:2:DLMD_World_P_IO_EchoLog_General_UAID_E04F43E6DF41013502_1878002136:2:DLMD_World_P_IO_EchoLog_General_MissionDriven_UAID_047BCBA5391FC40702_2022809408:2:DLMD_World_P_IO_EchoLog_General_MissionDriven_UAID_047BCBA5391FC50702_1115405586:2:DLMD_World_P_FastTravelStation_UAID_E04F43E6DF415C4502_1132289554:2:DLMD_World_P_IO_EchoLog_General_MissionDriven_UAID_047BCBA534EAC32302_1750135777:2:DLMD_World_P_IO_EchoLog_General_MissionDriven_UAID_047BCBA5391FC10702_1658722874:2:DLMD_World_P_IO_EchoLog_General_MissionDriven_UAID_047BCBA5391FC10702_1216271870:2:DLMD_World_P_IO_EchoLog_General_MissionDriven_UAID_047BCBA5391FC00702_1915154692:2:DLMD_World_P_IO_EchoLog_General_MissionDriven_UAID_047BCBA5391FC10702_1500552872:2:DLMD_World_P_IO_BossReplay_UAID_2CF05D8C2CE9216402_1506167904:2:DLMD_World_P_IO_VendingMachine_ResupplyStation_UAID_2CF05D8C2CE9216402_1567288906:2:DLMD_World_P_IO_EchoLog_VH_UAID_244BFE96422DD14202_1252702981:2:DLMD_World_P_IO_VaultSymbol_UAID_244BFE96422D9EED01_2058210303:2:DLMD_World_P_IO_EchoLog_General_UAID_244BFE96422DD43102_1798428555:2:DLMD_World_P_IO_ElectiSafe_UAID_244BFE96422DF20F02_1246089928:2:DLMD_World_P_IO_EchoLog_General_UAID_244BFE96422DD43102_1808783559:2:DLMD_World_P_IO_EchoLog_General_UAID_244BFE96422DD43102_1806286558:2:DLMD_World_P_IO_EchoLog_General_MissionDriven_UAID_047BCBA5391FBA0702_2125726634:2:DLMD_World_P_IO_EchoLog_General_MissionDriven_UAID_047BCBA5391FB90702_1745951454:2:DLMD_World_P_IO_EchoLog_General_MissionDriven_UAID_047BCBA5391FBA0702_1797186632:2:DLMD_World_P_IO_EchoLog_General_UAID_244BFE96422DD43102_1795214554:2:DLMD_World_P_IO_EchoLog_VH_UAID_E04F43E6DF41DA4202_1962519584:2:DLMD_World_P_IO_VaultSymbol_UAID_E04F43E6DF41B31A02_1550165741:2:DLMD_World_P_IO_EchoLog_General_UAID_E04F43E63017523502_2063581633:2:DLMD_World_P_IO_EchoLog_General_UAID_E04F43E63017533502_1664668812:2:DLMD_World_P_IO_EchoLog_VH_UAID_D843AE100841DF4202_2052973443:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001296002_1441121090:2:DLMD_World_P_IO_EchoLog_VH_UAID_04922658D4A72F4902_1523276927:2:DLMD_World_P_IO_LostCapsule_CarryableDispenser_UAID_04922658D4A7951B02_1095753282:2:DLMD_World_P_IO_VaultSymbol_UAID_04922658D4A78C2602_1586721263:2:DLMD_World_P_IO_SurvivalistCache_UAID_04922658D4A7DB1802_1256140422:2:DLMD_World_P_IO_EchoLog_General_UAID_04922658D4A7941B02_1148736104:2:DLMD_World_P_IO_EchoLog_General_UAID_04922658D4A7163F02_1141560936:2:DLMD_World_P_IO_PropagandaSpeaker_UAID_04922658D4A7AD1F02_1799359776:2:DLMD_World_P_IO_EchoLog_General_UAID_04922658D4A7163F02_1675085937:2:DLMD_World_P_IO_EchoLog_General_UAID_04922658D4A71B3F02_1373757936:2:DLMD_World_P_IO_VendingMachine_ResupplyStation_UAID_907841CAD865CC1602_1992330674:2:DLMD_World_P_IO_VendingMachine_Health_UAID_907841CAD865CC1602_1966675672:2:DLMD_World_P_IO_Switch_Evocarium_UAID_14F6D87D5707C2FB01_1152322393:2:DLMD_World_P_IO_PointOfInterest_UAID_0250410000012A6002_1488461270:2:DLMD_World_P_IO_Switch_Evocarium_UAID_089204DCF632C20D02_2075117391:2:DLMD_World_P_IO_EchoLog_VH_UAID_04922658D4A72F4902_1847124930:2:DLMD_World_P_IO_EchoLog_Arjay_UAID_04922658D4A7AD3502_1266046911:2:DLMD_World_P_IO_VendingMachine_Health_UAID_04922658D4A7773802_1545689628:2:DLMD_World_P_IO_VendingMachine_Munitions_UAID_04922658D4A7773802_1577351630:2:DLMD_World_P_IO_SurvivalistCache_UAID_089204DCF632F30F02_1144926122:2:DLMD_World_P_IO_SurvivalistCache_UAID_08BFB89AE7C85D2402_1920057889:2:DLMD_World_P_IO_PropagandaSpeaker_UAID_04922658D4A7331602_1877125754:2:DLMD_World_P_IO_LostCapsule_CarryableDispenser_UAID_04922658D4A7A91F02_1548343061:2:DLMD_World_P_IO_LostCapsule_CarryableDispenser_UAID_04922658D4A7A91F02_2051294066:2:DLMD_World_P_IO_SurvivalistCache_UAID_04922658D4A7DEFC01_1147620344:2:DLMD_World_P_IO_BossReplay_UAID_04922658D4A79C2F02_1589462592:2:DLMD_World_P_IO_VendingMachine_ResupplyStation_UAID_94F6D6F414DEB73A02_1259672973:2:DLMD_World_P_IO_VendingMachine_Health_UAID_94F6D6F414DEB73A02_1247934971:2:DLMD_World_P_IO_LostCapsule_CarryableDispenser_UAID_089204DCF7EF52FE01_2058073849:2:DLMD_World_P_IO_VaultSymbol_UAID_2CF05D1003644D3502_1576228160:2:DLMD_World_P_IO_EchoLog_General_MissionDriven_UAID_047C1619B44AD36902_1123647515:2:DLMD_World_P_IO_EchoLog_General_MissionDriven_UAID_047C1619B44AD36902_1212568516:2:DLMD_World_P_IO_EchoLog_General_MissionDriven_UAID_047C1619B44A206A02_1093232064:2:DLMD_World_P_IO_EchoLog_VH_UAID_907841CAD865E14202_2097261870:2:DLMD_World_P_IO_EchoLog_VH_UAID_907841CAD865E34202_1190281223:2:DLMD_World_P_IO_TranshumanistShrine_UAID_5811224CB6289F0F02_1156164329:2:DLMD_World_P_IO_EchoLog_General_UAID_CC96E5191F749B3702_1915125065:2:DLMD_World_P_IO_TranshumanistShrine_UAID_5811224CB6289B0F02_1855888620:2:DLMD_World_P_IO_LostCapsule_CarryableDispenser_UAID_5811224CB628B20F02_1438797693:2:DLMD_World_P_IO_EchoLog_VH_UAID_CC96E5191F74BC2E02_1743265262:2:DLMD_World_P_IO_TranshumanistShrine_UAID_CC96E5191F74BD0E02_1578560548:2:DLMD_World_P_IO_Switch_Evocarium_UAID_CC96E5191F749A1602_1709825846:2:DLMD_World_P_IO_VendingMachine_Health_UAID_14F6D8463D76E75102_1887160702:2:DLMD_World_P_IO_VendingMachine_Munitions_UAID_14F6D8463D76E75102_1841598698:2:DLMD_World_P_IO_VendingMachine_Health_UAID_14F6D8463D76E75102_1435253695:2:DLMD_World_P_IO_VendingMachine_Munitions_UAID_14F6D8463D76E75102_1404551693:2:DLMD_World_P_IO_VaultSymbol_UAID_5811224CB6289E5602_1777930135:2:DLMD_World_P_IO_Switch_Evocarium_UAID_5811224CB628A40F02_1130635204:2:DLMD_World_P_IO_PropagandaSpeaker_UAID_CC96E5191F74A60F02_1561121601:2:DLMD_World_P_IO_EchoLog_General_UAID_CC96E5191F74C32E02_1436395506:2:DLMD_World_P_IO_TranshumanistShrine_UAID_5811224CB6289C0F02_1088885797:2:DLMD_World_P_IO_EchoLog_Arjay_UAID_5811224CB628B03902_1600656744:2:DLMD_World_P_IO_EchoLog_General_UAID_5811224CB628723902_1325599766:2:DLMD_World_P_IO_EchoLog_VH_UAID_CC96E5191F74C02E02_1344549973:2:DLMD_World_P_IO_VaultSymbol_UAID_CC96E5191F74D6EA01_1827325939:2:DLMD_World_P_IO_TranshumanistShrine_UAID_CC96E5191F74BC0E02_1836164368:2:DLMD_World_P_IO_EchoLog_General_UAID_5811224CB6286C3902_1830192701:2:DLMD_World_P_IO_VaultSymbol_UAID_5811224CB628925602_1924561008:2:DLMD_World_P_IO_EchoLog_General_UAID_5811224CB6286F3902_2065121233:2:DLMD_World_P_IO_EchoLog_General_UAID_CC96E5191F749C3702_1792222245:2:DLMD_World_P_IO_EchoLog_General_UAID_5811224CB628713902_1161514588:2:DLMD_World_P_IO_TranshumanistShrine_UAID_5811224CB628900F02_2046142680:2:DLMD_World_P_IO_EchoLog_VH_UAID_CC96E5191F74C02E02_1624802975:2:DLMD_World_P_IO_EchoLog_General_UAID_CC96E5191F74022F02_1841704606:2:DLMD_World_P_IO_EchoLog_General_UAID_5811224CB628703902_1358838410:2:DLMD_World_P_IO_PropagandaSpeaker_UAID_5811224CB628411F02_1707717699:2:DLMD_World_P_IO_EchoLog_General_UAID_5811224CB628AC3902_2018517033:2:DLMD_World_P_IO_EchoLog_General_UAID_CC96E5191F749C3702_1409703243:2:DLMD_World_P_IO_VendingMachine_BlackMarket_UAID_5811224CB628C33902_1115013008:2:DLMD_World_P_IO_ElectiSafe_UAID_089204DCF7EFA70F02_2141533011:2:DLMD_World_P_OakInteractiveObject_UAID_AC12039C9711FA4B02_1416019728:2:DLMD_World_P_IO_PropagandaSpeaker_UAID_D843AE5FAC6A0B1F02_2106219299:2:DLMD_World_P_IO_BossReplay_UAID_244BFE96422DB21D02_1287181538:2:DLMD_World_P_IO_VendingMachine_ResupplyStation_UAID_2CF05D8C2CE9BC3902_1339666787:2:DLMD_World_P_IO_VendingMachine_Health_UAID_244BFE96422D621D02_1664346386:2:DLMD_World_P_OakInteractiveObject_UAID_AC12039C9711FA4B02_1180777721:2:DLMD_World_P_IO_LostCapsule_CarryableDispenser_UAID_D843AE5FAC6A091E02_1690415769:2:DLMD_World_P_IO_VendingMachine_Legend_A_UAID_B04F1314BE4DB02402_1237989537:2:DLMD_World_P_IO_VendingMachine_Legend_A_UAID_B04F1314BE4DFD2502_1622221145:2:DLMD_World_P_OakInteractiveObject_UAID_B04F1314D41B846802_1594983551:2:DLMD_World_P_OakInteractiveObject_UAID_B04F1314D41B856802_2070834728:2:DLMD_World_P_OakInteractiveObject_UAID_B04F1314D41B866802_2083860906:2:DLMD_World_P_OakInteractiveObject_UAID_AC12039C9711FA4B02_1465858734:2:DLMD_World_P_OakInteractiveObject_UAID_B04F1314D41B866802_1572617905:2:DLMD_World_P_OakInteractiveObject_UAID_B04F1314D41B876802_1488884083:2:DLMD_World_P_OakInteractiveObject_UAID_AC12039C9711FA4B02_1480093735:2:DLMD_World_P_IO_PropagandaSpeaker_UAID_CC96E51C03AEBB1C02_1910446976:2:DLMD_World_P_OakInteractiveObject_UAID_E04F43E60D77881B02_1565726943:2:DLMD_World_P_IO_EchoLog_General_MissionDriven_UAID_025041000001F56102_1603629048:2:DLMD_World_P_IO_ElectiSafe_UAID_CC96E51A1C62913702_1934843096:2:DLMD_World_P_IO_EchoLog_VH_UAID_D843AE5FAC6AC44F02_1248593417:2:DLMD_World_P_IO_LostCapsule_CarryableDispenser_UAID_D843AE5FAC6A091E02_1821543771:2:DLMD_World_P_IO_VaultSymbol_UAID_D843AE5FAC6A091E02_1193566765:2:DLMD_World_P_IO_PropagandaSpeaker_UAID_D843AE5FAC6A581F02_1181134737:2:DLMD_World_P_IO_VendingMachine_Health_UAID_94F6D6F414DEAB3A02_1323243840:2:DLMD_World_P_IO_VendingMachine_ResupplyStation_UAID_94F6D6F414DEAB3A02_1332345842:2:DLMD_World_P_OakInteractiveObject_UAID_AC12039C9711FA4B02_1228844722:2:DLMD_World_P_IO_VaultSymbol_UAID_D843AE5FAC6A091E02_1413967767:2:DLMD_World_P_IO_LostCapsule_CarryableDispenser_UAID_D843AE5FAC6A091E02_1774941770:2:DLMD_World_P_IO_PropagandaSpeaker_UAID_089204DCF7EF851002_1250852836:2:DLMD_World_P_IO_VaultSymbol_UAID_089204DCF7EF7A1D02_2051375599:2:DLMD_World_P_IO_ElectiSafe_UAID_089204DCF7EFAD0F02_1342259076:2:DLMD_World_P_IO_ElectiSafe_UAID_D843AE5FAC6A183302_1383471586:2:DLMD_World_P_IO_VaultSymbol_UAID_D843AE5FAC6A6F5902_1725322057:2:DLMD_World_P_IO_PropagandaSpeaker_UAID_089204DCF7EF061E02_1495641245:2:DLMD_World_P_IO_VaultSymbol_UAID_D843AE5FAC6A6E5902_2123690880:2:DLMD_World_P_IO_EchoLog_General_MissionDriven_UAID_14F6D8463D76B16502_1288641315:2:DLMD_World_P_IO_VendingMachine_ResupplyStation_UAID_14F6D8463D76CA5E02_1752327312:2:DLMD_World_P_IO_TargetPracticeDummy_Static_UAID_14F6D8463D763C5302_1733253751:2:DLMD_World_P_IO_TargetPracticeDummy_Static_UAID_14F6D8463D763B5302_1995707555:2:DLMD_World_P_IO_TargetPracticeDummy_Static_UAID_14F6D8463D763C5302_1742623752:2:DLMD_Elpis_P_FinalRiftTravelStation_UAID_047BCBA5AA7F304E02_1954253316:2:DLMD_Elpis_P_IO_BossReplay_UAID_2CF05D562853555002_1865449048:2:DLMD_Elpis_P_IO_VendingMachine_Health_UAID_7486E200F5F0552502_1505594528:2:DLMD_Elpis_P_IO_VendingMachine_ResupplyStation_UAID_047BCBA5A4B6094A02_2091318260:2:DLMD_World_P_IO_VendingMachine_BlackMarket_UAID_907841CAD8658C3802_1702819276:2:DLMD_World_P_LevelTravelStationObject_UAID_CUSTOM_DLC_BP2:2:'
+    gbx_discovery_pc_shared: 
+      saveid: 0
+      fodsaveversion: 2
+      foddatas: 
+      - levelname: Intro_P
+        foddimensionx: 128
+        foddimensiony: 128
+        compressiontype: Zlib
+        foddata: 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
+      - levelname: World_P
+        foddimensionx: 128
+        foddimensiony: 128
+        compressiontype: Zlib
+        foddata: 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
+      - levelname: Fortress_Grasslands_P
+        foddimensionx: 128
+        foddimensiony: 128
+        compressiontype: Zlib
+        foddata: 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
+      - levelname: Vault_Grasslands_P
+        foddimensionx: 128
+        foddimensiony: 128
+        compressiontype: Zlib
+        foddata: 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
+      - levelname: Fortress_Mountains_P
+        foddimensionx: 128
+        foddimensiony: 128
+        compressiontype: Zlib
+        foddata: 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
+      - levelname: Vault_Mountains_P
+        foddimensionx: 128
+        foddimensiony: 128
+        compressiontype: Zlib
+        foddata: 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
+      - levelname: Fortress_Shatteredlands_P
+        foddimensionx: 128
+        foddimensiony: 128
+        compressiontype: Zlib
+        foddata: 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
+      - levelname: Vault_ShatteredLands_P
+        foddimensionx: 128
+        foddimensiony: 128
+        compressiontype: Zlib
+        foddata: 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
+      - levelname: ElpisElevator_P
+        foddimensionx: 128
+        foddimensiony: 128
+        compressiontype: Zlib
+        foddata: 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
+      - levelname: Elpis_P
+        foddimensionx: 128
+        foddimensiony: 128
+        compressiontype: Zlib
+        foddata: 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
+      - levelname: UpperCity_P
+        foddimensionx: 128
+        foddimensiony: 128
+        compressiontype: Zlib
+        foddata: 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
+      mapviewsavedata: 
+        hiddenfilters: 
+      non_hosted_dlblob: 'DLMD_World_P_LevelTravelStationObject_UAID_CUSTOM_DLC_BP2:1:DLMD_World_P_FastTravelStationObject_UAID_64D69A64CE76087A01_1645300414:2:DLMD_World_P_IO_EchoLog_General_UAID_5811224CB6286C3902_1218650699:2:DLMD_World_P_IO_FirmwareTransferMachine_UAID_CC96E5191F74A56C02_1684868610:2:DLMD_World_P_IO_PlayerBank_UAID_CC96E5191F746C6502_1495188169:2:DLMD_World_P_IO_TargetPracticeDummy_Static_UAID_0250410000018B4902_1157117057:2:DLMD_World_P_IO_TargetPracticeDummy_Static_UAID_5811224CB6282B4902_1824736333:2:DLMD_World_P_PoAActor_UAID_CC96E5191F743DD401_1223726776:1:DLMD_World_P_CarryableObjectContainer_UAID_08BFB89AE7C85D2802_1684482113:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_047C1619B44AA00302_1861225831:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_089204DCF7EF290002_1402034712:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_089204DCF7EF2B0002_1667303070:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_089204DCF7EF2D0002_1947412430:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_089204DCF7EF54FE01_1960602211:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_089204DCF7EFAD0F02_1616494078:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_089204DCF7EFC61D02_2081124994:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_08BFB89AE7C8082402_2027277924:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_08BFB89AE7C87C2302_1968194374:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_244BFE96422DF40F02_1726095288:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_5811224CB628B30F02_1893911891:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_5811224CB628B30F02_1955619892:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_D843AE5FAC6A091E02_1526421768:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_D843AE5FAC6ABC2302_1462881555:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_E04F43E63017481F02_1231511914:2:DLMD_World_P_IO_LostCapsule_DecryptStation_UAID_E04F43E6DF41E21A02_1097913731:2:DLMD_World_P_IO_PointOfInterest_UAID_025041000001206002_1142805543:1:DLMD_World_P_IO_PointOfInterest_UAID_025041000001206002_1289498545:1:DLMD_World_P_IO_PointOfInterest_UAID_025041000001206002_1560182547:2:'
+    progression_shared: 
+      graphs: 
+      - name: vaultpower_vaultreward_upgrades
+        group_def_name: ProgressGroup_DarkSiren
+        nodes: 
+        - name: Vault Power Upgrade 1 - Increased Regen Speed
+          is_activated: true
+        - name: Vault Power Upgrade 2 - Reduced Regen Delay
+          is_activated: true
+        - name: Vault Power Upgrade 3 - 50% Cost Reduction per Move
+          is_activated: true
+      - name: sdu_upgrades
+        group_def_name: Oak2_GlobalProgressGraph_Group
+        nodes: 
+        - name: Ammo_Pistol_01
+          points_spent: 5
+        - name: Ammo_Pistol_02
+          points_spent: 10
+        - name: Ammo_Pistol_03
+          points_spent: 20
+        - name: Ammo_Pistol_04
+          points_spent: 30
+        - name: Ammo_Pistol_05
+          points_spent: 50
+        - name: Ammo_Pistol_06
+          points_spent: 80
+        - name: Ammo_Pistol_07
+          points_spent: 120
+        - name: Ammo_SMG_01
+          points_spent: 5
+        - name: Ammo_SMG_02
+          points_spent: 10
+        - name: Ammo_SMG_03
+          points_spent: 20
+        - name: Ammo_SMG_04
+          points_spent: 30
+        - name: Ammo_SMG_05
+          points_spent: 50
+        - name: Ammo_SMG_06
+          points_spent: 80
+        - name: Ammo_SMG_07
+          points_spent: 120
+        - name: Ammo_AR_01
+          points_spent: 5
+        - name: Ammo_AR_02
+          points_spent: 10
+        - name: Ammo_AR_03
+          points_spent: 20
+        - name: Ammo_AR_04
+          points_spent: 30
+        - name: Ammo_AR_05
+          points_spent: 50
+        - name: Ammo_AR_06
+          points_spent: 80
+        - name: Ammo_AR_07
+          points_spent: 120
+        - name: Ammo_SG_01
+          points_spent: 5
+        - name: Ammo_SG_02
+          points_spent: 10
+        - name: Ammo_SG_03
+          points_spent: 20
+        - name: Ammo_SG_04
+          points_spent: 30
+        - name: Ammo_SG_05
+          points_spent: 50
+        - name: Ammo_SG_06
+          points_spent: 80
+        - name: Ammo_SG_07
+          points_spent: 120
+        - name: Ammo_SR_01
+          points_spent: 5
+        - name: Ammo_SR_02
+          points_spent: 10
+        - name: Ammo_SR_03
+          points_spent: 20
+        - name: Ammo_SR_04
+          points_spent: 30
+        - name: Ammo_SR_05
+          points_spent: 50
+        - name: Ammo_SR_06
+          points_spent: 80
+        - name: Ammo_SR_07
+          points_spent: 120
+        - name: Backpack_01
+          points_spent: 5
+        - name: Backpack_02
+          points_spent: 10
+        - name: Backpack_03
+          points_spent: 20
+        - name: Backpack_04
+          points_spent: 30
+        - name: Backpack_05
+          points_spent: 50
+        - name: Backpack_06
+          points_spent: 80
+        - name: Backpack_07
+          points_spent: 120
+        - name: Backpack_08
+          points_spent: 235
+        - name: Bank_01
+          points_spent: 5
+        - name: Bank_02
+          points_spent: 10
+        - name: Bank_03
+          points_spent: 20
+        - name: Bank_04
+          points_spent: 30
+        - name: Bank_05
+          points_spent: 50
+        - name: Bank_06
+          points_spent: 80
+        - name: Bank_07
+          points_spent: 120
+        - name: Bank_08
+          points_spent: 235
+        - name: Lost_Loot_01
+          points_spent: 5
+        - name: Lost_Loot_02
+          points_spent: 10
+        - name: Lost_Loot_03
+          points_spent: 20
+        - name: Lost_Loot_04
+          points_spent: 30
+        - name: Lost_Loot_05
+          points_spent: 50
+        - name: Lost_Loot_06
+          points_spent: 80
+        - name: Lost_Loot_07
+          points_spent: 120
+        - name: Lost_Loot_08
+          points_spent: 235
+      point_pools: 
+        echotokenprogresspoints: 3790
+echoprefs: 
+  path_visibility_duration: 1
+ui_screen_data: 
+  last_visited_status_menu_id: inventory
+audioprefs: 
+  volume_overall: 0.8
+  volume_sfx: 1.0
+  volume_music: 1.0
+  volume_dialog: 1.0
+  playinbackground: false
+  mutehitnotifies: false
+  claptrap_volume: 1.0
+  ui_trim: 0.0
+  player_weapons_trim: 0.0
+  explosions_trim: 0.0
+  outgoing_damage_trim: 0.0
+  incoming_damage_trim: 0.0
+  combat_voice_volume: 1.0
+  player_voice_volume: 1.0
+  player_efforts_trim: 0.0
+  player_callouts_trim: 0.0
+  player_idle_lines_trim: 0.0
+  menu_music_volume: 1.0
+  game_music_volume: 1.0
+  cinematic_music_volume: 1.0
+  boss_music_trim: 0.0
+  audio_preset: 0
+  force_mono: false
+  use_controller_speaker: false
+  eq_mode: 0
+  audio_language: Chinese(Simplified)
+deep_freeze_pips: 
+  pips_list_deep_freeze: !tags
+  - profile.DLC.Headhunter
+  - profile.DLC.premium
+  - profile.DLC.preorder
+  - profile.newgame.ultimatevaulthunter
+  - profile.DLC.Banjo
+oak.ui.news_data: 
+  news_data: 
+    latest_popup_article: 750
+save_game_header: 
+  guid: C20DF4DC4BA69542ACD506B26F1595BB
+  timestamp: 1775274440
+oak.ui.dlc_data: 
+  ui_dlc_data: 
+    vaultcard_purchases: !tags
+    - Unlockable_DarkSiren.Head21_Reindeeer
+    - Unlockable_ExoSoldier.Head21_Reindeeer
+    - Unlockable_Gravitar.Head21_Reindeeer
+    - Unlockable_Paladin.Head21_Reindeeer
+    - Unlockable_DarkSiren.Head26_Giftbox
+    - Unlockable_ExoSoldier.Head26_Giftbox
+    - Unlockable_Gravitar.Head26_Giftbox
+    - Unlockable_Paladin.Head26_Giftbox
+    - Unlockable_DarkSiren.Head27_Nutcracker
+    - Unlockable_ExoSoldier.Head27_Nutcracker
+    - Unlockable_Gravitar.Head27_Nutcracker
+    - Unlockable_Paladin.Head27_Nutcracker
+    - Unlockable_DarkSiren.Head28_Krampus
+    - Unlockable_ExoSoldier.Head28_Krampus
+    - Unlockable_Gravitar.Head28_Krampus
+    - Unlockable_Paladin.Head28_Krampus
+    - Unlockable_Echo4.Attachment14_SantaHat
+    - Unlockable_Echo4.Attachment15_NeonStar
+    - Unlockable_DarkSiren.Skin46_RipWrappings
+    - Unlockable_ExoSoldier.Skin46_RipWrappings
+    - Unlockable_Gravitar.Skin46_RipWrappings
+    - Unlockable_Paladin.Skin46_RipWrappings
+    - Unlockable_DarkSiren.Skin47_HangingLights
+    - Unlockable_ExoSoldier.Skin47_HangingLights
+    - Unlockable_Gravitar.Skin47_HangingLights
+    - Unlockable_Paladin.Skin47_HangingLights
+    - Unlockable_DarkSiren.Skin48_KrampusClaus
+    - Unlockable_ExoSoldier.Skin48_KrampusClaus
+    - Unlockable_Gravitar.Skin48_KrampusClaus
+    - Unlockable_Paladin.Skin48_KrampusClaus
+    - Unlockable_DarkSiren.Skin49_MidCentury
+    - Unlockable_ExoSoldier.Skin49_MidCentury
+    - Unlockable_Gravitar.Skin49_MidCentury
+    - Unlockable_Paladin.Skin49_MidCentury
+    - Unlockable_Weapons.Mat41_StarryNight
+    - Unlockable_Weapons.Mat42_UglyXmasSweater
+    - Unlockable_Weapons.Mat43_Snowfall
+    - Unlockable_Weapons.Mat44_GiftWrap
+    - Unlockable_Weapons.Mat45_Gingerbread
+    - Unlockable_Vehicles.Mat53_MissileToe
+    - Unlockable_Vehicles.Mat54_CandyCaned
+    - Unlockable_Vehicles.Mat55_ThatsWrap
+    - Unlockable_Vehicles.Mat56_KrampStyle
+    - Unlockable_Vehicles.Mat57_FrostyReception
+    - Unlockable_Echo4.Skin46_RipWrappings
+    - Unlockable_Echo4.Skin47_HangingLights
+    - Unlockable_Echo4.Skin48_KrampusClaus
+    - Unlockable_Echo4.Skin49_MidCentury
+pips: 
