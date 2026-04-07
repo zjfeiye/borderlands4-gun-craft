@@ -35,6 +35,9 @@ state:
         slot_6: 
           serial: '@Uge98>m/%P$!nvCgO4R#uf(BKnLrv<JfhI&`BvB3nO^C=yqB#bd5Rs8YeGD`qA/r`z8E8U8MiTun(1eJLB#LFA2@x4d6vIFhA~KRFkAWscWF%2415Jp?NTT=A<dR&HOKM3isU^4sm*5gyf=h4-F2N<Z1ef3vT!Kq*2`<4UxCEEr5?r!NcF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucU9wAd$u8L?yJVN_l3lV(cF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucU9wAd$u8L?yJVN_l3lV(cF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucU9wAd$u8L?yJVN_l3lV(cF8W;C9x!y#1dViOLR#zi6+q`n#dAaB1>e+Ex9GP<d)o$TXIWo$t}4hx8#=Gl3Q/1ZpkgVCAZ/3*b-Y}OKiz3nI*Gime3MfLQ7}~Eukf}gqF/}T0%=`2`!-/w1k$>5?Vq_XbCN$CA5T=&=N(pqj7O@adB~RadB};Nl8gbNl8gbNr@pbB!<M07!pHbNDPS~F(ih>kQfp}Vn_^$Au%L/#E=*gLt;n_i6Jp0hQyE<5<_B042dBzB!<M07!pHbNDPS~F(ih>kQfp}Vn_^$Au%L/#E=*gLt;n_i6Jp0hQyE<5<_B042dBzB!<M07!pHbNDPS~F(ih>kQfp}Vn_^$Au%L/#E=*gLt;n_i6Jp0hQyE<5<_B042dBzB!<L5@eDL3h(;P3l*<sIH--oR'
           state_flags: 33
+        slot_7: 
+          serial: '@UgxFw!35E/MoVzKZxTr!MDp7AyVNsuIi<*PVgF1yuh029Ghl+=~hZ<<+2py>-b_9>;5k6=RV?ozgP#98z$}pfZgak$DKxqgG8bdqK^b-_^o1i<~1ON'
+          state_flags: 1
     equipped_inventory: 
       equipped: 
     equip_slots_unlocked: 
