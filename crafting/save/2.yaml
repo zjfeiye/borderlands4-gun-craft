@@ -1,7 +1,7 @@
 state: 
-  char_guid: 1B7DE41440EC6D683B387086F8480001
-  class: Char_DarkSiren
-  char_name: 维克斯
+  char_guid: 1B7DE41440EC6D683B387086F8480002
+  class: Char_Paladin
+  char_name: 亚蒙
   player_difficulty: Easy
   true_mode: false
   experience: 
@@ -14,150 +14,8 @@ state:
   inventory: 
     items: 
       backpack: 
-        slot_0: 
-          serial: '@UgxFw!35E/MoVzKZxTr!MDp7AyVNsuIi<*PVgF1yuh029Ghl+=~hX4'
-          flags: 1
-          state_flags: 3
-        slot_1: 
-          serial: '@UgfIh4Fnkc<+)W7$s!)eYR6W!_R6o=/R7ljP+Mw#7?x0p700'
-          flags: 1
-          state_flags: 3
-        slot_2: 
-          serial: '@UgggUGFnkc<+)WAHMAbwk>QIHshl+=qhpLC#)SyP8N}*n%S/R`'
-          flags: 1
-          state_flags: 3
-        slot_3: 
-          serial: '@Ugd_t@Fnkc<+)W9sMHT8$iHeD8i+YEOhnk0ai<*N9g&Kv5h1!Jx'
-          flags: 1
-          state_flags: 3
-        slot_4: 
-          serial: '@Uge8#%m/*xI!nvCgdQ_p#M{`Z8p+TLGhL#in'
-          flags: 1
-          state_flags: 3
-        slot_5: 
-          serial: '@Ugr$)Nm/*xI!nvCgnpC9LN0URU$RFV(1po'
-          flags: 1
-          state_flags: 3
-        slot_6: 
-          serial: '@Ug!pHG35E/MoVzKZbEr?HFsPFTRpOvV9#ja0dY@`%P_?5e$sx1='
-          flags: 1
-          state_flags: 3
-        slot_7: 
-          serial: '@Uge8^+m/*xI!nvCgnpC9PR/gb7niv8DwXXs'
-          flags: 1
-          state_flags: 3
-        slot_8: 
-          serial: '@Uge98>m/*xI!nvCgO4R#uf(BKnLrv<JfhI&`BvB3nO^C=yqB#bd5Rs8YeGD`qA/r`z8E8U8MiTun(1eJLB#LFA2@x4d6vIFhA~KRFkAWscWF%2415Jp?NTT=A<dR&HOKM3isU^4sm*5gyf=h4-F2N<Z1ef3vT!Kq*2`<4UxCEEr5?r!NcF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucU9wAd$u8L?yJVN_l3lV(cF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucU9wAd$u8L?yJVN_l3lV(cF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucU9wAd$u8L?yJVN_l3lV(cF8W;C9x!y#1dViOLR#zi6+q`n#dAaB1>e+Ex9GP<d)o$TXIWo$t}4hx8#=Gl3Q/1ZpkgVCAZ/3*b-Y}OKiz3nI*Gime3MfLQ7}~Eukf}gqF/}T0%=`2`!-/w1k$>5?Vq_XbCN$CA5T=&=N(pqj7O@adB~RadB};Nl8gbNl8gbNr@pbB!<M07!pHbNDPS~F(ih>kQfp}Vn_^$Au%L/#E=*gLt;n_i6Jp0hQyE<5<_B042dBzB!<M07!pHbNDPS~F(ih>kQfp}Vn_^$Au%L/#E=*gLt;n_i6Jp0hQyE<5<_B042dBzB!<M07!pHbNDPS~F(ih>kQfp}Vn_^$Au%L/#E=*gLt;n_i6Jp0hQyE<5<_B042dBzB!<L5@eDL3h(;P3l*<sIH--oR'
-          flags: 1
-        slot_9: 
-          serial: '@Uge98>m/*xI!nvCgO4R#uf(BKnLrv<JfhI&`BvB3nO^C=yqB#bd5Rs8YeGD`qA/r`z8E8U8MiTun(1eJLB#LFA2@x4d6vIFhA~KRFkAWscWF%2415Jp?NTT=A<dR&HOKM3isU^4sm*5gyf=h4-F2N<Z1ef3vT!Kq*2`<4UxCEEr5?r!NcF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucU9wAd$u8L?yJVN_l3lV(cF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucU9wAd$u8L?yJVN_l3lV(cF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucU9wAd$u8L?yJVN_l3lV(cF8W;C9x!y#1dViOLR#zi6+q`n#dAaB1>e+Ex9GP<d)o$TXIWo$t}4hx8#=Gl3Q/1ZpkgVCAZ/3*b-Y}OKiz3nI*Gime3MfLQ7}~Eukf}gqF/}T0%=`2`!-/w1k$>5?Vq_XbCN$CA5T=&=N(pqj7O@adB~RadB};Nl8gbNl8gbNr@pbB!<M07!pHbNDPS~F(ih>kQfp}Vn_^$Au%L/#E=*gLt;n_i6Jp0hQyE<5<_B042dBzB!<M07!pHbNDPS~F(ih>kQfp}Vn_^$Au%L/#E=*gLt;n_i6Jp0hQyE<5<_B042dBzB!<M07!pHbNDPS~F(ih>kQfp}Vn_^$Au%L/#E=*gLt;n_i6Jp0hQyE<5<_B042dBzB!<L5@eDL3h(;P3l*<sIH--oR'
-          state_flags: 1
-        slot_10: 
-          serial: '@UgxFw!35E/MoVzKZxTr!MDp7AyVNsuIi<*PVgF1yuh029Ghl+=~hZ<<+2py>-b_9>;5kBZ1>K^JI>K^JI>K^JI>K^JI>K^JI>K^JI>K^JI>K^JI>K^JI>K<wiV?ozgP#98z%0LqW2}S8ZX$T1#Lp#v)6BLJ=pgY_I00'
-          state_flags: 1
-        slot_11: 
-          serial: '@UgeU_{Fnkc<+)W9EMHMPhjT$c04/Ni?67>?*sX3@ns8Og`sB@^H4FC'
-          state_flags: 17
-        slot_12: 
-          serial: '@UgeU_{Fnkc<+)W9EMHMPhjT$P{4/Ni?67>?*sX3@ns8Og`sB@^H4gd'
-          state_flags: 17
-        slot_13: 
-          serial: '@UgeU_{Fnkc<+)W9EMHMPhjT$=C4/Ni?67>?*sX3@ns8Og`sB@^{0R'
-          state_flags: 17
-        slot_14: 
-          serial: '@Ugr$xKm/*xI!nvCgdQ_p#M{`Z8p+TLGhL#8b'
-          state_flags: 17
-        slot_15: 
-          serial: '@Ugr$WBm/*xI!nvCgdeorSM{`52NF}j^(pLZ'
-          state_flags: 17
-        slot_16: 
-          serial: '@Ug!pHG35E/MoVzKZbEr?HFsPFTRpOvV9#ja0dY@`%P_?5eVYvnX'
-          state_flags: 17
-        slot_17: 
-          serial: '@Uge8^+m/*xI!nvCgnpC9PR/gb7niv8DwQnQ<'
-          state_flags: 17
-        slot_18: 
-          serial: '@Uge8^+m/*xI!nvCgnpC9PR/gb7niyiJeIo$'
-          state_flags: 17
-        slot_19: 
-          serial: '@Uge8Usm/*xI!nvCgder-Nf(rFM8YrS$CJKH4'
-          state_flags: 17
-        slot_20: 
-          serial: '@UgeU_{Fnkc<+)W9EMHMPhjT$o44/Ni?67>?*sX3@ns8Og`sB@@+29DqnJ;Dc_M4d#PM4d#PM4d#PM4d#PM4d#PM4d#PM4d#PM4d#PM4d#PM4d#XM6E=vM6E=vM6E>4VJzqx3kpL@P#I`KAfYH7C=DS&V`vAOeuCm~6Lg2000'
-          state_flags: 17
-        slot_21: 
-          serial: '@Ugv4Ng35E/MoVzKZv#4~aLnW##svhbdDj(`oZ%}<ue^9GXyAS'
-          state_flags: 33
-        slot_22: 
-          serial: '@Ugv4Ng35E/MoVzKZo~U%FLnUe_svhbdDj(`oZBTVkcTlTPyAS'
-          state_flags: 33
-        slot_23: 
-          serial: '@Ugv4Ng35E/MoVzKZL8U_-Dp5m*+M)WP{-HvmMxr{k2DJ*c3jq'
-          state_flags: 33
-        slot_24: 
-          serial: '@Ugr$xKm/*xI!nvCgdQ_p#M{`Z8p+TLGrj`@{'
-          state_flags: 33
-        slot_25: 
-          serial: '@Ugr$WBm/*xI!nvCgdeorSM{`52NF}j^(zgH'
-          state_flags: 33
-        slot_26: 
-          serial: '@Ug!pHG35E/MoVzKZJPLJ3p-vc7NrM`3P$3WM/3U3S<wDhtCW_DyUjP'
-          state_flags: 33
-        slot_27: 
-          serial: '@Uge9B?m/*xI!nvCgnpC9PR/gb7niE6qO9KD'
-          state_flags: 33
-        slot_28: 
-          serial: '@Uge92<m/*xI!nvCgnpC9P*9NpZniodxO9KD'
-          state_flags: 33
-        slot_29: 
-          serial: '@Ugr$-Om/*xI!nvCgid3T7N25c0NDrX_00'
-          state_flags: 33
-        slot_30: 
-          serial: '@Ugr$!Lm/*xI!nvCgx>TmxM`J^LNDrX_00'
-          state_flags: 33
-        slot_31: 
-          serial: '@Ugr%1Tm/*xI!nvCgder-Nf(G?Inq8t-vI-3V'
-          state_flags: 33
-        slot_32: 
-          serial: '@UgxFw!35E/MoVzKZxTr!MDp7AyVNsuIi<*PVgF1yuh029Ghl+=~hZ<<+2py>-b_9>;5kBZ1>K^JI>K^JI>K^JI>K^JI>K^JI>K^JI>K^JI>K^JI>K^JI>K<wiV?ozgP#98z%0LqW2}S8ZX$T1#Lp#v)6BLJ=pgY_I00'
-          state_flags: 33
     equipped_inventory: 
       equipped: 
-        slot_0: 
-        - serial: '@UgxFw!35E/MoVzKZxTr!MDp7AyVNsuIi<*PVgF1yuh029Ghl+=~hX4'
-          flags: 1
-          state_flags: 3
-        slot_1: 
-        - serial: '@UgfIh4Fnkc<+)W7$s!)eYR6W!_R6o=/R7ljP+Mw#7?x0p700'
-          flags: 1
-          state_flags: 3
-        slot_2: 
-        - serial: '@UgggUGFnkc<+)WAHMAbwk>QIHshl+=qhpLC#)SyP8N}*n%S/R`'
-          flags: 1
-          state_flags: 3
-        slot_3: 
-        - serial: '@Ugd_t@Fnkc<+)W9sMHT8$iHeD8i+YEOhnk0ai<*N9g&Kv5h1!Jx'
-          flags: 1
-          state_flags: 3
-        slot_6: 
-        - serial: '@Uge8#%m/*xI!nvCgdQ_p#M{`Z8p+TLGhL#in'
-          flags: 1
-          state_flags: 3
-        slot_5: 
-        - serial: '@Ugr$)Nm/*xI!nvCgnpC9LN0URU$RFV(1po'
-          flags: 1
-          state_flags: 3
-        slot_8: 
-        - serial: '@Ug!pHG35E/MoVzKZbEr?HFsPFTRpOvV9#ja0dY@`%P_?5e$sx1='
-          flags: 1
-          state_flags: 3
-        slot_4: 
-        - serial: '@Uge8^+m/*xI!nvCgnpC9PR/gb7niv8DwXXs'
-          flags: 1
-          state_flags: 3
-        slot_7: 
-        - serial: '@Uge98>m/*xI!nvCgO4R#uf(BKnLrv<JfhI&`BvB3nO^C=yqB#bd5Rs8YeGD`qA/r`z8E8U8MiTun(1eJLB#LFA2@x4d6vIFhA~KRFkAWscWF%2415Jp?NTT=A<dR&HOKM3isU^4sm*5gyf=h4-F2N<Z1ef3vT!Kq*2`<4UxCEEr5?r!NcF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucU9wAd$u8L?yJVN_l3lV(cF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucU9wAd$u8L?yJVN_l3lV(cF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucU9wAd$u8L?yJVN_l3lV(cF8W;C9x!y#1dViOLR#zi6+q`n#dAaB1>e+Ex9GP<d)o$TXIWo$t}4hx8#=Gl3Q/1ZpkgVCAZ/3*b-Y}OKiz3nI*Gime3MfLQ7}~Eukf}gqF/}T0%=`2`!-/w1k$>5?Vq_XbCN$CA5T=&=N(pqj7O@adB~RadB};Nl8gbNl8gbNr@pbB!<M07!pHbNDPS~F(ih>kQfp}Vn_^$Au%L/#E=*gLt;n_i6Jp0hQyE<5<_B042dBzB!<M07!pHbNDPS~F(ih>kQfp}Vn_^$Au%L/#E=*gLt;n_i6Jp0hQyE<5<_B042dBzB!<M07!pHbNDPS~F(ih>kQfp}Vn_^$Au%L/#E=*gLt;n_i6Jp0hQyE<5<_B042dBzB!<L5@eDL3h(;P3l*<sIH--oR'
-          flags: 1
     equip_slots_unlocked: 
     - 2
     - 3
@@ -187,8 +45,8 @@ state:
     character: 'gap,Cosmetics_DarkSiren_Body[Cosmetics_DarkSiren_Body00_Default],Cosmetics_DarkSiren_Head[Cosmetics_DarkSiren_Head00_Default],Cosmetics_DarkSiren_Skin[Cosmetics_DarkSiren_SkinFilter00_Default],Cosmetics_Colorization_Primary[Cosmetics_Colorization_Primary_1],Cosmetics_Colorization_Secondary[Cosmetics_Colorization_Secondary_45],Cosmetics_Colorization_Tertiary[Cosmetics_Colorization_Tertiary_31]'
     echo4: 'gap,Cosmetics_Echo4_Attachment[Cosmetics_Echo4_Attachment10_Crown],cosmetics_echo4_body[Cosmetics_Echo4_Body03_Ripper],Cosmetics_Echo4_Skin[Cosmetics_Echo4_Skin00_Default]'
     vehicle: 'gap,Cosmetics_Vehicle[Cosmetics_Vehicle_Mat00_DefaultFilter]'
-  total_playtime: 320729.15625
-  last_played_timestamp: 1775909856
+  total_playtime: 320740.40625
+  last_played_timestamp: 1775909912
   first_timestamp: 
   unique_rewards: 
   - pgraph.sdu_upgrades.RepKit_Slot
@@ -2055,92 +1913,14 @@ oak.ui.progression_data:
     dont_ask_again_respec_node: false
 save_game_header: 
   guid: 97576BC74DD4277AC91AB2930D2EFCDC
-  timestamp: 1775909856
+  timestamp: 1775909912
 progression: 
   graphs: 
-  - name: Progress_DarkSiren_ActionSkills
-    group_def_name: ProgressGroup_DarkSiren
+  - name: Progress_Paladin_ActionSkills
+    group_def_name: ProgressGroup_Paladin
     nodes: 
-    - name: Phase Avatar
+    - name: Forgefist
       is_activated: true
-  - name: Progress_DarkSiren_ActionSkill_Modifiers_PhaseAvatar
-    group_def_name: ProgressGroup_DarkSiren
-    nodes: 
-    - name: Phase Reap
-      is_activated: true
-    - name: Vibe Check
-      is_activated: true
-  - name: Progress_DS_Trunk_Domination
-    group_def_name: ProgressGroup_DarkSiren
-    nodes: 
-    - name: Phase Plating
-      points_spent: 3
-  - name: Progress_DS_Trunk_Death
-    group_def_name: ProgressGroup_DarkSiren
-    nodes: 
-    - name: Draining Attunement
-      points_spent: 5
-    - name: Grave Sights
-      points_spent: 5
-    - name: Bleed
-      points_spent: 5
-    - name: Infused Bullets
-      points_spent: 5
-    - name: Kinetic Influence
-      points_spent: 5
-    - name: Grave Power
-      points_spent: 3
-    - name: Target Prescience
-      points_spent: 4
-  - name: Progress_DS_Branch_Death_02
-    group_def_name: ProgressGroup_DarkSiren
-    nodes: 
-    - name: Wombo Combo
-      points_spent: 5
-    - name: Extra
-      points_spent: 5
-    - name: Spirited Away
-      points_spent: 1
-  - name: Progress_DS_Branch_Death_03
-    group_def_name: ProgressGroup_DarkSiren
-    nodes: 
-    - name: Enlightenment
-      points_spent: 5
-    - name: Draining Essence
-      points_spent: 5
-    - name: Blood Is Power
-      points_spent: 3
-  - name: ProgressGraph_Specializations
-    group_def_name: ProgressGroup_DarkSiren
-    nodes: 
-    - name: Survivor
-      points_spent: 100
-    - name: Artificer
-      points_spent: 100
-    - name: Enforcer
-      points_spent: 100
-    - name: Slayer
-      points_spent: 100
-    - name: HUNTER
-      points_spent: 100
-    - name: Adventurer
-      points_spent: 100
-    - name: Wanderer
-      points_spent: 100
-  - name: ProgressGraph_Specializations_Skills
-    group_def_name: ProgressGroup_DarkSiren
-    nodes: 
-    - name: ST_1_Skill_3
-      is_activated: true
-      activation_level: 1
-    - name: ST_2_Skill_1
-      is_activated: true
-      activation_level: 2
-    - name: ST_4_Skill_1
-      is_activated: true
-    - name: ST_6_Skill_1
-      is_activated: true
-      activation_level: 3
   point_pools: 
     characterprogresspoints: 59
     specializationtokenpool: 700
