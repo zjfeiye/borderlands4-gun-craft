@@ -44,6 +44,24 @@ state:
         slot_9: 
           serial: '@Ugr$)Nm/*xI!nvCgnpC9LN5ey?2qfVo1po'
           state_flags: 33
+        slot_10: 
+          serial: '@Ugr$)Nm/*xI!nvCgnpC9LM{`4<h#lD^1po'
+          state_flags: 65
+        slot_11: 
+          serial: '@Ugr$)Nm/*xI!nvCgnpC9LM}tG4h#lD^1po'
+          state_flags: 65
+        slot_12: 
+          serial: '@Ugr$)Nm/*xI!nvCgnpC9LN0URKh#lD^1po'
+          state_flags: 65
+        slot_13: 
+          serial: '@Ugr$)Nm/*xI!nvCgnpC9LN25cah#lD^1po'
+          state_flags: 65
+        slot_14: 
+          serial: '@Ugr$)Nm/*xI!nvCgnpC9LN3%nqh#lD^1po'
+          state_flags: 65
+        slot_15: 
+          serial: '@Ugr$)Nm/*xI!nvCgnpC9LN5ey)h#lD^1po'
+          state_flags: 65
     equipped_inventory: 
       equipped: 
     equip_slots_unlocked: 
