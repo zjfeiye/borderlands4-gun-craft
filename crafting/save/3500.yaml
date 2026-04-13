@@ -38,6 +38,9 @@ state:
         slot_7: 
           serial: '@Ugr$-Om/*xI!nvCgs#K!dR/gb7niv8D4XS+=00'
           state_flags: 65
+        slot_8: 
+          serial: '@Ugr$!Lm/*xI!nvCgx>Tmx*9O!+8XwXFwJ!/-'
+          state_flags: 65
     equipped_inventory: 
       equipped: 
     equip_slots_unlocked: 
