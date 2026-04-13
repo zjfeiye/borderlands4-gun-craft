@@ -44,6 +44,21 @@ state:
         slot_9: 
           serial: '@Ugw$Yw35E/MoVzKZv8X~Ns!>CS!lG89UZP^6#-Q$?N}*1nYN66000'
           state_flags: 33
+        slot_10: 
+          serial: '@Ugw$Yw35E/MoVzKZv8X~Ns!>CQ!lG89UZP^6#-Q$?N}*1nZlS`V+93b'
+          state_flags: 65
+        slot_11: 
+          serial: '@Ugw$Yw35E/MoVzKZv8X~Ns!_v*!lG89UZP^6#-Q$?N}*1nZlS`V+93b'
+          state_flags: 65
+        slot_12: 
+          serial: '@Ugw$Yw35E/MoVzKZv8X~Ns!>CR!lG89UZP^6#-Q$?N}*1nZlS`V+93b'
+          state_flags: 65
+        slot_13: 
+          serial: '@Ugw$Yw35E/MoVzKZv8X~Ns!_v+!lG89UZP^6#-Q$?N}*1nZlS`V+93b'
+          state_flags: 65
+        slot_14: 
+          serial: '@Ugw$Yw35E/MoVzKZv8X~Ns!>CS!lG89UZP^6#-Q$?N}*1nZlS`V+93b'
+          state_flags: 65
     equipped_inventory: 
       equipped: 
     equip_slots_unlocked: 
