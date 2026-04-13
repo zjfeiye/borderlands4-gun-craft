@@ -1,12 +1,6 @@
 # 无主之地4：拼好枪！ - **Borderlands 4: Gun 'n' Done!**
 
-## 物品序列号编解码器 - Item Serial Codec
-
-- 它是一个桌面离线版本，并支持批量转换 - It is a desktop offline version and supports batch conversion.
-- 它仅为研究物品编码而生，并不打算支持更多的存档编辑功能 - This tool is designed specifically for researching item serials, with no plans to support additional save editing features.
-- 它的灵感来自于[borderlands4-serials](https://github.com/Nicnl/borderlands4-serials) - It was inspired by [borderlands4-serials](https://github.com/Nicnl/borderlands4-serials).
-
-## 拼好枪 - Gun 'n' Done!
+## 一、拼好枪 - Gun 'n' Done!
 
 ### 1、代达罗斯
 
@@ -169,6 +163,9 @@
 - [C400 - 模组通用词条](crafting/C400%20-%20模组通用词条.md)
 - [C410 - 魔女](crafting/C410%20-%20魔女.md)
 - [C420 - 锻造骑士](crafting/C420%20-%20锻造骑士.md)
+- [C430 - 重力法师](crafting/C430%20-%20重力法师.md)
+- [C440 - 铁骨战士](crafting/C440%20-%20铁骨战士.md)
+- [C450 - 侠盗](crafting/C450%20-%20侠盗.md)
 
 ## 六、拼好盾
 
@@ -192,6 +189,7 @@
 
 ## 八、杂项
 
+- [F998 - 配装](crafting/F998%20-%20配装.md)
 - [F999 - 杂项](crafting/F999%20-%20杂项.md)
 
 ## 九、工具&资源
@@ -200,3 +198,9 @@
 - [Lootlemon](https://www.lootlemon.com/db/borderlands-4)
 - [Borderlands 4 Legendaries & Pearls](https://docs.google.com/spreadsheets/d/1bw4-jnEBbwCa3EnJ9cp8HW839ymgzbbHKIGRo9wgNyo)
 - [Borderlands 4 Item Parts Master List](https://docs.google.com/spreadsheets/d/11TmXyGmIVoDFn4IFNJN1s2HuijSnn_nPZqN3LkDd5TA)
+
+## 关于物品序列号编解码器 - Item Serial Codec
+
+- 它是一个桌面离线版本，并支持批量转换 - It is a desktop offline version and supports batch conversion.
+- 它仅为研究物品编码而生，并不打算支持更多的存档编辑功能 - This tool is designed specifically for researching item serials, with no plans to support additional save editing features.
+- 它的灵感来自于[borderlands4-serials](https://github.com/Nicnl/borderlands4-serials) - It was inspired by [borderlands4-serials](https://github.com/Nicnl/borderlands4-serials).
