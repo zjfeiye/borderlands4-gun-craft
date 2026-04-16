@@ -323,12 +323,13 @@ namespace Borderlands4.ItemSerialCodec.WinApp
                 if (_slotSequenceDialog.ShowDialog() == DialogResult.OK)
                 {
                     var seq = _slotSequenceDialog.SequenceNumber;
+                    var tag = _slotSequenceDialog.TagId;
                     var sb = new StringBuilder();
                     sb.AppendLine();
 
                     foreach (var serial in serials)
                     {
-                        sb.AppendLine(string.Format(_yamlSlotTemplate, seq++, serial, 1).Trim('\r', '\n'));
+                        sb.AppendLine(string.Format(_yamlSlotTemplate, seq++, serial, tag).Trim('\r', '\n'));
                     }
 
                     var result = sb.ToString().TrimEnd('\r', '\n');
