@@ -150,31 +150,31 @@ state:
           serial: '@UgeU_{Fnkc<+)W9EMHMPhjT$=C4/Ni?67>?*sX3@ns8Og{s9&fd0s'
           state_flags: 65
         slot_42: 
-          serial: '@UgeU_{Fnkc<+)W9EMHMPhjT$=C4/Ni?67>@GsX3@ns8Og`sB@?x0s'
-          state_flags: 65
-        slot_43: 
           serial: '@UgeU_{Fnkc<+)W9UMiuH%iE7kPp-BBhjYPdf{Y33V%/V4ijY7pj-9i8'
           state_flags: 65
-        slot_44: 
+        slot_43: 
           serial: '@UgeU_{Fnkc<+)W9UMiuH%iE7l)p-BBhjYPdf{Y33V%/V4ijY7pj-9i8'
           state_flags: 65
-        slot_45: 
+        slot_44: 
           serial: '@UgeU_{Fnkc<+)W9UMiuH%iE7l4p-BBhjYPdf{Y33V%/V4ijY7pj-9i8'
           state_flags: 65
-        slot_46: 
+        slot_45: 
           serial: '@Ugr$xKm/*xI!nvCgdQ_p#M{`Z8p+TLGrj{%K'
           state_flags: 65
-        slot_47: 
+        slot_46: 
           serial: '@Ugr$WBm/*xI!nvCgdeorSM{`52NF}j^(suy'
           state_flags: 65
-        slot_48: 
+        slot_47: 
           serial: '@Ug!pHG35E/MoVzKZb*N31FsP9R72=@&9aR5=dSg&+4XSoDCUoQ)00'
           state_flags: 65
-        slot_49: 
+        slot_48: 
           serial: '@Ugr$!Lm/*xI!nvCgx>Tmx*9O!+8XwXFwQnQ<'
           state_flags: 65
-        slot_50: 
+        slot_49: 
           serial: '@Ugr$rIm/*xI!nvCgder-Nf(rFMnq8t-vI>3x'
+          state_flags: 65
+        slot_50: 
+          serial: '@Uge8>*m/*xI!nvCgnpC9LM{`3g$pQ'
           state_flags: 65
         slot_51: 
           serial: '@Ugr$WBm/*xI!nvCgN`pFsT3;Mc8Pxh{EXe`'
@@ -194,6 +194,21 @@ state:
         slot_56: 
           serial: '@Ugr$-Om/*xI!nvCgid3T7R/nKS8XwXFwQnQ<'
           state_flags: 65
+        slot_57: 
+          serial: '@UgggUGFnkc<+)WAXMAbwks!=^r@lf?p_fVUPgZhICg^Go0i5h71$Q%F'
+          state_flags: 1
+        slot_58: 
+          serial: '@UgggUGFnkc<+)WAXMAbwks!=^r@lf?p_fVaRgZhICg^Go0i5h71NF4w'
+          state_flags: 1
+        slot_59: 
+          serial: '@UgggUGFnkc<+)WAXMAbwks!=^r@lf?p_fVaRgZhICg^Go0i5h71$Q%F'
+          state_flags: 1
+        slot_60: 
+          serial: '@UgggUGFnkc<+)WAXMAbwks!=^r@lf?p_fVUPgZhICg?fc*i5h71NF4w'
+          state_flags: 1
+        slot_61: 
+          serial: '@UgggUGFnkc<+)WAXMAbwks!=^r@lf?p_fVaRgZhICg?fc*i5h71NF4w'
+          state_flags: 1
     equipped_inventory: 
       equipped: 
         slot_0: 
