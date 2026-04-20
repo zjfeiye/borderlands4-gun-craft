@@ -194,21 +194,6 @@ state:
         slot_56: 
           serial: '@Ugr$-Om/*xI!nvCgid3T7R/nKS8XwXFwQnQ<'
           state_flags: 65
-        slot_57: 
-          serial: '@UgggUGFnkc<+)WAXMAbwks!=^r@lf?p_fVUPgZhICg^Go0i5h71$Q%F'
-          state_flags: 1
-        slot_58: 
-          serial: '@UgggUGFnkc<+)WAXMAbwks!=^r@lf?p_fVaRgZhICg^Go0i5h71NF4w'
-          state_flags: 1
-        slot_59: 
-          serial: '@UgggUGFnkc<+)WAXMAbwks!=^r@lf?p_fVaRgZhICg^Go0i5h71$Q%F'
-          state_flags: 1
-        slot_60: 
-          serial: '@UgggUGFnkc<+)WAXMAbwks!=^r@lf?p_fVUPgZhICg?fc*i5h71NF4w'
-          state_flags: 1
-        slot_61: 
-          serial: '@UgggUGFnkc<+)WAXMAbwks!=^r@lf?p_fVaRgZhICg?fc*i5h71NF4w'
-          state_flags: 1
     equipped_inventory: 
       equipped: 
         slot_0: 
