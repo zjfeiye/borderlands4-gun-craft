@@ -39,7 +39,7 @@ state:
           serial: '@Ugw$Yw35E/MoVzKZwWvZRs!_v*(xO(PUZQ5A#-Q$?N}*1nZlT^H00'
           state_flags: 17
         slot_8: 
-          serial: '@Ugxp/&35E/MoVzKZGpIr(s!_v+(x6JBQle_2HgyN}2NepH3$+f_4*>'
+          serial: '@Ugxp/&35E/MoVzKZGpIr(s!_v+(x6JBQle_2HgyN}2NepH3$+gQ4*>'
           state_flags: 17
         slot_9: 
           serial: '@Ugxp/&35E/MoVzKZd8k4)DpA9R>Y-YqUZP^6YN9rE2lWRP3Y81B4%H6<'
@@ -57,13 +57,13 @@ state:
           serial: '@Uge8^+m/*xI!nvCgnpC9PR/gb7niE6qI/Bd'
           state_flags: 17
         slot_14: 
-          serial: '@Uge8;)m/*xI!nvCgTGab;f(A9I_tEGQ-7*6J'
+          serial: '@Uge8;)m/*xI!nvCgTGab;f(A9I_tEGQyfOm-'
           state_flags: 17
         slot_15: 
-          serial: '@Ugr$`Rm/*xI!nvCgder-Nf(G?I8eO7Ws>%!i'
+          serial: '@Uge8;)m/*xI!nvCgYSjC7f(G?I8eM`{s>%!i'
           state_flags: 17
         slot_16: 
-          serial: '@Ugr$`Rm/*xI!nvCgder-Nf(G?I8eJk^tjY`k'
+          serial: '@Ugr$`Rm/*xI!nvCgder-Nf(G?I8eM`{s>%!i'
           state_flags: 17
         slot_17: 
           serial: '@Ugr$N8m/*xI!nvCgTGXS?M{`Z8p+=pL#+MWT'
@@ -72,9 +72,12 @@ state:
           serial: '@Uge8>*m/*xI!nvCgnpC9LM{`3gi3/V'
           state_flags: 17
         slot_19: 
-          serial: '@Uge8;)m/*xI!nvCgYSjC7f(G?I8eO7WtjY`k'
+          serial: '@Uge8;)m/*xI!nvCgYSjC7f(G?I8eM`{tjY`k'
           state_flags: 17
         slot_20: 
+          serial: '@Ugr$`Rm/*xI!nvCgder-Nf(G?I8eM`{tjY`k'
+          state_flags: 17
+        slot_21: 
           serial: '@UgwSAs35E/MoVzKZt1PG=>QIYn)KH<2sIaK9sJN&xsFSEWs8Xm?s9dOYsCuY@W{%(yKB%H0At50lsU(%8l2npPQb{UFC8;Ep(EDh%$QIcmcEpa@0R'
           state_flags: 17
     equipped_inventory: 
