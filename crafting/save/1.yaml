@@ -156,42 +156,60 @@ state:
           serial: '@UgeU_{Fnkc<+)W9UMiuH%iE7l4p-BBhjYPdf{Y33V%/V4ijY7pj-9i8'
           state_flags: 65
         slot_44: 
-          serial: '@Ugr$xKm/*xI!nvCgdQ_p#M{`Z8p+TLGrj{%K'
+          serial: '@Ugw$Yw35E/MoVzKZwWvZRs!_v*(xO(PUZQ5AHgyM83Uvxq3l$du'
           state_flags: 65
         slot_45: 
-          serial: '@Ugr$WBm/*xI!nvCgdeorSM{`52NF}i(3jh'
+          serial: '@UgbV{rFnkc<+)WAPL>1~#iCR>nZld0y=Ar7LHgyM83UvxK3pEY_'
           state_flags: 65
         slot_46: 
-          serial: '@Ug!pHG35E/MoVzKZb*N31FsP9R72=@&9aR5=dSg&+4XSoDCUoQ)00'
+          serial: '@UgdhV<Fnkc<+)W9+Llx>!jT$P{4mA>0615T)1{DXD2ek+F3iS)s69E'
           state_flags: 65
         slot_47: 
-          serial: '@Ugr$!Lm/*xI!nvCgx>Tmx*9O!+8XwXFwQnQ<'
+          serial: '@UgdhV<Fnkc<+)W9+Llx>!jT$=C4mA>0615T)1{DXD2ek+F3iS)s69E'
           state_flags: 65
         slot_48: 
-          serial: '@Ugr$rIm/*xI!nvCgder-Nf(rFMnq8t-vI>3x'
+          serial: '@UgdhV<Fnkc<+)W9+Llx>!jT$o44mA>0615T)1{DXD2ek+F3iS)s69E'
           state_flags: 65
         slot_49: 
-          serial: '@Uge8>*m/*xI!nvCgnpC9LM{`3g$pQ'
+          serial: '@Ugr$xKm/*xI!nvCgdQ_p#M{`Z8p+TLGrj{%K'
           state_flags: 65
         slot_50: 
-          serial: '@Uge8>*m/*xI!nvCgnpC9LM{`3m$pQ'
+          serial: '@Ugr$WBm/*xI!nvCgdeorSM{`52NF}i(3jh'
           state_flags: 65
         slot_51: 
-          serial: '@Ugr$WBm/*xI!nvCgN`pFsT3;Mc8Pxh{EXe`'
+          serial: '@Ug!pHG35E/MoVzKZb*N31FsP9R72=@&9aR5=dSg&+4XSoDCUoQ)00'
           state_flags: 65
         slot_52: 
-          serial: '@Ugr$WBm/*xI!nvCgN`pFsT3;Ser`AVfNfrP'
+          serial: '@Ugr$!Lm/*xI!nvCgx>Tmx*9O!+8XwXFwQnQ<'
           state_flags: 65
         slot_53: 
-          serial: '@Ugr$WBm/*xI!nvCgN`pFsT3;Pd7}WY`EXe`'
+          serial: '@Ugr$rIm/*xI!nvCgder-Nf(rFMnq8t-vI>3x'
           state_flags: 65
         slot_54: 
-          serial: '@Uge9B?m/*xI!nvCgnpC9PR/gb7niE6q8wmg'
+          serial: '@Uge8Usm/*xI!nvCgder-Nf(rFMnq8t-vI>3x'
           state_flags: 65
         slot_55: 
-          serial: '@Uge92<m/*xI!nvCgnpC9P*9NpZniodx8wmg'
+          serial: '@Uge8>*m/*xI!nvCgnpC9LM{`3g$pQ'
           state_flags: 65
         slot_56: 
+          serial: '@Uge8>*m/*xI!nvCgnpC9LM{`3m$pQ'
+          state_flags: 65
+        slot_57: 
+          serial: '@Ugr$WBm/*xI!nvCgN`pFsT3;Mc8Pxh{EXe`'
+          state_flags: 65
+        slot_58: 
+          serial: '@Ugr$WBm/*xI!nvCgN`pFsT3;Ser`AVfNfrP'
+          state_flags: 65
+        slot_59: 
+          serial: '@Ugr$WBm/*xI!nvCgN`pFsT3;Pd7}WY`EXe`'
+          state_flags: 65
+        slot_60: 
+          serial: '@Uge9B?m/*xI!nvCgnpC9PR/gb7niE6q8wmg'
+          state_flags: 65
+        slot_61: 
+          serial: '@Uge92<m/*xI!nvCgnpC9P*9NpZniodx8wmg'
+          state_flags: 65
+        slot_62: 
           serial: '@Ugr$-Om/*xI!nvCgid3T7R/nKS8XwXFwQnQ<'
           state_flags: 65
     equipped_inventory: 
