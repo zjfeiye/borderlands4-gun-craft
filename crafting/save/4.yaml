@@ -1,13 +1,14 @@
 state: 
+  resource_pools: 
   char_guid: 1B7DE41440EC6D683B387086F8480004
   class: Char_ExoSoldier
   char_name: 拉法
-  player_difficulty: Easy
+  player_difficulty: Normal
   true_mode: false
   experience: 
   - type: Character
-    level: 60
-    points: 5714893
+    level: 70
+    points: 8799286
   - type: Specialization
     level: 701
     points: 0xffffffff89d66d94
@@ -15,28 +16,28 @@ state:
     items: 
       backpack: 
         slot_0: 
-          serial: '@Ugb)KvFnkc<+)W9sMHMPhjY^BEhsuZQhYEv=gZhICg?fcbi2w'
+          serial: '@Ugb)KvFqRPE+)W9sMHMPhjY^BEhsuZQhYEv=gZhICg?fcbi2w'
           state_flags: 17
         slot_1: 
-          serial: '@Ugxp/&35E/MoVzKZGpIrxDp6@rHBl*1B~hEYg9?TEgSv%Uhw6s_'
+          serial: '@Ugxp/&3C0p4oVzKZGpIrxDp6@rHBl*1B~hEYg9?TEgSv%Uhw6s_'
           state_flags: 17
         slot_2: 
-          serial: '@UgwSAs35E/MoVzKZf2e+_LoKRNLxn=3!lK5a;-bc&PNMFhN}*1na-q_p<{<z'
+          serial: '@UgwSAs3C0p4oVzKZf2e+_LoKRNLxn=3!lK5a;-bc&PNMFhN}*1na-q_p<{<z'
           state_flags: 17
         slot_3: 
-          serial: '@Ugr$xKm/*xI!nvCgdQ_p#M{`Z8p+TLGhL#in'
+          serial: '@Ugr$xKm/!d+!nvCgdQ_p#M{`Z8p+TLGhL#in'
           state_flags: 17
         slot_4: 
-          serial: '@Ugr$WBm/*xI!nvCgdeorSM{`52NF}i(1po'
+          serial: '@Ugr$WBm/!d+!nvCgdeorSM{`52NF}i(1po'
           state_flags: 17
         slot_5: 
-          serial: '@Uge8Cmm/*xI!nvCgs)MRj3xir/P$>@T<Uy5CsBowk230$nC=y3{0R'
+          serial: '@Uge8Cmm/!d+!nvCgs)MRj3xir/P$>@T<Uy5CsBowk230$nC=y3{0R'
           state_flags: 17
         slot_6: 
-          serial: '@Uge8^+m/*xI!nvCgnpC9PR/gb7niE6qI/Bd'
+          serial: '@Uge8^+m/!d+!nvCgnpC9PR/gb7niE6qI/Bd'
           state_flags: 17
         slot_7: 
-          serial: '@Ugr$rIm/*xI!nvCgiq!jZf(kXM_tESU&oTo5'
+          serial: '@Ugr$rIm/!d+!nvCgiq!jZf(kXM_tESU&oTo5'
           state_flags: 17
     equipped_inventory: 
       equipped: 
@@ -46,7 +47,7 @@ state:
     - 6
     - 7
     - 8
-    active_slot: 2
+    active_slot: 0
   player_customization: 
   blackmarket_cooldown: 1758054660
   challenge_objectives: 
@@ -69,8 +70,8 @@ state:
     character: 'gap,Cosmetics_DarkSiren_Body[Cosmetics_DarkSiren_Body00_Default],Cosmetics_DarkSiren_Head[Cosmetics_DarkSiren_Head00_Default],Cosmetics_DarkSiren_Skin[Cosmetics_DarkSiren_SkinFilter00_Default],Cosmetics_Colorization_Primary[Cosmetics_Colorization_Primary_1],Cosmetics_Colorization_Secondary[Cosmetics_Colorization_Secondary_45],Cosmetics_Colorization_Tertiary[Cosmetics_Colorization_Tertiary_31]'
     echo4: 'gap,Cosmetics_Echo4_Attachment[Cosmetics_Echo4_Attachment10_Crown],cosmetics_echo4_body[Cosmetics_Echo4_Body03_Ripper],Cosmetics_Echo4_Skin[Cosmetics_Echo4_Skin00_Default]'
     vehicle: 'gap,Cosmetics_Vehicle[Cosmetics_Vehicle_Mat00_DefaultFilter]'
-  total_playtime: 320740.34375
-  last_played_timestamp: 1775909981
+  total_playtime: 320995.0
+  last_played_timestamp: 1789197931
   first_timestamp: 
   unique_rewards: 
   - pgraph.sdu_upgrades.RepKit_Slot
@@ -263,14 +264,198 @@ state:
     rewards_def: RewardPackage_WeaponSkin_15_Retro
     source: None
     viewed: false
+  - time_received: 1789191992
+    game_stage: '-1'
+    reward_scale: 1.0
+    rewards_def: RewardPackage_CharacterSkin_20_HighRoller
+    source: None
+    viewed: false
+  - time_received: 1789191992
+    game_stage: '-1'
+    reward_scale: 1.0
+    rewards_def: RewardPackage_CharacterSkin_21_Graffiti
+    source: None
+    viewed: false
+  - time_received: 1789191996
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_PrisonPrologue
+    source: Mission_Main_PrisonPrologue
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@Uga`vnFnkc<5?m-Ws!)eYRHR0tHnj(p3Uv#W6SWfo'
+  - time_received: 1789191996
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_ClaptrapOfPandora
+    source: Grasslands_Side_ClaptrapOfPandora
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@UgbV{rFnkbUY8OyxRG/))s7Sp-)kAHn4(bo84=NWbB?1'
+  - time_received: 1789191996
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_Grasslands1
+    source: Mission_Main_Grasslands1
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@Ugfs(8FnkbU>TS?y)Swbos7HlC#X+S)#X{XetwY^I00'
+  - time_received: 1789191996
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_LifesPurpose
+    source: Mission_Side_LifesPurpose
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@Ugr%Scm/*xI!tnW^LshDMZ9uzw00'
+  - time_received: 1789191996
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_MurderMystery_SecretEnding
+    source: Grasslands_Side_MurderMystery
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@UgbV{rFnkbUAT&^ERG/`es7Sp-%/mr64=NOD6si`g90C'
+  - time_received: 1789191996
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_Grasslands2A
+    source: Mission_Main_Grasslands2
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@UgeU_{FnkbUJY`U6RG}7is6-7Hiqt>UOVk)t98@0E9@H#UE(8'
+  - time_received: 1789191996
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_Shatteredlands1
+    source: Mission_Main_Shatteredlands1
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@Ugct)%FnkbUE;dkURG/`es6{>MAF3Z}AF5MxP@_<xP_0n65C'
+  - time_received: 1789191996
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_Grasslands3
+    source: Mission_Main_Grasslands3
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@Ugw$Yw35E/M45kGtjVe^47Imm$Ly=mEdWqW99Mmn;E(8'
+  - time_received: 1789191996
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_Mountains2A
+    source: Mission_Main_Mountains2
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@Ugr$uJm/*xI!uTklL{+MNYe2gj18UzZ00'
+  - time_received: 1789191996
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_Mountains2B
+    source: Mission_Main_Mountains2b
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@UgcJizFnkbU@`FmF3U#POJ?bT@C2CS_P@zz%P^(bCQ0Wi'
+  - time_received: 1789191996
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_Mountains3
+    source: Mission_Main_Mountains3
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@Uguq~c35E/MjL!}#jVe^47ImnhLyyXds)^dv9aJdPAJi>WI8-}SJ_G'
+  - time_received: 1789191996
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_Shatteredlands3
+    source: Mission_Main_Shatteredlands3
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@Ugfs(8FnkbUY(&s#)SwELs7HNjQ+H6YP`6O)P$f/*5d'
+  - time_received: 1789191996
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_SearchForLilith
+    source: Mission_Main_SearchForLilith
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@Uge8Xtm/*xI!fctKL{(~iG&}@~*bz-a0{{'
+  - time_received: 1789191996
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_ShatteredlandsFaction1
+    source: Mission_Side_ElectiFactionMission1
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@UgggUGFnkbUVm{DlR87>O8WpLLsCuYNZK@9H6>1j('
+  - time_received: 1789191996
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_City1
+    source: Mission_Main_City1
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@Uga`vnFnkbUdQH%1RG/))s7L)nb!rc473vo1CIS'
+  - time_received: 1789191996
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_ShatteredlandsFaction3
+    source: Mission_Side_ElectiFactionMission3
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@UgwSAs35E/MjL!-xjp~OwRH7ag78Mt@sXM4rs8gt2sC1}#2m'
+  - time_received: 1789191996
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_City3
+    source: Mission_Main_City3
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@Ugr$fEm/*xI!gyMsP^eCYL6t!b7fOSggGyfq00'
   currencies: 
-    cash: 942268654
-    eridium: 4978
+    cash: 942338654
+    eridium: 5103
+    golden_key: shift
+  using_shared_progression: true
   ammo: 
     assaultrifle: 1260
     pistol: 900
     shotgun: 220
-    smg: 1620
+    smg: 1438
     sniper: 190
     repairkit: 10
   checkpoint_name: World_P.FT_MOU_Sanctuary3
@@ -278,6 +463,10 @@ state:
   personal_vehicle: PV_DarkSiren
   hover_drive: HoverDrive_Jakobs_05
   vehicle_weapon_slot: 1
+  last_death_location_x: 0.0
+  last_death_location_y: 0.0
+  last_death_location_z: 0.0
+  last_death_discovery_world: None
   lostloot: 
     items: 
     - serial: '@Ugydj=31$x>4EzNOiz?Kj4wa}z4H^20Dv272I*FQz+EgD@E7U5~EmS$wkOlw'
@@ -292,8 +481,7 @@ state:
       in_machine: true
     - serial: '@Ugv4Ng35E/M48;!`R610m4mD(`9qJ#dA1Wm3C2CTeT7z1J+Jyi'
       in_machine: true
-    slots: 6
-  seen_eridium_logs: 1
+    slots: 14
 onlinecharacterprefs: 
   recentfriends: 
   - shiftid: 'Shift:1735504341959659966'
@@ -336,8 +524,10 @@ globals:
   event_count_caravan: 3
   mainmissioncomplete: TRUE
   highest_unlocked_vault_hunter_level: 5
-  vault_hunter_level: 5
+  vault_hunter_level: 0
   true_mode: FALSE
+  highest_unlocked_mayhem_level: 0
+  true_mode_override: FALSE
 stats: 
   achievements: 
     00_level_10: 1
@@ -347,10 +537,10 @@ stats:
     04_cosmetics_collect: 60
     05_vehicles_collect: 11
     06_legendaries_equip: 1
-    14_discovery_grasslands: 43
-    15_discovery_mountains: 33
-    16_discovery_shatteredlands: 40
-    17_discovery_city: 13
+    14_discovery_grasslands: 54
+    15_discovery_mountains: 45
+    16_discovery_shatteredlands: 47
+    17_discovery_city: 21
     18_worldboss_defeat: 1
     19_vaultguardian_defeat: 
       19_vaultguardian_grasslands: 1
@@ -365,8 +555,7 @@ stats:
     28_missions_elpis: 1
     29_missions_main: 1
   challenge: 
-    kills_all: 12246
-    kills_all_temp: 16
+    kills_all: 12247
     general_kill_enemies: 8000
     general_kill_badass: 423
     general_kill_corrupted: 45
@@ -381,7 +570,7 @@ stats:
     assault_kill_crouched: 15
     assault_kill_scoped: 119
     assault_kill_secondwind: 16
-    smg_kill: 884
+    smg_kill: 885
     smg_hit_crit: 10000
     smg_kill_crit: 340
     smg_kill_sliding: 20
@@ -443,7 +632,7 @@ stats:
     loot_redchest: 250
     loot_anylootable: 1690
     killenemyarmy_bandits: 3363
-    killenemyarmy_creatures: 2146
+    killenemyarmy_creatures: 2147
     killenemyarmy_order: 4000
     killenemytype_psycho: 752
     killenemytype_guntoter: 1250
@@ -452,7 +641,7 @@ stats:
     killenemytype_phalanx: 26
     killenemytype_bat: 499
     killenemytype_beast: 94
-    killenemytype_cat: 689
+    killenemytype_cat: 690
     killenemytype_creep: 300
     killenemytype_pangolin: 238
     killenemytype_thresher: 323
@@ -467,7 +656,7 @@ stats:
     secondwindbadassboss: 19
     getcash: 2946834
     geteridium: 2138
-    kill_elemental_corrosive: 503
+    kill_elemental_corrosive: 504
     kill_elemental_cryo: 326
     kill_elemental_cryo_status: 2
     kill_elemental_fire: 475
@@ -482,7 +671,7 @@ stats:
     manufacturer_daedalus_multiloader_shotgun: 5
     manufacturer_daedalus_multiloader_sniper: 81
     manufacturer_daedalus_multiloader_smg: 512
-    manufacturer_daedalus_kills: 1239
+    manufacturer_daedalus_kills: 1240
     manufacturer_jakobs_grenadecrits: 400
     manufacturer_jakobs_oneshot: 500
     manufacturer_jakobs_quickdraw: 350
@@ -519,7 +708,7 @@ stats:
     spareparts_cov_overheated: 46
     spareparts_cov_not_overheated: 427
     manufacturer_borg_loyalty: 103
-    manufacturer_daedalus_loyalty: 1239
+    manufacturer_daedalus_loyalty: 1240
     manufacturer_jakobs_loyalty: 2528
     manufacturer_maliwan_loyalty: 209
     manufacturer_order_loyalty: 930
@@ -532,6 +721,7 @@ stats:
     siren_duplicate_tiered: 631
     siren_duplicate_single: 1
     siren_levelup: 50
+    exo_levelup: 70
     economy_maxheld_cash: 1
     economy_maxheld_morecash: 1
     economy_sellloot: 500
@@ -1091,7 +1281,7 @@ stats:
       shiny_finnty: 1
       shiny_stopgap: 1
   spawncontrol: 
-    spawned_loot: 12
+    spawned_loot: 12246
   tutorial: 
     climb: 1
     crouch: 1
@@ -1145,58 +1335,40 @@ stats:
     melee: 1
   regions: 
     city_regiona: 
-      discovered: 1
       region_kills: 465
     city_regionb: 
-      discovered: 1
       region_kills: 190
     city_regionc: 
-      discovered: 1
       region_kills: 502
     grasslands_regiona: 
-      discovered: 1
       region_kills: 1367
     grasslands_regionb: 
-      discovered: 1
       region_kills: 385
     grasslands_regionc: 
-      discovered: 1
       region_kills: 220
     grasslands_regiond: 
-      discovered: 1
       region_kills: 796
     grasslands_regione: 
-      discovered: 1
       region_kills: 721
     mountains_regiona: 
-      discovered: 1
       region_kills: 352
     mountains_regionb: 
-      discovered: 1
       region_kills: 474
     mountains_regionc: 
-      discovered: 1
       region_kills: 111
     mountains_regiond: 
-      discovered: 1
-      region_kills: 223
+      region_kills: 224
     mountains_regione: 
-      discovered: 1
       region_kills: 515
     shatteredlands_regiona: 
-      discovered: 1
       region_kills: 900
     shatteredlands_regionb: 
-      discovered: 1
       region_kills: 910
     shatteredlands_regionc: 
-      discovered: 1
       region_kills: 431
     shatteredlands_regiond: 
-      discovered: 1
       region_kills: 38
     shatteredlands_regione: 
-      discovered: 1
       region_kills: 181
 gbx_discovery_pc: 
   pins_state: 
@@ -1289,45 +1461,15 @@ missions:
             invis_obj_waypointforwayback_endstate: completed
             obj_lootcommandersbolt_endstate: completed
             obj_killcommander_endstate: completed
-    missionset_main_grasslands3: 
+    missionset_main_mountains2b: 
       status: completed
       missions: 
-        mission_main_grasslands3: 
+        mission_main_mountains2b: 
           ui_flags: 1
           status: completed
           final: 
-            gettosaftey_endstate: completed
-            enterfortress_endstate: completed
-            kill_commander_endstate: completed
-            salvagelocusts_endstate: completed
-            opengate_endstate: completed
-            advancetofortress_endstate: completed
-            findairshiphangar_endstate: completed
-            bosswaypoint03_endstate: completed
-            enter_commander_arena_endstate: completed
-    missionset_main_city3: 
-      status: completed
-      missions: 
-        mission_main_city3: 
-          ui_flags: 1
-          status: completed
-          final: 
-            killtimekeeper_endstate: completed
-            killtimekeeper_guardian_endstate: completed
-    missionset_main_shatteredlands3: 
-      status: completed
-      missions: 
-        mission_main_shatteredlands3: 
-          ui_flags: 1
-          status: completed
-          final: 
-            killrip_fortfrontbadass_endstate: completed
-            gotoramp_endstate: completed
-            shootbomb_endstate: completed
-            rampillar_endstate: completed
-            turnonramp_endstate: completed
-            enterfortress_endstate: completed
-            killboss_endstate: completed
+            obj_findawayin_endstate: completed
+            obj_overarching_findphase_endstate: completed
     missionset_main_grasslands2a: 
       status: completed
       missions: 
@@ -1405,15 +1547,6 @@ missions:
           status: completed
           final: 
             fact_lightson: TRUE
-    missionset_main_mountains2b: 
-      status: completed
-      missions: 
-        mission_main_mountains2b: 
-          ui_flags: 1
-          status: completed
-          final: 
-            obj_findawayin_endstate: completed
-            obj_overarching_findphase_endstate: completed
     missionset_zoneactivity_orderbunker: 
       missions: 
         zoneactivity_mountains_orderbunker1: 
@@ -1440,6 +1573,54 @@ missions:
           status: completed
           final: 
             open_the_door_endstate: completed
+    missionset_main_grasslands3: 
+      status: completed
+      missions: 
+        mission_main_grasslands3: 
+          ui_flags: 1
+          status: completed
+          final: 
+            gettosaftey_endstate: completed
+            enterfortress_endstate: completed
+            kill_commander_endstate: completed
+            salvagelocusts_endstate: completed
+            opengate_endstate: completed
+            advancetofortress_endstate: completed
+            findairshiphangar_endstate: completed
+            bosswaypoint03_endstate: completed
+            enter_commander_arena_endstate: completed
+    missionset_main_city3: 
+      status: completed
+      missions: 
+        mission_main_city3: 
+          ui_flags: 1
+          status: completed
+          final: 
+            killtimekeeper_endstate: completed
+            killtimekeeper_guardian_endstate: completed
+    missionset_main_shatteredlands3: 
+      status: completed
+      missions: 
+        mission_main_shatteredlands3: 
+          ui_flags: 1
+          status: completed
+          final: 
+            killrip_fortfrontbadass_endstate: completed
+            gotoramp_endstate: completed
+            shootbomb_endstate: completed
+            rampillar_endstate: completed
+            turnonramp_endstate: completed
+            enterfortress_endstate: completed
+            killboss_endstate: completed
+            gotocrater_endstate: completed
+    missionset_main_mountains1: 
+      status: completed
+      missions: 
+        mission_main_mountains1: 
+          ui_flags: 1
+          status: completed
+          final: 
+            mtn1_enter_the_mountain_zone_endstate: completed
     missionset_side_shatteredlandsa: 
       missions: 
         mission_side_vending: 
@@ -1627,6 +1808,11 @@ missions:
         mission_main_shatteredlands1: 
           ui_flags: 1
           status: completed
+          final: 
+            head_to_the_shatteredlands_endstate: completed
+            head_to_the_shatteredlands_0_endstate: completed
+            head_to_the_shatteredlands_grasslands_endstate: completed
+            head_to_the_shatteredlands_mountains_endstate: completed
         mission_main_shatteredlands1b: 
           ui_flags: 1
           status: completed
@@ -1725,12 +1911,6 @@ missions:
             kill_factory_boss_endstate: completed
             evacuateship_endstate: completed
             gettohq_endstate: completed
-    missionset_main_mountains1: 
-      status: completed
-      missions: 
-        mission_main_mountains1: 
-          ui_flags: 1
-          status: completed
     missionset_main_city1_b: 
       status: completed
       missions: 
@@ -1937,7 +2117,9 @@ oak.ui.progression_data:
     dont_ask_again_respec_node: false
 save_game_header: 
   guid: 97576BC74DD4277AC91AB2930D2EFCDC
-  timestamp: 1775909981
+  timestamp: 1789197931
+  original_platform: STEAM
+  compatible_changelist: 4830603
 progression: 
   graphs: 
   - name: progress_graph_exo_action_skills
@@ -1946,7 +2128,7 @@ progression:
     - name: Overdrive
       is_activated: true
   point_pools: 
-    characterprogresspoints: 59
+    characterprogresspoints: 69
     specializationtokenpool: 700
   progress_state_data: 
     characterprogresspoints: 
@@ -1958,28 +2140,28 @@ progression:
 unlockables: 
   unlockable_hoverdrives: 
     entries: 
-    - Unlockable_HoverDrives.maliwan_01
-    - Unlockable_HoverDrives.jakobs_02
-    - Unlockable_HoverDrives.daedalus_01
-    - Unlockable_HoverDrives.jakobs_01
-    - Unlockable_HoverDrives.daedalus_02
-    - Unlockable_HoverDrives.jakobs_03
-    - Unlockable_HoverDrives.jakobs_04
-    - Unlockable_HoverDrives.torgue_01
-    - Unlockable_HoverDrives.jakobs_05
-    - Unlockable_HoverDrives.maliwan_02
-    - Unlockable_HoverDrives.torgue_02
-    - Unlockable_HoverDrives.vladof_01
-    - Unlockable_HoverDrives.vladof_02
-    - Unlockable_HoverDrives.borg_01
-    - Unlockable_HoverDrives.tediore_01
-    - Unlockable_HoverDrives.order_01
-    - Unlockable_HoverDrives.daedalus_03
-    - Unlockable_HoverDrives.torgue_03
-    - Unlockable_HoverDrives.order_02
-    - Unlockable_HoverDrives.order_03
-    - Unlockable_HoverDrives.daedalus_04
-    - Unlockable_HoverDrives.order_04
+    - Unlockable_HoverDrives.Maliwan_01
+    - Unlockable_HoverDrives.Jakobs_02
+    - Unlockable_HoverDrives.Daedalus_01
+    - Unlockable_HoverDrives.Jakobs_01
+    - Unlockable_HoverDrives.Daedalus_02
+    - Unlockable_HoverDrives.Jakobs_03
+    - Unlockable_HoverDrives.Jakobs_04
+    - Unlockable_HoverDrives.Torgue_01
+    - Unlockable_HoverDrives.Jakobs_05
+    - Unlockable_HoverDrives.Maliwan_02
+    - Unlockable_HoverDrives.Torgue_02
+    - Unlockable_HoverDrives.Vladof_01
+    - Unlockable_HoverDrives.Vladof_02
+    - Unlockable_HoverDrives.Borg_01
+    - Unlockable_HoverDrives.Tediore_01
+    - Unlockable_HoverDrives.Order_01
+    - Unlockable_HoverDrives.Daedalus_03
+    - Unlockable_HoverDrives.Torgue_03
+    - Unlockable_HoverDrives.Order_02
+    - Unlockable_HoverDrives.Order_03
+    - Unlockable_HoverDrives.Daedalus_04
+    - Unlockable_HoverDrives.Order_04
 world_state: 
   world_p.top.base.io_worldtrigger_propagandasystem_force_02: 
     team: INVALID_TEAM

@@ -1,13 +1,14 @@
 state: 
+  resource_pools: 
   char_guid: 1B7DE41440EC6D683B387086F8480001
   class: Char_DarkSiren
   char_name: 维克斯
-  player_difficulty: Easy
+  player_difficulty: Normal
   true_mode: false
   experience: 
   - type: Character
-    level: 60
-    points: 5714893
+    level: 70
+    points: 8799286
   - type: Specialization
     level: 701
     points: 0xffffffff89d66d94
@@ -15,239 +16,239 @@ state:
     items: 
       backpack: 
         slot_0: 
-          serial: '@UgxFw!35E/MoVzKZxTr!MDp7AyVNsuIi<*PVgF1yuh029Ghl+=~hX4'
+          serial: '@UgxFw!3C0p4oVzKZxTr!MDp7AyVNsuIi<*PVgF1yuh029Ghl+=~hX4'
           flags: 1
           state_flags: 3
         slot_1: 
-          serial: '@UgfIh4Fnkc<+)W7$s!)eYR6W!_R6o=/R7ljP+Mw#7?x0p700'
+          serial: '@UgfIh4FqRPE+)W7$s!)eYR6W!_R6o=/R7ljP+Mw#7?x0p700'
           flags: 1
           state_flags: 3
         slot_2: 
-          serial: '@UgggUGFnkc<+)WAHMAbwk>QIHshl+=qhpLC#)SyP8N}*n%S/R`'
+          serial: '@UgggUGFqRPE+)WAHMAbwk>QIHshl+=qhpLC#)SyP8N}*n%S/R`'
           flags: 1
           state_flags: 3
         slot_3: 
-          serial: '@Ugd_t@Fnkc<+)W9sMHT8$iHeD8i+YEOhnk0ai<*N9g&Kv5h1!Jx'
+          serial: '@Ugd_t@FqRPE+)W9sMHT8$iHeD8i+YEOhnk0ai<*N9g&Kv5h1!Jx'
           flags: 1
           state_flags: 3
         slot_4: 
-          serial: '@Uge8#%m/*xI!nvCgdQ_p#M{`Z8p+TLGhL#in'
+          serial: '@Uge8#%m/!d+!nvCgdQ_p#M{`Z8p+TLGhL#in'
           flags: 1
           state_flags: 3
         slot_5: 
-          serial: '@Ugr$)Nm/*xI!nvCgnpC9LN0URU$RFV(1po'
+          serial: '@Ugr$)Nm/!d+!nvCgnpC9LN0URU$RFV(1po'
           flags: 1
           state_flags: 3
         slot_6: 
-          serial: '@Ug!pHG35E/MoVzKZbEr?HFsPFTRpOvV9#ja0dY@`%P_?5e$sx1='
+          serial: '@Ug!pHG3C0p4oVzKZbEr?HFsPFTRpOvV9#ja0dY@`%P_?5e$sx1='
           flags: 1
           state_flags: 3
         slot_7: 
-          serial: '@Uge8^+m/*xI!nvCgnpC9PR/gb7niv8DwXXs'
+          serial: '@Uge8^+m/!d+!nvCgnpC9PR/gb7niv8DwXXs'
           flags: 1
           state_flags: 3
         slot_8: 
-          serial: '@Ugr$`Rm/*xI!nvCgy2^qg^}d{-TLzjCk&#3>3^XAkBZ+<(XhK9r63sEtgounJN@bu45gAGJ%Rmz%GLk5kfhJ@mQ9A=oh{#ByJO-K&k&#4w3^XAkBZ*=dXhK9r65TS;h=_=!q@<)Inq!~/2?+@a85tQA%Rn<SGU$C3dLK<L$tAg@mei73f=h4-F2N<Z1ef3vT!Kq*2`<4UxCEEr5?q2ya0xEKCAb8a;1XPdOK=G;!6mo^m*5gyf=h4-F2N<Z1ef3vT!Kq*2`<4UxCEEr5?q2ya0xEKCAb8a;1XPdOK=G;!6mo^m*5gyf=h4-F2N<Z1ef3vT!Kq*2`<4UxCEEr5?q2ya0xEKCAb8a;1XPdOK=G;!6mo^m*5gyf=h4-F2N<cWS8ucU9wAd$u8L?yJVN_l3lV(cF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucU9wAd$u8L?yJVN_l3lV(cF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucU9wAd$u8L?yJVN_l3lV(cF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucT@p)TNi5MNx<r>mlV}o6qDeH7C9*`8$P!s{OK!<6xh1#cmfVtCa!YQ>Ex9GP<d)o$TXIWo$t}4hx8#=Gl3Q/1ZpkgVCAZ/3+>%>zOK!<6xh1#cmfVtCa!YQ>Ex9GP<d)o$TXIWo$t}4hx8#=Gl3Q/1ZpkgVCAZ/3+>%>zOK!<6xh1#cmfVtCa!YQ>Ex9GP<d)o$TXIWo$t}4hx8#=Gl3Q/1ZpkgVCAZ/3+>%>zOK!<6xh1y5me`V6GD~L3ESV*=gqF/}T0%=`2`!-/w1k$>5?Vq_XbCN$CA5T=&=OigOK1r#p(V70me3MfLQ7}~Eukf}gqF/}T0%=`2`!-/w1k$>5?Vq_XbCN$CA5T=&=OigOK1r#p(V70me3MfLQ7}~Eukf}gqF/}T0%=`2`!-/w1k$>5?Vq_XbCN$CA5T=&=OigOK1r#p(V70me3MfLQ7}~Eukf}gqF/}S}2~OLAeYOdSi&tNJE3l86tGY(4cq*8Wa>16hyV72?+@a2?+@a2?-e)85tQF85tQFAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lDJdx_DJdx_DJd~AF)=YQF)=YQIXO8wIXO8wIXO{LQBhG*QBhG*VPRomVPRomVPSD`adB~RadB~RfgvyihQJUQ0z+U341pmq1cty67y?6J2n>NCFa(Cc5EueOU<eF>Aut4nzz`S$LtqFDfgvyihQJUQ0z+U341pmq1cty67y?6J2n>NCFa(Cc5EueOU<eF>Aut4nzz`S$LtqFDfgvyihQJUQ0z+U341pmq1cty67y?6J2n>NCFa(Cc5EueOU<eF>Aut4nzz`S$LtqFDfgvyihQJURB12?/43Qx+M25%^86rbuhzyY-GDL>R5E&vvWQYurAu>dU$PgJKLu7~yks&ffhR6^ZB12?/43Qx+M25%^86rbuhzyY-GDL>R5E&vvWQYurAu>dU$PgJKLu7~yks&ffhR6^ZB12?/43Qx+M25%^86rbuhzyY-GDL>R5E&vvWQYurAu>dU$PgJKLu7~yks&ffhR6^ZB12?/451-3goe-%8bU*82o0ejG=zrG5E?>5Xb26VAvA=B&=49zLud#Mp&>MchR_fiLPKZ>4WS`4goe-%8bU*82o0ejG=zrG5E?>5Xb26VAvA=B&=49zLud#Mp&>MchR_fiLPKZ>4WS`4goe-%8bU*82o0ejG=zrG5E?>5Xb26VAvA=B&=49zLud#Mp&>MchR_fiLPKZ>4WS`4goe<N8*)Q#$PKw6I0T2_5FCO-a0m{;Avgqw;1C>wLvRQV!67&Vhu{z#f<tf!4#6Qf1c%@d9D+k/2oAv^I0T2_5FCO-a0m{;Avgqw;1C>wLvRQV!67&Vhu{z#f<tf!4#6Qf1c%@d9D+k/2oAv^I0T2_5FCO-a0m{;Avgqw;1C>wLvRQV!67&Vhu{z#f<tf!4#6Qf1c%@d9D+k/2oAv^I0T2_5FD~YcE}FdAv<J;?2sL@Lw3jx*&#b*hwP9YvO{*r4%s0)WQXjK9kN4q$PU>dJ7kCKkR7r^cE}FdAv<J;?2sL@Lw3jx*&#b*hwP9YvO{*r4%s0)WQXjK9kN4q$PU>dJ7kCKkR7r^cE}FdAv<J;?2sL@Lw3jx*&#b*hwP9YvO{*r4%s0)WQXjK9kN4q$PU>dJ7kCKkR7r^cE}FdAv}bK@DLutLwE=e;UPSPhwu;{!b5ln58)v^gop4D9>PO-2oK>QJcNhv5FWxqcnA;SAv}bK@DLutLwE=e;UPSPhwu;{!b5ln58)v^gop4D9>PO-2oK>QJcNhv5FWxqcnA;SAv}bK@DLutLwE=e;UPSPhwu;{!b5ln58)v^gop4D9>PO-2oK>QJcNhv5FWxqcnA;SAv}bK@DLs%N92eckt1?Mj>r)?B1hzi9FZe(M2^T2IU+~oh#Zk4azu{E5ji49<cJ)RBXUHJ$PqarN92eckt1?Mj>r)?B1hzi9FZe(M2^T2IU+~oh#Zk4azu{E5ji49<cJ)RBXUHJ$PqarN92eckt1?Mj>r)?B1hzi9FZe(M2^T2IU+~oh#Zk4azu{E5ji49<cJ)RBXUHJ$PqarN92eckt1_tj?9rcGDqgf9GN3?WRA>{IWkA)$Q+p?b7YRpkvTF)=ExkGBXeYq%#k@VN9M>JnIm&#j?9rcGDqgf9GN3?WRA>{IWkA)$Q+p?b7YRpkvTF)=ExkGBXeYq%#k@VN9M>JnIm&#j?9rcGDqgf9GN3?WRA>{IWkA)$Q+p?b7YRpkvTF)=ExkGBXeYq%#k@VN9M>JnIm&#j?9rcLPzKb9ibz1gpSY=IzmV22pyp#bcBx35jsLg=m;I5BXoq0&=ER9N9YJ0p(AvJj?fW0LPzKb9ibz1gpSY=IzmV22pyp#bcBx35jsLg=m;I5BXoq0&=ER9N9YJ0p(AvJj?fW0LPzKb9ibz1gpSY=IzmV22pyp#bcBx35jsLg=m;I5BXoq0&=ER9N9YJ0p(AvJj?fW0LPzKb9ibz2q>j{)I#NgKNFAvob)=5i5j$c>?1&w)BX-1&*bzH&NAAcSxg&Q3kKhqJf=BQO9>F7c1dremJc38?2p+*Bcm$8&5j=uN@CY8kBX/Ul;1N86NAL(9!6SGCkKhqJf=BQO9>F7c1dremJc38?2p+*Bcm$8&5j=uN@CY8kBX/Ul;1N86NAL(9!6SGCkKhqJf=BQO9>F7c1dremJc38?2p+*Bcm$8&5j=uN@CY8kBX/Ul;E_C%NAgG>$s>6rkK~a&l1K7L9?2tlB#-2gJd#K9NFK=}c_feIkvx(/@<<-ZBY7l`<dHm*NAgG>$s>6rkK~a&l1K7L9?2tlB#-2gJd#K9NFK=}c_feIkvx(/@<<-ZBY7l`<dHm*NAgG>$s>6rkK~a&l1K7L9?2tlB#-2gJd#K9NFK=}c_feIkvx(/@<<-ZBY7l`<dHm*NAgG>*&};okL-~>vPbsF9@!&%gpcqMKEg-%2p{1ie1wni5kA64_y`~2BYcF9@DV=3NB9UI;Uj#6kMI#b!bkWBAK@c>gpcqMKEg-%2p{1ie1wni5kA64_y`~2BYcF9@DV=3NB9UI;Uj#6kMI#b!bkWBAK@c>gpcqMKEg-%2p{1ie1wni5kA64_y`~2BYcF9@DV=3NB9UI;Uj#6kMI#b!bkWBAK@c>gpcqMKEg*P$t0O1lVp-il1Va2Cdnk3B$H&4Op-}5NhZl8nIw~Bl1!3GGD#-MB$*_WWRgshNis<$$t0O1lVp-il1Va2Cdnk3B$H&4Op-}5NhZl8nIw~Bl1!3GGD#-MB$*_WWRgshNis<$$t0O1lVp-il1Va2Cdnk3B$H&4Op-}5NhZl8nIw~Bl1!3GGD#-MB$*_WWRgshNis<$$t0O1lK='
+          serial: '@Ugr$`Rm/!d+!nvCgy2^qg^}d{-TLzjCk&#3>3^XAkBZ+<(XhK9r63sEtgounJN@bu45gAGJ%Rmz%GLk5kfhJ@mQ9A=oh{#ByJO-K&k&#4w3^XAkBZ*=dXhK9r65TS;h=_=!q@<)Inq!~/2?+@a85tQA%Rn<SGU$C3dLK<L$tAg@mei73f=h4-F2N<Z1ef3vT!Kq*2`<4UxCEEr5?q2ya0xEKCAb8a;1XPdOK=G;!6mo^m*5gyf=h4-F2N<Z1ef3vT!Kq*2`<4UxCEEr5?q2ya0xEKCAb8a;1XPdOK=G;!6mo^m*5gyf=h4-F2N<Z1ef3vT!Kq*2`<4UxCEEr5?q2ya0xEKCAb8a;1XPdOK=G;!6mo^m*5gyf=h4-F2N<cWS8ucU9wAd$u8L?yJVN_l3lV(cF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucU9wAd$u8L?yJVN_l3lV(cF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucU9wAd$u8L?yJVN_l3lV(cF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucT@p)TNi5MNx<r>mlV}o6qDeH7C9*`8$P!s{OK!<6xh1#cmfVtCa!YQ>Ex9GP<d)o$TXIWo$t}4hx8#=Gl3Q/1ZpkgVCAZ/3+>%>zOK!<6xh1#cmfVtCa!YQ>Ex9GP<d)o$TXIWo$t}4hx8#=Gl3Q/1ZpkgVCAZ/3+>%>zOK!<6xh1#cmfVtCa!YQ>Ex9GP<d)o$TXIWo$t}4hx8#=Gl3Q/1ZpkgVCAZ/3+>%>zOK!<6xh1y5me`V6GD~L3ESV*=gqF/}T0%=`2`!-/w1k$>5?Vq_XbCN$CA5T=&=OigOK1r#p(V70me3MfLQ7}~Eukf}gqF/}T0%=`2`!-/w1k$>5?Vq_XbCN$CA5T=&=OigOK1r#p(V70me3MfLQ7}~Eukf}gqF/}T0%=`2`!-/w1k$>5?Vq_XbCN$CA5T=&=OigOK1r#p(V70me3MfLQ7}~Eukf}gqF/}S}2~OLAeYOdSi&tNJE3l86tGY(4cq*8Wa>nwWA3M2?+@a2?+@a85tQF85tQF85toVAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt5O#DJdx_DJdx_F)=YQF)=YQF)=wgIXO8wIXO8wQBhG*QBhG*QBh%GVPRomVPRomadB~RadB~RadCkmFa(Cc5EueOU<eF>Aut4nzz`S$LtqFDfgvyihQJUQ0z+U341pmq1cty67y?6J2n>NCFa(Cc5EueOU<eF>Aut4nzz`S$LtqFDfgvyihQJUQ0z+U341pmq1cty67y?6J2n>NCFa(Cc5EueOU<eF>Aut4nzz`S$LtqFDfgvyihQJUQ0z+U341pmq1cty67y?6J2n>NCFa(Cc5E&vvWQYurAu>dU$PgJKLu7~yks&ffhR6^ZB12?/43Qx+M25%^86rbuhzyY-GDL>R5E&vvWQYurAu>dU$PgJKLu7~yks&ffhR6^ZB12?/43Qx+M25%^86rbuhzyY-GDL>R5E&vvWQYurAu>dU$PgJKLu7~yks&ffhR6^ZB12?/43Qx+M25%^86rbuhzyY-GDL>R5E&vvWQYu*AvA=B&=49zLud#Mp&>MchR_fiLPKZ>4WS`4goe-%8bU*82o0ejG=zrG5E?>5Xb26VAvA=B&=49zLud#Mp&>MchR_fiLPKZ>4WS`4goe-%8bU*82o0ejG=zrG5E?>5Xb26VAvA=B&=49zLud#Mp&>MchR_fiLPKZ>4WS`4goe-%8bU*82o0ejG=zrG5E?>5Xb26VAvA=B(2yH)LvF/oxgj_Nhu{z#f<tf!4#6Qf1c%@d9D+k/2oAv^I0T2_5FCO-a0m{;Avgqw;1C>wLvRQV!67&Vhu{z#f<tf!4#6Qf1c%@d9D+k/2oAv^I0T2_5FCO-a0m{;Avgqw;1C>wLvRQV!67&Vhu{z#f<tf!4#6Qf1c%@d9D+k/2oAv^I0T2_5FCO-a0m{;Avgqw;1C>wLvRQV!67&Vhu{z#vO{*r4%s0)WQXjK9kN4q$PU>dJ7kCKkR7r^cE}FdAv<J;?2sL@Lw3jx*&#b*hwP9YvO{*r4%s0)WQXjK9kN4q$PU>dJ7kCKkR7r^cE}FdAv<J;?2sL@Lw3jx*&#b*hwP9YvO{*r4%s0)WQXjK9kN4q$PU>dJ7kCKkR7r^cE}FdAv<J;?2sL@Lw3jx*&#b*hwP9YvO{*r4%s0*gop4D9>PO-2oK>QJcNhv5FWxqcnA;SAv}bK@DLutLwE=e;UPSPhwu;{!b5ln58)v^gop4D9>PO-2oK>QJcNhv5FWxqcnA;SAv}bK@DLutLwE=e;UPSPhwu;{!b5ln58)v^gop4D9>PO-2oK>QJcNhv5FWxqcnA;SAv}bK@DLutLwE=e;UPSPhwu;{!b5ln58)v^gop4D9wJBNh#Zk4azu{E5ji49<cJ)RBXUHJ$PqarN92eckt1?Mj>r)?B1hzi9FZe(M2^T2IU+~oh#Zk4azu{E5ji49<cJ)RBXUHJ$PqarN92eckt1?Mj>r)?B1hzi9FZe(M2^T2IU+~oh#Zk4azu{E5ji49<cJ)RBXUHJ$PqarN92eckt1?Mj>r)?B1hzi9FZe(M2^T2IU+~oh#Zk4b7YRpkvTF)=ExkGBXeYq%#k@VN9M>JnIm&#j?9rcGDqgf9GN3?WRA>{IWkA)$Q+p?b7YRpkvTF)=ExkGBXeYq%#k@VN9M>JnIm&#j?9rcGDqgf9GN3?WRA>{IWkA)$Q+p?b7YRpkvTF)=ExkGBXeYq%#k@VN9M>JnIm&#j?9rcGDqgf9GN3?WRA>{IWkA)$Q+p?b7YRpkvT#~=m;I5BXoq0&=ER9N9YJ0p(AvJj?fW0LPzKb9ibz1gpSY=IzmV22pyp#bcBx35jsLg=m;I5BXoq0&=ER9N9YJ0p(AvJj?fW0LPzKb9ibz1gpSY=IzmV22pyp#bcBx35jsLg=m;I5BXoq0&=ER9N9YJ0p(AvJj?fW0LPzKb9ibz1gpSY=IzmV22pyp#bcBx35jsLg=m;I5BXy*X)R8(;N9sr&sUvlyj@S`9Vn^(V9kC;J#E#ezJ90<v$Q`*OcLa~%5j=uN@CY8kBX/Ul;1N86NAL(9!6SGCkKhqJf=BQO9>F7c1dremJc38?2p+*Bcm$8&5j=uN@CY8kBX/Ul;1N86NAL(9!6SGCkKhqJf=BQO9>F7c1dremJc38?2p+*Bcm$8&5j=uN@CY8kBX/Ul;1N86NAL(9!6SGCkKhqJf=BQO9>F7c1drg6Jd#K9NFK=}c_feIkvx(/@<<-ZBY7l`<dHm*NAgG>$s>6rkK~a&l1K7L9?2tlB#-2gJd#K9NFK=}c_feIkvx(/@<<-ZBY7l`<dHm*NAgG>$s>6rkK~a&l1K7L9?2tlB#-2gJd#K9NFK=}c_feIkvx(/@<<-ZBY7l`<dHm*NAgG>$s>6rkK~a&l1K7L9?2tlB#-2gJd#K9NFLcEdt{I7kv+0U_Q)RDBYT98@DV=3NB9UI;Uj#6kMI#b!bkWBAK@c>gpcqMKEg-%2p{1ie1wni5kA64_y`~2BYcF9@DV=3NB9UI;Uj#6kMI#b!bkWBAK@c>gpcqMKEg-%2p{1ie1wni5kA64_y`~2BYcF9@DV=3NB9UI;Uj#6kMI#b!bkWBAK@c>gpcqMKEg-%2p{1ie1wni5kA64_y`~2BYcF9@DV=3M<&T6nIw~Bl1!3GGD#-MB$*_WWRgshNis<$$t0O1lVp-il1Va2Cdnk3B$H&4Op-}5NhZl8nIw~Bl1!3GGD#-MB$*_WWRgshNis<$$t0O1lVp-il1Va2Cdnk3B$H&4Op-}5NhZl8nIw~Bl1!3GGD#-MB$*_WWRgshNis<$$t0O1lVp-il1Va2Cdnk3B$H&4Op-}5NhZl8nIw/{'
           flags: 1
           state_flags: 3
         slot_9: 
-          serial: '@UgeU_{Fnkc<+)W9EMHMPhjT$c04/Ni?67>?*sX3@ns8Og{s9&g/4FC'
+          serial: '@UgeU_{FqRPE+)W9EMHMPhjT$c04/Ni?67>?*sX3@ns8Og{s9&g/4FC'
           state_flags: 17
         slot_10: 
-          serial: '@UgeU_{Fnkc<+)W9EMHMPhjT$P{4/Ni?67>?*sX3@ns8Og{s9&g/4gd'
+          serial: '@UgeU_{FqRPE+)W9EMHMPhjT$P{4/Ni?67>?*sX3@ns8Og{s9&g/4gd'
           state_flags: 17
         slot_11: 
-          serial: '@UgeU_{Fnkc<+)W9EMHMPhjT$=C4/Ni?67>?*sX3@ns8Og{s9&hz0R'
+          serial: '@UgeU_{FqRPE+)W9EMHMPhjT$=C4/Ni?67>?*sX3@ns8Og{s9&hz0R'
           state_flags: 17
         slot_12: 
-          serial: '@Ugr$xKm/*xI!nvCgdQ_p#M{`Z8p+TLGhL#8b'
+          serial: '@Ugr$xKm/!d+!nvCgdQ_p#M{`Z8p+TLGhL#8b'
           state_flags: 17
         slot_13: 
-          serial: '@Ugr$WBm/*xI!nvCgdeorSM{`52NF}i(0ss'
+          serial: '@Ugr$WBm/!d+!nvCgdeorSM{`52NF}i(0ss'
           state_flags: 17
         slot_14: 
-          serial: '@Ug!pHG35E/MoVzKZbEr?fPqj0s^#;{8wJx<LwH{SFni7_400'
+          serial: '@Ug!pHG3C0p4oVzKZbEr?fPqj0s^#;{8wJx<LwH{SFni7_400'
           state_flags: 17
         slot_15: 
-          serial: '@Uge8^+m/*xI!nvCgnpC9PR/gb7niv8DwQnQ<'
+          serial: '@Uge8^+m/!d+!nvCgnpC9PR/gb7niv8DwQnQ<'
           state_flags: 17
         slot_16: 
-          serial: '@Uge8Usm/*xI!nvCgder-Nf(rFM8YrS$CJKH4'
+          serial: '@Uge8Usm/!d+!nvCgder-Nf(rFM8YrS$CJKH4'
           state_flags: 17
         slot_17: 
-          serial: '@Ug!pHG35E/MoVzKZys1KsF{rQx_2Zy=9@Gwn`j`5XsvXS=6@enx00'
+          serial: '@Ug!pHG3C0p4oVzKZys1KsF{rQx_2Zy=9@Gwn`j`5XsvXS=6@enx00'
           state_flags: 17
         slot_18: 
-          serial: '@Ug!pHG35E/MoVzKZISN%rq57xx8B~6Qx_40Z59*9Tl{Ki^(X7ysYXA'
+          serial: '@Ug!pHG3C0p4oVzKZISN%rq57xx8B~6Qx_40Z59*9Tl{Ki^(X7ysYXA'
           state_flags: 17
         slot_19: 
-          serial: '@Uge8^+m/*xI!nvCgnpC9PR/gb7niyiJeIo$'
+          serial: '@Uge8^+m/!d+!nvCgnpC9PR/gb7niyiJeIo$'
           state_flags: 17
         slot_20: 
-          serial: '@Uge8;)m/*xI!nvCgYSjC7f)4dQ8YrS$CJKH4'
+          serial: '@Uge8;)m/!d+!nvCgYSjC7f)4dQ8YrS$CJKH4'
           state_flags: 17
         slot_21: 
-          serial: '@UgeU_{Fnkc<+)W8xWkH2XRHKFp^+TORtwg;<b!rYO6lxSI7OEF29crMNBY1=ls%S_^NJvO3NhPTym824SAB`5#B3i_T*bo~sN9M>J00'
+          serial: '@UgeU_{FqRPE+)W8xWkH2XRHKFp^+TORtwg;<b!rYO6lxSI7OEF29crMNBY1=lN>ri}m8e9mM6E=vM6E=vM7@tji)axoVnb/*4VfczWDWo'
           state_flags: 17
         slot_22: 
-          serial: '@Ugv4Ng35E/MoVzKZv#4~aLnW##svhbdDj(`oZBTVkcTlTPyAS'
+          serial: '@Ugv4Ng3C0p4oVzKZv#4~aLnW##svhbdDj(`oZBTVkcTlTPyAS'
           state_flags: 33
         slot_23: 
-          serial: '@Ugv4Ng35E/MoVzKZo~U%FLnUe_svhbdDj(`oZBTVkcTlTPyAS'
+          serial: '@Ugv4Ng3C0p4oVzKZo~U%FLnUe_svhbdDj(`oZBTVkcTlTPyAS'
           state_flags: 33
         slot_24: 
-          serial: '@UgfIh4Fnkc<+)W7$s!)eYR6W!_R6o=/R7ljP;-K=N_MlcF00'
+          serial: '@UgfIh4FqRPE+)W7$s!)eYR6W!_R6o=/R7ljP;-K=N_MlcF00'
           state_flags: 33
         slot_25: 
-          serial: '@UgdhV<Fnkc<+)W9sLlx>!iAsm6iOSTcZldO(LZL>XUZH-WdLjS'
+          serial: '@UgdhV<FqRPE+)W9sLlx>!iAsm6iOSTcZldO(LZL>XUZH-WdLjS'
           state_flags: 33
         slot_26: 
-          serial: '@Ugr$xKm/*xI!nvCgdQ_p#M{`Z8p+TLGrk2D5'
+          serial: '@Ugr$xKm/!d+!nvCgdQ_p#M{`Z8p+TLGrk2D5'
           state_flags: 33
         slot_27: 
-          serial: '@Ugr$WBm/*xI!nvCgdeorSM{`52NF}i(xBv'
+          serial: '@Ugr$WBm/!d+!nvCgdeorSM{`52NF}i(xBv'
           state_flags: 33
         slot_28: 
-          serial: '@Ug!pHG35E/MoVzKZJPLJ3p-vc7NrM`3P$3WM/3U3S<wDhtCW_DyUjP'
+          serial: '@Ug!pHG3C0p4oVzKZJPLJ3p-vc7NrM`3P$3WM/3U3S<wDhtCW_DyUjP'
           state_flags: 33
         slot_29: 
-          serial: '@Ugr$!Lm/*xI!nvCgx>Tmx*9O!+8XwXFwJ!/-'
+          serial: '@Ugr$!Lm/!d+!nvCgx>TmxM`J^LNDrX_00'
           state_flags: 33
         slot_30: 
-          serial: '@Ugr%1Tm/*xI!nvCgder-Nf(G?Inq8t-vI-3V'
+          serial: '@Ugr%1Tm/!d+!nvCgder-Nf(G?Inq8t-vI-3V'
           state_flags: 33
         slot_31: 
-          serial: '@Ugr$xKm/*xI!nvCgdQ_p#M{`Z8p+TLGhL*$w'
+          serial: '@Ugr$xKm/!d+!nvCgdQ_p#M{`Z8p+TLGhL*$w'
           state_flags: 33
         slot_32: 
-          serial: '@Uge9B?m/*xI!nvCgnpC9PR/gb7niE6qO9KD'
+          serial: '@Uge9B?m/!d+!nvCgnpC9PR/gb7niE6qO9KD'
           state_flags: 33
         slot_33: 
-          serial: '@Uge92<m/*xI!nvCgnpC9P*9NpZniodxO9KD'
+          serial: '@Uge92<m/!d+!nvCgnpC9P*9NpZniodxO9KD'
           state_flags: 33
         slot_34: 
-          serial: '@Ugr$-Om/*xI!nvCgid3T7R/nKS8XwXFwJ!/-'
+          serial: '@Ugr$-Om/!d+!nvCgid3T7N25c0NDrX_00'
           state_flags: 33
         slot_35: 
-          serial: '@Ugr%1Tm/*xI!nvCgder-Nf(G?Inq8t-s0s}L'
+          serial: '@Ugr%1Tm/!d+!nvCgder-Nf(G?Inq8t-s0s}L'
           state_flags: 33
         slot_36: 
-          serial: '@Ugv4Ng35E/MoVzKZt1KuT>QIT=iK>UXhsuZg)ErbO)F{*{)GpLOGe_`<9^r#38WIu`5/T<%Nh(PtsU(%8l2npPQVETLrjJNM@1wyYSOkl7kuK6ja!3xzA;098`~m'
+          serial: '@Ugv4Ng3C0p4oVzKZt1KuT>QIT=iK>UXhsuZg)ErbO)F{*{)GpLOGe_`<9^r#38WIu`5/T<%Nh(PtsU(%8l2npPQVH!tl/;Rd28&=3EYd}~NEgW=IV6Ytl3(%*00'
           state_flags: 33
         slot_37: 
-          serial: '@UgggUGFnkc<+)WAXMAbwks!=^r@lf?p_fVaRgZhICg^Go0i5h71NF4w'
+          serial: '@UgggUGFqRPE+)WAXMAbwks!=^r@lf?p_fVaRgZhICg^Go0i5h71NF4w'
           state_flags: 65
         slot_38: 
-          serial: '@UgggUGFnkc<+)WAXMAbwks!=^r@lf?p_fVaRgZhICg^Go0i5h6/NF4w'
+          serial: '@UgggUGFqRPE+)WAXMAbwks!=^r@lf?p_fVaRgZhICg^Go0i5h6/NF4w'
           state_flags: 65
         slot_39: 
-          serial: '@UgggUGFnkc<+)WAXMAbwks!=^r@lf?p_fVaRgZhICg^Go0i5h75NF4w'
+          serial: '@UgggUGFqRPE+)WAXMAbwks!=^r@lf?p_fVaRgZhICg^Go0i5h75NF4w'
           state_flags: 65
         slot_40: 
-          serial: '@UgeU_{Fnkc<+)W9EMHMPhjT$=C4/Ni?67>?*sX3@ns8Og{s9&fd0s'
+          serial: '@UgeU_{FqRPE+)W9EMHMPhjT$=C4/Ni?67>?*sX3@ns8Og{s9&fd0s'
           state_flags: 65
         slot_41: 
-          serial: '@UgeU_{Fnkc<+)W9UMiuH%iE7kPp-BBhjYPdf{Y33V%/V4ijY7pj-9i8'
+          serial: '@UgeU_{FqRPE+)W9UMiuH%iE7kPp-BBhjYPdf{Y33V%/V4ijY7pj-9i8'
           state_flags: 65
         slot_42: 
-          serial: '@UgeU_{Fnkc<+)W9UMiuH%iE7l)p-BBhjYPdf{Y33V%/V4ijY7pj-9i8'
+          serial: '@UgeU_{FqRPE+)W9UMiuH%iE7l)p-BBhjYPdf{Y33V%/V4ijY7pj-9i8'
           state_flags: 65
         slot_43: 
-          serial: '@UgeU_{Fnkc<+)W9UMiuH%iE7l4p-BBhjYPdf{Y33V%/V4ijY7pj-9i8'
+          serial: '@UgeU_{FqRPE+)W9UMiuH%iE7l4p-BBhjYPdf{Y33V%/V4ijY7pj-9i8'
           state_flags: 65
         slot_44: 
-          serial: '@Ugw$Yw35E/MoVzKZwWvZRs!_v*(xO(PUZQ5AHgyM83Uvxq3l$du'
+          serial: '@Ugw$Yw3C0p4oVzKZwWvZRs!_v*(xO(PUZQ5AHgyM83Uvxq3l$du'
           state_flags: 65
         slot_45: 
-          serial: '@UgbV{rFnkc<+)WAPL>1~#iCR>nZld0y=Ar7LHgyM83UvxK3pEY_'
+          serial: '@UgbV{rFqRPE+)WAPL>1~#iCR>nZld0y=Ar7LHgyM83UvxK3pEY_'
           state_flags: 65
         slot_46: 
-          serial: '@UgdhV<Fnkc<+)W9+Llx>!jT$P{4mA>0615T)1{DXD2ek+F3iS)s69E'
+          serial: '@UgdhV<FqRPE+)W9+Llx>!jT$P{4mA>0615T)1{DXD2ek(k3pEba69E'
           state_flags: 65
         slot_47: 
-          serial: '@UgdhV<Fnkc<+)W9+Llx>!jT$=C4mA>0615T)1{DXD2ek+F3iS)s69E'
+          serial: '@UgdhV<FqRPE+)W9+Llx>!jT$=C4mA>0615T)1{DXD2ek(k3pEba69E'
           state_flags: 65
         slot_48: 
-          serial: '@UgdhV<Fnkc<+)W9+Llx>!jT$o44mA>0615T)1{DXD2ek+F3iS)s69E'
+          serial: '@UgdhV<FqRPE+)W9+Llx>!jT$o44mA>0615T)1{DXD2ek(k3pEba69E'
           state_flags: 65
         slot_49: 
-          serial: '@Ugr$xKm/*xI!nvCgdQ_p#M{`Z8p+TLGrj{%K'
+          serial: '@Ugr$xKm/!d+!nvCgdQ_p#M{`Z8p+TLGrj{%K'
           state_flags: 65
         slot_50: 
-          serial: '@Ugr$WBm/*xI!nvCgdeorSM{`52NF}i(3jh'
+          serial: '@Ugr$WBm/!d+!nvCgdeorSM{`52NF}i(3jh'
           state_flags: 65
         slot_51: 
-          serial: '@Ug!pHG35E/MoVzKZb*N31FsP9R72=@&9aR5=dSg&+4XSoDCUoQ)00'
+          serial: '@Ug!pHG3C0p4oVzKZb*N31FsP9R72=@&9aR5=dSg&+4XSoDCUoQ)00'
           state_flags: 65
         slot_52: 
-          serial: '@Ugr$!Lm/*xI!nvCgx>Tmx*9O!+8XwXFwQnQ<'
+          serial: '@Ugr$!Lm/!d+!nvCgx>TmxM`J^LNDqkw00'
           state_flags: 65
         slot_53: 
-          serial: '@Ugr$rIm/*xI!nvCgder-Nf(rFMnq8t-vI>3x'
+          serial: '@Ugr$rIm/!d+!nvCgder-Nf(rFMnq8t-vI>3x'
           state_flags: 65
         slot_54: 
-          serial: '@Uge8Usm/*xI!nvCgder-Nf(rFMnq8t-vI>3x'
+          serial: '@Uge8Usm/!d+!nvCgder-Nf(rFMnq8t-vI>3x'
           state_flags: 65
         slot_55: 
-          serial: '@Uge8>*m/*xI!nvCgnpC9LM{`3g$pQ'
+          serial: '@Uge8>*m/!d+!nvCgnpC9LM{`3g$pQ'
           state_flags: 65
         slot_56: 
-          serial: '@Uge8>*m/*xI!nvCgnpC9LM{`3m$pQ'
+          serial: '@Uge8>*m/!d+!nvCgnpC9LM{`3m$pQ'
           state_flags: 65
         slot_57: 
-          serial: '@Ugr$WBm/*xI!nvCgN`pFsT3;Mc8Pxh{EXe`'
+          serial: '@Ugr$WBm/!d+!nvCgN`pFsT3;Mc8Pxh{EXe`'
           state_flags: 65
         slot_58: 
-          serial: '@Ugr$WBm/*xI!nvCgN`pFsT3;Ser`AVfNfrP'
+          serial: '@Ugr$WBm/!d+!nvCgN`pFsT3;Ser`AVfNfrP'
           state_flags: 65
         slot_59: 
-          serial: '@Ugr$WBm/*xI!nvCgN`pFsT3;Pd7}WY`EXe`'
+          serial: '@Ugr$WBm/!d+!nvCgN`pFsT3;Pd7}WY`EXe`'
           state_flags: 65
         slot_60: 
-          serial: '@Uge9B?m/*xI!nvCgnpC9PR/gb7niE6q8wmg'
+          serial: '@Uge9B?m/!d+!nvCgnpC9PR/gb7niE6q8wmg'
           state_flags: 65
         slot_61: 
-          serial: '@Uge92<m/*xI!nvCgnpC9P*9NpZniodx8wmg'
+          serial: '@Uge92<m/!d+!nvCgnpC9P*9NpZniodx8wmg'
           state_flags: 65
         slot_62: 
-          serial: '@Ugr$-Om/*xI!nvCgid3T7R/nKS8XwXFwQnQ<'
+          serial: '@Ugr$-Om/!d+!nvCgid3T7N25c0NDqkw00'
           state_flags: 65
     equipped_inventory: 
       equipped: 
         slot_0: 
-        - serial: '@UgxFw!35E/MoVzKZxTr!MDp7AyVNsuIi<*PVgF1yuh029Ghl+=~hX4'
+        - serial: '@UgxFw!3C0p4oVzKZxTr!MDp7AyVNsuIi<*PVgF1yuh029Ghl+=~hX4'
           flags: 1
           state_flags: 3
         slot_1: 
-        - serial: '@UgfIh4Fnkc<+)W7$s!)eYR6W!_R6o=/R7ljP+Mw#7?x0p700'
+        - serial: '@UgfIh4FqRPE+)W7$s!)eYR6W!_R6o=/R7ljP+Mw#7?x0p700'
           flags: 1
           state_flags: 3
         slot_2: 
-        - serial: '@UgggUGFnkc<+)WAHMAbwk>QIHshl+=qhpLC#)SyP8N}*n%S/R`'
+        - serial: '@UgggUGFqRPE+)WAHMAbwk>QIHshl+=qhpLC#)SyP8N}*n%S/R`'
           flags: 1
           state_flags: 3
         slot_3: 
-        - serial: '@Ugd_t@Fnkc<+)W9sMHT8$iHeD8i+YEOhnk0ai<*N9g&Kv5h1!Jx'
+        - serial: '@Ugd_t@FqRPE+)W9sMHT8$iHeD8i+YEOhnk0ai<*N9g&Kv5h1!Jx'
           flags: 1
           state_flags: 3
         slot_6: 
-        - serial: '@Uge8#%m/*xI!nvCgdQ_p#M{`Z8p+TLGhL#in'
+        - serial: '@Uge8#%m/!d+!nvCgdQ_p#M{`Z8p+TLGhL#in'
           flags: 1
           state_flags: 3
         slot_5: 
-        - serial: '@Ugr$)Nm/*xI!nvCgnpC9LN0URU$RFV(1po'
+        - serial: '@Ugr$)Nm/!d+!nvCgnpC9LN0URU$RFV(1po'
           flags: 1
           state_flags: 3
         slot_8: 
-        - serial: '@Ug!pHG35E/MoVzKZbEr?HFsPFTRpOvV9#ja0dY@`%P_?5e$sx1='
+        - serial: '@Ug!pHG3C0p4oVzKZbEr?HFsPFTRpOvV9#ja0dY@`%P_?5e$sx1='
           flags: 1
           state_flags: 3
         slot_4: 
-        - serial: '@Uge8^+m/*xI!nvCgnpC9PR/gb7niv8DwXXs'
+        - serial: '@Uge8^+m/!d+!nvCgnpC9PR/gb7niv8DwXXs'
           flags: 1
           state_flags: 3
         slot_7: 
-        - serial: '@Ugr$`Rm/*xI!nvCgy2^qg^}d{-TLzjCk&#3>3^XAkBZ+<(XhK9r63sEtgounJN@bu45gAGJ%Rmz%GLk5kfhJ@mQ9A=oh{#ByJO-K&k&#4w3^XAkBZ*=dXhK9r65TS;h=_=!q@<)Inq!~/2?+@a85tQA%Rn<SGU$C3dLK<L$tAg@mei73f=h4-F2N<Z1ef3vT!Kq*2`<4UxCEEr5?q2ya0xEKCAb8a;1XPdOK=G;!6mo^m*5gyf=h4-F2N<Z1ef3vT!Kq*2`<4UxCEEr5?q2ya0xEKCAb8a;1XPdOK=G;!6mo^m*5gyf=h4-F2N<Z1ef3vT!Kq*2`<4UxCEEr5?q2ya0xEKCAb8a;1XPdOK=G;!6mo^m*5gyf=h4-F2N<cWS8ucU9wAd$u8L?yJVN_l3lV(cF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucU9wAd$u8L?yJVN_l3lV(cF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucU9wAd$u8L?yJVN_l3lV(cF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucT@p)TNi5MNx<r>mlV}o6qDeH7C9*`8$P!s{OK!<6xh1#cmfVtCa!YQ>Ex9GP<d)o$TXIWo$t}4hx8#=Gl3Q/1ZpkgVCAZ/3+>%>zOK!<6xh1#cmfVtCa!YQ>Ex9GP<d)o$TXIWo$t}4hx8#=Gl3Q/1ZpkgVCAZ/3+>%>zOK!<6xh1#cmfVtCa!YQ>Ex9GP<d)o$TXIWo$t}4hx8#=Gl3Q/1ZpkgVCAZ/3+>%>zOK!<6xh1y5me`V6GD~L3ESV*=gqF/}T0%=`2`!-/w1k$>5?Vq_XbCN$CA5T=&=OigOK1r#p(V70me3MfLQ7}~Eukf}gqF/}T0%=`2`!-/w1k$>5?Vq_XbCN$CA5T=&=OigOK1r#p(V70me3MfLQ7}~Eukf}gqF/}T0%=`2`!-/w1k$>5?Vq_XbCN$CA5T=&=OigOK1r#p(V70me3MfLQ7}~Eukf}gqF/}S}2~OLAeYOdSi&tNJE3l86tGY(4cq*8Wa>16hyV72?+@a2?+@a2?-e)85tQF85tQFAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lDJdx_DJdx_DJd~AF)=YQF)=YQIXO8wIXO8wIXO{LQBhG*QBhG*VPRomVPRomVPSD`adB~RadB~RfgvyihQJUQ0z+U341pmq1cty67y?6J2n>NCFa(Cc5EueOU<eF>Aut4nzz`S$LtqFDfgvyihQJUQ0z+U341pmq1cty67y?6J2n>NCFa(Cc5EueOU<eF>Aut4nzz`S$LtqFDfgvyihQJUQ0z+U341pmq1cty67y?6J2n>NCFa(Cc5EueOU<eF>Aut4nzz`S$LtqFDfgvyihQJURB12?/43Qx+M25%^86rbuhzyY-GDL>R5E&vvWQYurAu>dU$PgJKLu7~yks&ffhR6^ZB12?/43Qx+M25%^86rbuhzyY-GDL>R5E&vvWQYurAu>dU$PgJKLu7~yks&ffhR6^ZB12?/43Qx+M25%^86rbuhzyY-GDL>R5E&vvWQYurAu>dU$PgJKLu7~yks&ffhR6^ZB12?/451-3goe-%8bU*82o0ejG=zrG5E?>5Xb26VAvA=B&=49zLud#Mp&>MchR_fiLPKZ>4WS`4goe-%8bU*82o0ejG=zrG5E?>5Xb26VAvA=B&=49zLud#Mp&>MchR_fiLPKZ>4WS`4goe-%8bU*82o0ejG=zrG5E?>5Xb26VAvA=B&=49zLud#Mp&>MchR_fiLPKZ>4WS`4goe<N8*)Q#$PKw6I0T2_5FCO-a0m{;Avgqw;1C>wLvRQV!67&Vhu{z#f<tf!4#6Qf1c%@d9D+k/2oAv^I0T2_5FCO-a0m{;Avgqw;1C>wLvRQV!67&Vhu{z#f<tf!4#6Qf1c%@d9D+k/2oAv^I0T2_5FCO-a0m{;Avgqw;1C>wLvRQV!67&Vhu{z#f<tf!4#6Qf1c%@d9D+k/2oAv^I0T2_5FD~YcE}FdAv<J;?2sL@Lw3jx*&#b*hwP9YvO{*r4%s0)WQXjK9kN4q$PU>dJ7kCKkR7r^cE}FdAv<J;?2sL@Lw3jx*&#b*hwP9YvO{*r4%s0)WQXjK9kN4q$PU>dJ7kCKkR7r^cE}FdAv<J;?2sL@Lw3jx*&#b*hwP9YvO{*r4%s0)WQXjK9kN4q$PU>dJ7kCKkR7r^cE}FdAv}bK@DLutLwE=e;UPSPhwu;{!b5ln58)v^gop4D9>PO-2oK>QJcNhv5FWxqcnA;SAv}bK@DLutLwE=e;UPSPhwu;{!b5ln58)v^gop4D9>PO-2oK>QJcNhv5FWxqcnA;SAv}bK@DLutLwE=e;UPSPhwu;{!b5ln58)v^gop4D9>PO-2oK>QJcNhv5FWxqcnA;SAv}bK@DLs%N92eckt1?Mj>r)?B1hzi9FZe(M2^T2IU+~oh#Zk4azu{E5ji49<cJ)RBXUHJ$PqarN92eckt1?Mj>r)?B1hzi9FZe(M2^T2IU+~oh#Zk4azu{E5ji49<cJ)RBXUHJ$PqarN92eckt1?Mj>r)?B1hzi9FZe(M2^T2IU+~oh#Zk4azu{E5ji49<cJ)RBXUHJ$PqarN92eckt1_tj?9rcGDqgf9GN3?WRA>{IWkA)$Q+p?b7YRpkvTF)=ExkGBXeYq%#k@VN9M>JnIm&#j?9rcGDqgf9GN3?WRA>{IWkA)$Q+p?b7YRpkvTF)=ExkGBXeYq%#k@VN9M>JnIm&#j?9rcGDqgf9GN3?WRA>{IWkA)$Q+p?b7YRpkvTF)=ExkGBXeYq%#k@VN9M>JnIm&#j?9rcLPzKb9ibz1gpSY=IzmV22pyp#bcBx35jsLg=m;I5BXoq0&=ER9N9YJ0p(AvJj?fW0LPzKb9ibz1gpSY=IzmV22pyp#bcBx35jsLg=m;I5BXoq0&=ER9N9YJ0p(AvJj?fW0LPzKb9ibz1gpSY=IzmV22pyp#bcBx35jsLg=m;I5BXoq0&=ER9N9YJ0p(AvJj?fW0LPzKb9ibz2q>j{)I#NgKNFAvob)=5i5j$c>?1&w)BX-1&*bzH&NAAcSxg&Q3kKhqJf=BQO9>F7c1dremJc38?2p+*Bcm$8&5j=uN@CY8kBX/Ul;1N86NAL(9!6SGCkKhqJf=BQO9>F7c1dremJc38?2p+*Bcm$8&5j=uN@CY8kBX/Ul;1N86NAL(9!6SGCkKhqJf=BQO9>F7c1dremJc38?2p+*Bcm$8&5j=uN@CY8kBX/Ul;E_C%NAgG>$s>6rkK~a&l1K7L9?2tlB#-2gJd#K9NFK=}c_feIkvx(/@<<-ZBY7l`<dHm*NAgG>$s>6rkK~a&l1K7L9?2tlB#-2gJd#K9NFK=}c_feIkvx(/@<<-ZBY7l`<dHm*NAgG>$s>6rkK~a&l1K7L9?2tlB#-2gJd#K9NFK=}c_feIkvx(/@<<-ZBY7l`<dHm*NAgG>*&};okL-~>vPbsF9@!&%gpcqMKEg-%2p{1ie1wni5kA64_y`~2BYcF9@DV=3NB9UI;Uj#6kMI#b!bkWBAK@c>gpcqMKEg-%2p{1ie1wni5kA64_y`~2BYcF9@DV=3NB9UI;Uj#6kMI#b!bkWBAK@c>gpcqMKEg-%2p{1ie1wni5kA64_y`~2BYcF9@DV=3NB9UI;Uj#6kMI#b!bkWBAK@c>gpcqMKEg*P$t0O1lVp-il1Va2Cdnk3B$H&4Op-}5NhZl8nIw~Bl1!3GGD#-MB$*_WWRgshNis<$$t0O1lVp-il1Va2Cdnk3B$H&4Op-}5NhZl8nIw~Bl1!3GGD#-MB$*_WWRgshNis<$$t0O1lVp-il1Va2Cdnk3B$H&4Op-}5NhZl8nIw~Bl1!3GGD#-MB$*_WWRgshNis<$$t0O1lK='
+        - serial: '@Ugr$`Rm/!d+!nvCgy2^qg^}d{-TLzjCk&#3>3^XAkBZ+<(XhK9r63sEtgounJN@bu45gAGJ%Rmz%GLk5kfhJ@mQ9A=oh{#ByJO-K&k&#4w3^XAkBZ*=dXhK9r65TS;h=_=!q@<)Inq!~/2?+@a85tQA%Rn<SGU$C3dLK<L$tAg@mei73f=h4-F2N<Z1ef3vT!Kq*2`<4UxCEEr5?q2ya0xEKCAb8a;1XPdOK=G;!6mo^m*5gyf=h4-F2N<Z1ef3vT!Kq*2`<4UxCEEr5?q2ya0xEKCAb8a;1XPdOK=G;!6mo^m*5gyf=h4-F2N<Z1ef3vT!Kq*2`<4UxCEEr5?q2ya0xEKCAb8a;1XPdOK=G;!6mo^m*5gyf=h4-F2N<cWS8ucU9wAd$u8L?yJVN_l3lV(cF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucU9wAd$u8L?yJVN_l3lV(cF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucU9wAd$u8L?yJVN_l3lV(cF8W;CA(yo?2=uwOLoaF*(JMVm+X>VvP*W!F4-l!WS8ucT@p)TNi5MNx<r>mlV}o6qDeH7C9*`8$P!s{OK!<6xh1#cmfVtCa!YQ>Ex9GP<d)o$TXIWo$t}4hx8#=Gl3Q/1ZpkgVCAZ/3+>%>zOK!<6xh1#cmfVtCa!YQ>Ex9GP<d)o$TXIWo$t}4hx8#=Gl3Q/1ZpkgVCAZ/3+>%>zOK!<6xh1#cmfVtCa!YQ>Ex9GP<d)o$TXIWo$t}4hx8#=Gl3Q/1ZpkgVCAZ/3+>%>zOK!<6xh1y5me`V6GD~L3ESV*=gqF/}T0%=`2`!-/w1k$>5?Vq_XbCN$CA5T=&=OigOK1r#p(V70me3MfLQ7}~Eukf}gqF/}T0%=`2`!-/w1k$>5?Vq_XbCN$CA5T=&=OigOK1r#p(V70me3MfLQ7}~Eukf}gqF/}T0%=`2`!-/w1k$>5?Vq_XbCN$CA5T=&=OigOK1r#p(V70me3MfLQ7}~Eukf}gqF/}S}2~OLAeYOdSi&tNJE3l86tGY(4cq*8Wa>nwWA3M2?+@a2?+@a85tQF85tQF85toVAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt50lAt5O#DJdx_DJdx_F)=YQF)=YQF)=wgIXO8wIXO8wQBhG*QBhG*QBh%GVPRomVPRomadB~RadB~RadCkmFa(Cc5EueOU<eF>Aut4nzz`S$LtqFDfgvyihQJUQ0z+U341pmq1cty67y?6J2n>NCFa(Cc5EueOU<eF>Aut4nzz`S$LtqFDfgvyihQJUQ0z+U341pmq1cty67y?6J2n>NCFa(Cc5EueOU<eF>Aut4nzz`S$LtqFDfgvyihQJUQ0z+U341pmq1cty67y?6J2n>NCFa(Cc5E&vvWQYurAu>dU$PgJKLu7~yks&ffhR6^ZB12?/43Qx+M25%^86rbuhzyY-GDL>R5E&vvWQYurAu>dU$PgJKLu7~yks&ffhR6^ZB12?/43Qx+M25%^86rbuhzyY-GDL>R5E&vvWQYurAu>dU$PgJKLu7~yks&ffhR6^ZB12?/43Qx+M25%^86rbuhzyY-GDL>R5E&vvWQYu*AvA=B&=49zLud#Mp&>MchR_fiLPKZ>4WS`4goe-%8bU*82o0ejG=zrG5E?>5Xb26VAvA=B&=49zLud#Mp&>MchR_fiLPKZ>4WS`4goe-%8bU*82o0ejG=zrG5E?>5Xb26VAvA=B&=49zLud#Mp&>MchR_fiLPKZ>4WS`4goe-%8bU*82o0ejG=zrG5E?>5Xb26VAvA=B(2yH)LvF/oxgj_Nhu{z#f<tf!4#6Qf1c%@d9D+k/2oAv^I0T2_5FCO-a0m{;Avgqw;1C>wLvRQV!67&Vhu{z#f<tf!4#6Qf1c%@d9D+k/2oAv^I0T2_5FCO-a0m{;Avgqw;1C>wLvRQV!67&Vhu{z#f<tf!4#6Qf1c%@d9D+k/2oAv^I0T2_5FCO-a0m{;Avgqw;1C>wLvRQV!67&Vhu{z#vO{*r4%s0)WQXjK9kN4q$PU>dJ7kCKkR7r^cE}FdAv<J;?2sL@Lw3jx*&#b*hwP9YvO{*r4%s0)WQXjK9kN4q$PU>dJ7kCKkR7r^cE}FdAv<J;?2sL@Lw3jx*&#b*hwP9YvO{*r4%s0)WQXjK9kN4q$PU>dJ7kCKkR7r^cE}FdAv<J;?2sL@Lw3jx*&#b*hwP9YvO{*r4%s0*gop4D9>PO-2oK>QJcNhv5FWxqcnA;SAv}bK@DLutLwE=e;UPSPhwu;{!b5ln58)v^gop4D9>PO-2oK>QJcNhv5FWxqcnA;SAv}bK@DLutLwE=e;UPSPhwu;{!b5ln58)v^gop4D9>PO-2oK>QJcNhv5FWxqcnA;SAv}bK@DLutLwE=e;UPSPhwu;{!b5ln58)v^gop4D9wJBNh#Zk4azu{E5ji49<cJ)RBXUHJ$PqarN92eckt1?Mj>r)?B1hzi9FZe(M2^T2IU+~oh#Zk4azu{E5ji49<cJ)RBXUHJ$PqarN92eckt1?Mj>r)?B1hzi9FZe(M2^T2IU+~oh#Zk4azu{E5ji49<cJ)RBXUHJ$PqarN92eckt1?Mj>r)?B1hzi9FZe(M2^T2IU+~oh#Zk4b7YRpkvTF)=ExkGBXeYq%#k@VN9M>JnIm&#j?9rcGDqgf9GN3?WRA>{IWkA)$Q+p?b7YRpkvTF)=ExkGBXeYq%#k@VN9M>JnIm&#j?9rcGDqgf9GN3?WRA>{IWkA)$Q+p?b7YRpkvTF)=ExkGBXeYq%#k@VN9M>JnIm&#j?9rcGDqgf9GN3?WRA>{IWkA)$Q+p?b7YRpkvT#~=m;I5BXoq0&=ER9N9YJ0p(AvJj?fW0LPzKb9ibz1gpSY=IzmV22pyp#bcBx35jsLg=m;I5BXoq0&=ER9N9YJ0p(AvJj?fW0LPzKb9ibz1gpSY=IzmV22pyp#bcBx35jsLg=m;I5BXoq0&=ER9N9YJ0p(AvJj?fW0LPzKb9ibz1gpSY=IzmV22pyp#bcBx35jsLg=m;I5BXy*X)R8(;N9sr&sUvlyj@S`9Vn^(V9kC;J#E#ezJ90<v$Q`*OcLa~%5j=uN@CY8kBX/Ul;1N86NAL(9!6SGCkKhqJf=BQO9>F7c1dremJc38?2p+*Bcm$8&5j=uN@CY8kBX/Ul;1N86NAL(9!6SGCkKhqJf=BQO9>F7c1dremJc38?2p+*Bcm$8&5j=uN@CY8kBX/Ul;1N86NAL(9!6SGCkKhqJf=BQO9>F7c1drg6Jd#K9NFK=}c_feIkvx(/@<<-ZBY7l`<dHm*NAgG>$s>6rkK~a&l1K7L9?2tlB#-2gJd#K9NFK=}c_feIkvx(/@<<-ZBY7l`<dHm*NAgG>$s>6rkK~a&l1K7L9?2tlB#-2gJd#K9NFK=}c_feIkvx(/@<<-ZBY7l`<dHm*NAgG>$s>6rkK~a&l1K7L9?2tlB#-2gJd#K9NFLcEdt{I7kv+0U_Q)RDBYT98@DV=3NB9UI;Uj#6kMI#b!bkWBAK@c>gpcqMKEg-%2p{1ie1wni5kA64_y`~2BYcF9@DV=3NB9UI;Uj#6kMI#b!bkWBAK@c>gpcqMKEg-%2p{1ie1wni5kA64_y`~2BYcF9@DV=3NB9UI;Uj#6kMI#b!bkWBAK@c>gpcqMKEg-%2p{1ie1wni5kA64_y`~2BYcF9@DV=3M<&T6nIw~Bl1!3GGD#-MB$*_WWRgshNis<$$t0O1lVp-il1Va2Cdnk3B$H&4Op-}5NhZl8nIw~Bl1!3GGD#-MB$*_WWRgshNis<$$t0O1lVp-il1Va2Cdnk3B$H&4Op-}5NhZl8nIw~Bl1!3GGD#-MB$*_WWRgshNis<$$t0O1lVp-il1Va2Cdnk3B$H&4Op-}5NhZl8nIw/{'
           flags: 1
           state_flags: 3
     equip_slots_unlocked: 
@@ -279,8 +280,8 @@ state:
     character: 'gap,Cosmetics_DarkSiren_Body[Cosmetics_DarkSiren_Body00_Default],Cosmetics_DarkSiren_Head[Cosmetics_DarkSiren_Head00_Default],Cosmetics_DarkSiren_Skin[Cosmetics_DarkSiren_SkinFilter00_Default],Cosmetics_Colorization_Primary[Cosmetics_Colorization_Primary_1],Cosmetics_Colorization_Secondary[Cosmetics_Colorization_Secondary_45],Cosmetics_Colorization_Tertiary[Cosmetics_Colorization_Tertiary_31]'
     echo4: 'gap,Cosmetics_Echo4_Attachment[Cosmetics_Echo4_Attachment10_Crown],cosmetics_echo4_body[Cosmetics_Echo4_Body03_Ripper],Cosmetics_Echo4_Skin[Cosmetics_Echo4_Skin00_Default]'
     vehicle: 'gap,Cosmetics_Vehicle[Cosmetics_Vehicle_Mat00_DefaultFilter]'
-  total_playtime: 320766.40625
-  last_played_timestamp: 1776427642
+  total_playtime: 320869.9375
+  last_played_timestamp: 1789192539
   first_timestamp: 
   unique_rewards: 
   - pgraph.sdu_upgrades.RepKit_Slot
@@ -473,11 +474,194 @@ state:
     rewards_def: RewardPackage_WeaponSkin_15_Retro
     source: None
     viewed: false
+  - time_received: 1789191584
+    game_stage: '-1'
+    reward_scale: 1.0
+    rewards_def: RewardPackage_CharacterSkin_20_HighRoller
+    source: None
+    viewed: false
+  - time_received: 1789191584
+    game_stage: '-1'
+    reward_scale: 1.0
+    rewards_def: RewardPackage_CharacterSkin_21_Graffiti
+    source: None
+    viewed: false
+  - time_received: 1789191745
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_PrisonPrologue
+    source: Mission_Main_PrisonPrologue
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@Uga`vnFnkbUxIR#5RG}6XsgbBn)j{P#{Xzf'
+  - time_received: 1789191745
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_ClaptrapOfPandora
+    source: Grasslands_Side_ClaptrapOfPandora
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@Ugct)%FnkbUYF<!jRG}8ts9{5o`iIJg3WI8cs)M?NiiOIF00'
+  - time_received: 1789191745
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_Grasslands1
+    source: Mission_Main_Grasslands1
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@Ugfs(8FnkbU>`qW=)SwELs6#!f4Qf-Ls)O2t8ih)QdWG7B%7rS2Dv4@/00'
+  - time_received: 1789191745
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_LifesPurpose
+    source: Mission_Side_LifesPurpose
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@Ugr$uJm/*xI!bI<&L{+MNG&MvH+Fb?!'
+  - time_received: 1789191745
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_MurderMystery_SecretEnding
+    source: Grasslands_Side_MurderMystery
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@UgbV{rFnkbUC^b-NRG}J`s7U=o#Y4?QO{!COP^VC(P`6O!5C'
+  - time_received: 1789191745
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_Grasslands2A
+    source: Mission_Main_Grasslands2
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@UgeU_{FnkbU;ABu~RG}7?s6!1Eid0C{NYtn1phBTWp=P1Zp@uvF'
+  - time_received: 1789191745
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_Shatteredlands1
+    source: Mission_Main_Shatteredlands1
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@Ugb)KvFnkbUc27`gRG}7is7Jj+%/o?Ag+bLpl/qd/wL+yt00'
+  - time_received: 1789191745
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_Grasslands3
+    source: Mission_Main_Grasslands3
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@Ugw$Yw35E/MOwI@zjVe^55_PB{Ly=mEs)^cE8q^$AEmSyEJOl'
+  - time_received: 1789191745
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_Mountains2A
+    source: Mission_Main_Mountains2
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@Ugr$uJm/*xI!u-vkLshDMG&+O}00'
+  - time_received: 1789191745
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_Mountains2B
+    source: Mission_Main_Mountains2b
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@Ugct)%FnkbUDj(2jRG/`es7L)n?L%#94r&yt73voP'
+  - time_received: 1789191745
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_Mountains3
+    source: Mission_Main_Mountains3
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@Uguq~c35E/MOxFr3jVe^57WJr^s5z*bs85wa-9d#y{Xx}2^+M%CjYI$'
+  - time_received: 1789191745
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_Shatteredlands3
+    source: Mission_Main_Shatteredlands3
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@Ugfs(8FnkbUaAi<w)Swo1s6q`LYSg4IH3l^Yl?oLLRSR_s)ebchl@b8'
+  - time_received: 1789191745
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_SearchForLilith
+    source: Mission_Main_SearchForLilith
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@Ugr$WBm/*xI!qm;6M-6IyG&kgmRFX?_00'
+  - time_received: 1789191745
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_ShatteredlandsFaction1
+    source: Mission_Side_ElectiFactionMission1
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@UgggUGFnkbU;$Bc`R83T(8uh4msC1}K%/Ycs-9g1dtwfze00'
+  - time_received: 1789191745
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_City1
+    source: Mission_Main_City1
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@Uga`vnFnkbUAS}>mRG/`es6{>MA1Vwg4=NNY7pf)#'
+  - time_received: 1789191745
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_ShatteredlandsFaction3
+    source: Mission_Side_ElectiFactionMission3
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@UgwSAs35E/MjN}Cxjp~O=)S(`A7Bv>tsXC}ts9vaW2m'
+  - time_received: 1789191745
+    game_stage: 60
+    reward_scale: 1.0
+    rewards_def: Reward_ItemPool_City3
+    source: Mission_Main_City3
+    viewed: false
+    contents: 
+    - rewards_data_index: 0
+      serial_numbers: 
+      - '@Ugr$iFm/*xI!X@8O9@M2i)v4h^VNhjI>8k?('
   currencies: 
-    cash: 942268654
-    eridium: 4978
+    cash: 942313654
+    eridium: 5053
+  using_shared_progression: true
   ammo: 
-    assaultrifle: 1260
+    assaultrifle: 1255
     pistol: 900
     shotgun: 220
     smg: 1620
@@ -488,6 +672,10 @@ state:
   personal_vehicle: PV_DarkSiren
   hover_drive: HoverDrive_Jakobs_05
   vehicle_weapon_slot: 1
+  last_death_location_x: 0.0
+  last_death_location_y: 0.0
+  last_death_location_z: 0.0
+  last_death_discovery_world: None
   lostloot: 
     items: 
     - serial: '@Ugydj=31$x>4EzNOiz?Kj4wa}z4H^20Dv272I*FQz+EgD@E7U5~EmS$wkOlw'
@@ -502,8 +690,7 @@ state:
       in_machine: true
     - serial: '@Ugv4Ng35E/M48;!`R610m4mD(`9qJ#dA1Wm3C2CTeT7z1J+Jyi'
       in_machine: true
-    slots: 6
-  seen_eridium_logs: 1
+    slots: 14
 onlinecharacterprefs: 
   recentfriends: 
   - shiftid: 'Shift:1735504341959659966'
@@ -513,21 +700,6 @@ onlinecharacterprefs:
     shiftid: 'Shift:1735504341960554549'
     platformid: 'STEAM:76561199056784375'
     platformname: steam
-pips: 
-  pips_list: !tags
-  - Character.replay.Mission_Side_WhatLurksBeneath
-  - Character.replay.Mission_Side_OneGassyIssue
-  - Character.missions.Mission_Side_BelowTheSurface
-  - Character.inventory.EchoLogs.EchoLogDef_BelowTheSurface_Log05
-  - Character.replay.Mission_Side_BelowTheSurface
-  - Character.VaultCards.tickets
-  - Character.vehiclecustomization.HoverDrive.Borg
-  - Character.vehiclecustomization.HoverDrive.Daedalus
-  - Character.vehiclecustomization.HoverDrive.Maliwan
-  - Character.vehiclecustomization.HoverDrive.order
-  - Character.vehiclecustomization.HoverDrive.Tediore
-  - Character.vehiclecustomization.HoverDrive.Torgue
-  - Character.vehiclecustomization.HoverDrive.Vladof
 globals: 
   time_of_day: Day
   introlights1: TRUE
@@ -546,8 +718,10 @@ globals:
   event_count_caravan: 3
   mainmissioncomplete: TRUE
   highest_unlocked_vault_hunter_level: 5
-  vault_hunter_level: 5
+  vault_hunter_level: 0
   true_mode: FALSE
+  highest_unlocked_mayhem_level: 0
+  true_mode_override: FALSE
 stats: 
   achievements: 
     00_level_10: 1
@@ -557,10 +731,10 @@ stats:
     04_cosmetics_collect: 60
     05_vehicles_collect: 11
     06_legendaries_equip: 1
-    14_discovery_grasslands: 43
-    15_discovery_mountains: 33
-    16_discovery_shatteredlands: 40
-    17_discovery_city: 13
+    14_discovery_grasslands: 54
+    15_discovery_mountains: 45
+    16_discovery_shatteredlands: 47
+    17_discovery_city: 21
     18_worldboss_defeat: 1
     19_vaultguardian_defeat: 
       19_vaultguardian_grasslands: 1
@@ -575,8 +749,7 @@ stats:
     28_missions_elpis: 1
     29_missions_main: 1
   challenge: 
-    kills_all: 12246
-    kills_all_temp: 16
+    kills_all: 12249
     general_kill_enemies: 8000
     general_kill_badass: 423
     general_kill_corrupted: 45
@@ -585,11 +758,11 @@ stats:
     general_kill_sliding: 323
     general_kill_dashing: 1000
     general_kill_airborne: 1000
-    assault_kill: 1780
+    assault_kill: 1783
     assault_hit_crit: 7500
-    assault_kill_crit: 795
+    assault_kill_crit: 798
     assault_kill_crouched: 15
-    assault_kill_scoped: 119
+    assault_kill_scoped: 120
     assault_kill_secondwind: 16
     smg_kill: 884
     smg_hit_crit: 10000
@@ -653,7 +826,7 @@ stats:
     loot_redchest: 250
     loot_anylootable: 1690
     killenemyarmy_bandits: 3363
-    killenemyarmy_creatures: 2146
+    killenemyarmy_creatures: 2149
     killenemyarmy_order: 4000
     killenemytype_psycho: 752
     killenemytype_guntoter: 1250
@@ -662,7 +835,7 @@ stats:
     killenemytype_phalanx: 26
     killenemytype_bat: 499
     killenemytype_beast: 94
-    killenemytype_cat: 689
+    killenemytype_cat: 692
     killenemytype_creep: 300
     killenemytype_pangolin: 238
     killenemytype_thresher: 323
@@ -708,8 +881,8 @@ stats:
     manufacturer_order_killorder: 247
     manufacturer_order_fullcharge_kills: 40
     manufacturer_order_halfcharge_kills: 600
-    manufacturer_order_oneshot_kills: 187
-    manufacturer_order_kills: 930
+    manufacturer_order_oneshot_kills: 190
+    manufacturer_order_kills: 933
     manufacturer_tediore_comboreload_kills: 11
     manufacturer_tediore_emptyreload_kills: 53
     manufacturer_tediore_fullreload_kills: 1
@@ -732,7 +905,7 @@ stats:
     manufacturer_daedalus_loyalty: 1239
     manufacturer_jakobs_loyalty: 2528
     manufacturer_maliwan_loyalty: 209
-    manufacturer_order_loyalty: 930
+    manufacturer_order_loyalty: 933
     manufacturer_tediore_loyalty: 145
     manufacturer_torgue_loyalty: 464
     manufacturer_vladof_loyalty: 388
@@ -1301,7 +1474,7 @@ stats:
       shiny_finnty: 1
       shiny_stopgap: 1
   spawncontrol: 
-    spawned_loot: 12
+    spawned_loot: 12246
   tutorial: 
     climb: 1
     crouch: 1
@@ -1355,58 +1528,40 @@ stats:
     melee: 1
   regions: 
     city_regiona: 
-      discovered: 1
       region_kills: 465
     city_regionb: 
-      discovered: 1
       region_kills: 190
     city_regionc: 
-      discovered: 1
       region_kills: 502
     grasslands_regiona: 
-      discovered: 1
       region_kills: 1367
     grasslands_regionb: 
-      discovered: 1
       region_kills: 385
     grasslands_regionc: 
-      discovered: 1
       region_kills: 220
     grasslands_regiond: 
-      discovered: 1
       region_kills: 796
     grasslands_regione: 
-      discovered: 1
       region_kills: 721
     mountains_regiona: 
-      discovered: 1
       region_kills: 352
     mountains_regionb: 
-      discovered: 1
       region_kills: 474
     mountains_regionc: 
-      discovered: 1
       region_kills: 111
     mountains_regiond: 
-      discovered: 1
-      region_kills: 223
+      region_kills: 226
     mountains_regione: 
-      discovered: 1
       region_kills: 515
     shatteredlands_regiona: 
-      discovered: 1
       region_kills: 900
     shatteredlands_regionb: 
-      discovered: 1
       region_kills: 910
     shatteredlands_regionc: 
-      discovered: 1
       region_kills: 431
     shatteredlands_regiond: 
-      discovered: 1
       region_kills: 38
     shatteredlands_regione: 
-      discovered: 1
       region_kills: 181
 gbx_discovery_pc: 
   pins_state: 
@@ -1460,40 +1615,6 @@ missions:
   - Mission_Side_Vending
   - none
   local_sets: 
-    missionset_main_mountains3: 
-      status: completed
-      missions: 
-        mission_main_mountains3: 
-          ui_flags: 1
-          status: completed
-          final: 
-            obj_destroydoorlocks_endstate: completed
-            invis_obj_waypointforwayback_endstate: completed
-            obj_lootcommandersbolt_endstate: completed
-            obj_killcommander_endstate: completed
-    missionset_main_beach: 
-      status: completed
-      missions: 
-        mission_main_beach: 
-          ui_flags: 1
-          status: completed
-          final: 
-            activate__cl4ptps_safehouse_endstate: completed
-            melee_the_door_0_endstate: completed
-            reach_village_endstate: completed
-            use_glide_to_reach_exit_endstate: completed
-            destroy_bolt_1_endstate: deactivated
-            destroy_bolt_3_endstate: deactivated
-            destroy_bolt_2_endstate: completed
-    missionset_main_mountains2b: 
-      status: completed
-      missions: 
-        mission_main_mountains2b: 
-          ui_flags: 1
-          status: completed
-          final: 
-            obj_findawayin_endstate: completed
-            obj_overarching_findphase_endstate: completed
     missionset_main_prisonprologue: 
       status: completed
       missions: 
@@ -1508,6 +1629,40 @@ missions:
             inv_afterprisonexit_endstate: completed
             inv_beforeprisonexit_endstate: completed
             inv_firstdropdown_endstate: completed
+    missionset_main_beach: 
+      status: completed
+      missions: 
+        mission_main_beach: 
+          ui_flags: 1
+          status: completed
+          final: 
+            activate__cl4ptps_safehouse_endstate: completed
+            melee_the_door_0_endstate: completed
+            reach_village_endstate: completed
+            use_glide_to_reach_exit_endstate: completed
+            destroy_bolt_1_endstate: deactivated
+            destroy_bolt_3_endstate: deactivated
+            destroy_bolt_2_endstate: completed
+    missionset_main_mountains3: 
+      status: completed
+      missions: 
+        mission_main_mountains3: 
+          ui_flags: 1
+          status: completed
+          final: 
+            obj_destroydoorlocks_endstate: completed
+            invis_obj_waypointforwayback_endstate: completed
+            obj_lootcommandersbolt_endstate: completed
+            obj_killcommander_endstate: completed
+    missionset_main_mountains2b: 
+      status: completed
+      missions: 
+        mission_main_mountains2b: 
+          ui_flags: 1
+          status: completed
+          final: 
+            obj_findawayin_endstate: completed
+            obj_overarching_findphase_endstate: completed
     missionset_main_grasslands2a: 
       status: completed
       missions: 
@@ -1650,6 +1805,15 @@ missions:
             turnonramp_endstate: completed
             enterfortress_endstate: completed
             killboss_endstate: completed
+            gotocrater_endstate: completed
+    missionset_main_mountains1: 
+      status: completed
+      missions: 
+        mission_main_mountains1: 
+          ui_flags: 1
+          status: completed
+          final: 
+            mtn1_enter_the_mountain_zone_endstate: completed
     missionset_side_shatteredlandsa: 
       missions: 
         mission_side_vending: 
@@ -1837,6 +2001,11 @@ missions:
         mission_main_shatteredlands1: 
           ui_flags: 1
           status: completed
+          final: 
+            head_to_the_shatteredlands_endstate: completed
+            head_to_the_shatteredlands_0_endstate: completed
+            head_to_the_shatteredlands_grasslands_endstate: completed
+            head_to_the_shatteredlands_mountains_endstate: completed
         mission_main_shatteredlands1b: 
           ui_flags: 1
           status: completed
@@ -1935,12 +2104,6 @@ missions:
             kill_factory_boss_endstate: completed
             evacuateship_endstate: completed
             gettohq_endstate: completed
-    missionset_main_mountains1: 
-      status: completed
-      missions: 
-        mission_main_mountains1: 
-          ui_flags: 1
-          status: completed
     missionset_main_city1_b: 
       status: completed
       missions: 
@@ -2147,7 +2310,9 @@ oak.ui.progression_data:
     dont_ask_again_respec_node: false
 save_game_header: 
   guid: 97576BC74DD4277AC91AB2930D2EFCDC
-  timestamp: 1776427642
+  timestamp: 1789192539
+  original_platform: STEAM
+  compatible_changelist: 4830603
 progression: 
   graphs: 
   - name: Progress_DarkSiren_ActionSkills
@@ -2234,7 +2399,7 @@ progression:
       is_activated: true
       activation_level: 3
   point_pools: 
-    characterprogresspoints: 59
+    characterprogresspoints: 69
     specializationtokenpool: 700
   progress_state_data: 
     characterprogresspoints: 
@@ -2246,28 +2411,28 @@ progression:
 unlockables: 
   unlockable_hoverdrives: 
     entries: 
-    - Unlockable_HoverDrives.maliwan_01
-    - Unlockable_HoverDrives.jakobs_02
-    - Unlockable_HoverDrives.daedalus_01
-    - Unlockable_HoverDrives.jakobs_01
-    - Unlockable_HoverDrives.daedalus_02
-    - Unlockable_HoverDrives.jakobs_03
-    - Unlockable_HoverDrives.jakobs_04
-    - Unlockable_HoverDrives.torgue_01
-    - Unlockable_HoverDrives.jakobs_05
-    - Unlockable_HoverDrives.maliwan_02
-    - Unlockable_HoverDrives.torgue_02
-    - Unlockable_HoverDrives.vladof_01
-    - Unlockable_HoverDrives.vladof_02
-    - Unlockable_HoverDrives.borg_01
-    - Unlockable_HoverDrives.tediore_01
-    - Unlockable_HoverDrives.order_01
-    - Unlockable_HoverDrives.daedalus_03
-    - Unlockable_HoverDrives.torgue_03
-    - Unlockable_HoverDrives.order_02
-    - Unlockable_HoverDrives.order_03
-    - Unlockable_HoverDrives.daedalus_04
-    - Unlockable_HoverDrives.order_04
+    - Unlockable_HoverDrives.Maliwan_01
+    - Unlockable_HoverDrives.Jakobs_02
+    - Unlockable_HoverDrives.Daedalus_01
+    - Unlockable_HoverDrives.Jakobs_01
+    - Unlockable_HoverDrives.Daedalus_02
+    - Unlockable_HoverDrives.Jakobs_03
+    - Unlockable_HoverDrives.Jakobs_04
+    - Unlockable_HoverDrives.Torgue_01
+    - Unlockable_HoverDrives.Jakobs_05
+    - Unlockable_HoverDrives.Maliwan_02
+    - Unlockable_HoverDrives.Torgue_02
+    - Unlockable_HoverDrives.Vladof_01
+    - Unlockable_HoverDrives.Vladof_02
+    - Unlockable_HoverDrives.Borg_01
+    - Unlockable_HoverDrives.Tediore_01
+    - Unlockable_HoverDrives.Order_01
+    - Unlockable_HoverDrives.Daedalus_03
+    - Unlockable_HoverDrives.Torgue_03
+    - Unlockable_HoverDrives.Order_02
+    - Unlockable_HoverDrives.Order_03
+    - Unlockable_HoverDrives.Daedalus_04
+    - Unlockable_HoverDrives.Order_04
 world_state: 
   world_p.top.base.io_worldtrigger_propagandasystem_force_02: 
     team: INVALID_TEAM
@@ -2344,5 +2509,11 @@ world_state:
     team: INVALID_TEAM
 activities: 
   allactivities: 
+pips: 
+  pips_list: !tags
+  - Character.replay.Mission_Side_BelowTheSurface
+  - Character.replay.Mission_Side_WhatLurksBeneath
+  - Character.replay.Mission_Side_OneGassyIssue
+  - Character.VaultCards.tickets
 timed_facts: 
 gbx_discovery_pg: 
