@@ -66,27 +66,18 @@ state:
           serial: '@Ugw$Yw3C0p4oVzKZe5gVts!{h)o2rBAgZhK2g*t}-'
           state_flags: 17
         slot_17: 
-          serial: '@Ugd_t@FqRPE+)WA9MiuH%jhc<RhuVkghw6)(g9?Qjg^Gnri2w'
+          serial: '@UgggUGFqRPE+)WAXMAbwks!=^r@lf?p_fVaRgZhICg?fc*i5h6/NF4w'
           state_flags: 17
         slot_18: 
-          serial: '@Ugd_t@FqRPE+)WA9MiuH%jhc<RhuVkghw6)(g9?Qjg^GpRg#Z'
+          serial: '@UgggUGFqRPE+)WAXMAbwks!=^r@lf?p_fVaRgZhICg?fc*i5h71NF4w'
           state_flags: 17
         slot_19: 
-          serial: '@Ugd_t@FqRPE+)W9UMiuH%iE7lN-l5{5PNFik7c~bJ3N;E93$+UY'
+          serial: '@UgggUGFqRPE+)WAXMAbwks!=^r@lf?p_fVaRgZhICg?fc*i5h75NF4w'
           state_flags: 17
         slot_20: 
-          serial: '@UgggUGFqRPE+)WAXMAbwks!=^r@lf?p_fVUPgZhICg?fc*i5h6/$Q%F'
-          state_flags: 17
-        slot_21: 
-          serial: '@UgggUGFqRPE+)WAXMAbwks!=^r@lf?p_fVUPgZhICg?fc*i5h71$Q%F'
-          state_flags: 17
-        slot_22: 
-          serial: '@UgggUGFqRPE+)WAXMAbwks!=^r@lf?p_fVUPgZhICg?fc*i5h75$Q%F'
-          state_flags: 17
-        slot_23: 
           serial: '@Uge8#%m/!d+!pPsCNfqjRG}xpXiq!dNXo)-k'
           state_flags: 17
-        slot_24: 
+        slot_21: 
           serial: '@UgeA!am/!d+!nvCgN{4FH{Zu`Jnr~3?4(k0u?N8-1sM?JJ)h->VcCP^'
           state_flags: 17
     equipped_inventory: 
