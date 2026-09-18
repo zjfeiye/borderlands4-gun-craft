@@ -1,13 +1,13 @@
 state: 
-  char_guid: 1B7DE41440EC6D683B387086F848A419
+  char_guid: 1B7DE41440EC6D683B387086F848A491
   class: Char_DarkSiren
-  char_name: A419 - 大众协作
+  char_name: A491 - 大众协作
   player_difficulty: Easy
   true_mode: false
   experience: 
   - type: Character
-    level: 60
-    points: 5714893
+    level: 70
+    points: 8799286
   - type: Specialization
     level: 701
     points: 0xffffffff89d66d94
@@ -15,20 +15,41 @@ state:
     items: 
       backpack: 
         slot_0: 
-          serial: '@UgggUGFnkc<+)WAXMAbwks!=^r@lf?p_fVUPgZhICg?fc*i5h6/$Q%F'
+          serial: '@UgggUGFqRPE+)WAXMAbwks!=^r@lf?p_fVUPgZhICg?fc*i5h6/$Q%F'
           state_flags: 17
         slot_1: 
-          serial: '@UgggUGFnkc<+)WAXMAbwks!=^r@lf?p_fVUPgZhICg?fc*i5h71$Q%F'
+          serial: '@UgggUGFqRPE+)WAXMAbwks!=^r@lf?p_fVUPgZhICg?fc*i5h71$Q%F'
           state_flags: 17
         slot_2: 
-          serial: '@UgggUGFnkc<+)WAXMAbwks!=^r@lf?p_fVUPgZhICg?fc*i5h75$Q%F'
+          serial: '@UgggUGFqRPE+)WAXMAbwks!=^r@lf?p_fVUPgZhICg?fc*i5h75$Q%F'
           state_flags: 17
         slot_3: 
-          serial: '@UgggUGFnkc<+)WAXMAbwks!=^r@lf?p_fVUPgZhICg?fc*i5h6~$Q%F'
-          state_flags: 33
+          serial: '@UgggUGFqRPE+)WAXMAbwks!=^r@lf?p_fVUPgZhICg?fc*i5h6~$Q%F'
+          state_flags: 17
         slot_4: 
-          serial: '@UgggUGFnkc<+)WAXMAbwks!=^r@lf?p_fVUPgZhICg?fc*i5h73$Q%F'
+          serial: '@UgggUGFqRPE+)WAXMAbwks!=^r@lf?p_fVUPgZhICg?fc*i5h73$Q%F'
+          state_flags: 17
+        slot_5: 
+          serial: '@UgggUGFqRPE+)WAXMAbwks!=^r@lf?p_fVaRgZhICg^Go0i5h6/NF4w'
           state_flags: 33
+        slot_6: 
+          serial: '@UgggUGFqRPE+)WAXMAbwks!=^r@lf?p_fVaRgZhICg^Go0i5h71NF4w'
+          state_flags: 33
+        slot_7: 
+          serial: '@UgggUGFqRPE+)WAXMAbwks!=^r@lf?p_fVaRgZhICg^Go0i5h75NF4w'
+          state_flags: 33
+        slot_8: 
+          serial: '@UgggUGFqRPE+)WAXMAbwks!=^r@lf?p_fVaRgZhICg^Go0i5h6~NF4w'
+          state_flags: 33
+        slot_9: 
+          serial: '@UgggUGFqRPE+)WAXMAbwks!=^r@lf?p_fVaRgZhICg^Go0i5h73NF4w'
+          state_flags: 33
+        slot_10: 
+          serial: '@UgggUGFqRPE+)WAXMAbwks!=^r@lf?p_fVaRgZhICg?fc*i5h6/NF4w'
+          state_flags: 5
+        slot_11: 
+          serial: '@UgggUGFqRPE+)WAXMAbwks!=^r@lf?p_fVaRgZhICg^Go0i5h6/$Q%F'
+          state_flags: 5
     equipped_inventory: 
       equipped: 
     equip_slots_unlocked: 
