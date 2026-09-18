@@ -6,8 +6,8 @@ state:
   true_mode: false
   experience: 
   - type: Character
-    level: 60
-    points: 5714893
+    level: 70
+    points: 8799286
   - type: Specialization
     level: 701
     points: 0xffffffff89d66d94
@@ -15,44 +15,47 @@ state:
     items: 
       backpack: 
         slot_0: 
-          serial: '@UgdhV<Fnkc<+)W9sLlx>!iAsm6iOSTcZldO(LZL>XUZH-W!Xf/'
-          state_flags: 1
+          serial: '@UgdhV<FqRPE+)W9sLlx>!iAsm6iOSTcZldO(LZL>XUZH-W!Xf/'
+          state_flags: 17
         slot_1: 
-          serial: '@UgdhV<Fnkc<+)W9sLlx>!iAsm6iOSTca-!y-LZL>XUZH-W!Xf/'
-          state_flags: 1
+          serial: '@UgdhV<FqRPE+)W9sLlx>!iAsm6iOSTca-!y-LZL>XUZH-W!Xf/'
+          state_flags: 17
         slot_2: 
-          serial: '@UgdhV<Fnkc<+)W9sLlx>!iAsm6iOSTcZldO(LZL>XUZH-WdLjS'
-          state_flags: 1
+          serial: '@UgdhV<FqRPE+)W9sLlx>!iAsm6iOSTcZldO(LZL>XUZH-WdLjS'
+          state_flags: 17
         slot_3: 
-          serial: '@UgdhV<Fnkc<+)W9sLlx>!iAsm6iOSTca-!y-LZL>XUZH-WdLjS'
-          state_flags: 1
+          serial: '@UgdhV<FqRPE+)W9sLlx>!iAsm6iOSTca-!y-LZL>XUZH-WdLjS'
+          state_flags: 17
         slot_4: 
-          serial: '@UgdhV<Fnkc<+)W9sLlx>!jT$PH4pkGCsZZTR%/V4ijY7Rb{X&IB00'
-          state_flags: 17
-        slot_5: 
-          serial: '@UgdhV<Fnkc<+)W9sLlx>!jT$bL4pkGCsZZTR%/V4ijY7Rb{X&IB00'
-          state_flags: 17
-        slot_6: 
-          serial: '@UgdhV<Fnkc<+)W9sLlx>!jT$nP4pkGCsZZTR%/V4ijY7Rb{X&IB00'
-          state_flags: 17
-        slot_7: 
-          serial: '@UgdhV<Fnkc<+)W9sLlx>!jT$zT4pkGCsZZTR%/V4ijY7Rb{X&IB00'
-          state_flags: 17
-        slot_8: 
-          serial: '@UgdhV<Fnkc<+)W9sLlx>!jT$<X4pkGCsZZTR%/V4ijY7Rb{X&IB00'
-          state_flags: 17
-        slot_9: 
-          serial: '@UgdhV<Fnkc<+)W9sLlx>!iAsm6iOSTb=Ac5MMxkDzexZ6I00'
+          serial: '@UgdhV<FqRPE+)W9sLlx>!jT$PH4pkGCsZZTR%/V4ijY7Rb{X&IB00'
           state_flags: 33
+        slot_5: 
+          serial: '@UgdhV<FqRPE+)W9sLlx>!jT$bL4pkGCsZZTR%/V4ijY7Rb{X&IB00'
+          state_flags: 33
+        slot_6: 
+          serial: '@UgdhV<FqRPE+)W9sLlx>!jT$nP4pkGCsZZTR%/V4ijY7Rb{X&IB00'
+          state_flags: 33
+        slot_7: 
+          serial: '@UgdhV<FqRPE+)W9sLlx>!jT$zT4pkGCsZZTR%/V4ijY7Rb{X&IB00'
+          state_flags: 33
+        slot_8: 
+          serial: '@UgdhV<FqRPE+)W9sLlx>!jT$<X4pkGCsZZTR%/V4ijY7Rb{X&IB00'
+          state_flags: 33
+        slot_9: 
+          serial: '@UgdhV<FqRPE+)W9sLlx>!jT$PH4pkGCsZZTR%/V4ijY7Rb{X+Fb00'
+          state_flags: 65
         slot_10: 
-          serial: '@UgdhV<Fnkc<+)W9sLlx>!iAsm6iON)`=Ac5MMxkDzexZ6I00'
+          serial: '@UgdhV<FqRPE+)W9sLlx>!jT$bL4pkGCsZZTR%/V4ijY7Rb{X+Fb00'
           state_flags: 65
         slot_11: 
-          serial: '@UgdhV<Fnkc<+)W9sLlx>!iAsm6iON(M)ErbO)F{*/)Gt&/1O'
-          state_flags: 129
+          serial: '@UgdhV<FqRPE+)W9sLlx>!jT$nP4pkGCsZZTR%/V4ijY7Rb{X+Fb00'
+          state_flags: 65
         slot_12: 
-          serial: '@UgdhV<Fnkc<+)W9sLlx>!iAsm6iOSR%)ErbO)F{*/)Gt&/1O'
-          state_flags: 129
+          serial: '@UgdhV<FqRPE+)W9sLlx>!jT$zT4pkGCsZZTR%/V4ijY7Rb{X+Fb00'
+          state_flags: 65
+        slot_13: 
+          serial: '@UgdhV<FqRPE+)W9sLlx>!jT$<X4pkGCsZZTR%/V4ijY7Rb{X+Fb00'
+          state_flags: 65
     equipped_inventory: 
       equipped: 
     equip_slots_unlocked: 
